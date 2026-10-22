@@ -10,8 +10,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     ".github/workflows/publication.yml": {
-      "bytes": 487,
-      "sha256": "8e044867c6f7fd3e5849ab8410394843a0e290d1f59301126e985f4a2f8bb198",
+      "bytes": 546,
+      "sha256": "afa0a223f7b66457b6fc0c743e6a7f2dd42d0d4047a2fe991dfe80d03fd89859",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     ".gitignore": {
