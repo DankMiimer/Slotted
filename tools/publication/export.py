@@ -12,6 +12,7 @@ MANIFEST = 'PUBLICATION_MANIFEST.json'
 UPLOAD_LIST = 'UPLOAD_PATHS.txt'
 MAX_BYTES = 100 * 1024 * 1024
 PRESERVE_BYTES = {'assets', 'theme', 'third_party', 'scene-layouts'}
+PRESERVE_SUFFIXES = {'.png', '.wav', '.pcm', '.ttf', '.glb', '.mesh', '.texture', '.mask', '.tga', '.ico'}
 BLOCKED_PARTS = {'.git', '.ssh', '__pycache__', '.venv', 'local-models', 'cache'}
 BLOCKED_SUFFIXES = {'.pyc', '.pem', '.key', '.iso', '.rom', '.sav', '.srm', '.state', '.bios',
                     '.nes', '.sfc', '.smc', '.z64', '.n64', '.v64', '.nds', '.gba', '.gb', '.gbc',
@@ -35,11 +36,8 @@ def json_write(path, value):
 
 def checkout_bytes(name, data):
     """Match committed checkout conventions without altering protected asset bytes."""
-    if PurePosixPath(name).parts[0] in PRESERVE_BYTES or b'\0' in data:
-        return data
-    try:
-        data.decode('utf-8')
-    except UnicodeDecodeError:
+    path = PurePosixPath(name)
+    if path.parts[0] in PRESERVE_BYTES or path.suffix in PRESERVE_SUFFIXES or b'\0' in data:
         return data
     data = data.replace(b'\r\n', b'\n')
     return data.replace(b'\n', b'\r\n') if name.endswith('.ps1') else data

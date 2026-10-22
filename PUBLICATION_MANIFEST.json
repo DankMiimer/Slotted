@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "createdUTC": "2026-10-22T22:43:56.187914+00:00",
+  "createdUTC": "2026-10-22T22:46:52.364762+00:00",
   "edition": "MIT original code; separately licensed assets including NonCommercial/ShareAlike",
   "status": "Development source snapshot; no binary; no device installation performed",
   "files": {
@@ -1300,8 +1300,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_publication.py": {
-      "bytes": 7596,
-      "sha256": "b653db8e2c317d605cabced54ddc3b843a60c5c88a15338ff3cb59a373a89b84",
+      "bytes": 9659,
+      "sha256": "b1d2501308a0d8298276140731d39223444deb9f4c419da1ef24309e35179d4f",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_refresh_psx_materials.py": {
@@ -11910,8 +11910,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/publication/export.py": {
-      "bytes": 10999,
-      "sha256": "7d84c412eb1182c7d56d4949dbf692bbbb3e8aea6c18e89b2e460e904a0324a2",
+      "bytes": 11069,
+      "sha256": "8effcaed3c3ab6ac64c861d71cb630803cf7ed970c3c7995fd25972ec0f180fb",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/publication/restore_assets.py": {
@@ -12125,8 +12125,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/tabletop/editor/README.md": {
-      "bytes": 21544,
-      "sha256": "5077277560ebd6134fa3a4afea3017351ddd70b80ac78c5513b06cc163279ca3",
+      "bytes": 21225,
+      "sha256": "de52aed2e43423ebe098edc39b7679a5eb8cfa57cb2671a505792d4343472bba",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/tabletop/editor/device_upload.py": {

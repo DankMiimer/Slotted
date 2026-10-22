@@ -1,6 +1,8 @@
 """Publication isolation, hash verification and no-overwrite restore boundaries."""
 import json
 from pathlib import Path
+import shutil
+import subprocess
 import tempfile
 import unittest
 
@@ -59,6 +61,8 @@ class PublicationTests(unittest.TestCase):
                      'third_party/source.json', 'scene-layouts/authored.json']:
             self.assertEqual(checkout_bytes(name, b'original\r\n'), b'original\r\n')
         self.assertEqual(checkout_bytes('binary.ico', b'\0\r\n'), b'\0\r\n')
+        self.assertEqual(checkout_bytes('legacy.md', b'Upload\x92\r\n'), b'Upload\x92\n')
+        self.assertEqual(checkout_bytes('audio.pcm', b'\xff\r\n'), b'\xff\r\n')
 
     def test_refuses_existing_output_and_audit(self):
         self.output.mkdir()
@@ -146,6 +150,32 @@ class PublicationTests(unittest.TestCase):
         with self.assertRaisesRegex(ValueError, 'Duplicate asset restore'):
             restore(self.output)
         self.assertFalse((self.output / self.asset['restore']).exists())
+
+    @unittest.skipUnless(shutil.which('git'), 'Git is required for checkout verification')
+    def test_real_git_checkout_keeps_manifest_and_asset_hashes(self):
+        self.write('.gitattributes', (Path(__file__).resolve().parents[1]/'.gitattributes').read_bytes())
+        self.write('README.md', b'Legacy punctuation \x92\r\n')
+        self.write('tools/check.ps1', b'Write-Output "hello"\n')
+        self.write('theme/model-info.json', b'{"keep":true}\r\n')
+        source = self.write('build/tabletop/assets/table/scene.txt', b'SCTABLETOP1\r\n')
+        self.asset = dict(self.asset, source='build/tabletop/assets/table/scene.txt',
+                          destination='assets/tabletop/table/scene.txt',
+                          restore='build/tabletop/assets/table/scene.txt', sha256=digest(source))
+        self.write('release/publication.json', json.dumps(dict(schema=1, assets=[self.asset])).encode())
+        with (self.root/'release/public-files.txt').open('a') as stream:
+            stream.write('.gitattributes\ntools/check.ps1\ntheme/model-info.json\n')
+        export(self.output, self.root)
+        def git(*args):
+            subprocess.run(['git', *args], cwd=self.output, check=True, capture_output=True)
+        git('init', '--quiet', '-b', 'main')
+        git('add', '--pathspec-from-file=UPLOAD_PATHS.txt')
+        git('-c', 'user.name=Publication Test', '-c', 'user.email=publication@example.invalid',
+            '-c', 'commit.gpgsign=false', '-c', 'core.hooksPath=unused-test-hooks',
+            'commit', '--quiet', '-m', 'Test publication checkout')
+        checkout = self.base/'checkout'
+        git('-c', 'core.autocrlf=true', 'clone', '--quiet', '--no-hardlinks', str(self.output), str(checkout))
+        verify(checkout)
+        self.assertEqual((checkout/'assets/tabletop/table/scene.txt').read_bytes(), b'SCTABLETOP1\r\n')
 
 
 if __name__ == '__main__':
