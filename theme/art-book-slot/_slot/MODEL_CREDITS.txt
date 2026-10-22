@@ -364,3 +364,6 @@ CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
 Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
 Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
 
+
+
+Public asset update (23 October 2026): The Game Boy character sticker and the Retro TV decorative decals are removed in the public derivatives. Earlier references to retaining the sticker describe historical/private originals. Geometry and source licenses are retained. See docs/PUBLIC_ASSET_REMEDIATION.md (or the repository root documentation).

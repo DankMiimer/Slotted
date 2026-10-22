@@ -63,11 +63,12 @@
   },
   "modifications": [
     "Undo presentation tilt using source LCD plane and horizontal axis",
-    "Retain all 9856 triangles, UVs and source cosmetic wear/sticker",
+    "Retain all 9856 triangles, UVs and source cosmetic wear (character sticker removed in the public derivative)",
     "Separate actual planar LCD from bevel for live game information",
     "Register full Game Pak to measured bay floor and rear housing lip",
     "Repeat source U range continuously; 4K source maps preserved, 2048px runtime atlas",
-    "Source albedo and simple lighting; no normal/roughness/metallic maps"
+    "Source albedo and simple lighting; no normal/roughness/metallic maps",
+    "Public-only texture derivative: removed decorative character/sticker artwork; geometry, UVs and other source detail retained. CC BY-NC 4.0 still applies."
   ],
   "source_images": {
     "Scene_-_Root": {
@@ -92,8 +93,8 @@
     "inset": {}
   },
   "prepared": {
-    "mesh_sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c",
-    "albedo_sha256": "39bd04cd31e9e69579f419aee3dfb4e174f39d20dd581e4d324e5d89c2136656",
+    "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+    "albedo_sha256": "dc6ba9c188f932989e6ab13a00169f432c349881991765c2dda00bb04a8be40d",
     "vertices": 13105,
     "triangles": 9856
   },

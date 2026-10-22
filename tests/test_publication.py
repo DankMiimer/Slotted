@@ -137,6 +137,88 @@ class PublicationTests(unittest.TestCase):
                          (self.root / self.asset['source']).read_bytes())
         verify(second)
 
+    def derivative(self, destination, original, corrected):
+        source = self.write('assets/publication-derivatives/approved.dat', corrected)
+        record = dict(destination=destination, source=source.relative_to(self.root).as_posix(),
+                      originalSha256=__import__('hashlib').sha256(original).hexdigest(), sha256=digest(source))
+        self.write('release/asset-derivatives.json', json.dumps(dict(schema=1, files=[record])).encode())
+        with (self.root/'release/public-files.txt').open('a') as stream:
+            stream.write('release/asset-derivatives.json\n')
+        return record
+
+    def test_public_derivative_preserves_original_and_reexports_without_private_inputs(self):
+        original = (self.root/'README.md').read_bytes()
+        record = self.derivative('README.md', original, b'Reviewed public derivative\n')
+        export(self.output, self.root)
+        self.assertEqual((self.root/'README.md').read_bytes(), original)
+        self.assertEqual(digest(self.output/'README.md'), record['sha256'])
+        self.assertFalse((self.output/record['source']).exists())
+        second = self.base/'second'
+        export(second, self.output)
+        verify(second)
+        self.assertEqual(digest(second/'README.md'), record['sha256'])
+
+    def test_asset_derivative_updates_public_pin_and_restore_map(self):
+        original = (self.root/self.asset['source']).read_bytes()
+        record = self.derivative(self.asset['destination'], original, b'\0corrected model')
+        export(self.output, self.root)
+        verify(self.output)
+        config = json.loads((self.output/'release/publication.json').read_text())
+        self.assertEqual(config['assets'][0]['sha256'], record['sha256'])
+        self.assertEqual(config['assets'][0]['bytes'], len(b'\0corrected model'))
+        restore(self.output)
+        self.assertEqual(digest(self.output/self.asset['restore']), record['sha256'])
+        export(self.base/'second', self.output)
+        self.assertEqual(digest(self.root/self.asset['source']), self.asset['sha256'])
+
+    def test_derivative_rejects_changed_original_before_export(self):
+        self.derivative('README.md', (self.root/'README.md').read_bytes(), b'corrected')
+        self.write('README.md', b'user edited input')
+        with self.assertRaisesRegex(ValueError, 'Unreviewed derivative input'):
+            export(self.output, self.root)
+        self.assertFalse(self.output.exists())
+
+    def test_derivative_rejects_unsafe_source_and_tampering(self):
+        original = (self.root/'README.md').read_bytes()
+        record = self.derivative('README.md', original, b'approved')
+        self.write(record['source'], b'changed')
+        with self.assertRaisesRegex(ValueError, 'Derivative hash differs'):
+            export(self.output, self.root)
+        self.assertFalse(self.output.exists())
+        record['source'] = '../outside'
+        self.write('release/asset-derivatives.json', json.dumps(dict(schema=1, files=[record])).encode())
+        with self.assertRaisesRegex(ValueError, 'Derivative source must be under'):
+            export(self.output, self.root)
+
+    def test_derivative_pin_rejects_art_reintroduced_into_rehashed_snapshot(self):
+        original=(self.root/'README.md').read_bytes()
+        self.derivative('README.md',original,b'approved')
+        export(self.output,self.root)
+        (self.output/'README.md').write_bytes(original)
+        manifest=self.output/'PUBLICATION_MANIFEST.json'
+        value=json.loads(manifest.read_text());value['files']['README.md'].update(bytes=len(original),sha256=digest(self.output/'README.md'))
+        manifest.write_text(json.dumps(value))
+        with self.assertRaisesRegex(ValueError,'Public derivative pin differs'):
+            verify(self.output)
+
+    def test_public_rebuild_keeps_approved_repair_and_rejects_other_changes(self):
+        import numpy as np
+        from PIL import Image
+        from tools.publication.derivatives import approved_albedo
+        name = 'theme/model.albedo.png'
+        pixels = np.full((4,4,4), 255, dtype=np.uint8)
+        approved = pixels.copy();approved[1:3,1:3,:3] = 100
+        path = self.root/name;path.parent.mkdir(parents=True);Image.fromarray(approved).save(path)
+        record = dict(destination=name,source='assets/publication-derivatives/test.png',
+                      originalSha256='0'*64,sha256=digest(path),pixelBox=[1,1,3,3])
+        self.write('release/asset-derivatives.json', json.dumps(dict(schema=1,files=[record])).encode())
+        self.assertTrue(np.array_equal(approved_albedo(self.root,name,pixels),pixels))
+        self.write('PUBLICATION_MANIFEST.json',b'{}')
+        self.assertTrue(np.array_equal(approved_albedo(self.root,name,pixels),approved))
+        changed=pixels.copy();changed[0,0,0]=1
+        with self.assertRaisesRegex(ValueError,'unreviewed albedo pixels'):
+            approved_albedo(self.root,name,changed)
+
     def test_restore_rejects_destination_outside_build_research(self):
         export(self.output, self.root)
         record = dict(self.asset, restore='README.md')

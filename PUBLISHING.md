@@ -71,6 +71,16 @@ SHA-256 in `release/publication.json`. A changed protected asset hash requires
 reviewing the new source and updating its credits, not bypassing verification.
 User-imported room textures need their own provenance before inclusion.
 
+Public-only artwork corrections are pinned separately in
+`release/asset-derivatives.json`. The exporter substitutes the reviewed files
+from `assets/publication-derivatives/` without changing development originals;
+those staging copies are not independently added to the upload list. A public
+clone already has the corrected destinations and can re-export without private
+inputs. Asset restore hashes and byte counts are updated in the exported
+configuration. Changed originals or derivative files fail validation.
+See [public asset derivatives](docs/PUBLIC_ASSET_REMEDIATION.md) for scope,
+source rebuild protection and the retained third-party license conditions.
+
 Exports made from a public clone use its `assets/` copies when the original
 build input is absent. Verification rejects changed, missing or extra files,
 including symlinks. Initialize Git only after verification. Local `.git`,

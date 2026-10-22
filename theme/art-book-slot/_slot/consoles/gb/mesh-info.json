@@ -12,8 +12,8 @@
       2048
     ],
     "paint_luma": 0.7640745043754578,
-    "albedo_sha256": "39bd04cd31e9e69579f419aee3dfb4e174f39d20dd581e4d324e5d89c2136656",
-    "painted_texels": 1655219,
+    "albedo_sha256": "dc6ba9c188f932989e6ab13a00169f432c349881991765c2dda00bb04a8be40d",
+    "painted_texels": 1662349,
     "lighting": "albedo + simple lighting; no PBR/normal maps"
   },
   "licence": "CC-BY-NC-4.0 + MIT",
@@ -33,7 +33,10 @@
         "texels": 58320
       }
     ],
-    "inset": {}
+    "inset": {},
+    "public_modifications": [
+      "Removed Kirby sticker in [450,438,550,598]; restored paintable plastic; geometry, UVs and other texels unchanged."
+    ]
   },
-  "mesh_sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c"
+  "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538"
 }

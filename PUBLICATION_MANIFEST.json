@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "createdUTC": "2026-10-22T22:46:52.364762+00:00",
+  "createdUTC": "2026-10-22T23:56:10.319943+00:00",
   "edition": "MIT original code; separately licensed assets including NonCommercial/ShareAlike",
   "status": "Development source snapshot; no binary; no device installation performed",
   "files": {
@@ -25,8 +25,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "CREDITS.md": {
-      "bytes": 19598,
-      "sha256": "82f91fb75c76ceba5af61f16902eca67ca32fd63f2261bfc9336797ecedb4291",
+      "bytes": 19987,
+      "sha256": "e0aa47d0c3a739e45b0aceb52336ce763860fff1ff086d67b2371613e22409f8",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "LICENSE": {
@@ -75,8 +75,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "PUBLISHING.md": {
-      "bytes": 4249,
-      "sha256": "6938c19a0c841781d4da9744ac523fc3957ee137e7e131efff7dc43ab9150977",
+      "bytes": 4915,
+      "sha256": "97037ff50c7f2d15f61e6ea1cf808630d9891d5db7e39fc76fe76d58f3cbdb08",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "README.md": {
@@ -440,8 +440,8 @@
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/retro/albedo-00.png": {
-      "bytes": 2505857,
-      "sha256": "d1bd99dc968deabfb877869ee9f3e6bb6df0c517a46b613f04cc31b803dbf9bc",
+      "bytes": 1726703,
+      "sha256": "5ca9082d9909b7804ecf78b19193619f7aee039e70e839784170b8f7ff4f9d42",
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/part-000.mesh": {
@@ -455,8 +455,8 @@
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/scene.json": {
-      "bytes": 1592,
-      "sha256": "e7b43654f0a05cab1628fbe602d46bb254c39678b5bfd2b1fa6265a4487babcf",
+      "bytes": 1724,
+      "sha256": "2aff8b882fa5c3076edc1bdddfea24a1299ab48cf35282a0f1e1d4f2b774811a",
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/scene.txt": {
@@ -760,8 +760,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/MODEL_PSP_GB.md": {
-      "bytes": 5462,
-      "sha256": "537ddc7fa43d0f638b08b322ddbe44e3980afca9ad86e2cda3d9cd14c35cbd72",
+      "bytes": 5811,
+      "sha256": "030b4c25510574bd27e08c8e25952cdc4f3c9b802e052f1cf9cb1e34b3cea69b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/MODEL_QUALITY_INTEGRATION.md": {
@@ -807,6 +807,11 @@
     "docs/NEXT_CHAT_PLAN.md": {
       "bytes": 42129,
       "sha256": "cc08f136a6ce90ad759af29843e17c1ad5be21ce50991573c7d15d7d16322b46",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
+    "docs/PUBLIC_ASSET_REMEDIATION.md": {
+      "bytes": 2561,
+      "sha256": "0cf747ff476ced5da36744439a54822fb9bd11ed09bb7e5684fd4297e920b23a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/SLOTTED_PHASE0_RESULTS.md": {
@@ -859,19 +864,24 @@
       "sha256": "e9632b0845c9af7cd2e50882b273f3014039671f74c5e301624966fc1406a087",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
+    "release/asset-derivatives.json": {
+      "bytes": 43749,
+      "sha256": "0ea558a7660d7fe42db0cadb195d2222671f8d8c31b266ea7d6298546956f83b",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
     "release/model-licenses.json": {
       "bytes": 23557,
       "sha256": "f7694eef21fcb269aa652780f81a734cd6fa368f8e93fb3d157c79085d5f7e6f",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/public-files.txt": {
-      "bytes": 137679,
-      "sha256": "5f3e93c91f0896466c65a69cb8f9a6ac76a1905dc1d40968407b660a47230ab1",
+      "bytes": 137776,
+      "sha256": "46bef6c060e45c5d7420d54532b3c3f2f8381139825ad1a5db5a84e3266521c4",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/publication.json": {
       "bytes": 37102,
-      "sha256": "19dab389fd38a3dbd9f6f5d59f29ff50b88a4e79eef91b067a8061e9e0289184",
+      "sha256": "5337d1a38cbe982f61719157f6b4d667364103e2c988f9724c67404e7488f5be",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "requirements-dev.txt": {
@@ -1300,8 +1310,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_publication.py": {
-      "bytes": 9659,
-      "sha256": "b1d2501308a0d8298276140731d39223444deb9f4c419da1ef24309e35179d4f",
+      "bytes": 14579,
+      "sha256": "0f6fc9395ff7e2c1f31e17061bc38477551e414ae0aa10795429165db6478344",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_refresh_psx_materials.py": {
@@ -1420,8 +1430,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/MODEL_CREDITS.txt": {
-      "bytes": 23344,
-      "sha256": "103b9236ed3aa3c3c5f46871990d8d3b9adf23e98fa6afb588c9f816d2659a00",
+      "bytes": 23693,
+      "sha256": "e82c450ea5f162bef3076f36f79aed94e83a5a50eb99e2ad88126b9bddf267d3",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/black/band-console-dreamcast.png": {
@@ -1500,8 +1510,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/black/consoles/gb/body.png": {
-      "bytes": 40324,
-      "sha256": "132b3cda47823b1bc7c1bbfb521807b2b531f7bdcdaef6c5f20040ead325f669",
+      "bytes": 37541,
+      "sha256": "43614cb6739f3ac0dd517f1e0e61a29967c0add05cfe48c8f210c43335300d6c",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/black/consoles/gba/body.png": {
@@ -1640,8 +1650,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/blue/consoles/gb/body.png": {
-      "bytes": 47664,
-      "sha256": "73da5326f5e3489074c984788ec97fcc95ee1f49a4fa9237c73736c96812e9c0",
+      "bytes": 45478,
+      "sha256": "f63cae5fc5fd8cc92b8508eb761928c6846c3e55df633566994102e7070972af",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/blue/consoles/gba/body.png": {
@@ -1780,8 +1790,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/green/consoles/gb/body.png": {
-      "bytes": 45132,
-      "sha256": "d5d758e9771de3b305edba27f6a523ea37b24f7a3f31d6f6803629054c9dfe86",
+      "bytes": 42883,
+      "sha256": "250fa2ec3448d09a8d4c457119130244d089d4fa906beca8cd38058863b8dc83",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/green/consoles/gba/body.png": {
@@ -1920,8 +1930,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/original/consoles/gb/body.png": {
-      "bytes": 51790,
-      "sha256": "80a0378313feb546404a81a144fe9b9521aeb37980fe940ba86e76af94a45510",
+      "bytes": 50133,
+      "sha256": "1949618fe64b71b144fbdbab2d8704e32d5a939d08dec8914592ea02113deb6d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/original/consoles/gba/body.png": {
@@ -2060,8 +2070,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/purple/consoles/gb/body.png": {
-      "bytes": 47532,
-      "sha256": "353c3ec68bb18fd298bd8d2847dcfa32f1d8d0cd2fa8aab02be2728ebb9923cf",
+      "bytes": 45547,
+      "sha256": "1e8193e8df03c9c6b8547a3d851fd5c75c2b017e2b4523fdeeb0f31688649078",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/purple/consoles/gba/body.png": {
@@ -2200,8 +2210,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/red/consoles/gb/body.png": {
-      "bytes": 46335,
-      "sha256": "8f9d3f28627aff34cd7783f4cfaed6400802f9e2dc978df4255455c96c32b397",
+      "bytes": 44171,
+      "sha256": "29c54766e48a189462ad380208bd25dc5b709883a52d7213c21f4cfb0e96e27a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/red/consoles/gba/body.png": {
@@ -2340,8 +2350,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/white/consoles/gb/body.png": {
-      "bytes": 50550,
-      "sha256": "d2ef3c6708189bd2c696d8832d6ec3c04dc627b55c6aa30909a0e5097fa2e595",
+      "bytes": 48895,
+      "sha256": "b81bb923aadc5a59f9276db35946a818b337e52476ca97c0fd3df05bbfae542b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/white/consoles/gba/body.png": {
@@ -2480,8 +2490,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/yellow/consoles/gb/body.png": {
-      "bytes": 49138,
-      "sha256": "b268963bfeab5c7acc7a736571ea4811face1fe656c01c81d734a43f8e3db03b",
+      "bytes": 47277,
+      "sha256": "a60f3e323d30474bbf3298236967dd6b71e05fe58f75e398fcf944bca34d42e0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/yellow/consoles/gba/body.png": {
@@ -2665,8 +2675,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/black/consoles/gb/body.png": {
-      "bytes": 44953,
-      "sha256": "ab10ff72c77cecde73a42e841005a940036b02cfc760284bb4a82b41ca54a69d",
+      "bytes": 42443,
+      "sha256": "2ef4e0d1011806b3f50a1da4ca42085a625d756ebb1ef2c42d71d028d82d405b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/black/consoles/gba/body.png": {
@@ -2805,8 +2815,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/blue/consoles/gb/body.png": {
-      "bytes": 50521,
-      "sha256": "03bd93ffba60129683ca7d3093356e43a63861f91fc5adb8a6ca5b6c0221d81f",
+      "bytes": 48444,
+      "sha256": "7c33fb50c3f63d73f8ad2fe630614f0a34053835dc2790ef36d6d7578c8761cb",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/blue/consoles/gba/body.png": {
@@ -2945,8 +2955,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/green/consoles/gb/body.png": {
-      "bytes": 48855,
-      "sha256": "74a8c2179de18bd44b31ecaa5fc8b35f126cae6dfcebeb0b088cfef6ee383033",
+      "bytes": 46706,
+      "sha256": "a9e684f59036b2feb308f89ec1b2ea414f39566b382d376ed671a82f4f3c7445",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/green/consoles/gba/body.png": {
@@ -3085,8 +3095,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/original/consoles/gb/body.png": {
-      "bytes": 55391,
-      "sha256": "8c874ea25384a5ad022f86b46f7e9c08f15b666e3980391dcd93b23cefb3b662",
+      "bytes": 53869,
+      "sha256": "bab658f69f8fe3a4e7b6ca9f6301576a4c847a8f2b89af56d7b267e025b1f1e1",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/original/consoles/gba/body.png": {
@@ -3225,8 +3235,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/purple/consoles/gb/body.png": {
-      "bytes": 50319,
-      "sha256": "b97b2f76bc3d7d70afaae45d74717a9581d8abccce6d7de04b09076c105f66a2",
+      "bytes": 48338,
+      "sha256": "13805b3cc6dce79dbb4e6503989eace4ed381064efacc315f1a20db54747c7d5",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/purple/consoles/gba/body.png": {
@@ -3365,8 +3375,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/red/consoles/gb/body.png": {
-      "bytes": 50001,
-      "sha256": "ffa68c79ac9006ca57962f71182308524f17ad0a296c0cdc25f109cd2493e186",
+      "bytes": 47892,
+      "sha256": "451225c8a04590c3fb28b066cdeab918287aad503323c4f12e88791e113a8bed",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/red/consoles/gba/body.png": {
@@ -3505,8 +3515,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/white/consoles/gb/body.png": {
-      "bytes": 53672,
-      "sha256": "dae9061282d97493bd5a18b3f1b3976e4294eec680a5dafd12c9d7cfa87617bc",
+      "bytes": 52109,
+      "sha256": "e8cc5651767075f438e4b260cd99d16eb274fefaa6a29d33458e0359724b4ebc",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/white/consoles/gba/body.png": {
@@ -3645,8 +3655,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/yellow/consoles/gb/body.png": {
-      "bytes": 52459,
-      "sha256": "d549e713a4846df6592867e659da66db8ced636ed3f7d6233dbc5641287ed7ef",
+      "bytes": 50628,
+      "sha256": "b965afce3de3a2430808d6c3a4ff00a59b22e71c589051c42c12e6a2feb8745b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/realistic/yellow/consoles/gba/body.png": {
@@ -3815,8 +3825,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/band-console-gb.png": {
-      "bytes": 12182,
-      "sha256": "00d50b0fb54645b246de782203a0f2de48b2bad1fed810e33258faa6171ecdd4",
+      "bytes": 10418,
+      "sha256": "42ff3d0021671f4955658be19f33cd06a678a86ed650d9bfacdfe0e47ba88bc6",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/band-console-gba.png": {
@@ -4725,13 +4735,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/body.png": {
-      "bytes": 73911,
-      "sha256": "d9e9646b2aa41c604331a8e626f8af308cc9297ceeb365ebee521882975a2437",
+      "bytes": 62697,
+      "sha256": "f32b70ae7703261a1e7a7db35b58fdab4124d2fb608084425cd1e92fa7a2e9ef",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/body.tga": {
       "bytes": 207488,
-      "sha256": "9bc8003759335e92bf22ee84775a514d95b6cb7628bd6b09f36e8cf4ebe2d397",
+      "sha256": "83506c0903eaa6ce2af25cad1d2aeebbcea1e300172f3a42e959350da5785016",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/media-info.json": {
@@ -4790,8 +4800,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/mesh-info.json": {
-      "bytes": 1050,
-      "sha256": "8ec398a557c14910dc69f84e357f5fcbd5fb545631a33cd9a1f9b2fcb3aac358",
+      "bytes": 1209,
+      "sha256": "933c8ec5ca4da5f6834ff45122e1d1e74d78f1bb5e6b7875c1278f33eb7144a5",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/model-master.glb": {
@@ -4805,8 +4815,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/model.albedo.png": {
-      "bytes": 2556250,
-      "sha256": "39bd04cd31e9e69579f419aee3dfb4e174f39d20dd581e4d324e5d89c2136656",
+      "bytes": 3248481,
+      "sha256": "dc6ba9c188f932989e6ab13a00169f432c349881991765c2dda00bb04a8be40d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/model.glb": {
@@ -4816,17 +4826,17 @@
     },
     "theme/art-book-slot/_slot/consoles/gb/model.mesh": {
       "bytes": 530936,
-      "sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c",
+      "sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/model.texture": {
       "bytes": 104888,
-      "sha256": "0c4360b5c6ccdeeab0253ff93ec249a36c0d2fe359b3bb822de233a0ad1cb8de",
+      "sha256": "92143fcd5b82362dcb12fa47bcf2ae2456e32eb56d7b7618c77a00f56f4dfdc0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/paint.mask": {
       "bytes": 13125,
-      "sha256": "1446409eca24257ac00bac8ee4193d20689a72418fd41adca3abb6e69cb6a11c",
+      "sha256": "7dbfcf233c7c1ad2afab0a3d91a64e215534c1239a02ac5efe486c98889f945f",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/consoles/gb/registration.json": {
@@ -7365,8 +7375,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/black/browse-console-gb.png": {
-      "bytes": 37597,
-      "sha256": "5beb83f6fa837e121698c991a136d30275ab72d63c0968351621680f3b5a97f3",
+      "bytes": 35617,
+      "sha256": "0b10bb1a131e319bc28216cc442c0465f81041ff244385938abc7b553adcbce7",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/black/browse-console-gba.png": {
@@ -7435,8 +7445,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/black/console-gb.png": {
-      "bytes": 40102,
-      "sha256": "5693e21864d87eccd9ed31a24afee6670416951adce2a1f4717b163e0cf395c3",
+      "bytes": 37317,
+      "sha256": "275f9c4f6488a36189bf2fe17bfcebc5c48a5e43e23f5f021158b50d2bb5f90b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/black/console-gba.png": {
@@ -7505,8 +7515,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/blue/browse-console-gb.png": {
-      "bytes": 42989,
-      "sha256": "929469817984677d4bfefa626d52807a716bba33947d869c51cf630809e51fff",
+      "bytes": 41605,
+      "sha256": "e4b6bacb8cc15a6691423e3df859957042fc70874e492be4ec26e9b9b3848532",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/blue/browse-console-gba.png": {
@@ -7575,8 +7585,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/blue/console-gb.png": {
-      "bytes": 47393,
-      "sha256": "38879fc917c1ce7ecfbd50753333421ecc7ee356c3e9a9f4a839db054c362d9e",
+      "bytes": 45220,
+      "sha256": "ff8210c0f733cf0e069a416255287dbd426977ce4d7bb32d3fe84629a72182c9",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/blue/console-gba.png": {
@@ -7645,8 +7655,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/green/browse-console-gb.png": {
-      "bytes": 41090,
-      "sha256": "901067d528bc58aaa0cd9291dfcfb2ca0a556634dc57b75b08dd071fdedc781e",
+      "bytes": 39531,
+      "sha256": "99b0842651362c829c232d3ddc364aa1f2f162909136955ec9fdda08f526897d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/green/browse-console-gba.png": {
@@ -7715,8 +7725,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/green/console-gb.png": {
-      "bytes": 44865,
-      "sha256": "7cdb234b0dcf35bc0d66ce79f5006e328947f9bc8bbcdd29e6815f7dabf3cc57",
+      "bytes": 42598,
+      "sha256": "eef82620413e7b09f34e4aa336543b93b133afa19c5dba56931abce4aa6e7800",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/green/console-gba.png": {
@@ -7785,8 +7795,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/original/browse-console-gb.png": {
-      "bytes": 46613,
-      "sha256": "d7d8b7e66ed0519dbb4b9f02681ceb7cdc8f12f1db4c694a10dfdf253341ec33",
+      "bytes": 45593,
+      "sha256": "edc0fc814a09bfa0365bd36abeb14197505d1b3c68fa0276808c2773b8f63810",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/original/browse-console-gba.png": {
@@ -7855,8 +7865,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/original/console-gb.png": {
-      "bytes": 51432,
-      "sha256": "0e820a74bd71a39747d82069342246987be3c3bb8df8021cba7573b8c203099f",
+      "bytes": 49774,
+      "sha256": "a8b606bd3634a42dc6184d323d16dc3fa9ae8e2d0dfa89859273094b5a4afa3b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/original/console-gba.png": {
@@ -7925,8 +7935,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/purple/browse-console-gb.png": {
-      "bytes": 42906,
-      "sha256": "945701b7f5b431917ba53912cab517c76ac0ba79404a633fb053658645b39854",
+      "bytes": 41575,
+      "sha256": "d94426caf5b1f873c84c122ddfe34c0ff3e38da267a526efc9c206c05868a6db",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/purple/browse-console-gba.png": {
@@ -7995,8 +8005,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/purple/console-gb.png": {
-      "bytes": 47235,
-      "sha256": "678522eedb5c8f4477a638166b5174f02a1479cc958f2216700adaf13b9c8842",
+      "bytes": 45265,
+      "sha256": "bd1b61d112066a68f90a7f2f7cb8793e0d4d918f225fa61a25f43f8563ca676c",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/purple/console-gba.png": {
@@ -8065,8 +8075,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/red/browse-console-gb.png": {
-      "bytes": 41754,
-      "sha256": "c9cb240316ff89a04848caff9a0c39d7c67d02c6007c57c922a8cbdc0b3e4df9",
+      "bytes": 40285,
+      "sha256": "3e5761e5151af6357fd7ea1440e77f3fc57178d333bbe15875b47abc2f3a1de6",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/red/browse-console-gba.png": {
@@ -8135,8 +8145,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/red/console-gb.png": {
-      "bytes": 46073,
-      "sha256": "81f9de18d890d579f9e67b051a1f8eb72ad3aade0edc6b9e6490cd33d855ea03",
+      "bytes": 43928,
+      "sha256": "2c3edf83b7526ce706f1c9cca301864b361f9f8802454d658ab3347a434679d0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/red/console-gba.png": {
@@ -8205,8 +8215,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/white/browse-console-gb.png": {
-      "bytes": 46179,
-      "sha256": "7c7391f455bab9b10f46a4c897763d054767cdcc035d8cc5455d684ef8c193b2",
+      "bytes": 45011,
+      "sha256": "c6599da784e71db607bdd17b894372121a0ed639bdd2caa942a25c793e9d4d5b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/white/browse-console-gba.png": {
@@ -8275,8 +8285,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/white/console-gb.png": {
-      "bytes": 50209,
-      "sha256": "ccd4f3e80cf96df36fbff193e6c7c29a863e03839db4a91e0a7ec5fc04b68724",
+      "bytes": 48570,
+      "sha256": "cf05fb0e780a69d6fc0783d6780dbc1fadf9481d4236740c0c8ad01c7bf14238",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/white/console-gba.png": {
@@ -8345,8 +8355,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/yellow/browse-console-gb.png": {
-      "bytes": 44322,
-      "sha256": "40965d60dff3b684cb46c63aaecf67631be290f4ef979e95b81fc56b4eb17d69",
+      "bytes": 43074,
+      "sha256": "78f3b067d93ef838f2c1726aef79c297adb430cbc7471e44d7f5c13386b4dc93",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/yellow/browse-console-gba.png": {
@@ -8415,8 +8425,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/yellow/console-gb.png": {
-      "bytes": 48789,
-      "sha256": "008b29db21d89623c9608ef6a6c862dcdf90a70ce9f919c1dde3b33bcf41b187",
+      "bytes": 46927,
+      "sha256": "838b7885b57f55658f116e17d14fd779105f0a74469c8492350cb5d31100ea61",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/cel/yellow/console-gba.png": {
@@ -8490,8 +8500,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/black/gb.png": {
-      "bytes": 38857,
-      "sha256": "da1e66791ad939c9d4502751b5164f1c91bff2c60351a9dbc4eb655a0ed2dccf",
+      "bytes": 36062,
+      "sha256": "fa6480f228ee43deeeac533b6facbbcf4355cbbf4ea6cb1a70056c35f2d33eef",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/black/gba.png": {
@@ -8520,8 +8530,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/blue/gb.png": {
-      "bytes": 46162,
-      "sha256": "9dfecef660b31f1fb395d817307df6240c2b483b946b9ef106110e4cc4ac4637",
+      "bytes": 43905,
+      "sha256": "d689f2e35b3911bb89980126e14dbae08efff13ca1ffcf610056fb8341ec3ccb",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/blue/gba.png": {
@@ -8550,8 +8560,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/green/gb.png": {
-      "bytes": 43791,
-      "sha256": "1141e48cf385dd547b4e6342fa18a8b0c959a8e0b1bd02fe07ea0af215f4f2fc",
+      "bytes": 41300,
+      "sha256": "c2395ac66f410f22d09f5a164f8d0a9dfe1eddb3c7187338867d9d356b0707b9",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/green/gba.png": {
@@ -8580,8 +8590,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/original/gb.png": {
-      "bytes": 50018,
-      "sha256": "5aedc391c96744e1c1bfafb6dabcfc7569b9f90635dd76692925a7700bfc56d2",
+      "bytes": 48288,
+      "sha256": "e1ac9f43a481b23b95f9ae1e4e77f7a9a2c62da202ae7f5508de2031b63b3830",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/original/gba.png": {
@@ -8610,8 +8620,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/purple/gb.png": {
-      "bytes": 46049,
-      "sha256": "da55bfa99587946fddaa9ddbb488cbd41271bf587b168e7ea9b5788839a3bd7d",
+      "bytes": 43962,
+      "sha256": "dce12261130302b3c729c82b9fd7662ff8274d2979f9e02c6865fb14f4e0a705",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/purple/gba.png": {
@@ -8640,8 +8650,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/red/gb.png": {
-      "bytes": 44834,
-      "sha256": "d5a4ffe2e29293e773e1e0879efe389cd8ca79b91f499f8df3f5864c5aded9f8",
+      "bytes": 42462,
+      "sha256": "4ee5fe215b9c2cd6e31ca9756f50ff75a76a3c0718e53787d9317abdb7089022",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/red/gba.png": {
@@ -8670,8 +8680,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/white/gb.png": {
-      "bytes": 48861,
-      "sha256": "d6fd9d42f2d297352f7e7f4da401ee6d2baf1e4aebe986762bb6d99b0159608e",
+      "bytes": 47071,
+      "sha256": "7bf1b13dc89fbbc002cb376072568362be119f2ff1e67b467012299866df7151",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/white/gba.png": {
@@ -8700,8 +8710,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/yellow/gb.png": {
-      "bytes": 47543,
-      "sha256": "1e8850dd9317569a08df698010c9d35db873b893e45d6557e71600a769aea4fa",
+      "bytes": 45552,
+      "sha256": "cc57956762421ec065b34cbea337ca216a1e13bc6371b0f6640d40b6603230ff",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/cel/yellow/gba.png": {
@@ -8725,13 +8735,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/gb-front.png": {
-      "bytes": 60081,
-      "sha256": "9fa4297510cbdfa722c2cf9c9acf9d496c7efed4d7684d5957daafa96a3642fe",
+      "bytes": 58870,
+      "sha256": "49f89e986b7eee20213d42c961ee2525f2e2575047d262f6e3e78f320fb38bc8",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/gb.png": {
-      "bytes": 52717,
-      "sha256": "6c646c743b9fd3c70d63f7a8e17ff010672404c8f846d63c4c458b4d45e3cb0b",
+      "bytes": 51183,
+      "sha256": "c5c9a2dba13af59aa57bb7c402bc5d09e251ad045d88d7d3ebfbd753f8d9777d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/gba-front.png": {
@@ -8780,8 +8790,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/black/gb.png": {
-      "bytes": 41981,
-      "sha256": "fdef2a673d35103a8c6b106fe08efddeff82192c8a0e2d4b6e9bb1b81853131d",
+      "bytes": 39201,
+      "sha256": "1309553154f9dcbc32412755eddb4a90b3a090073b03132f588a2bd7ba0a3d9c",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/black/gba.png": {
@@ -8810,8 +8820,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/blue/gb.png": {
-      "bytes": 47804,
-      "sha256": "97bad0bbe4781aa10265a8b4086afaeb5a62ada759b905f97dd5d9e679e5310d",
+      "bytes": 45566,
+      "sha256": "cbad5c30afc5a46d5e1bbde85cbd0f378feb0f7e2442d361d225562f9298d2ff",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/blue/gba.png": {
@@ -8840,8 +8850,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/green/gb.png": {
-      "bytes": 46272,
-      "sha256": "1cc7ceaa642abdcd5f235dac096503b2c3395db4beed5dfc9f9ce3865082e9a7",
+      "bytes": 43975,
+      "sha256": "32c0c1f6ccfcdbe6b5ddb0d5a343e79a917f2e0c885abb804b13454363e65ba2",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/green/gba.png": {
@@ -8870,8 +8880,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/original/gb.png": {
-      "bytes": 52738,
-      "sha256": "11e4a0973872f85ec946236bfd6787e771315cb14e2bfca1f889d911a40d89e6",
+      "bytes": 51183,
+      "sha256": "c5c9a2dba13af59aa57bb7c402bc5d09e251ad045d88d7d3ebfbd753f8d9777d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/original/gba.png": {
@@ -8900,8 +8910,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/purple/gb.png": {
-      "bytes": 47665,
-      "sha256": "4e4786be34c7cae0a2a0c8603d1c14a54751df3febf2fb76d8117e91bc0ad083",
+      "bytes": 45626,
+      "sha256": "47358b521b5ee43cd453621ebcdfab53f69e5e6a7f303fe76639f1938b426568",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/purple/gba.png": {
@@ -8930,8 +8940,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/red/gb.png": {
-      "bytes": 47549,
-      "sha256": "1ea1c446f37a7183119ea29014993837a4a0b69f8fb1df3e2e2d78f3462198f5",
+      "bytes": 45216,
+      "sha256": "3b0472916713b7206753b7aaa0cc61504f37642706d261561fa0d97abea062f4",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/red/gba.png": {
@@ -8960,8 +8970,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/white/gb.png": {
-      "bytes": 51636,
-      "sha256": "89bfffa50b9633424c2a19dfbac85835f169620df22d1e49f5af08c5b449645b",
+      "bytes": 49964,
+      "sha256": "0e87b4c069982a7673aa7af8f08a70d1839430c600a50b57c29d2f6f773e5c85",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/white/gba.png": {
@@ -8990,8 +9000,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/yellow/gb.png": {
-      "bytes": 49854,
-      "sha256": "d11833abbc8f0e8d11e308caa954741280153834a9ed7a360c2573ff9848b9ca",
+      "bytes": 47899,
+      "sha256": "87da2e611af8935706662ed1e0e895d59e8c63d3d7e2ab3a89a4234a7a6a8708",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/front/realistic/yellow/gba.png": {
@@ -9015,8 +9025,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/manifest.json": {
-      "bytes": 97251,
-      "sha256": "609701401c4216ec5bf4df44bbb40e91391105a1bf229d052bbac3ac31f772f4",
+      "bytes": 100563,
+      "sha256": "f1a07b83833073837dd8e25d89cfd2eeffb0e95b7488b3d4682b6b932a5e9430",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/black/browse-console-dreamcast.png": {
@@ -9025,8 +9035,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/black/browse-console-gb.png": {
-      "bytes": 40458,
-      "sha256": "04d0b93d3faebd9951ed153371e8e9f1507ed48bca51d78b5d1323979edd08b3",
+      "bytes": 38771,
+      "sha256": "5179bac69d3a4da92cc9c872aca2a9ead5fe1f5936a754edec07f5ec68cff13e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/black/browse-console-gba.png": {
@@ -9095,8 +9105,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/black/console-gb.png": {
-      "bytes": 44466,
-      "sha256": "f92a6003b5370e14f2f6dc767175efcf034e8d83d31c143b350a73c8b55c6b01",
+      "bytes": 41996,
+      "sha256": "9ec73f714f1ff63860f1578fe7c0ee0acca8fc2c19ee765a874df1456b315b91",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/black/console-gba.png": {
@@ -9165,8 +9175,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/blue/browse-console-gb.png": {
-      "bytes": 44147,
-      "sha256": "e0e09471efd3f98132a467b3e2cb2be726892fac33658c4cd9990caa9ecb7f3a",
+      "bytes": 42762,
+      "sha256": "2b2fd45befd2e59e09f447e5b29bf29405f51ccfcbffe59b9f8ef839ef6ce2a3",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/blue/browse-console-gba.png": {
@@ -9235,8 +9245,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/blue/console-gb.png": {
-      "bytes": 49855,
-      "sha256": "1e73178f1d5af117d8bbad20931ccadd3518c887297d5f71713d1096431dca3b",
+      "bytes": 47772,
+      "sha256": "cf5ab44c06cfda868858031bb39a72224fac67c2d070564f1720771cf831e92b",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/blue/console-gba.png": {
@@ -9305,8 +9315,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/green/browse-console-gb.png": {
-      "bytes": 43013,
-      "sha256": "fa1b0b277baeea4fb977e51b7173c4d0e6bdaee5aab38860d7f54501002d92f9",
+      "bytes": 41511,
+      "sha256": "4e4972b04f42a080bf88dcbbb7c9b2a6b47c578bee02e493c3270ba23acb86ae",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/green/browse-console-gba.png": {
@@ -9375,8 +9385,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/green/console-gb.png": {
-      "bytes": 48206,
-      "sha256": "748b0050be024e354d2962b2261db9b48f1d5ac4069de31164248c73653c138f",
+      "bytes": 46067,
+      "sha256": "df577ccf9d19ae29147f03903d5f3d1a84af569d69a08334c2d449c27217edc1",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/green/console-gba.png": {
@@ -9445,8 +9455,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/original/browse-console-gb.png": {
-      "bytes": 47575,
-      "sha256": "645e27bb9fa977618f330c50bd43d8cc1e0d3021cc623b439837531ffbbf33cb",
+      "bytes": 46584,
+      "sha256": "8bfe413b64d77e396bc1f14b31c7392daf6ecb9b7307e58b20bcd1bd71172289",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/original/browse-console-gba.png": {
@@ -9515,8 +9525,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/original/console-gb.png": {
-      "bytes": 54618,
-      "sha256": "5d42478d40edec75b3e1c7bd82cf68033ff8c855c92f53b1c7400d7a1090e950",
+      "bytes": 53092,
+      "sha256": "f84927b4541ac8745f6ddb4587dd37103c932884d1ce9db6470a04071d5164c0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/original/console-gba.png": {
@@ -9585,8 +9595,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/purple/browse-console-gb.png": {
-      "bytes": 44069,
-      "sha256": "0f27a863c771b73a56f6219750bf77452869052021c5db19edd64551dddb73d7",
+      "bytes": 42768,
+      "sha256": "3b81dfcbb287f89061ee40c288690ce66ad4b7fe4a3a970b6078a0c4949dabcf",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/purple/browse-console-gba.png": {
@@ -9655,8 +9665,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/purple/console-gb.png": {
-      "bytes": 49599,
-      "sha256": "5bb2e612f3b4d31d2d8eb24b9b178f3a73a959b7471657a86e53c53ebf0390f4",
+      "bytes": 47630,
+      "sha256": "c12e843037c88d97d1330cbfb22c2401c3d6a0c0be4a9239e5a32ade0d0d467d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/purple/console-gba.png": {
@@ -9725,8 +9735,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/red/browse-console-gb.png": {
-      "bytes": 43661,
-      "sha256": "c98ef51df363fe749099767996ddbe2ac83dda5f23729f76eb43413b55c0a17d",
+      "bytes": 42233,
+      "sha256": "3b8a1b2bc8a186eee033314e18a004a6696de358284f84c68b9d098549c6a9a5",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/red/browse-console-gba.png": {
@@ -9795,8 +9805,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/red/console-gb.png": {
-      "bytes": 49362,
-      "sha256": "b0f887a50446324359670e66d3eeab69c99b25b143ff519a0e2d91566ac703da",
+      "bytes": 47263,
+      "sha256": "0d42b1729a0c16328711f3c4098bd59d604d9fc7db7ed8bc69bc3dd237d0a65c",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/red/console-gba.png": {
@@ -9865,8 +9875,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/white/browse-console-gb.png": {
-      "bytes": 47205,
-      "sha256": "5af76b8d7618bca3aacaeae4fc034b6208a1796b818cf415b873f6cc5496af52",
+      "bytes": 46127,
+      "sha256": "420beb92689dc11b700ecd90e7f86ecdcc8793da8c54043cf24282b4dc47ccdd",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/white/browse-console-gba.png": {
@@ -9935,8 +9945,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/white/console-gb.png": {
-      "bytes": 52929,
-      "sha256": "ebda77373dfa6a661cc099b480d302cec9b0dd4c5aa9a1f5bfaaae1d59c21944",
+      "bytes": 51385,
+      "sha256": "63d5417bb457472e5394f532dca0cca83158bef0c952b0e28f7d0e57b8b60882",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/white/console-gba.png": {
@@ -10005,8 +10015,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/yellow/browse-console-gb.png": {
-      "bytes": 45578,
-      "sha256": "1ed35ea7b6dbeea68b88dbbfbe54a8d4d4544bd2dd6e0654b7f37670184566e6",
+      "bytes": 44385,
+      "sha256": "41e5216a5e230c3869980e70d8ff013e14db78c9459e6b2186e0bd92595f7b01",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/yellow/browse-console-gba.png": {
@@ -10075,8 +10085,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/yellow/console-gb.png": {
-      "bytes": 51724,
-      "sha256": "f7a5da25ff82b3a76d70239035667ec6d62e6bdd291e86f21eb4e4c883044d04",
+      "bytes": 49893,
+      "sha256": "64899ab50768d9b745de108039c763b2f0d04595cc5889868cf87171594954f6",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/realistic/yellow/console-gba.png": {
@@ -10190,13 +10200,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/retro.json": {
-      "bytes": 2014,
-      "sha256": "6abf0eda84e279627c60fac352eac2e7d121a35b9c4e9cf70d5aca0875ec5b62",
+      "bytes": 2104,
+      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/retro.png": {
-      "bytes": 388568,
-      "sha256": "3996813bb591115c9e96404589e1c6678b4fedf21a2b76e2cbb5cfa55a959502",
+      "bytes": 367195,
+      "sha256": "e03e7cce45fe3aba55083df27d1af5253fd4e75cd13dd86a2785030183a34b24",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/status-plate.svg": {
@@ -10710,13 +10720,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/denys-retro-tv/model.glb": {
-      "bytes": 8703944,
-      "sha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce",
+      "bytes": 9289264,
+      "sha256": "0a23df681cadbac960ceabd6b196fb2b9126c8722126ad600364a46b444e5dc0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/denys-retro-tv/source.json": {
-      "bytes": 2014,
-      "sha256": "6abf0eda84e279627c60fac352eac2e7d121a35b9c4e9cf70d5aca0875ec5b62",
+      "bytes": 2104,
+      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/graphicsgeek-ags-textured/source.json": {
@@ -10825,8 +10835,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/verheyen-dmg/source.json": {
-      "bytes": 2735,
-      "sha256": "8a51424ff2b50dcd42de5f0c7e02e89b18dabb0e7fc1e24b07b1ade585309ced",
+      "bytes": 2941,
+      "sha256": "0e010a69afa440c490a1e3f4be3732e12737dbdfe3ab7d09f833348eb8bcb1b7",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/wikiti-cgb/model.glb": {
@@ -11320,8 +11330,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/consolebuild/textured.py": {
-      "bytes": 23483,
-      "sha256": "3a793d19a6bca070bc79bdfb6819a8b6d81fd5ab935ef40333149b6ed53f6e3b",
+      "bytes": 23674,
+      "sha256": "671103df2f8f01d5d4eb55157a851802ae84f7336857a340d41033fc55b6b575",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/consolebuild/textured.sh": {
@@ -11909,9 +11919,14 @@
       "sha256": "5e313e482772d32e430ac2b5d25e26530b811c68898eee1ef063641eaf6ed4ee",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
+    "tools/publication/derivatives.py": {
+      "bytes": 3020,
+      "sha256": "ee3447a0ecb69d425e42cf271303a8e649b76c16e74786a8864f426be42526f8",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
     "tools/publication/export.py": {
-      "bytes": 11069,
-      "sha256": "8effcaed3c3ab6ac64c861d71cb630803cf7ed970c3c7995fd25972ec0f180fb",
+      "bytes": 11782,
+      "sha256": "9503f237eef94885965bb42d5808cd2c4fa59a000e22927e0c5920356cd5b48e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/publication/restore_assets.py": {
@@ -12726,11 +12741,11 @@
     },
     "assets/restore-map.json": {
       "bytes": 35226,
-      "sha256": "d0fa9484868acea49c2c588056185f2636459245457e574f1f4f90589cdbb124"
+      "sha256": "cfd6ff6ab1428d4b1b159049269c20459bc19b6ba1efce775c546d8048af521e"
     },
     "UPLOAD_PATHS.txt": {
-      "bytes": 141797,
-      "sha256": "543ead1a696b983e190c65806343a21b244feca45faef31aa2481117c0a91ac7"
+      "bytes": 141894,
+      "sha256": "a5c9ca68b948232293bccec56f5d70cfe37861799856a1bbf33041f9d2a0b7f2"
     }
   }
 }

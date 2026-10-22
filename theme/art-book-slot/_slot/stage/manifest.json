@@ -32,10 +32,10 @@
     },
     "cel/black/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -44,7 +44,13 @@
         137,
         228
       ],
-      "source_sha256": "132b3cda47823b1bc7c1bbfb521807b2b531f7bdcdaef6c5f20040ead325f669"
+      "source_sha256": "6c71f189e64b8d628396d9890e777fae7ecbc175f2f093573356f0676ac79590",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/black/gba": {
       "source_bounds": [
@@ -310,10 +316,10 @@
     },
     "cel/blue/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -322,7 +328,13 @@
         137,
         228
       ],
-      "source_sha256": "73da5326f5e3489074c984788ec97fcc95ee1f49a4fa9237c73736c96812e9c0"
+      "source_sha256": "bec8cb08334f1a36b0ebbd7c5a68b9ef5099b386c913e9f31fca14f9dbd12697",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/blue/gba": {
       "source_bounds": [
@@ -588,10 +600,10 @@
     },
     "cel/green/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -600,7 +612,13 @@
         137,
         228
       ],
-      "source_sha256": "d5d758e9771de3b305edba27f6a523ea37b24f7a3f31d6f6803629054c9dfe86"
+      "source_sha256": "8e6512cee500ac82091ef2e136f1a98558e8d465d9465df11b23addb8a987be1",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/green/gba": {
       "source_bounds": [
@@ -866,10 +884,10 @@
     },
     "cel/original/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -878,7 +896,13 @@
         137,
         228
       ],
-      "source_sha256": "80a0378313feb546404a81a144fe9b9521aeb37980fe940ba86e76af94a45510"
+      "source_sha256": "f1b7a4dc4a6871ce71bf1824437887f0f8bb33507cdea8485bcfc577c7565edb",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/original/gba": {
       "source_bounds": [
@@ -1144,10 +1168,10 @@
     },
     "cel/purple/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -1156,7 +1180,13 @@
         137,
         228
       ],
-      "source_sha256": "353c3ec68bb18fd298bd8d2847dcfa32f1d8d0cd2fa8aab02be2728ebb9923cf"
+      "source_sha256": "29eb9c57792b4b8f17c697764e5ba34a233f292039f9abcd0dbba8181a172966",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/purple/gba": {
       "source_bounds": [
@@ -1422,10 +1452,10 @@
     },
     "cel/red/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -1434,7 +1464,13 @@
         137,
         228
       ],
-      "source_sha256": "8f9d3f28627aff34cd7783f4cfaed6400802f9e2dc978df4255455c96c32b397"
+      "source_sha256": "bc182f0b96a116578853d2cae9a50d8d6632344cd3d747a13cc5592266a9ac94",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/red/gba": {
       "source_bounds": [
@@ -1700,10 +1736,10 @@
     },
     "cel/white/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -1712,7 +1748,13 @@
         137,
         228
       ],
-      "source_sha256": "d2ef3c6708189bd2c696d8832d6ec3c04dc627b55c6aa30909a0e5097fa2e595"
+      "source_sha256": "585e8620de63a52c7f0f8075ae6a1e63c021778b5e72f4ade975320a2cce98b4",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/white/gba": {
       "source_bounds": [
@@ -1978,10 +2020,10 @@
     },
     "cel/yellow/gb": {
       "source_bounds": [
-        2,
-        3,
-        175,
-        291
+        272,
+        97,
+        445,
+        385
       ],
       "scale": 0.7916666666666666,
       "bounds": [
@@ -1990,7 +2032,13 @@
         137,
         228
       ],
-      "source_sha256": "b268963bfeab5c7acc7a736571ea4811face1fe656c01c81d734a43f8e3db03b"
+      "source_sha256": "34367d61825135f70220884c97cd17412c8be8604ce3cb6aa352f3cb99e6d48e",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "cel/yellow/gba": {
       "source_bounds": [
@@ -2256,10 +2304,10 @@
     },
     "realistic/black/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -2268,7 +2316,13 @@
         136,
         228
       ],
-      "source_sha256": "ab10ff72c77cecde73a42e841005a940036b02cfc760284bb4a82b41ca54a69d"
+      "source_sha256": "1ad47b356f44e396d2bed0cf26d30078a804b26460e73e8f769b9e7e759df4d4",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/black/gba": {
       "source_bounds": [
@@ -2534,10 +2588,10 @@
     },
     "realistic/blue/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -2546,7 +2600,13 @@
         136,
         228
       ],
-      "source_sha256": "03bd93ffba60129683ca7d3093356e43a63861f91fc5adb8a6ca5b6c0221d81f"
+      "source_sha256": "9284c2ae9492f090632591ecc69059154c260673f07fb8ca790bfaaa2a9bb0de",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/blue/gba": {
       "source_bounds": [
@@ -2812,10 +2872,10 @@
     },
     "realistic/green/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -2824,7 +2884,13 @@
         136,
         228
       ],
-      "source_sha256": "74a8c2179de18bd44b31ecaa5fc8b35f126cae6dfcebeb0b088cfef6ee383033"
+      "source_sha256": "83073c6b26f84e548fc0104b5f2cb0c5ebeb370eb8d1a9280cb1c3c6322970a6",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/green/gba": {
       "source_bounds": [
@@ -3090,10 +3156,10 @@
     },
     "realistic/original/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -3102,7 +3168,13 @@
         136,
         228
       ],
-      "source_sha256": "8c874ea25384a5ad022f86b46f7e9c08f15b666e3980391dcd93b23cefb3b662"
+      "source_sha256": "1a1b1eb64de075079ad70edb3919d4c036b99174142a187d37c3ffc3d5ef1ad9",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/original/gba": {
       "source_bounds": [
@@ -3368,10 +3440,10 @@
     },
     "realistic/purple/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -3380,7 +3452,13 @@
         136,
         228
       ],
-      "source_sha256": "b97b2f76bc3d7d70afaae45d74717a9581d8abccce6d7de04b09076c105f66a2"
+      "source_sha256": "ce554421c7bcfb3987ca02ffd09cd8d108563d3c2931fb1e2c830d950f02a85c",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/purple/gba": {
       "source_bounds": [
@@ -3646,10 +3724,10 @@
     },
     "realistic/red/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -3658,7 +3736,13 @@
         136,
         228
       ],
-      "source_sha256": "ffa68c79ac9006ca57962f71182308524f17ad0a296c0cdc25f109cd2493e186"
+      "source_sha256": "6542c470a9e5bb9933115f67b0e5c40f887e0c8ed0a8d0060562b9f23abcf010",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/red/gba": {
       "source_bounds": [
@@ -3924,10 +4008,10 @@
     },
     "realistic/white/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -3936,7 +4020,13 @@
         136,
         228
       ],
-      "source_sha256": "dae9061282d97493bd5a18b3f1b3976e4294eec680a5dafd12c9d7cfa87617bc"
+      "source_sha256": "a7f141b68768c1d89cb3e088e6b32de0d3026b8345aaa4854f9eda817ea798cc",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/white/gba": {
       "source_bounds": [
@@ -4202,10 +4292,10 @@
     },
     "realistic/yellow/gb": {
       "source_bounds": [
-        3,
-        3,
-        174,
-        290
+        273,
+        97,
+        444,
+        384
       ],
       "scale": 0.794425087108014,
       "bounds": [
@@ -4214,7 +4304,13 @@
         136,
         228
       ],
-      "source_sha256": "d549e713a4846df6592867e659da66db8ced636ed3f7d6233dbc5641287ed7ef"
+      "source_sha256": "030d7cb9891f43e738e237c76993df44499a337be12dc4faa012ca96c412af56",
+      "mesh_sha256": "2b3172352548fdb1023ff0699fb095b6a4c06fb194dc0f7001c980726d936538",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x; public sticker-free atlas"
     },
     "realistic/yellow/gba": {
       "source_bounds": [

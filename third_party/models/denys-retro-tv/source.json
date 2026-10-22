@@ -6,14 +6,14 @@
   "license": "CC BY-NC 4.0",
   "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
   "source_sha256": "7962862740599535e548d70a1a37b4f0e50a5077c1f381d328e4105dca576e55",
-  "prepared_sha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce",
+  "prepared_sha256": "0a23df681cadbac960ceabd6b196fb2b9126c8722126ad600364a46b444e5dc0",
   "screen_faces": 155,
   "changes": [
     "Turned to face the camera; centred on the floor",
     "Screen faces (UV-identified) separated as blank live glass",
-    "Cabinet keeps its source base-colour/ORM/normal maps",
     "Standard three-quarter studio render (35 degree elevation, 22 degree turn, perspective matching the native renderer), transparent background",
-    "Live screen inset 5% inside the camera-facing glass, projected onto the angled glass"
+    "Live screen inset 5% inside the camera-facing glass, projected onto the angled glass",
+    "Public derivative: decorative decals removed from base-color/ORM maps; geometry, UVs and normal map unchanged; original CC BY-NC 4.0 retained."
   ],
   "render_scale": 2,
   "native_height": 238.0,
@@ -70,5 +70,5 @@
   "units_per_mm": 0.5288888888888889,
   "scale_basis": "Approximate 450 mm cabinet height",
   "label": "Retro TV (Denys Hroshko, CC BY-NC 4.0)",
-  "image_sha256": "3996813bb591115c9e96404589e1c6678b4fedf21a2b76e2cbb5cfa55a959502"
+  "image_sha256": "e03e7cce45fe3aba55083df27d1af5253fd4e75cd13dd86a2785030183a34b24"
 }

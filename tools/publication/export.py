@@ -116,6 +116,8 @@ def inputs(root):
         if digest(source) != record['sha256']:
             raise ValueError('Protected asset hash differs: ' + source_name)
         result[name] = (source, record)
+    from .derivatives import select
+    result, config = select(root, result, config, safe_file, digest)
     folded = [name.casefold() for name in result]
     if len(folded) != len(set(folded)):
         raise ValueError('Case-colliding export paths')
@@ -158,6 +160,15 @@ def verify(directory):
     for asset in restore:
         if digest(safe_file(root, asset['destination'])) != asset['sha256']:
             raise ValueError('Asset pin differs: ' + asset['destination'])
+    from .derivatives import load
+    seen = set()
+    for derivative in load(root):
+        name = derivative['destination']
+        if name in seen or name not in state['files']:
+            raise ValueError('Duplicate/unlisted derivative destination: ' + name)
+        seen.add(name)
+        if digest(safe_file(root, name)) != derivative['sha256']:
+            raise ValueError('Public derivative pin differs: ' + name)
     return dict(files=len(expected), bytes=total, state='verified-source-export')
 
 
@@ -190,6 +201,8 @@ def export(output, root=ROOT):
         if not asset:
             data = destination.read_bytes()
             canonical = checkout_bytes(name, data)
+            if name == 'release/publication.json' and json.loads(data) != config:
+                canonical = (json.dumps(config, indent=2, ensure_ascii=False) + '\n').encode('utf-8')
             if canonical != data:
                 destination.write_bytes(canonical)
         records[name] = dict(bytes=destination.stat().st_size, sha256=digest(destination),

@@ -162,6 +162,7 @@ docs/MODEL_SOURCE_RECOVERY.md
 docs/MODEL_TEXTURED.md
 docs/MODEL_WORKFLOW.md
 docs/NEXT_CHAT_PLAN.md
+docs/PUBLIC_ASSET_REMEDIATION.md
 docs/SLOTTED_PHASE0_RESULTS.md
 docs/SLOTTED_PRESENTATION_IMPLEMENTATION.md
 docs/SLOTTED_PRESENTATION_PLAN.md
@@ -172,6 +173,7 @@ docs/STORAGE_CLEANUP.md
 docs/SYSTEM_SWITCH_RESEARCH_20261020.md
 docs/TABLETOP_SCENE_PLAN.md
 docs/TV_MODEL_RESEARCH.md
+release/asset-derivatives.json
 release/model-licenses.json
 release/public-files.txt
 release/publication.json
@@ -2382,6 +2384,7 @@ tools/frontend/tests/world_navigation.cpp
 tools/frontend/tests/world_navigation.py
 tools/maintenance/storage_cleanup.py
 tools/publication/__init__.py
+tools/publication/derivatives.py
 tools/publication/export.py
 tools/publication/restore_assets.py
 tools/skraper/make_run_config.py

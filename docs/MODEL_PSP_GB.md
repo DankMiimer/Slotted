@@ -91,3 +91,6 @@ sh tools/frontend/tests/run_probe.sh python3 tools/frontend/render_quality.py \
   models) and pass on the host, but were not individually checked on the device.
 - Three-quarter view / shared TV surface (TASK_QUEUE item 10) is not implemented;
   the 17 October answer for handheld reading is recorded there.
+
+
+Public asset update (23 October 2026): The Game Boy character sticker and the Retro TV decorative decals are removed in the public derivatives. Earlier references to retaining the sticker describe historical/private originals. Geometry and source licenses are retained. See docs/PUBLIC_ASSET_REMEDIATION.md (or the repository root documentation).

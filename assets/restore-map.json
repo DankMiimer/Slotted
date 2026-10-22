@@ -363,8 +363,8 @@
     "source": "build/tabletop/assets/retro/albedo-00.png",
     "destination": "assets/tabletop/retro/albedo-00.png",
     "restore": "build/tabletop/assets/retro/albedo-00.png",
-    "sha256": "d1bd99dc968deabfb877869ee9f3e6bb6df0c517a46b613f04cc31b803dbf9bc",
-    "bytes": 2505857,
+    "sha256": "5ca9082d9909b7804ecf78b19193619f7aee039e70e839784170b8f7ff4f9d42",
+    "bytes": 1726703,
     "license": "CC-BY-NC-4.0"
   },
   {
@@ -387,8 +387,8 @@
     "source": "build/tabletop/assets/retro/scene.json",
     "destination": "assets/tabletop/retro/scene.json",
     "restore": "build/tabletop/assets/retro/scene.json",
-    "sha256": "e7b43654f0a05cab1628fbe602d46bb254c39678b5bfd2b1fa6265a4487babcf",
-    "bytes": 1592,
+    "sha256": "2aff8b882fa5c3076edc1bdddfea24a1299ab48cf35282a0f1e1d4f2b774811a",
+    "bytes": 1724,
     "license": "CC-BY-NC-4.0"
   },
   {

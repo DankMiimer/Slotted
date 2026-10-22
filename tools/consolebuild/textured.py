@@ -246,6 +246,9 @@ def pack(model):
     alpha = np.where(free, 0, alpha).astype(np.uint8)
     rgba = np.array(atlas)
     rgba[..., 3] = alpha
+    from ..publication.derivatives import approved_albedo
+    rgba = approved_albedo(ROOT, 'theme/art-book-slot/_slot/consoles/' + model + '/model.albedo.png', rgba)
+    alpha = rgba[..., 3]
     luminance = rgba[..., :3].astype(np.float32) @ np.array([.299, .587, .114], np.float32) / 255
     paint_luma = float(np.median(luminance[alpha > 127])) if (alpha > 127).sum() > 1000 else .55
     # Native vertices: GL texture rows run top-down, so t = 1 - v.
