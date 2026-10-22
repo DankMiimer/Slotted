@@ -1,0 +1,179 @@
+{
+  "author": "Wikiti",
+  "url": "https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19",
+  "housing_mm": [
+    78,
+    133.5,
+    27.4
+  ],
+  "source_housing_units": [
+    1.3377209901809692,
+    0.499105840921402,
+    2.2606019973754883
+  ],
+  "uniform_height_housing_mm": [
+    78.99919891357422,
+    29.474729537963867,
+    133.5
+  ],
+  "source_axes": "X right, Z up, -Y front",
+  "modifications": [
+    "Remove incomplete seated cartridge",
+    "Weld coincident triangle corners",
+    "Normalize physical housing envelope",
+    "Opaque native palette; exclude UVs/images",
+    "Active LCD corrected to 44 x 39.6 mm; cut lens aperture",
+    "Dissolve coplanar tessellation; preserve silhouette and receiving rails"
+  ],
+  "source_file": "model.dae",
+  "source_file_sha256": "8bf473be6d1627c78f104eddba4396969464a81ae7946b8156ca08a250206184",
+  "prepared_axes": "glTF x right, y up, z front; metres",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "parts": {
+    "CGB recreation housing": {
+      "material": "gbc",
+      "triangles": 9032
+    },
+    "CGB side grip moulding": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.001": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.002": {
+      "material": "gbc",
+      "triangles": 47
+    },
+    "CGB side grip moulding.003": {
+      "material": "gbc",
+      "triangles": 44
+    },
+    "CGB side grip moulding.004": {
+      "material": "gbc",
+      "triangles": 48
+    },
+    "CGB side grip moulding.005": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.006": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.007": {
+      "material": "gbc",
+      "triangles": 47
+    },
+    "CGB side grip moulding.008": {
+      "material": "gbc",
+      "triangles": 48
+    },
+    "CGB side grip moulding.009": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.010": {
+      "material": "gbc",
+      "triangles": 48
+    },
+    "CGB side grip moulding.011": {
+      "material": "gbc",
+      "triangles": 49
+    },
+    "CGB side grip moulding.012": {
+      "material": "gbc",
+      "triangles": 46
+    },
+    "CGB side grip moulding.013": {
+      "material": "gbc",
+      "triangles": 49
+    },
+    "CGB side grip moulding.014": {
+      "material": "gbc",
+      "triangles": 48
+    },
+    "CGB side grip moulding.015": {
+      "material": "gbc",
+      "triangles": 48
+    },
+    "CGB battery cover": {
+      "material": "gbc",
+      "triangles": 440
+    },
+    "CGB port fitting": {
+      "material": "metal",
+      "triangles": 74
+    },
+    "CGB port fitting.001": {
+      "material": "metal",
+      "triangles": 72
+    },
+    "CGB port fitting.002": {
+      "material": "metal",
+      "triangles": 74
+    },
+    "CGB port fitting.003": {
+      "material": "metal",
+      "triangles": 84
+    },
+    "CGB port fitting.004": {
+      "material": "metal",
+      "triangles": 162
+    },
+    "CGB port fitting.005": {
+      "material": "metal",
+      "triangles": 260
+    },
+    "CGB port fitting.006": {
+      "material": "metal",
+      "triangles": 242
+    },
+    "CGB power slider": {
+      "material": "darkgrey",
+      "triangles": 82
+    },
+    "CGB volume wheel": {
+      "material": "darkgrey",
+      "triangles": 150
+    },
+    "Continuous D-pad": {
+      "material": "blackbody",
+      "triangles": 310
+    },
+    "Action button B": {
+      "material": "blackbody",
+      "triangles": 214
+    },
+    "Action button A": {
+      "material": "blackbody",
+      "triangles": 216
+    },
+    "SELECT button": {
+      "material": "blackbody",
+      "triangles": 113
+    },
+    "START button": {
+      "material": "blackbody",
+      "triangles": 114
+    },
+    "CGB infrared window": {
+      "material": "blackbody",
+      "triangles": 34
+    },
+    "CGB lens surround": {
+      "material": "screenbezel",
+      "triangles": 96
+    },
+    "CGB LCD glass": {
+      "material": "lcdblack",
+      "triangles": 10
+    },
+    "CGB battery LED": {
+      "material": "red",
+      "triangles": 22
+    }
+  }
+}

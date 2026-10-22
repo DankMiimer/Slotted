@@ -1,0 +1,42 @@
+<!-- Art Book Slot, MIT. North American raised spine and six bevelled side panels. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 245">
+  <defs>
+    <linearGradient id="panel" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#fff" stop-opacity=".85"/><stop offset=".08" stop-color="#fff" stop-opacity=".25"/><stop offset=".85" stop-color="#000" stop-opacity="0"/><stop offset="1" stop-color="#000" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="spine" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#000" stop-opacity=".8"/><stop offset=".18" stop-color="#fff" stop-opacity=".8"/><stop offset=".55" stop-color="#fff" stop-opacity=".1"/><stop offset="1" stop-color="#fff" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="well" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#000" stop-opacity=".95"/><stop offset=".25" stop-color="#000" stop-opacity=".8"/><stop offset=".52" stop-color="#000" stop-opacity=".2"/><stop offset=".85" stop-color="#fff" stop-opacity=".2"/><stop offset="1" stop-color="#fff" stop-opacity=".75"/>
+    </linearGradient>
+    <linearGradient id="screw" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff"/><stop offset=".3" stop-color="#fff" stop-opacity=".85"/><stop offset=".7" stop-color="#000" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".5"/>
+    </linearGradient>
+  </defs>
+  <g id="grips" fill="url(#panel)">
+    <rect x="4" y="12" width="60" height="36" rx="2"/>
+    <rect x="4" y="51" width="60" height="36" rx="1.5"/>
+    <rect x="4" y="90" width="60" height="36" rx="1.5"/>
+    <rect x="4" y="129" width="60" height="36" rx="1.5"/>
+    <rect x="4" y="168" width="60" height="36" rx="1.5"/>
+    <rect x="4" y="207" width="60" height="34" rx="2"/>
+  </g>
+  <use href="#grips" x="292"/>
+  <path id="left-spine" d="M65 7 H72 V242 H65 Z" fill="url(#spine)"/>
+  <use href="#left-spine" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M73 3 H287 M74 239 H286" stroke="#fff" stroke-opacity=".65" fill="none"/>
+  <path d="M4 242 H356" stroke="#000" stroke-opacity=".6" stroke-width="2" fill="none"/>
+  <rect x="72" y="149" width="216" height="22" rx="11" fill="#fff" fill-opacity=".45"/>
+  <rect x="74" y="150" width="212" height="19" rx="9.5" fill="url(#well)"/>
+  <path d="M141 156 V166 M222 156 V166" stroke="#000" stroke-opacity=".35" stroke-width="1.5"/>
+  <path d="M143 157 V166 M224 157 V166" stroke="#fff" stroke-opacity=".3"/>
+  <g id="screw-left">
+    <circle cx="34" cy="225" r="7" fill="#fff" fill-opacity=".7"/>
+    <circle cx="34" cy="224" r="6.2" fill="#000" fill-opacity=".9"/>
+    <circle cx="34" cy="224" r="4.8" fill="url(#screw)"/>
+    <path d="M32 222.8 L34 221.6 L36 222.8 V225.2 L34 226.4 L32 225.2 Z" fill="#000" fill-opacity=".9"/>
+    <path d="M30.7 223 Q31 220.8 33.5 220.6" stroke="#fff" stroke-width=".8" fill="none"/>
+  </g>
+  <use href="#screw-left" x="292"/>
+</svg>

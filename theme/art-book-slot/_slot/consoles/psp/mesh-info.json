@@ -1,0 +1,72 @@
+{
+  "vertices": 52760,
+  "indices": 176028,
+  "triangles": 58676,
+  "door_first": 162156,
+  "vertex_decimals": 5,
+  "normal_decimals": 4,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.10588235408067703,
+    "albedo_sha256": "e10a0348733ab7248851134aaf5e0ebfc81b6aef9a7bcd11dcd05379af7bc017",
+    "painted_texels": 1974921,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/ostrovsky_psp.py",
+  "creators": [
+    {
+      "author": "Ilya Ostrovsky",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/sony-psp-dca89d10ec304d0cab76837750df7761"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 776671,
+    "blank": [
+      {
+        "box": [
+          12,
+          754,
+          821,
+          1213
+        ],
+        "reason": "baked PSP home screen"
+      }
+    ],
+    "inset": {},
+    "constants": {
+      "Slot UMD interior": {
+        "box": [
+          1016,
+          0,
+          1032,
+          16
+        ],
+        "linear": [
+          0.008,
+          0.009,
+          0.012
+        ]
+      },
+      "Slot UMD holder": {
+        "box": [
+          1032,
+          0,
+          1048,
+          16
+        ],
+        "linear": [
+          0.35,
+          0.38,
+          0.4
+        ]
+      }
+    }
+  },
+  "mesh_sha256": "1b9f93ae9f9bcd12642fa3fcb7991afc959f4865595431237d84623280ee07e0"
+}

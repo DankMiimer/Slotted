@@ -1,0 +1,18 @@
+{
+  "system": "gb",
+  "uid": "8b9728eab16c4056ac2636ae7f0f038f",
+  "files": {
+    "CREDITS.txt": "65a7beb50ba6ea3b16f15a861e9c359ba32ed91600493bf571cc0e914836cb50",
+    "media-info.json": "24a8b1f0e0d531a3779a2c748ce4141fd84f57c0a08196c0e2d17f8a0ec203aa",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "929f86ecced6ad7483427ea6f1736c9d25f33d183d623df0ee7960989f9610bc",
+    "media-label.texture": "6f5d6f8441dc002b50b73da1cae0c756aa186c526aee646faec1dfb3f2b60bd7",
+    "media-master.glb": "6a85f171e205d36932d1ae0e93e3cd447494ca4f55b295fa3cb37d15e0b436aa",
+    "media-physical.glb": "08093c548ed1c61410ce670a0d30a42f6f28ad60b0428934092533fd87afa73c",
+    "media-registration.json": "1abc9040372d6511ad116500027ca6379e91d138a7acbf1a7e50fc711e652dc3",
+    "media.albedo.png": "230a374214a19626deedd47cef8051316f20bbdb045e8c00949686ccc6d70b8c",
+    "media.glb": "6a85f171e205d36932d1ae0e93e3cd447494ca4f55b295fa3cb37d15e0b436aa",
+    "media.mesh": "4d486d127948e375243470cd7cbd43dd726d1a0aa8472e621d88acd23a368328",
+    "media.texture": "0a69db3874a17b039b755cb34b42377d9da3e7aaf12f0a60fa0127d84b9777d1"
+  }
+}

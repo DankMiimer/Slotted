@@ -1,0 +1,12 @@
+<!-- Art Book Slot, MIT. Broad smooth shoulders and a curved lower connector edge. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+  <defs>
+    <linearGradient id="side"><stop stop-color="#000" stop-opacity=".65"/><stop offset=".3" stop-color="#fff" stop-opacity=".7"/><stop offset="1" stop-color="#000" stop-opacity=".15"/></linearGradient>
+  </defs>
+  <path id="side-left" fill="url(#side)" d="M9 18 H46 V252 H13 Q0 252 0 243 V27 Q0 18 9 18 Z"/>
+  <use href="#side-left" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M46 19 V242 M314 19 V242" fill="none" stroke="#000" stroke-opacity=".7" stroke-width="2"/>
+  <path d="M2 28 Q2 20 10 20 H349 Q357 20 358 28" fill="none" stroke="#fff" stroke-opacity=".4"/>
+  <path d="M8 246 Q180 254 352 246" fill="none" stroke="#000" stroke-width="3" stroke-opacity=".8"/>
+  <path d="M10 245 Q180 250 350 245" fill="none" stroke="#fff" stroke-opacity=".25"/>
+</svg>

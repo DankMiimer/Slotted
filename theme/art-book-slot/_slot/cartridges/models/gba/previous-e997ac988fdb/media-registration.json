@@ -1,0 +1,96 @@
+{
+  "adapter": "cartridges_blender.py",
+  "key": "gba",
+  "creator": "Vxcl",
+  "licence": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/38c1e6702e5d4f21af1d0930689b1d10",
+  "source_file": "gbacart/gameboy_advance_cartridge.glb",
+  "source_sha256": "cba5ccd72c9ae0a29c1a2e58b4dace697071c3af5086825f085f034413073876",
+  "q": 2.731707317073171,
+  "size_mm": [
+    60.0000038743019,
+    35.129063124103205,
+    7.2865539363452365
+  ],
+  "source_size_mm": [
+    59.99999999999999,
+    35.129063803300824,
+    7.2865537881464695
+  ],
+  "depth_scale": 1,
+  "label_mm": [
+    0.0,
+    -2.279893398284912,
+    21.443025588989258,
+    11.152395248413086,
+    1.42264986038208
+  ],
+  "label_triangles": 14,
+  "decimation": false,
+  "modifications": [
+    "Registered and centred source; independent shell only",
+    "Fixed front game art blanked; per-game label follows source surface",
+    "Simple albedo lighting; no source normal, metallic or roughness maps"
+  ],
+  "atlas": {
+    "size": 2048,
+    "tiles": {
+      "Motherboard": [
+        16,
+        16,
+        992,
+        496
+      ],
+      "gblabel": [
+        1040,
+        16,
+        8,
+        8
+      ],
+      "Cartrough": [
+        16,
+        544,
+        992,
+        992
+      ],
+      "cARTsmooth": [
+        1040,
+        544,
+        992,
+        992
+      ],
+      "triscrew": [
+        16,
+        1568,
+        128,
+        128
+      ]
+    },
+    "repeat_border_px": 16,
+    "source_uv_range": [
+      [
+        -0.021488342434167862,
+        0.0
+      ],
+      [
+        1.0,
+        1.0
+      ]
+    ],
+    "blank_uv": [],
+    "excluded_images": [
+      "gblabel"
+    ],
+    "paint_luma": 0.2117647058823529
+  },
+  "prepared": {
+    "vertices": 4102,
+    "triangles": 1522,
+    "mesh_sha256": "6a9b9f690a6af4e334704d4da501c745eb705e0b99efb369c4903d62c0c54336"
+  },
+  "label_prepared": {
+    "vertices": 42,
+    "triangles": 14,
+    "mesh_sha256": "3e1900fd29fbdc7eb2a2a63f668f8ab188ad3ded60c6875e5190752400b3ff16"
+  }
+}

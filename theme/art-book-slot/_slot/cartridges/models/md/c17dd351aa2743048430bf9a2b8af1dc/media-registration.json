@@ -1,0 +1,67 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "md",
+  "creator": "Nerd_Sp",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/couple-of-mega-drive-genesis-cartriges-c17dd351aa2743048430bf9a2b8af1dc",
+  "uid": "c17dd351aa2743048430bf9a2b8af1dc",
+  "source_file": "research/selected-cartridges-20261019/md/full.glb",
+  "source_sha256": "b982f9ed33cb9cb4c8bd2a37e36ff0af05afc9db6dd738b8dff700a51ee8ca45",
+  "source_nodes": [
+    "Object_3",
+    "Object_14",
+    "Object_42",
+    "Object_45"
+  ],
+  "q": 2.055045871559633,
+  "size_mm": [
+    109.0000062648739,
+    69.55861662115369,
+    16.994804676089966
+  ],
+  "label_mm": [
+    0.01692962646484375,
+    4.307640075683594,
+    37.27429962158203,
+    30.155303955078125,
+    8.241764068603516
+  ],
+  "label_triangles": 148,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": null,
+  "excluded_materials": [
+    "Dbt_Lablel"
+  ],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [],
+  "source_quality_limitation": "",
+  "prepared": {
+    "vertices": 21258,
+    "triangles": 26224,
+    "mesh_sha256": "62921817baa70a51239ff128b551ecfbce664bb39fe3f2f58e1be5381e5f59c8"
+  },
+  "label_prepared": {
+    "vertices": 135,
+    "triangles": 148,
+    "mesh_sha256": "03fae44bd32daf68b575ca3a9f7c240865fab45ceb008102e6916123e611334b"
+  },
+  "atlas": {
+    "size": 2048,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "Dbt_Lablel": "swatch-(155, 155, 151)",
+      "Bottom_ncl1_1": "bcbd9114d2db2b5b425749342f62002001635057fa7863fafa727986783ec993",
+      "Top_ncl2": "bcbd9114d2db2b5b425749342f62002001635057fa7863fafa727986783ec993",
+      "screws_and_plata_ncl2": "7eb25d4f7fb43f7aedae4d37948345d0bb51754594cd54c0c21f35ef4266f039"
+    },
+    "blank_pixel_rectangles": {}
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/md/c17dd351aa2743048430bf9a2b8af1dc"
+}

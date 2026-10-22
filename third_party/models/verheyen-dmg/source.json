@@ -1,0 +1,101 @@
+{
+  "model": "gb",
+  "adapter": "verheyen_gb.py",
+  "author": "Bram Verheyen",
+  "title": "Gameboy Classic",
+  "url": "https://sketchfab.com/3d-models/gameboy-classic-854c46e14ce24779ad64ae74cb9b9089",
+  "licence": "CC-BY-NC-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "source_file": "gameboy_classic.glb",
+  "source_sha256": "86ad86c93cbe05e9ead110f0c7b0dc1cbd1b7fab3210479e309913059689414a",
+  "source_triangles": 9856,
+  "decimation": false,
+  "rotation_rows": [
+    [
+      0.9131568670272827,
+      0.18507732450962067,
+      -0.3631678521633148,
+      0.0
+    ],
+    [
+      -0.3193115293979645,
+      0.8785880208015442,
+      -0.35513830184936523,
+      0.0
+    ],
+    [
+      0.25334689021110535,
+      0.440260648727417,
+      0.8613860607147217,
+      0.0
+    ],
+    [
+      0.0,
+      0.0,
+      0.0,
+      1.0
+    ]
+  ],
+  "mm_per_source_unit": 30.131137094998515,
+  "native_units_per_mm": 1.8666666666666667,
+  "scale_basis": "Uniform, 90 mm complete source width; artist proportions retained",
+  "source_size_mm": [
+    90.0,
+    34.90602493286133,
+    150.8649139404297
+  ],
+  "lcd_size_mm": [
+    47.49038887023926,
+    42.91425323486328
+  ],
+  "bay_floor_mm": 6.263088226318359,
+  "game_pak_mm": [
+    57,
+    65.5,
+    7.8
+  ],
+  "cart_label_native": -26.624431355794272,
+  "rear_lip_mm": 44.540000000003836,
+  "spec": {
+    "ry": 138.25747680664062,
+    "depth": 32.578956604003906,
+    "slot": 83.1413333333405
+  },
+  "modifications": [
+    "Undo presentation tilt using source LCD plane and horizontal axis",
+    "Retain all 9856 triangles, UVs and source cosmetic wear/sticker",
+    "Separate actual planar LCD from bevel for live game information",
+    "Register full Game Pak to measured bay floor and rear housing lip",
+    "Repeat source U range continuously; 4K source maps preserved, 2048px runtime atlas",
+    "Source albedo and simple lighting; no normal/roughness/metallic maps"
+  ],
+  "source_images": {
+    "Scene_-_Root": {
+      "name": "Image_0",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "Image_0.png",
+      "sha256": "aa94d066764392ff05f1154d4207954e310a58b90e255a89debe09e554f3a004"
+    }
+  },
+  "atlas": {
+    "cleared_texels": 2104353,
+    "blank": [
+      {
+        "reason": "source LCD surfaces reserved for live metadata",
+        "texels": 58320
+      }
+    ],
+    "inset": {}
+  },
+  "prepared": {
+    "mesh_sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c",
+    "albedo_sha256": "39bd04cd31e9e69579f419aee3dfb4e174f39d20dd581e4d324e5d89c2136656",
+    "vertices": 13105,
+    "triangles": 9856
+  },
+  "reproduction": "tools/consolebuild/textured.sh verheyen_gb.py SOURCE gb"
+}

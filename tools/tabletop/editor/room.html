@@ -1,0 +1,19 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><title>Slotted room studio</title><link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"/vendor/three.module.js","three/addons/controls/":"/vendor/"}}</script>
+<style>#fields details{margin:10px 0}#fields input[type=number]{width:100%;min-width:0}#fields .values{display:grid;grid-template-columns:repeat(3,1fr);gap:5px}#fields label{display:block;font-size:12px;color:#bfcbd5;margin:5px 0}#fields summary{overflow-wrap:anywhere}#stage{position:relative}#objects button{overflow-wrap:anywhere}a{color:#a7d7ff}#state{white-space:pre-wrap}.toolbar{display:flex;gap:8px;align-items:center;flex-wrap:wrap}</style></head>
+<body><aside><div class="brand"><span class="mark">S</span><div><h1>Room studio</h1><p>One room, fixed tables</p></div></div>
+<p><a href="/" target="_blank" rel="noopener">Console and cartridge layouts ↗</a></p>
+<label class="caption" for="sceneType">EDIT SCENE</label><select id="sceneType"><option value="room">Room positions &amp; travel paths</option><option value="home">Home table &amp; TV screen</option></select>
+<div id="homeOptions" hidden><label class="caption" for="television">TELEVISION</label><select id="television"><option value="panasonic">Panasonic</option><option value="pvm">PVM</option><option value="oldtv">Old TV</option></select>
+<label class="caption" for="view">CAMERA</label><select id="view"><option value="camera">Home overview</option><option value="screen">TV screen · whole frame &amp; status</option></select><button id="captureCamera">Use current camera for this view</button><button id="frameCamera">Frame this view</button></div>
+<div id="regionalOptions" hidden><label class="caption" for="snesRegion">SNES HOME MODEL</label><select id="snesRegion"><option value="snes">PAL / Japan</option><option value="snes-us">North America</option></select><label class="caption" for="mdRegion">MEGA DRIVE HOME MODEL</label><select id="mdRegion"><option value="md">Mega Drive / Genesis</option><option value="md-jp">Japanese Mega Drive</option></select></div>
+<p id="hint" class="hint"></p><div class="row"><button id="move" class="active">Move · W</button><button id="rotate">Rotate · E</button><button id="cameraTool">Camera</button></div>
+<label class="caption">SELECT OBJECT</label><div id="objects" class="objects"></div>
+<div id="fields"></div><div class="row"><button id="undo">↶ Undo</button><button id="redo">↷ Redo</button></div>
+<button id="reload">Reload saved scene</button><button id="importDevice">Import device scene as draft</button><button id="importJSON">Import JSON as draft</button><input id="jsonFile" type="file" accept=".json,application/json" hidden><input id="surfaceFile" type="file" accept="image/png,image/jpeg,image/webp" hidden><button id="export">Export JSON</button><button id="save" class="primary">Save scene</button><button id="upload">Save and upload to Slotted</button><p id="state" role="status">Loading current source models…</p><p id="uploadState" role="status"></p>
+<p class="hint">Save keeps a history copy of the previous scene. Existing console layouts and cameras remain separate.</p></aside>
+<main><header><div><span class="dot"></span> LIVE ROOM <span id="selection"></span></div><div class="toolbar"><button id="addPath">Add travel path</button><button id="previewPath">Preview first path</button><button id="handles">Hide handles</button></div></header>
+<div id="stage"><div id="viewport"><canvas id="canvas"></canvas><div id="loading">Loading full source models…</div></div></div>
+<footer><span>Drag empty space to orbit · Right-drag to pan · Wheel to zoom</span><span>Click a model to select · W / E to move or rotate</span></footer></main>
+<script type="module" src="room.js"></script></body></html>

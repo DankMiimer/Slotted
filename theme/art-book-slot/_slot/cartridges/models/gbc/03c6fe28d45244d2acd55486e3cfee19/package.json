@@ -1,0 +1,18 @@
+{
+  "system": "gbc",
+  "uid": "03c6fe28d45244d2acd55486e3cfee19",
+  "files": {
+    "CREDITS.txt": "e782340261d114e6164ee0fd0b572c45a91c226b8496163601d0687801dd5942",
+    "media-info.json": "b76e669c8f98f3bb3b45bd55773264fb15964e5f43f7da06378eab1371c44930",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "4c5b10fa56e13ec290108cb58e6558c00414504c93fe59d609816f71e3b22986",
+    "media-label.texture": "7e923bb52f26a4a4578e484fdba9eace67c452651e4643c703428d104d903c1d",
+    "media-master.glb": "ad1d9c23daa4386d618876c2c161f4179470147df45a56c7897765549694baad",
+    "media-physical.glb": "4dae72d8369b99aa2c1218c30b0e9cfe1ce44cd5e05b0ceb0c62dce656d7ab63",
+    "media-registration.json": "18779d6b9d84ff05d6a38410f78525608f96afe9ae2927f6634d3737d5f2d6fa",
+    "media.albedo.png": "64a7a1c4af349a67ea7f09d74b40e98b4bae9e2faffe2fb7f7547d9314b0e598",
+    "media.glb": "ad1d9c23daa4386d618876c2c161f4179470147df45a56c7897765549694baad",
+    "media.mesh": "31f9130774829c3fc884f2ecb56c3efb8a7b52820fb93dd1e34a98de2c26744b",
+    "media.texture": "35f37e48f1ef1a8c0c1adcd47136ec228dce9c5405df02e10c8ea17fdc18235c"
+  }
+}

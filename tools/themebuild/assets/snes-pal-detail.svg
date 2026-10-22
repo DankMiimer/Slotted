@@ -1,0 +1,40 @@
+<!-- Art Book Slot, MIT. Europe/Japan moulding, drawn from physical cartridge references. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 245">
+  <defs>
+    <linearGradient id="edge" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#000" stop-opacity=".6"/><stop offset=".55" stop-color="#000" stop-opacity=".15"/><stop offset="1" stop-color="#000" stop-opacity="0"/>
+    </linearGradient>
+    <linearGradient id="well" x1="0" y1="0" x2="0" y2="1">
+      <stop stop-color="#000" stop-opacity=".9"/><stop offset=".35" stop-color="#000" stop-opacity=".65"/><stop offset=".6" stop-color="#000" stop-opacity=".18"/><stop offset="1" stop-color="#fff" stop-opacity=".4"/>
+    </linearGradient>
+    <linearGradient id="screw" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff"/><stop offset=".3" stop-color="#fff" stop-opacity=".85"/><stop offset=".7" stop-color="#000" stop-opacity=".9"/><stop offset="1" stop-color="#fff" stop-opacity=".5"/>
+    </linearGradient>
+  </defs>
+  <path id="left-edge" d="M0 8 H7 V243 H0 Z" fill="url(#edge)"/>
+  <use href="#left-edge" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M5 237 Q180 239 355 237 V242 Q180 244 5 242 Z" fill="#000" fill-opacity=".3"/>
+  <path d="M6 8 Q180 3 354 8" stroke="#fff" stroke-opacity=".8" stroke-width="2" fill="none"/>
+  <path d="M59 2 V9 M302 2 V9 M59 124 V243 M302 124 V243" stroke="#000" stroke-opacity=".65" fill="none"/>
+  <path d="M61 124 V242 M304 124 V242" stroke="#fff" stroke-opacity=".55" fill="none"/>
+  <!-- Five shallow notches cut into each edge, rather than lines on the front. -->
+  <g fill="#000" fill-opacity=".5">
+    <path d="M0 15 H9 Q12 15 12 18 Q12 21 9 21 H0 Z M0 27 H9 Q12 27 12 30 Q12 33 9 33 H0 Z M0 39 H9 Q12 39 12 42 Q12 45 9 45 H0 Z M0 51 H9 Q12 51 12 54 Q12 57 9 57 H0 Z M0 63 H9 Q12 63 12 66 Q12 69 9 69 H0 Z"/>
+    <path d="M360 15 H351 Q348 15 348 18 Q348 21 351 21 H360 Z M360 27 H351 Q348 27 348 30 Q348 33 351 33 H360 Z M360 39 H351 Q348 39 348 42 Q348 45 351 45 H360 Z M360 51 H351 Q348 51 348 54 Q348 57 351 57 H360 Z M360 63 H351 Q348 63 348 66 Q348 69 351 69 H360 Z"/>
+  </g>
+  <path d="M0 22 H9 M0 34 H9 M0 46 H9 M0 58 H9 M0 70 H9 M351 22 H360 M351 34 H360 M351 46 H360 M351 58 H360 M351 70 H360" stroke="#fff" stroke-opacity=".8" fill="none"/>
+  <!-- Sloping rim, deep upper wall and closely spaced ribs inside the recess. -->
+  <rect x="76" y="147" width="208" height="26" rx="13" fill="#fff" fill-opacity=".55"/>
+  <rect x="78" y="148" width="204" height="23" rx="11.5" fill="url(#well)"/>
+  <path d="M89 157 H271 M85 160 H275 M85 163 H275 M87 166 H273 M92 169 H268" stroke="#000" stroke-opacity=".48" fill="none"/>
+  <path d="M87 159 H273 M85 162 H275 M86 165 H274 M90 168 H270" stroke="#fff" stroke-opacity=".65" fill="none"/>
+  <!-- Recessed game-bit screws: dark socket, bevelled metal head, hexagonal centre. -->
+  <g id="screw-left">
+    <circle cx="23" cy="230" r="7.3" fill="#fff" fill-opacity=".65"/>
+    <circle cx="23" cy="229" r="6.5" fill="#000" fill-opacity=".85"/>
+    <circle cx="23" cy="229" r="4.8" fill="url(#screw)"/>
+    <path d="M21 227.8 L23 226.6 L25 227.8 V230.2 L23 231.4 L21 230.2 Z" fill="#000" fill-opacity=".85"/>
+    <path d="M19.7 228 Q20 225.8 22.5 225.6" stroke="#fff" stroke-width=".8" fill="none"/>
+  </g>
+  <use href="#screw-left" x="314"/>
+</svg>

@@ -1,0 +1,49 @@
+{
+  "vertices": 44179,
+  "indices": 200352,
+  "triangles": 66784,
+  "door_first": 171042,
+  "vertex_decimals": null,
+  "normal_decimals": null,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.6482313275337219,
+    "albedo_sha256": "5a4f7213cf9c111d154a5380328911a038a99e4b28d9d94bc43a9348aed29da9",
+    "painted_texels": 1429700,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/graphicsgeek_gba.py",
+  "creators": [
+    {
+      "author": "thegraphicsgeek",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 1665909,
+    "blank": [],
+    "inset": {},
+    "constants": {
+      "Screen_MAT": {
+        "box": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "linear": [
+          0.0060367,
+          0.0117506,
+          0.0068896
+        ]
+      }
+    }
+  },
+  "mesh_sha256": "529750b7a3af3d38293496d29a73c0e6aebd6b6f2d68ed62a1255b21096072f4"
+}

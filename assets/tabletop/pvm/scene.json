@@ -1,0 +1,175 @@
+{
+  "id": "pvm",
+  "source_sha256": "660d8769893a7af4317cccbc4b450749f277cbe30267f2ec2d60d923a3804046",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "object": "PVM cabinet and feet",
+      "material": "pvm_side_body_mat",
+      "triangles": 20000,
+      "vertices": 50167,
+      "sha256": "e50429af843defa7896c55d061571ca68c513010b8de98ce10cb4883d97e174d"
+    },
+    {
+      "file": "part-001.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "object": "PVM cabinet and feet",
+      "material": "pvm_side_body_mat",
+      "triangles": 3090,
+      "vertices": 8781,
+      "sha256": "a45a514a21b3dde25d5a2c68ba68d92613b5b054d36b1f8978c5fc9d7f692eea"
+    },
+    {
+      "file": "part-002.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "PVM cabinet and feet",
+      "material": "pvm_panel_and_more_mat",
+      "triangles": 9108,
+      "vertices": 27192,
+      "sha256": "5c030446d8bd64844795d16e07557043e475179faae28adfbbe0644b51b3afd5"
+    },
+    {
+      "file": "part-003.mesh",
+      "texture": "albedo-02.png",
+      "glass": false,
+      "object": "PVM cabinet and feet",
+      "material": "pvm_front_and_back_mat",
+      "triangles": 9562,
+      "vertices": 26913,
+      "sha256": "36828279486763929c3761bdedc72a34c6f359e5e31cdbfea27b7d7abc19766a"
+    },
+    {
+      "file": "part-004.mesh",
+      "texture": "",
+      "glass": true,
+      "object": "Blank live CRT glass",
+      "material": "Blank live CRT glass",
+      "triangles": 656,
+      "vertices": 1968,
+      "sha256": "28af5f642473ce2f552fff0f11943c7020259a4a321106015fe55c2050c8454b"
+    },
+    {
+      "file": "part-005.mesh",
+      "texture": "albedo-03.png",
+      "glass": false,
+      "object": "PVM speaker mesh and indicator lenses",
+      "material": "pvm_screen_and_details_mat",
+      "triangles": 542,
+      "vertices": 1624,
+      "sha256": "c92262aed31b1f9e632714dd39ecf05c304c6a6860c2e128b7da16cfcf15d353"
+    },
+    {
+      "file": "part-006.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "back_pannel",
+      "material": "pvm_panel_and_more_mat",
+      "triangles": 20000,
+      "vertices": 18352,
+      "sha256": "2c81516ae04ad10f1ab5002bad64ca551104ec5ba2af84ca70c467b2c397bb0c"
+    },
+    {
+      "file": "part-007.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "back_pannel",
+      "material": "pvm_panel_and_more_mat",
+      "triangles": 6841,
+      "vertices": 8401,
+      "sha256": "c8d4c603549937049307cfb1d2b32068575c2b1030feccebf00d8b3a0b08ecae"
+    },
+    {
+      "file": "part-008.mesh",
+      "texture": "",
+      "glass": false,
+      "object": "pvm_plugs",
+      "material": "plugs",
+      "triangles": 134,
+      "vertices": 306,
+      "sha256": "8ddbdc9bc06e1dc3b951fe5f49525def3f94358b62cdd803b7048535790567e0"
+    },
+    {
+      "file": "part-009.mesh",
+      "texture": "albedo-02.png",
+      "glass": false,
+      "object": "front_panel",
+      "material": "pvm_front_and_back_mat",
+      "triangles": 6240,
+      "vertices": 5644,
+      "sha256": "d5538c06f6d3a723416b4a7899a3c41fff2954bd9df09f9040c4eb3984d8c8bd"
+    },
+    {
+      "file": "part-010.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "front_panel",
+      "material": "pvm_panel_and_more_mat",
+      "triangles": 12692,
+      "vertices": 11926,
+      "sha256": "8c9b0915fdfe9141b80448a6d601d2702b77a79f3820c05bf9fed4429f5784ab"
+    }
+  ],
+  "source_triangles": 88865,
+  "retained_triangles": 88865,
+  "bounds": [
+    [
+      -174.17945861816406,
+      0.0,
+      -222.03773498535156
+    ],
+    [
+      174.17945861816406,
+      334.4530944824219,
+      222.03773498535156
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "PVM cabinet and feet",
+      "triangles": 41760
+    },
+    {
+      "name": "Blank live CRT glass",
+      "triangles": 656
+    },
+    {
+      "name": "PVM speaker mesh and indicator lenses",
+      "triangles": 542
+    },
+    {
+      "name": "back_pannel",
+      "triangles": 26841
+    },
+    {
+      "name": "pvm_plugs",
+      "triangles": 134
+    },
+    {
+      "name": "front_panel",
+      "triangles": 18932
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ],
+  "glass": [
+    [
+      -137.1213836669922,
+      89.01446533203125,
+      191.9371795654297
+    ],
+    [
+      137.2781982421875,
+      299.29559326171875,
+      205.1905059814453
+    ]
+  ]
+}

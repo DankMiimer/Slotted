@@ -1,0 +1,104 @@
+{
+  "hardware": "snes-us",
+  "author": "Steven H. Tran (@ibbqcats)",
+  "url": "https://sketchfab.com/3d-models/super-nintendo-console-41c9dd1f5a53493cbe2e00a190150e93",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "Super Nintendo Console Mesh.stl",
+  "source_file_sha256": "b41d0d31496ad9a64495fdcdf3b70068382643944102e823d687134b728bd3d6",
+  "archive_file": "ibbqcats-original.zip",
+  "archive_sha256": "4c293edea4755c597a6508cc3163bf5f855e3e2536c677c926f6b7a0be86fd63",
+  "download_approved": "User approved each original-format Sketchfab download on 15 October 2026",
+  "licence_evidence": "Page and download-dialog CC BY 4.0 notice; screenshots retained in ignored research/snes",
+  "source_axes": "X right, Z up, -Y front",
+  "prepared_axes": "glTF x right/y up/z front; metres",
+  "source_bounds_xyz": [
+    [
+      -136.70611572265625,
+      -193.44064331054688,
+      -84.5280532836914
+    ],
+    [
+      136.70388793945312,
+      147.86376953125,
+      10.530552864074707
+    ]
+  ],
+  "source_uniform_width_mm": [
+    203.1999969482422,
+    253.6595458984375,
+    70.64813995361328
+  ],
+  "envelope_whd_mm": [
+    203.2,
+    68,
+    254
+  ],
+  "axis_correction_percent": [
+    -1.5018493115803722e-06,
+    0.1342179352519013,
+    -3.7483562819709437
+  ],
+  "slot": {
+    "centre_z_mm": -18.132,
+    "entry_y_mm": 34,
+    "opening_wd_mm": [
+      139,
+      22.5
+    ],
+    "seat_depth_mm": 32
+  },
+  "modifications": [
+    "Physical envelope corrections before one uniform native scale",
+    "Replace four STL text regions with blank planar patches; no images or source printing retained",
+    "Clip open skins at the real slot position without solid booleans",
+    "Open the physical travel under the source cartridge opening",
+    "Weld the STL at a source-relative tolerance; segment parts as whole mouldings bounded by 30-degree creases, with source palette and panel normals",
+    "Suppress expanded hulls on every US part: housing seams, port interiors and recessed controls",
+    "Per-fitting runtime budgets; full-detail prepared geometry retained"
+  ],
+  "parts": {
+    "US controller sockets": {
+      "material": "portgrey",
+      "triangles": 3568,
+      "outline": false,
+      "runtime_budget": 1500
+    },
+    "US eject lever": {
+      "material": "useject",
+      "triangles": 44,
+      "outline": false,
+      "runtime_budget": 300
+    },
+    "US lower enclosure": {
+      "material": "uslower",
+      "triangles": 8975,
+      "outline": false,
+      "runtime_budget": 4100
+    },
+    "US power slider": {
+      "material": "uspower",
+      "triangles": 1106,
+      "outline": false,
+      "runtime_budget": 450
+    },
+    "US rear connectors": {
+      "material": "blackbody",
+      "triangles": 670,
+      "outline": false,
+      "runtime_budget": 500
+    },
+    "US reset button": {
+      "material": "usreset",
+      "triangles": 1106,
+      "outline": false,
+      "runtime_budget": 450
+    },
+    "US upper enclosure": {
+      "material": "usgrey",
+      "triangles": 5599,
+      "outline": false,
+      "runtime_budget": 6900
+    }
+  }
+}

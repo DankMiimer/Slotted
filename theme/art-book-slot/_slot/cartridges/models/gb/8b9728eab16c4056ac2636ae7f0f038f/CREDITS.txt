@@ -1,0 +1,6 @@
+Bob — https://sketchfab.com/3d-models/gameboy-cartridge-lowpoly-8b9728eab16c4056ac2636ae7f0f038f
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+One card isolated from source scene; uniform width registration; no decimation
+Fixed game label blanked; independent per-game label surface
+Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research
+

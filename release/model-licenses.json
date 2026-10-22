@@ -1,0 +1,485 @@
+{
+  "schema": 1,
+  "scopeNote": "Source records are authoritative per creator. Scope examples are not an exhaustive relicensing map; all derivatives retain source terms. Earlier prepared alternatives remain included and credited.",
+  "models": [
+    {
+      "id": "andrey-wooden-table",
+      "title": "Wooden table (low poly)",
+      "creator": "AndreyUEDev",
+      "sourceUrl": "https://sketchfab.com/3d-models/wooden-table-low-poly-ab96499ddb3b4bd7bc739e4f99dad409",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/andrey-wooden-table/SOURCE.json",
+      "scope": [
+        "third_party/models/andrey-wooden-table/**",
+        "assets/tabletop/wooden-table/**",
+        "assets/source-furniture/wooden_table_low_poly.glb"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "bpoole-cgb",
+      "title": "Game Boy Color Model",
+      "creator": "BPoole",
+      "sourceUrl": "https://sketchfab.com/3d-models/game-boy-color-model-a3dad19c800f4c61a931865f14870768",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/bpoole-cgb/source.json",
+      "scope": [
+        "third_party/models/bpoole-cgb/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-gb-8b9728ea",
+      "title": "Gameboy Cartridge lowpoly",
+      "creator": "Bob",
+      "sourceUrl": "https://sketchfab.com/3d-models/gameboy-cartridge-lowpoly-8b9728eab16c4056ac2636ae7f0f038f",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-gb-8b9728ea/source.json",
+      "scope": [
+        "third_party/models/cartridge-gb-8b9728ea/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-gba",
+      "title": "Gameboy Advance Cartridge",
+      "creator": "Vxcl",
+      "sourceUrl": "https://sketchfab.com/3d-models/38c1e6702e5d4f21af1d0930689b1d10",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-gba/source.json",
+      "scope": [
+        "third_party/models/cartridge-gba/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-gba-7d79300f",
+      "title": "Pokemon Cartridge (Gameboy)",
+      "creator": "thegraphicsgeek",
+      "sourceUrl": "https://sketchfab.com/3d-models/pokemon-cartridge-gameboy-7d79300f91a441d0ba520fdbd268aa5f",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-gba-7d79300f/source.json",
+      "scope": [
+        "third_party/models/cartridge-gba-7d79300f/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-gbc-03c6fe28",
+      "title": "Game Boy Color cartridge",
+      "creator": "Wikiti",
+      "sourceUrl": "https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-gbc-03c6fe28/source.json",
+      "scope": [
+        "third_party/models/cartridge-gbc-03c6fe28/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-md-c17dd351",
+      "title": "Couple of Mega Drive / Genesis Cartriges",
+      "creator": "Nerd_Sp",
+      "sourceUrl": "https://sketchfab.com/3d-models/couple-of-mega-drive-genesis-cartriges-c17dd351aa2743048430bf9a2b8af1dc",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-md-c17dd351/source.json",
+      "scope": [
+        "third_party/models/cartridge-md-c17dd351/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-n64",
+      "title": "Nintendo 64 Cart",
+      "creator": "Chris Sweetwood",
+      "sourceUrl": "https://sketchfab.com/3d-models/7b93f9cb196743009c2211a5e47643d8",
+      "license": "CC-BY-NC-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "provenance": "third_party/models/cartridge-n64/source.json",
+      "scope": [
+        "third_party/models/cartridge-n64/**",
+        "theme/art-book-slot/_slot/consoles/n64/media*",
+        "tools/themebuild/assets/hero/n64*",
+        "theme/art-book-slot/_slot/backings/n64.png",
+        "theme/art-book-slot/_slot/shells/n64.png",
+        "theme/art-book-slot/_slot/shapes/n64/**",
+        "rendered images containing this cartridge"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-nds-2a768cba",
+      "title": "Nitendo DS Cartridge Super Mario 64",
+      "creator": "satchii_",
+      "sourceUrl": "https://sketchfab.com/3d-models/nitendo-ds-cartridge-super-mario-64-2a768cba31054846817bcf2465611e21",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-nds-2a768cba/source.json",
+      "scope": [
+        "third_party/models/cartridge-nds-2a768cba/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-nes-8aeab01f",
+      "title": "NES Cartridge / Battletoads",
+      "creator": "dark_igorek",
+      "sourceUrl": "https://sketchfab.com/3d-models/nes-cartridge-battletoads-8aeab01fce084c3abaf3de792dda47a1",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-nes-8aeab01f/source.json",
+      "scope": [
+        "third_party/models/cartridge-nes-8aeab01f/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-pico8",
+      "title": "Song Of Morus: pico-8 cartridge",
+      "creator": "sunnychow",
+      "sourceUrl": "https://sketchfab.com/3d-models/fc89d8b44a934400bdf282600f61d369",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-pico8/source.json",
+      "scope": [
+        "third_party/models/cartridge-pico8/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-snes",
+      "title": "Super Nintendo Cartridge",
+      "creator": "SomeKevin; UVs cpt.brotzeit",
+      "sourceUrl": "https://sketchfab.com/3d-models/b2076d8a65d648ff99bf51ca9d5fca2a",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-snes/source.json",
+      "scope": [
+        "third_party/models/cartridge-snes/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cartridge-tzakol",
+      "title": "Game Cartridge (Tzakol in Exile)",
+      "creator": "kutejnikov",
+      "sourceUrl": "https://sketchfab.com/3d-models/49251a57f2c9418faec314a5a5ab7ee9",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cartridge-tzakol/source.json",
+      "scope": [
+        "third_party/models/cartridge-tzakol/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "cianon-ds-lite",
+      "title": "Nintendo DS Lite",
+      "creator": "Cianon",
+      "sourceUrl": "https://sketchfab.com/3d-models/nintendo-ds-lite-ca529eb7208746e89b7a28fd2246659d",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/cianon-ds-lite/source.json",
+      "scope": [
+        "third_party/models/cianon-ds-lite/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "damiantoons-panasonic",
+      "title": "Panasonic CRT TV (1990s)",
+      "creator": "DamianToons",
+      "sourceUrl": "https://sketchfab.com/3d-models/panasonic-crt-tv-1990s-45f7728e4f534d9393ef1d681137b6d9",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/damiantoons-panasonic/source.json",
+      "scope": [
+        "third_party/models/damiantoons-panasonic/**",
+        "assets/tabletop/panasonic/**",
+        "theme/art-book-slot/_slot/stage/tv/panasonic*"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "darkigorek-ps1",
+      "title": "Sony PVM-1341 / PlayStation",
+      "creator": "dark_igorek",
+      "sourceUrl": "https://sketchfab.com/3d-models/5f80311f1a4646ef9673f20ee6dc6245",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/darkigorek-ps1/source.json",
+      "scope": [
+        "third_party/models/darkigorek-ps1/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "darkigorek-psx-textured",
+      "title": "Sony PVM-1341 || Sony Playstation",
+      "creator": "dark_igorek",
+      "sourceUrl": "https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/darkigorek-psx-textured/source.json",
+      "scope": [
+        "third_party/models/darkigorek-psx-textured/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "darkigorek-pvm",
+      "title": "Sony PVM-1341",
+      "creator": "dark_igorek",
+      "sourceUrl": "https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/darkigorek-pvm/source.json",
+      "scope": [
+        "third_party/models/darkigorek-pvm/**",
+        "assets/tabletop/pvm/**",
+        "theme/art-book-slot/_slot/stage/tv/pvm*"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "dave-gba",
+      "title": "Gameboy Advance Cartridge (GBA cart)",
+      "creator": "Dave Parker",
+      "sourceUrl": "https://www.printables.com/model/190861-gameboy-advance-cartridge-gba-cart",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/dave-gba/source.json",
+      "scope": [
+        "third_party/models/dave-gba/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "denys-retro-tv",
+      "title": "TV, Old TV, Retro TV",
+      "creator": "Denys Hroshko",
+      "sourceUrl": "https://sketchfab.com/3d-models/tv-old-tv-retro-tv-f13b9a45c0d649dc90ebac5f7717cebf",
+      "license": "CC-BY-NC-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "provenance": "third_party/models/denys-retro-tv/source.json",
+      "scope": [
+        "third_party/models/denys-retro-tv/**",
+        "assets/tabletop/retro/**",
+        "theme/art-book-slot/_slot/stage/tv/retro*",
+        "rendered images containing this TV"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "graphicsgeek-ags-textured",
+      "title": "Gameboy Advance SP",
+      "creator": "thegraphicsgeek",
+      "sourceUrl": "https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/graphicsgeek-ags-textured/source.json",
+      "scope": [
+        "third_party/models/graphicsgeek-ags-textured/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "ibbqcats-snes",
+      "title": "Super Nintendo Console",
+      "creator": "Steven H. Tran (@ibbqcats)",
+      "sourceUrl": "https://sketchfab.com/3d-models/super-nintendo-console-41c9dd1f5a53493cbe2e00a190150e93",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/ibbqcats-snes/source.json",
+      "scope": [
+        "third_party/models/ibbqcats-snes/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "josephrohm-n64",
+      "title": "Nintendo 64",
+      "creator": "Joseph Rohm",
+      "sourceUrl": "https://sketchfab.com/3d-models/nintendo-64-0bec1e1ed1bf4a96af858008b72437a3",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/josephrohm-n64/source.json",
+      "scope": [
+        "third_party/models/josephrohm-n64/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "jsjetstream-psp",
+      "title": "Playstation Potable (PSP 3001)",
+      "creator": "JSJetStream14",
+      "sourceUrl": "https://blendswap.com/blend/14767",
+      "license": "CC-BY-3.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/3.0/",
+      "provenance": "third_party/models/jsjetstream-psp/source.json",
+      "scope": [
+        "third_party/models/jsjetstream-psp/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "letsdo3d-dmg",
+      "title": "GameBoy DMG-01",
+      "creator": "Let's Do 3D",
+      "sourceUrl": "https://sketchfab.com/3d-models/gameboy-dmg-01-29849a15fe0a40a6a18e01c9d544a0ed",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/letsdo3d-dmg/source.json",
+      "scope": [
+        "third_party/models/letsdo3d-dmg/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "ostrovsky-psp",
+      "title": "Sony PSP",
+      "creator": "Ilya Ostrovsky",
+      "sourceUrl": "https://sketchfab.com/3d-models/sony-psp-dca89d10ec304d0cab76837750df7761",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/ostrovsky-psp/source.json",
+      "scope": [
+        "third_party/models/ostrovsky-psp/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "pibanezl-old-tv",
+      "title": "Old TV",
+      "creator": "pibanezl (@hypermegadev)",
+      "sourceUrl": "https://sketchfab.com/3d-models/old-tv-833d046f00394fb1a69514b3c96e86bd",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/pibanezl-old-tv/source.json",
+      "scope": [
+        "third_party/models/pibanezl-old-tv/**",
+        "assets/tabletop/oldtv/**",
+        "theme/art-book-slot/_slot/stage/tv/oldtv*"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "qu3st10n-tv-stand",
+      "title": "TV stand",
+      "creator": "Qu3st10n",
+      "sourceUrl": "https://sketchfab.com/3d-models/tv-stand-2bad9d5f36b840c5a15e612cf9b7d78c",
+      "license": "CC-BY-NC-SA-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc-sa/4.0/",
+      "provenance": "third_party/models/qu3st10n-tv-stand/SOURCE.json",
+      "scope": [
+        "third_party/models/qu3st10n-tv-stand/**",
+        "assets/tabletop/tv-stand/**",
+        "assets/source-furniture/tv_stand.glb",
+        "rendered images containing this stand"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "quick-loop-snes",
+      "title": "Super Nintendo PAL",
+      "creator": "quick_loop",
+      "sourceUrl": "https://sketchfab.com/3d-models/super-nintendo-d42c35b117974ade8842f0964f5fd59e",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/quick-loop-snes/source.json",
+      "scope": [
+        "third_party/models/quick-loop-snes/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "thegraphicsgeek-ags",
+      "title": "Gameboy Advance SP",
+      "creator": "thegraphicsgeek",
+      "sourceUrl": "https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/thegraphicsgeek-ags/source.json",
+      "scope": [
+        "third_party/models/thegraphicsgeek-ags/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "verheyen-dmg",
+      "title": "Gameboy Classic",
+      "creator": "Bram Verheyen",
+      "sourceUrl": "https://sketchfab.com/3d-models/gameboy-classic-854c46e14ce24779ad64ae74cb9b9089",
+      "license": "CC-BY-NC-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by-nc/4.0/",
+      "provenance": "third_party/models/verheyen-dmg/source.json",
+      "scope": [
+        "third_party/models/verheyen-dmg/**",
+        "theme/art-book-slot/_slot/consoles/gb/model*",
+        "theme/art-book-slot/_slot/consoles/gb/body*",
+        "theme/art-book-slot/_slot/band-console-gb.png",
+        "rendered images containing this housing",
+        "theme/art-book-slot/_slot/stage/front/**/gb.png",
+        "theme/art-book-slot/_slot/stage/front/gb.png"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "wikiti-cgb",
+      "title": "Game Boy Color",
+      "creator": "Wikiti",
+      "sourceUrl": "https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/wikiti-cgb/source.json",
+      "scope": [
+        "third_party/models/wikiti-cgb/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "zerescas-dreamcast",
+      "title": "Sega Dreamcast",
+      "creator": "Zerescas",
+      "sourceUrl": "https://sketchfab.com/3d-models/sega-dreamcast-f82d99e4739e42f4abfc37cb97918cfc",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "third_party/models/zerescas-dreamcast/source.json",
+      "scope": [
+        "third_party/models/zerescas-dreamcast/**"
+      ],
+      "modificationNotice": "See this provenance record and CREDITS.md / theme/art-book-slot/_slot/MODEL_CREDITS.txt; terms also cover derived meshes, atlases and renders."
+    },
+    {
+      "id": "lena-wachs-table",
+      "title": "Wooden Table",
+      "creator": "lena-wachs",
+      "sourceUrl": "https://sketchfab.com/3d-models/wooden-table-e4a9129ea0114d3e8d1989971eca53ef",
+      "license": "CC-BY-4.0",
+      "licenseUrl": "https://creativecommons.org/licenses/by/4.0/",
+      "provenance": "assets/source-furniture/table-source.json",
+      "scope": [
+        "assets/tabletop/table/**",
+        "assets/source-furniture/wooden_table.glb"
+      ],
+      "modificationNotice": "Top slab/trim retained with source geometry/UVs/albedo; lower legs omitted from runtime; uniform physical registration. Original source GLB unchanged."
+    }
+  ],
+  "excluded": [
+    {
+      "id": "neilvfx-gba-sp",
+      "license": "Editorial / local only",
+      "paths": [
+        "theme/art-book-slot/_slot/local-models/**"
+      ],
+      "reason": "No public redistribution grant; neither source nor derivatives exported"
+    }
+  ]
+}

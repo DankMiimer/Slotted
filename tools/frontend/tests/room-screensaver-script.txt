@@ -1,0 +1,7 @@
+10 shot home
+400 shot idle-a
+700 shot idle-b
+1000 shot idle-c
+1010 key ok
+1100 shot woken
+1110 quit end

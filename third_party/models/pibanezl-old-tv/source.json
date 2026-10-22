@@ -1,0 +1,81 @@
+{
+  "id": "oldtv",
+  "name": "Old TV",
+  "author": "pibanezl (@hypermegadev)",
+  "source": "https://sketchfab.com/3d-models/old-tv-833d046f00394fb1a69514b3c96e86bd",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_sha256": "6e2f35a33b5dbb57a9a4c3ccb9a11fd8a9cede72748a9b159844d1e9886a2245",
+  "prepared_sha256": "18167fc5ad013314d17ae97bf699cd7cff87f6eeab06b00b9eed3897d395458d",
+  "screen_faces": 140,
+  "viewable_diagonal_mm": 335.28,
+  "cabinet_mm": [
+    441.6,
+    261.0,
+    302.1
+  ],
+  "changes": [
+    "World transforms applied; centred on its footprint, floor at z = 0, front -Y, metres",
+    "Uniform scale to a 14-inch set: tube face diagonal = 13.2-inch (335 mm) viewable",
+    "Source tube-face mesh (TV_LP_09) kept as blank live glass; its source maps dropped",
+    "Cabinet keeps all source triangles, UVs and 2k base-colour maps",
+    "Standard three-quarter studio render (35 degree elevation, 22 degree turn, perspective matching the native renderer), transparent background",
+    "Live screen inset 5% inside the camera-facing glass, projected onto the angled glass"
+  ],
+  "render_scale": 2,
+  "native_height": 190.0,
+  "source_size_metres": [
+    0.44164416193962097,
+    0.2609669268131256,
+    0.3021151125431061
+  ],
+  "view": {
+    "elevation_degrees": 35,
+    "yaw_degrees": -22,
+    "distance": 1200.0,
+    "projection": "perspective, matches slotlaunch/psx.h"
+  },
+  "quad": [
+    [
+      0.12044722149629548,
+      0.27246851276948797
+    ],
+    [
+      0.5959153197740725,
+      0.387638944622276
+    ],
+    [
+      0.5921375605981675,
+      0.7983945131749194
+    ],
+    [
+      0.14439619986663962,
+      0.673779317183074
+    ]
+  ],
+  "size": [
+    639,
+    533
+  ],
+  "display": [
+    319.5,
+    266.5
+  ],
+  "base": [
+    169.5,
+    206.81969010829926
+  ],
+  "footprint": [
+    319.092321395874,
+    148.09325337409973
+  ],
+  "contact": [
+    258.33090019226074,
+    265.8718072772026
+  ],
+  "cabinet_height_mm": 302.1151125431061,
+  "units_per_mm": 0.6288993569392879,
+  "scale_basis": "Prepared source metres",
+  "label": "Old TV 14-inch (pibanezl, CC BY 4.0)",
+  "image_sha256": "bc4c478bc0ff1a187675566de5f3e9b787ab7315c5ecfd8316d15dbb598ac54a"
+}

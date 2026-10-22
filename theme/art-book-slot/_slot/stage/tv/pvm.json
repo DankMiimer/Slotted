@@ -1,0 +1,168 @@
+{
+  "id": "pvm",
+  "name": "Sony PVM-1341",
+  "author": "dark_igorek",
+  "source": "https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_sha256": "fe083c1125de93b3a62beb1497756acfbda26f36e2fc66e2559d24aa18cf05af",
+  "prepared_sha256": "660d8769893a7af4317cccbc4b450749f277cbe30267f2ec2d60d923a3804046",
+  "archive_sha256": "0dab2049dc14e93fffb97b4576017fe26f26df31323612457405a00326885845",
+  "source_size_metres": [
+    0.3483589291572571,
+    0.44407546520233154,
+    0.33445310592651367
+  ],
+  "removed_power_islands": [
+    {
+      "polygons": 582,
+      "bounds": [
+        [
+          -0.4290335178375244,
+          0.04825957864522934,
+          0.0001933276653289795
+        ],
+        [
+          -0.3960795998573303,
+          0.08765675127506256,
+          0.019197970628738403
+        ]
+      ]
+    },
+    {
+      "polygons": 67,
+      "bounds": [
+        [
+          -0.4313076138496399,
+          0.04116076976060867,
+          0.0030344873666763306
+        ],
+        [
+          -0.42238324880599976,
+          0.05766057223081589,
+          0.008100345730781555
+        ]
+      ]
+    },
+    {
+      "polygons": 67,
+      "bounds": [
+        [
+          -0.4181813597679138,
+          0.03497681766748428,
+          0.0030344873666763306
+        ],
+        [
+          -0.4092569947242737,
+          0.051476605236530304,
+          0.008100345730781555
+        ]
+      ]
+    },
+    {
+      "polygons": 81,
+      "bounds": [
+        [
+          -0.4249024987220764,
+          0.03874989598989487,
+          0.012263074517250061
+        ],
+        [
+          -0.4149922728538513,
+          0.05473475158214569,
+          0.01602834463119507
+        ]
+      ]
+    },
+    {
+      "polygons": 341,
+      "bounds": [
+        [
+          -0.4071164131164551,
+          0.08259978890419006,
+          0.0014988183975219727
+        ],
+        [
+          -0.39211684465408325,
+          0.09974125027656555,
+          0.009501397609710693
+        ]
+      ]
+    },
+    {
+      "polygons": 1560,
+      "bounds": [
+        [
+          -0.46643298864364624,
+          0.09531916677951813,
+          6.334483623504639e-05
+        ],
+        [
+          0.04619070887565613,
+          0.42786866426467896,
+          0.022276148200035095
+        ]
+      ]
+    }
+  ],
+  "glass_polygons": 320,
+  "changes": [
+    "Keep complete PVM cabinet, controls, feet, rear connections and source maps without decimation",
+    "Remove the loose external power cable and plug (joined to source main_body)",
+    "Separate curved glass from speaker/indicators; opaque blank glass for live metadata",
+    "Exclude PSX, controllers, cables, stage and lights; centre cabinet on its own floor",
+    "Standard three-quarter studio render (35 degree elevation, 22 degree turn, perspective matching the native renderer), transparent background",
+    "Live screen inset 6% inside the camera-facing glass, projected onto the angled glass"
+  ],
+  "render_scale": 2,
+  "native_height": 205.0,
+  "view": {
+    "elevation_degrees": 35,
+    "yaw_degrees": -22,
+    "distance": 1200.0,
+    "projection": "perspective, matches slotlaunch/psx.h"
+  },
+  "quad": [
+    [
+      0.12838558090233693,
+      0.39798328031380514
+    ],
+    [
+      0.6280595125343714,
+      0.4944914022852433
+    ],
+    [
+      0.622504711892705,
+      0.8134046370426584
+    ],
+    [
+      0.1526388406382749,
+      0.7094212423483989
+    ]
+  ],
+  "size": [
+    643,
+    694
+  ],
+  "display": [
+    321.5,
+    347.0
+  ],
+  "base": [
+    173.0,
+    249.9633345603943
+  ],
+  "footprint": [
+    300.9823679924011,
+    193.1186243891716
+  ],
+  "contact": [
+    228.98741173744202,
+    349.7601959705353
+  ],
+  "cabinet_height_mm": 334.4531059265137,
+  "units_per_mm": 0.6129409366138246,
+  "scale_basis": "Prepared source metres",
+  "label": "Sony PVM-1341 (dark_igorek, CC BY 4.0)",
+  "image_sha256": "bd7e08438bd44678b8552f6fd2e9914ecba9157ead1747093f73163797735f2d"
+}

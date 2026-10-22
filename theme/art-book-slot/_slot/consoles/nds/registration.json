@@ -1,0 +1,57 @@
+{
+  "model": "nds",
+  "adapter": "cianon_ds.py",
+  "author": "Cianon",
+  "title": "Nintendo DS Lite",
+  "url": "https://sketchfab.com/3d-models/nintendo-ds-lite-ca529eb7208746e89b7a28fd2246659d",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "nintendo_ds_lite.glb",
+  "source_sha256": "2ad0ddd6d18b429c1268251e0dbddeab878935db6df7e81f19e71a3b925dc449",
+  "mm_per_source_unit": 1.1842913749656332,
+  "native_units_per_mm": 3.037593984962406,
+  "scale_basis": "Uniform, 133 mm published width; artist proportions retained (73.9 mm deep matches the published depth)",
+  "source_size_mm": [
+    133.0,
+    126.44369601375342,
+    63.73426509410397
+  ],
+  "source_triangles": 1186,
+  "removed_source_parts": [
+    "Glass overlay (28 triangles, fully transparent)"
+  ],
+  "decimation": false,
+  "hinge_native": [
+    0.0,
+    -25.46510550181105,
+    -103.46804740615869
+  ],
+  "open_degrees": 145.0,
+  "source_open_degrees": 125.00008019120558,
+  "hinge_basis": "Axis of the lid knuckle (circle fitted to both ends); the source has no mechanism, so the sweep, not an OEM drawing, checks clearance",
+  "card_slot_native": [
+    -28.0,
+    -70.4
+  ],
+  "mouth_mm": [
+    35.0,
+    4.6,
+    1.0
+  ],
+  "lcd_size_mm": [
+    62.25661602095187,
+    47.02814616765118
+  ],
+  "spec": {
+    "ry": 112.2911359684214,
+    "depth": 24,
+    "slot": -113.2911359684214
+  },
+  "modifications": [
+    "Remove the transparent glass overlay; split both screens from their shells and blank them for live metadata",
+    "Clear the source game-card picture painted on the Slot-1 notch; add an original dark Slot-1 mouth over the card path",
+    "Register the lid about its own knuckle and open it from the source 125.0 degrees to the 145-degree presentation pose",
+    "Retain all 1,158 other source triangles, UVs and the 2048 px base-colour atlas (not enlarged)",
+    "Source albedo with simple lighting; no normal/roughness/metallic maps"
+  ]
+}

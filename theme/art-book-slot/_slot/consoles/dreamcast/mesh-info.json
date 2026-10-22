@@ -1,0 +1,32 @@
+{
+  "vertices": 41644,
+  "indices": 108810,
+  "triangles": 36270,
+  "door_first": 98583,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.7647058963775635,
+    "albedo_sha256": "79f113c3bb634b5aa26af3a90d3dbea32b9cb2af5ae85bc469b63f1c5a8c539a",
+    "painted_texels": 1298022,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/zerescas_dreamcast.py",
+  "creators": [
+    {
+      "author": "Zerescas",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/sega-dreamcast-f82d99e4739e42f4abfc37cb97918cfc"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 2510069,
+    "blank": [],
+    "inset": {}
+  },
+  "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+}

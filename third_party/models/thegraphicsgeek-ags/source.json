@@ -1,0 +1,177 @@
+{
+  "author": "thegraphicsgeek",
+  "url": "https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f",
+  "source_base_mm": [
+    84,
+    82
+  ],
+  "base_mm": [
+    82,
+    84.6
+  ],
+  "lid": {
+    "hinge_xyz_mm": [
+      0,
+      -12.463872360861812,
+      -37.97725768451254
+    ],
+    "open_degrees": 105.45366239709541,
+    "method": "Dominant circular section of moving hinge, before depth correction; LCD long-axis PCA",
+    "fit_points": 96,
+    "section_points": 192,
+    "fit_tolerance_mm": 0.015,
+    "uncertainty": "Axis registered to authored geometry, not an OEM hinge drawing"
+  },
+  "source_axes": "X right, Y rear, Z up",
+  "source_open_angle_degrees": 105,
+  "modifications": [
+    "Physical width/length correction",
+    "Individual component reduction after planar dissolve",
+    "Remove all source decals and raised text",
+    "Remove opaque lens over LCD",
+    "Native vertex colours; no source images or UVs"
+  ],
+  "source_file": "gameboy_advance_sp.glb",
+  "source_file_sha256": "a2f814280e185f8596c98281b6272eaf32df745a4bbd76029c3aa38c86922836",
+  "prepared_axes": "glTF x right, y up, z front; metres",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "parts": {
+    "SP A_Btn": {
+      "material": "buttonlight",
+      "triangles": 596
+    },
+    "SP B_Btn": {
+      "material": "buttonlight",
+      "triangles": 594
+    },
+    "SP recreation housing": {
+      "material": "gba",
+      "triangles": 18729
+    },
+    "SP BatterLid_Screw": {
+      "material": "metal",
+      "triangles": 258
+    },
+    "SP Battery_Lid": {
+      "material": "gba",
+      "triangles": 1122
+    },
+    "SP Brightness_Btn": {
+      "material": "buttonlight",
+      "triangles": 454
+    },
+    "SP ChargingPort_Frame": {
+      "material": "metal",
+      "triangles": 698
+    },
+    "SP ChargingPort_Mid": {
+      "material": "metal",
+      "triangles": 364
+    },
+    "SP ChargingPort": {
+      "material": "metal",
+      "triangles": 222
+    },
+    "SP continuous D-pad": {
+      "material": "buttonlight",
+      "triangles": 2030
+    },
+    "SP HingeCorner_LMid": {
+      "material": "gba",
+      "triangles": 488
+    },
+    "SP HingeCorner_RMid": {
+      "material": "gba",
+      "triangles": 514
+    },
+    "SP LKesnsignton_Lock_End": {
+      "material": "metal",
+      "triangles": 2
+    },
+    "SP L_ShoulderBtn": {
+      "material": "buttonlight",
+      "triangles": 1691
+    },
+    "SP L_ShoulderButn_Inside": {
+      "material": "black",
+      "triangles": 108
+    },
+    "SP LinkPort_Frame": {
+      "material": "metal",
+      "triangles": 808
+    },
+    "SP LinkPort_Mid": {
+      "material": "metal",
+      "triangles": 108
+    },
+    "SP LinkPort": {
+      "material": "metal",
+      "triangles": 272
+    },
+    "SP PowerBtn_Base": {
+      "material": "black",
+      "triangles": 2
+    },
+    "SP PowerBtn": {
+      "material": "buttonlight",
+      "triangles": 526
+    },
+    "SP Power_LED01": {
+      "material": "green",
+      "triangles": 20
+    },
+    "SP Power_LED02": {
+      "material": "yellow",
+      "triangles": 20
+    },
+    "SP RKesnsignton_Lock_End": {
+      "material": "metal",
+      "triangles": 2
+    },
+    "SP R_ShoulderBtn": {
+      "material": "buttonlight",
+      "triangles": 1691
+    },
+    "SP R_ShoulderButn_Inside": {
+      "material": "black",
+      "triangles": 108
+    },
+    "SP LCD glass": {
+      "material": "lcdblack",
+      "triangles": 2
+    },
+    "SP ScreenGuard": {
+      "material": "screenbezel",
+      "triangles": 624
+    },
+    "SP Select_Btn": {
+      "material": "buttonlight",
+      "triangles": 456
+    },
+    "SP Start_Btn": {
+      "material": "buttonlight",
+      "triangles": 454
+    },
+    "SP display lid": {
+      "material": "gba",
+      "triangles": 3615
+    },
+    "SP Top_LargeHinge": {
+      "material": "gba",
+      "triangles": 756
+    },
+    "SP Top_SmallHinge": {
+      "material": "gba",
+      "triangles": 756
+    },
+    "SP VolumeBtn_Base": {
+      "material": "black",
+      "triangles": 2
+    },
+    "SP VolumeBtn": {
+      "material": "buttonlight",
+      "triangles": 524
+    }
+  }
+}

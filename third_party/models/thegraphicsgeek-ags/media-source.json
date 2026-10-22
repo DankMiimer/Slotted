@@ -1,0 +1,23 @@
+{
+  "author": "thegraphicsgeek",
+  "url": "https://sketchfab.com/3d-models/pokemon-cartridge-gameboy-7d79300f91a441d0ba520fdbd268aa5f",
+  "licence": "CC-BY-4.0",
+  "source_file": "pokemon_cartridge_gameboy.glb",
+  "source_file_sha256": "dad8725dd884d7254741b3a662358617d6bfc00a7b870365b2e3ebac51e2ed8f",
+  "source_dimensions_mm": [
+    62.215999603271484,
+    7.125125885009766,
+    35.59518814086914
+  ],
+  "media_mm": [
+    60,
+    34.5,
+    9.4
+  ],
+  "source_axes": "X right, Z up, -Y label face",
+  "modifications": [
+    "Physical envelope correction",
+    "Remove images, UVs and game label",
+    "Opaque native shell palette"
+  ]
+}

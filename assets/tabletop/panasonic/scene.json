@@ -1,0 +1,167 @@
+{
+  "id": "panasonic",
+  "source_sha256": "f8d0d17c3976692ce3a53a094a61de5e3e81f0310047b9143affa07cabe52fed",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "object": "rear section",
+      "material": "TVback",
+      "triangles": 4524,
+      "vertices": 3970,
+      "sha256": "4e0969407a3601eaedbd7bdd15b1f1b07b8de55f13027d329510c82c76bf9d70"
+    },
+    {
+      "file": "part-001.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Front section",
+      "material": "TVfront",
+      "triangles": 2590,
+      "vertices": 1959,
+      "sha256": "e33c2b5ea81e98dbdaf3453ef8e47c88d27fe8c8090d8ca0cc20f3a57b2d12a8"
+    },
+    {
+      "file": "part-002.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Front buttons",
+      "material": "TVfront",
+      "triangles": 588,
+      "vertices": 343,
+      "sha256": "dc413fb80e18df0498e50e7f4f3a27a364ace0ac6e026bb574a531a91891e0a9"
+    },
+    {
+      "file": "part-003.mesh",
+      "texture": "",
+      "glass": true,
+      "object": "Screen.001",
+      "material": "Blank live CRT glass",
+      "triangles": 192,
+      "vertices": 117,
+      "sha256": "5f6dfe4a966daf258c7f3b33c7488333772493dece1e2398d1e02f79f45e4f72"
+    },
+    {
+      "file": "part-004.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Screw.001",
+      "material": "TVfront",
+      "triangles": 592,
+      "vertices": 305,
+      "sha256": "a7be69c40820a002caccaaa0070d6bf21b2480a311a88f11dcfdf6360cfee633"
+    },
+    {
+      "file": "part-005.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "AV front",
+      "material": "TVfront",
+      "triangles": 1104,
+      "vertices": 755,
+      "sha256": "35d32f195882285e383048ee4a9e48af0a7efa95ea28492593925213da52d0d4"
+    },
+    {
+      "file": "part-006.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "AV back",
+      "material": "TVfront",
+      "triangles": 1104,
+      "vertices": 755,
+      "sha256": "3d4a4f3215d75a24bb91d1aee554d96c5b825861022ae9f7a67efae995c0f234"
+    },
+    {
+      "file": "part-007.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Coax connector",
+      "material": "TVfront",
+      "triangles": 3304,
+      "vertices": 2138,
+      "sha256": "517d993bd106b66f4e267690e1cf0e8f44bae734cb09b83caa5e4632ded81ead"
+    },
+    {
+      "file": "part-008.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Logo.001",
+      "material": "TVfront",
+      "triangles": 1939,
+      "vertices": 3106,
+      "sha256": "d69668c4e59e1cdb84b4b15be10215226504cd518c0ea86aa86ce4132d91e9fe"
+    }
+  ],
+  "source_triangles": 15937,
+  "retained_triangles": 15937,
+  "bounds": [
+    [
+      -234.0000457763672,
+      0.0,
+      -193.52549743652344
+    ],
+    [
+      234.0000457763672,
+      452.3612060546875,
+      193.52549743652344
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "rear section",
+      "triangles": 4524
+    },
+    {
+      "name": "Front section",
+      "triangles": 2590
+    },
+    {
+      "name": "Front buttons",
+      "triangles": 588
+    },
+    {
+      "name": "Screen.001",
+      "triangles": 192
+    },
+    {
+      "name": "Screw.001",
+      "triangles": 592
+    },
+    {
+      "name": "AV front",
+      "triangles": 1104
+    },
+    {
+      "name": "AV back",
+      "triangles": 1104
+    },
+    {
+      "name": "Coax connector",
+      "triangles": 3304
+    },
+    {
+      "name": "Logo.001",
+      "triangles": 1939
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ],
+  "glass": [
+    [
+      -223.59022521972656,
+      98.0322494506836,
+      169.30865478515625
+    ],
+    [
+      223.59022521972656,
+      438.6900634765625,
+      188.50660705566406
+    ]
+  ]
+}

@@ -1,0 +1,71 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "gba",
+  "creator": "thegraphicsgeek",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/pokemon-cartridge-gameboy-7d79300f91a441d0ba520fdbd268aa5f",
+  "uid": "7d79300f91a441d0ba520fdbd268aa5f",
+  "source_file": "research/selected-cartridges-20261019/gba/full.glb",
+  "source_sha256": "dad8725dd884d7254741b3a662358617d6bfc00a7b870365b2e3ebac51e2ed8f",
+  "source_nodes": [
+    "Cartridge_geo"
+  ],
+  "q": 2.731707317073171,
+  "size_mm": [
+    59.99999951039042,
+    34.32736676186323,
+    6.871344122503484
+  ],
+  "label_mm": [
+    -0.05906200408935547,
+    -2.033388614654541,
+    21.92520523071289,
+    11.743677139282227,
+    2.3762733936309814
+  ],
+  "label_triangles": 985,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": [
+    0.105,
+    0.372,
+    0.524,
+    0.594
+  ],
+  "excluded_materials": [],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [],
+  "source_quality_limitation": "",
+  "prepared": {
+    "vertices": 4109,
+    "triangles": 5802,
+    "mesh_sha256": "0b8b5080b8507b21bbffc011ff592a9abf20a60eca7e08ddbd200e0c9aae5966"
+  },
+  "label_prepared": {
+    "vertices": 914,
+    "triangles": 985,
+    "mesh_sha256": "5cfd423a366dcc542d38c41450acca2478d3f33e3d23d61c2290f4d480ed4aae"
+  },
+  "atlas": {
+    "size": 1024,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "Cartridge_MAT": "dbe0e81b7675c45d373170885779a75c77fde7d98b53962eb24b66d2dcb5bda8"
+    },
+    "blank_pixel_rectangles": {
+      "Cartridge_MAT": [
+        103,
+        407,
+        530,
+        635
+      ]
+    }
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/gba/7d79300f91a441d0ba520fdbd268aa5f"
+}

@@ -1,0 +1,11 @@
+{
+  "system": "nds",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "22a4250636bba56b20c085d5af2a1f4fd71080401c63e6bd088f28b9a03e4e0e",
+    "media-master.glb": "fe93cbabfad86103bf46a2125b6bc977bd6cc85d533c83737f8a6fc8889e1876",
+    "media-physical.glb": "3115d3edd6d03c71ced35c78a56ec4d9afe4447dc3d4aaadc1bc9b335bacb73b",
+    "media.glb": "fe93cbabfad86103bf46a2125b6bc977bd6cc85d533c83737f8a6fc8889e1876",
+    "media.mesh": "063f2c059be9699baf9ae9fc722b3da00386d81b7230cab36cca9dae0c666ef1"
+  }
+}

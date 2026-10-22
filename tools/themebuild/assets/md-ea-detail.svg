@@ -1,0 +1,8 @@
+<!-- Art Book Slot, MIT. EA's wide left shoulder and separate yellow grip recess. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+  <defs><linearGradient id="rail"><stop stop-color="#000" stop-opacity=".55"/><stop offset=".35" stop-color="#fff" stop-opacity=".5"/><stop offset="1" stop-color="#000" stop-opacity=".35"/></linearGradient></defs>
+  <path fill="url(#rail)" d="M42 1 H94 V258 H45 L48 226 V105 L34 109 V20 Q34 1 42 1 Z"/>
+  <path d="M94 0 V259 M306 0 V259" stroke="#000" stroke-width="2" stroke-opacity=".9"/>
+  <path d="M34 22 L83 24 Q90 24 90 30 V97 Q90 104 83 104 L34 110 Z" fill="#000" stroke="#fff" stroke-opacity=".2"/>
+  <path d="M42 267 H318 M37 11 Q37 3 43 3" fill="none" stroke="#fff" stroke-opacity=".3"/>
+</svg>

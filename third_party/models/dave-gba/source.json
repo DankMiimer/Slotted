@@ -1,0 +1,35 @@
+{
+  "author": "Dave Parker",
+  "url": "https://www.printables.com/model/190861-gameboy-advance-cartridge-gba-cart",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_files": {
+    "printables_190861_gba_cart_top.stl": "0042380251fef1477566d9e9083f98dc3d6ef6ed948dd4e6fb9a13cb29d8c91f",
+    "printables_190861_gba_cart_bottom.stl": "a8d77af0dd94ec26e2f21fbd1538b0a03be69a65fabe0fd5a8d6a81e6587dda2"
+  },
+  "source_scad_sha256": "2a1928c307b860da39fd9f3f47b26a832404051321070fb9fc7135ea4894602d",
+  "source_assembly": "Top rotate Y 180 degrees then translate z 7.7; bottom unchanged",
+  "source_assembled_wht_mm": [
+    60,
+    34.4,
+    7.7
+  ],
+  "prepared_wht_mm": [
+    60,
+    34.5,
+    7.7
+  ],
+  "evidence": "Printables author reports original fit tests in GBA, SP and DS Lite; replacement CAD, not OEM metrology",
+  "inspection_references": [
+    "https://commons.wikimedia.org/wiki/File:Nintendo-Game-Boy-Advance-Cartridge.jpg",
+    "https://commons.wikimedia.org/wiki/File:Game_Boy_Advance_game_cartridges_-_rear_view.jpg"
+  ],
+  "modifications": [
+    "Assemble actual supplied halves and normalize height by +0.291% to retain the shelf contract",
+    "Restore replacement label/grip pockets; cut existing native 44.3 x 23 label well and photographic bowed grip groove",
+    "Recess original crown lettering; original rear identifier recess and injection mark",
+    "Keep original guide rails, keyed mode slots, interlocks, screw opening and tapered front skin",
+    "Stable crease/planar normals; exclude all images, UVs and downloaded code"
+  ],
+  "uncertainty": "Fit-tested replacement CAD plus photographic exterior reconstruction; small moulding dimensions remain C/D estimates"
+}

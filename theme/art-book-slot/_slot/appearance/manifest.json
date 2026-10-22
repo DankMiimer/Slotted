@@ -1,0 +1,142 @@
+{
+  "styles": [
+    "realistic",
+    "cel"
+  ],
+  "colors": {
+    "original": null,
+    "black": [
+      0.105,
+      0.115,
+      0.135
+    ],
+    "white": [
+      0.88,
+      0.89,
+      0.87
+    ],
+    "red": [
+      0.72,
+      0.12,
+      0.17
+    ],
+    "blue": [
+      0.14,
+      0.32,
+      0.72
+    ],
+    "purple": [
+      0.43,
+      0.24,
+      0.68
+    ],
+    "green": [
+      0.13,
+      0.49,
+      0.31
+    ],
+    "yellow": [
+      0.88,
+      0.67,
+      0.16
+    ]
+  },
+  "models": {
+    "gb": {
+      "vertices": 13105,
+      "painted_vertices": 9603,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c",
+      "vertex_fnv1a64": "388c0bdac9437349"
+    },
+    "gbc": {
+      "vertices": 10343,
+      "painted_vertices": 7800,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "5101c28b799c1654943b7bfe0d58eb42d13c639dafdaad4b6b3eaa83ed93f5dd",
+      "vertex_fnv1a64": "76411d06cba8a394"
+    },
+    "gba": {
+      "vertices": 44179,
+      "painted_vertices": 24200,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "529750b7a3af3d38293496d29a73c0e6aebd6b6f2d68ed62a1255b21096072f4",
+      "vertex_fnv1a64": "18c1dc64196dd54f"
+    },
+    "psp": {
+      "vertices": 52760,
+      "painted_vertices": 23206,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "1b9f93ae9f9bcd12642fa3fcb7991afc959f4865595431237d84623280ee07e0",
+      "vertex_fnv1a64": "8bd0b25ac8682601"
+    },
+    "snes": {
+      "vertices": 13567,
+      "painted_vertices": 3573,
+      "parts": {
+        "PAL front enclosure fascia": 242,
+        "PAL left enclosure shoulder": 240,
+        "PAL rear enclosure shoulder": 56,
+        "PAL right enclosure shoulder": 236,
+        "PAL inset panel": 718,
+        "PAL underside enclosure": 364,
+        "PAL upper enclosure": 519,
+        "PAL lower enclosure": 527,
+        "PAL controller fascia": 310
+      },
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616",
+      "vertex_fnv1a64": "baad3ed9fc7c651b"
+    },
+    "snes-us": {
+      "vertices": 12877,
+      "painted_vertices": 7826,
+      "parts": {
+        "US lower enclosure": 3556,
+        "US upper enclosure": 3577
+      },
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d",
+      "vertex_fnv1a64": "3736974aa2d3fae7"
+    },
+    "n64": {
+      "vertices": 7880,
+      "painted_vertices": 2839,
+      "parts": {
+        "N64 memory expansion door": 196,
+        "N64 lower enclosure": 244,
+        "N64 upper enclosure": 2055
+      },
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8",
+      "vertex_fnv1a64": "66463a1050f98b9d"
+    },
+    "psx": {
+      "vertices": 51805,
+      "painted_vertices": 44856,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a",
+      "vertex_fnv1a64": "c11246db802d875d"
+    },
+    "dreamcast": {
+      "vertices": 41644,
+      "painted_vertices": 24879,
+      "parts": "albedo paint alpha",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3",
+      "vertex_fnv1a64": "de8a717de8723c21"
+    }
+  },
+  "style_models": [
+    "gb",
+    "gbc",
+    "gba",
+    "nds",
+    "psp",
+    "pico8",
+    "snes",
+    "snes-us",
+    "nes",
+    "n64",
+    "md",
+    "md-jp",
+    "psx",
+    "dreamcast"
+  ]
+}

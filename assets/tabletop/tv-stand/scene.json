@@ -1,0 +1,59 @@
+{
+  "id": "tv-stand",
+  "source_sha256": "84c3686a93169eb623910d6082e32f15c871ff72eddcb9640260cdeb998dfdf2",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "hidden": false,
+      "object": "TVstand_TVStand_mat_0",
+      "material": "TVStand_mat",
+      "triangles": 888,
+      "vertices": 756,
+      "sha256": "210ee4a6f01196843619ea96f5de47e68e6c0e6b945fbfdc1210593a4147876b"
+    },
+    {
+      "file": "part-001.mesh",
+      "texture": "",
+      "glass": false,
+      "hidden": true,
+      "object": "proxy_Tvstand_proxy_0",
+      "material": "proxy",
+      "triangles": 196,
+      "vertices": 394,
+      "sha256": "9804b5e2226107bd6dcb38e787ff168a9611bbea30d332a34afbea404ae18cb1"
+    }
+  ],
+  "source_triangles": 1084,
+  "retained_triangles": 1084,
+  "bounds": [
+    [
+      -750.0000610351562,
+      -660.9537353515625,
+      -247.500732421875
+    ],
+    [
+      750.0000610351562,
+      0.0,
+      247.500732421875
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "TVstand_TVStand_mat_0",
+      "triangles": 888
+    },
+    {
+      "name": "proxy_Tvstand_proxy_0",
+      "triangles": 196
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ]
+}

@@ -1,0 +1,13 @@
+<!-- Art Book Slot, MIT. Separate grip rails, side ribs and recessed front panel. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+  <defs>
+    <linearGradient id="rail"><stop stop-color="#000" stop-opacity=".8"/><stop offset=".45" stop-color="#fff" stop-opacity=".8"/><stop offset="1" stop-color="#000" stop-opacity=".8"/></linearGradient>
+    <pattern id="ribs" width="20" height="5" patternUnits="userSpaceOnUse"><path d="M0 1 H20" stroke="#fff" stroke-opacity=".6"/><path d="M0 3 H20" stroke="#000" stroke-opacity=".8" stroke-width="2"/></pattern>
+  </defs>
+  <path id="rail-left" fill="url(#rail)" d="M29 24 Q3 24 3 48 V213 Q3 232 26 235 L28 240 H34 V24 Z"/>
+  <use href="#rail-left" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M0 67 H17 V140 H0 Z M0 153 H17 V189 H0 Z M343 67 H360 V189 H343 Z" fill="url(#ribs)"/>
+  <path d="M30 19 V249 M330 19 V249" fill="none" stroke="#000" stroke-opacity=".8" stroke-width="2"/>
+  <path d="M33 23 V246 M327 23 V246 M37 21 H323" fill="none" stroke="#fff" stroke-opacity=".65"/>
+  <path d="M34 248 H326" fill="none" stroke="#000" stroke-width="3" stroke-opacity=".8"/>
+</svg>

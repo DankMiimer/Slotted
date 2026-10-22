@@ -1,0 +1,71 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "gb",
+  "creator": "Bob",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/gameboy-cartridge-lowpoly-8b9728eab16c4056ac2636ae7f0f038f",
+  "uid": "8b9728eab16c4056ac2636ae7f0f038f",
+  "source_file": "research/selected-cartridges-20261019/gb/full.glb",
+  "source_sha256": "a87c924bc8df024925fc8ea8db7fa13500031e572118f7b9424803b957bd2ab0",
+  "source_nodes": [
+    "Card_Low"
+  ],
+  "q": 1.8666667,
+  "size_mm": [
+    56.999999544129516,
+    64.41645102763952,
+    8.990996755825734
+  ],
+  "label_mm": [
+    -0.09732913970947266,
+    -5.201716899871826,
+    21.992721557617188,
+    19.39008903503418,
+    4.529207706451416
+  ],
+  "label_triangles": 8,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": [
+    0.51,
+    0.51,
+    0.85,
+    0.833
+  ],
+  "excluded_materials": [],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [],
+  "source_quality_limitation": "",
+  "prepared": {
+    "vertices": 580,
+    "triangles": 510,
+    "mesh_sha256": "4d486d127948e375243470cd7cbd43dd726d1a0aa8472e621d88acd23a368328"
+  },
+  "label_prepared": {
+    "vertices": 16,
+    "triangles": 8,
+    "mesh_sha256": "929f86ecced6ad7483427ea6f1736c9d25f33d183d623df0ee7960989f9610bc"
+  },
+  "atlas": {
+    "size": 1024,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "Scene_-_Root": "d70dbbd7b47f9d125f6a66ff24efb4eac0435db045e21c6a721235984c668805"
+    },
+    "blank_pixel_rectangles": {
+      "Scene_-_Root": [
+        512,
+        166,
+        858,
+        495
+      ]
+    }
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/gb/8b9728eab16c4056ac2636ae7f0f038f"
+}

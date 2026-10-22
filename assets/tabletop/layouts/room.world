@@ -1,0 +1,9 @@
+SLOTWORLD2
+room 0 -7000 4000 -6000 500 3000
+surface floor 0.502 0.502 0.502 2400 concrete
+surface wall 1 1 1 1600 walnut-planks
+table table 3107.88749 805.077 -4299.08447 0 0 0
+table wooden-table 3367.12524 416.822 -166.572445 0 -53.1122287 0
+table tv-stand -4150.89287 660.95 -5610.19386 0 0 0
+path table wooden-table 1.4 0 180 0 0 180 0
+path table tv-stand 1.4 0 180 0 0 180 0

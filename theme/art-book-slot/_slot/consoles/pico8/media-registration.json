@@ -1,0 +1,85 @@
+{
+  "adapter": "cartridges_blender.py",
+  "key": "pico8",
+  "creator": "sunnychow",
+  "licence": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/fc89d8b44a934400bdf282600f61d369",
+  "source_file": "pico8/song_of_morus_pico-8_cartridge.glb",
+  "source_sha256": "0b9faa546db24f353d5d764ba496f3f53f66aefd9618877821f81d46352443eb",
+  "q": 2.2,
+  "size_mm": [
+    60.000002384185784,
+    76.72115889462557,
+    6.000000644813884
+  ],
+  "source_size_mm": [
+    60.0,
+    76.72115791641893,
+    9.69784058120026
+  ],
+  "depth_scale": 0.6186944350922096,
+  "label_mm": [
+    -0.769230842590332,
+    -2.349015235900879,
+    23.44312286376953,
+    31.567737579345703,
+    2.302622079849243
+  ],
+  "label_triangles": 20,
+  "decimation": false,
+  "modifications": [
+    "Registered and centred source; independent shell only",
+    "Fixed front game art blanked; per-game label follows source surface",
+    "Simple albedo lighting; no source normal, metallic or roughness maps",
+    "Depth scaled by 0.618694435 to the existing slot; width/height unchanged"
+  ],
+  "atlas": {
+    "size": 256,
+    "tiles": {
+      "Material.001": [
+        0,
+        0,
+        128,
+        128
+      ],
+      "Material.002": [
+        128,
+        0,
+        8,
+        8
+      ],
+      "Material.003": [
+        136,
+        0,
+        8,
+        8
+      ],
+      "Material.004": [
+        0,
+        128,
+        128,
+        128
+      ]
+    },
+    "blank_uv": [
+      [
+        0.101,
+        0.118,
+        0.9,
+        0.947
+      ]
+    ],
+    "excluded_images": [],
+    "paint_luma": 0.39607843137254894
+  },
+  "prepared": {
+    "vertices": 987,
+    "triangles": 438,
+    "mesh_sha256": "4a7e7d5af300a9b11f0109f8d277b00842b57649692065a22d49a95dd000cfad"
+  },
+  "label_prepared": {
+    "vertices": 56,
+    "triangles": 20,
+    "mesh_sha256": "e7caf127fcd4140e528dce69da9a5620c7e1ee8a5670e0cfa1729770fbaf42fb"
+  }
+}

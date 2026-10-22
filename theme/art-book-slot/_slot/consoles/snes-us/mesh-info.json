@@ -1,0 +1,17 @@
+{
+  "vertices": 12877,
+  "indices": 51483,
+  "triangles": 17161,
+  "door_first": 51483,
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Authored recreation adapted by tools/consolebuild/models.py",
+  "creators": [
+    {
+      "author": "Steven H. Tran (@ibbqcats)",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/super-nintendo-console-41c9dd1f5a53493cbe2e00a190150e93"
+    }
+  ],
+  "detail": "detailed",
+  "triangle_limit": 200000
+}

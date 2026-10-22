@@ -1,0 +1,128 @@
+{
+  "version": 1,
+  "textures": [
+    {
+      "name": "oak-planks",
+      "label": "Oak planks",
+      "tile": 1600,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "walnut-planks",
+      "label": "Walnut planks",
+      "tile": 1600,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "grey-carpet",
+      "label": "Grey carpet",
+      "tile": 1000,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "checker-tiles",
+      "label": "Checkerboard tiles",
+      "tile": 1200,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "stone-tiles",
+      "label": "Stone tiles",
+      "tile": 1600,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "terracotta-tiles",
+      "label": "Terracotta tiles",
+      "tile": 1200,
+      "surfaces": [
+        "floor"
+      ]
+    },
+    {
+      "name": "concrete",
+      "label": "Concrete",
+      "tile": 2400,
+      "surfaces": [
+        "floor",
+        "wall"
+      ]
+    },
+    {
+      "name": "white-plaster",
+      "label": "White plaster",
+      "tile": 2000,
+      "surfaces": [
+        "wall",
+        "ceiling"
+      ]
+    },
+    {
+      "name": "warm-plaster",
+      "label": "Warm plaster",
+      "tile": 2000,
+      "surfaces": [
+        "wall"
+      ]
+    },
+    {
+      "name": "blue-paint",
+      "label": "Blue paint",
+      "tile": 2000,
+      "surfaces": [
+        "wall"
+      ]
+    },
+    {
+      "name": "green-paint",
+      "label": "Green paint",
+      "tile": 2000,
+      "surfaces": [
+        "wall"
+      ]
+    },
+    {
+      "name": "red-brick",
+      "label": "Red brick",
+      "tile": 900,
+      "surfaces": [
+        "wall"
+      ]
+    },
+    {
+      "name": "wood-panels",
+      "label": "Wood panels",
+      "tile": 1600,
+      "surfaces": [
+        "wall",
+        "ceiling"
+      ]
+    },
+    {
+      "name": "striped-wallpaper",
+      "label": "Striped wallpaper",
+      "tile": 1000,
+      "surfaces": [
+        "wall"
+      ]
+    },
+    {
+      "name": "ceiling-tiles",
+      "label": "Ceiling tiles",
+      "tile": 1200,
+      "surfaces": [
+        "ceiling"
+      ]
+    }
+  ]
+}

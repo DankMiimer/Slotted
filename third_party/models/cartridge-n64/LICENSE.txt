@@ -1,0 +1,15 @@
+Nintendo 64 Cart by Chris Sweetwood
+https://sketchfab.com/3d-models/nintendo-64-cart-7b93f9cb196743009c2211a5e47643d8
+
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+Legal code: https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+The model and adaptations retain this licence. No commercial use. Derivatives
+must use the same licence and retain attribution and modification notices.
+Modifications: one independent upright shell from three posed copies; uniform
+physical registration; fixed Diddy Kong Racing image excluded; independent
+per-game sticker surface and native texture export. Source UVs, geometry and
+plastic map retained. Simple albedo lighting. See source.json and the theme's
+MODEL_CREDITS.txt for exact file scope and registrations.
+Independent processing code retains its own MIT licence.

@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Standalone whole-pixel status elements shared by all frontend theme views. -->
+<theme>
+   <formatVersion>7</formatVersion>
+   <!-- A comma-separated customView updates existing views without enabling new ones. -->
+   <customView name="system,basic,detailed,grid,video,gamecarousel">
+      <!-- Keep the white status readable over Art Book Next's bright artwork. -->
+      <image name="slot-status-left-bg" extra="true">
+         <path>${currentPath}/status-plate.svg</path>
+         <pos>0.022222 0.016667</pos><size>0.183333 0.066667</size>
+         <zIndex>99</zIndex>
+      </image>
+      <image name="slot-status-right-bg" extra="true">
+         <path>${currentPath}/status-plate.svg</path>
+         <pos>0.830556 0.016667</pos><size>0.147222 0.066667</size>
+         <zIndex>99</zIndex>
+      </image>
+      <image name="slot-status-network-bg" extra="true">
+         <path>${currentPath}/status-plate.svg</path>
+         <pos>0.222222 0.016667</pos><size>0.072222 0.066667</size>
+         <zIndex>99</zIndex>
+      </image>
+      <!-- Replace the inherited stack to avoid duplicate battery/clock children. -->
+      <stackpanel name="system-indicators" extra="true">
+         <visible>false</visible>
+      </stackpanel>
+      <networkIcon name="slot-network" extra="true">
+         <pos>0.233333 0.025</pos><size>0.05 0.05</size>
+         <color>F6F4EF</color>
+         <networkIcon ifSubset="network-icon:default">${themePath}/_inc/images/network-icon-on.svg</networkIcon>
+         <networkIcon ifSubset="network-icon:ethernet">${themePath}/_inc/images/network-icon-wired.svg</networkIcon>
+         <planemodeIcon>${themePath}/_inc/images/network-icon-off.svg</planemodeIcon>
+         <zIndex>100</zIndex>
+      </networkIcon>
+      <!--
+        Status: battery icon + percentage on the left, clock on the right, 24 px from each edge,
+        at the top of every theme view, with Wi-Fi beside the battery.
+
+        Font sizes: ES truncates fontSize x screen height to whole pixels, then multiplies by its
+        FontScale (1.31 when the short side is 320-719 px, as on 720x480 handhelds; 1.0 from 720)
+        and truncates again. Sizes below are picked so the rendered size is the one wanted.
+
+        Battery percentage and clock are Raster Forge, a pixel font on a 256/2048 grid that is
+        only crisp at multiples of 8 px: 480p asks for 19 px (x1.31 = 24, 3x pixels, 15 px caps),
+        720p and up ask for 32/720 of the height (32 px at 720, 48 at 1080).
+
+        These are standalone elements on whole-pixel positions, top-aligned with line spacing 1:
+        inside a stackpanel ES lays them out on sub-pixel offsets and the pixel font goes soft.
+        Caps run y=17-31; the 42x24 icon sits at (24, 12).
+      -->
+      <batteryIcon name="slot-battery-icon" extra="true">
+         <color>F6F4EF</color>
+         <pos>0.033333 0.025</pos>
+         <size>0.058334 0.05</size>
+         <full>${currentPath}/icons/battery-full.png</full>
+         <at75>${currentPath}/icons/battery-at75.png</at75>
+         <at50>${currentPath}/icons/battery-at50.png</at50>
+         <at25>${currentPath}/icons/battery-at25.png</at25>
+         <empty>${currentPath}/icons/battery-empty.png</empty>
+         <incharge>${currentPath}/icons/battery-charging.png</incharge>
+         <zIndex>100</zIndex>
+      </batteryIcon>
+      <batteryText name="slot-battery-text" extra="true">
+         <pos>0.101389 0.029167</pos>
+         <size>0.2 0.05</size>
+         <alignment>left</alignment>
+         <verticalAlignment>top</verticalAlignment>
+         <lineSpacing>1</lineSpacing>
+         <color>F6F4EF</color>
+         <fontPath>${currentPath}/fonts/RasterForge.ttf</fontPath>
+         <fontSize>0.03959</fontSize>
+         <fontSize if="${screen.height} &gt;= 720">0.04445</fontSize>
+         <zIndex>100</zIndex>
+      </batteryText>
+      <!-- The clock sizes itself to its text, so it is anchored by its right edge at x=696. -->
+      <clock name="slot-clock" extra="true">
+         <origin>1 0</origin>
+         <pos>0.966667 0.029167</pos>
+         <verticalAlignment>top</verticalAlignment>
+         <lineSpacing>1</lineSpacing>
+         <color>F6F4EF</color>
+         <fontPath>${currentPath}/fonts/RasterForge.ttf</fontPath>
+         <fontSize>0.03959</fontSize>
+         <fontSize if="${screen.height} &gt;= 720">0.04445</fontSize>
+         <zIndex>100</zIndex>
+      </clock>
+   </customView>
+</theme>

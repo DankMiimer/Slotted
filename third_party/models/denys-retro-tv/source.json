@@ -1,0 +1,74 @@
+{
+  "id": "retro",
+  "name": "TV, Old TV, Retro TV",
+  "author": "Denys Hroshko",
+  "source": "https://sketchfab.com/3d-models/tv-old-tv-retro-tv-f13b9a45c0d649dc90ebac5f7717cebf",
+  "license": "CC BY-NC 4.0",
+  "license_url": "https://creativecommons.org/licenses/by-nc/4.0/",
+  "source_sha256": "7962862740599535e548d70a1a37b4f0e50a5077c1f381d328e4105dca576e55",
+  "prepared_sha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce",
+  "screen_faces": 155,
+  "changes": [
+    "Turned to face the camera; centred on the floor",
+    "Screen faces (UV-identified) separated as blank live glass",
+    "Cabinet keeps its source base-colour/ORM/normal maps",
+    "Standard three-quarter studio render (35 degree elevation, 22 degree turn, perspective matching the native renderer), transparent background",
+    "Live screen inset 5% inside the camera-facing glass, projected onto the angled glass"
+  ],
+  "render_scale": 2,
+  "native_height": 238.0,
+  "view": {
+    "elevation_degrees": 35,
+    "yaw_degrees": -22,
+    "distance": 1200.0,
+    "projection": "perspective, matches slotlaunch/psx.h"
+  },
+  "source_size_metres": [
+    2.006697416305542,
+    2.2236380577087402,
+    2.1913585662841797
+  ],
+  "quad": [
+    [
+      0.13612204739858488,
+      0.21791991663266377
+    ],
+    [
+      0.7866611319890915,
+      0.33413456649665374
+    ],
+    [
+      0.7752435155099802,
+      0.7716815591935652
+    ],
+    [
+      0.1701363475889621,
+      0.6484369499137602
+    ]
+  ],
+  "size": [
+    593,
+    664
+  ],
+  "display": [
+    296.5,
+    332.0
+  ],
+  "base": [
+    173.5,
+    245.47932106256485
+  ],
+  "footprint": [
+    293.2355582714081,
+    177.19143256545067
+  ],
+  "contact": [
+    228.4740195274353,
+    330.13895708322525
+  ],
+  "cabinet_height_mm": 450.0,
+  "units_per_mm": 0.5288888888888889,
+  "scale_basis": "Approximate 450 mm cabinet height",
+  "label": "Retro TV (Denys Hroshko, CC BY-NC 4.0)",
+  "image_sha256": "3996813bb591115c9e96404589e1c6678b4fedf21a2b76e2cbb5cfa55a959502"
+}

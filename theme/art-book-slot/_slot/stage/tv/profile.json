@@ -1,0 +1,72 @@
+{
+  "name": "Panasonic CRT TV (1990s)",
+  "author": "DamianToons",
+  "source": "https://sketchfab.com/3d-models/panasonic-crt-tv-1990s-45f7728e4f534d9393ef1d681137b6d9",
+  "license": "CC BY 4.0",
+  "license_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_sha256": "5471543d69451d70839eb644ef1baf58510f69d4902f93762fe546bd7bd5205b",
+  "prepared_sha256": "f8d0d17c3976692ce3a53a094a61de5e3e81f0310047b9143affa07cabe52fed",
+  "changes": [
+    "Original scale normalized by 0.01",
+    "Broadcast screen materials/images excluded",
+    "Blank live glass material",
+    "Standard three-quarter studio render (35 degree elevation, 22 degree turn, perspective matching the native renderer), transparent background",
+    "Live screen inset 9% inside the camera-facing glass, projected onto the angled glass"
+  ],
+  "render_scale": 2,
+  "native_height": 262.0,
+  "view": {
+    "elevation_degrees": 35,
+    "yaw_degrees": -22,
+    "distance": 1200.0,
+    "projection": "perspective, matches slotlaunch/psx.h"
+  },
+  "source_size_metres": [
+    0.4680000841617584,
+    0.387050986289978,
+    0.45236119627952576
+  ],
+  "quad": [
+    [
+      0.0983545993055616,
+      0.20060992206049244
+    ],
+    [
+      0.8022178134747914,
+      0.33012741664696854
+    ],
+    [
+      0.7821721328156335,
+      0.8120018208933155
+    ],
+    [
+      0.13817334920167923,
+      0.6650659145667539
+    ]
+  ],
+  "size": [
+    672,
+    684
+  ],
+  "display": [
+    336.0,
+    342.0
+  ],
+  "base": [
+    193.5,
+    259.80917006731033
+  ],
+  "footprint": [
+    335.73931753635406,
+    179.46001142263412
+  ],
+  "contact": [
+    272.1417782306671,
+    342.11795046925545
+  ],
+  "cabinet_height_mm": 452.36119627952576,
+  "units_per_mm": 0.5791831884671721,
+  "scale_basis": "Prepared source metres",
+  "label": "Panasonic CRT (DamianToons, CC BY 4.0)",
+  "image_sha256": "a33ff555e71303bc78a57aa989cf00ca29ed48a55a60324cd13c03d0bf10f370"
+}

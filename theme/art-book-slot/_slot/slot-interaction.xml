@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="gamecarousel">
+      <!-- Stock frontends ignore this hidden capability marker. -->
+      <text name="slot-capability" extra="true">
+         <text>1</text>
+         <visible>false</visible>
+      </text>
+   </view>
+   <include>./stage/shelf.xml</include>
+</theme>

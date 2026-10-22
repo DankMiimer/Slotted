@@ -1,0 +1,67 @@
+{
+  "adapter": "cartridges_blender.py",
+  "key": "n64",
+  "creator": "Chris Sweetwood",
+  "licence": "CC-BY-NC-SA-4.0",
+  "url": "https://sketchfab.com/3d-models/7b93f9cb196743009c2211a5e47643d8",
+  "source_file": "n64cart/nintendo_64_cart.glb",
+  "source_sha256": "b555cad7f1466cf8d31a3ddd9dd85f52063aba3cf29a89bb47af7261a1442708",
+  "q": 1.5,
+  "size_mm": [
+    116.00000063578288,
+    77.33335494995117,
+    19.33336655298869
+  ],
+  "source_size_mm": [
+    116.0,
+    77.33335693359375,
+    19.33336676703559
+  ],
+  "depth_scale": 1,
+  "label_mm": [
+    0.0,
+    0.05318927764892578,
+    27.08487892150879,
+    31.864574432373047,
+    9.345003128051758
+  ],
+  "label_triangles": 36,
+  "decimation": false,
+  "modifications": [
+    "Registered and centred source; independent shell only",
+    "Fixed front game art blanked; per-game label follows source surface",
+    "Simple albedo lighting; no source normal, metallic or roughness maps"
+  ],
+  "atlas": {
+    "size": 2048,
+    "tiles": {
+      "LogoMaterial": [
+        0,
+        0,
+        8,
+        8
+      ],
+      "Material": [
+        8,
+        0,
+        1024,
+        1024
+      ]
+    },
+    "blank_uv": [],
+    "excluded_images": [
+      "LogoMaterial"
+    ],
+    "paint_luma": 0.6021764705882352
+  },
+  "prepared": {
+    "vertices": 2138,
+    "triangles": 1050,
+    "mesh_sha256": "8925af3088b93f27d77c642b34e1bde8914e088ed1adb9ef02ab0d57d427bdd3"
+  },
+  "label_prepared": {
+    "vertices": 103,
+    "triangles": 36,
+    "mesh_sha256": "a73fc0ab6ae763807c21e6565f14d90911263e81e4c0e0d7b3e2ef82dda1e2de"
+  }
+}

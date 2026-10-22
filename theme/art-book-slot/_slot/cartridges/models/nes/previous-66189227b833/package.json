@@ -1,0 +1,11 @@
+{
+  "system": "nes",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "8b3421ae555fea5da3e33a70e35e8800768fb256cfa82d77725308d5bca94560",
+    "media-master.glb": "895fd3960bcddcd3d9da788b83f1adeb34b8952df8d2043fc0bed4ea6648c818",
+    "media-physical.glb": "65fcdd1baa2bcdf0aba54c212ec27e649beef658af3f13c1409597df39d3090b",
+    "media.glb": "895fd3960bcddcd3d9da788b83f1adeb34b8952df8d2043fc0bed4ea6648c818",
+    "media.mesh": "b480c24c8b48305e77e4f70d23672ce127403c0be809e2623cc35de40e3cc483"
+  }
+}

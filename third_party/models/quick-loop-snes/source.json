@@ -1,0 +1,194 @@
+{
+  "hardware": "snes",
+  "author": "quick_loop",
+  "url": "https://sketchfab.com/3d-models/super-nintendo-d42c35b117974ade8842f0964f5fd59e",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "model.dae",
+  "source_file_sha256": "6da3db0f87e7adea08654b6c4972e0ce3aeaad5b5181280c390d9584d374598e",
+  "archive_file": "quick-loop-original.zip",
+  "archive_sha256": "834cf321deac297462ba340870ce04d5997d4330dd8e9f4e66d341bc81062438",
+  "download_approved": "User approved each original-format Sketchfab download on 15 October 2026",
+  "licence_evidence": "Page and download-dialog CC BY 4.0 notice; screenshots retained in ignored research/snes",
+  "source_axes": "X right, Z up, -Y front",
+  "prepared_axes": "glTF x right/y up/z front; metres",
+  "source_bounds_xyz": [
+    [
+      -0.008451639674603939,
+      -0.009999999776482582,
+      -0.002901800675317645
+    ],
+    [
+      0.008451639674603939,
+      0.009999999776482582,
+      0.0029018002096563578
+    ]
+  ],
+  "source_uniform_width_mm": [
+    200.0,
+    236.64047241210938,
+    68.66834259033203
+  ],
+  "envelope_whd_mm": [
+    200,
+    72,
+    242
+  ],
+  "axis_correction_percent": [
+    0.0,
+    2.264842348505014,
+    4.851809873243806
+  ],
+  "slot": {
+    "centre_z_mm": -22.7315683,
+    "entry_y_mm": 33.67,
+    "opening_wd_mm": [
+      138.4,
+      22
+    ],
+    "seat_depth_mm": 30
+  },
+  "modifications": [
+    "Physical envelope corrections before one uniform native scale",
+    "Remove images, UVs and the two source decal planes",
+    "Remove the fixed closed slot flap; clip open skins at the real slot position without solid booleans",
+    "Open the physical travel under the source cartridge opening",
+    "Source-specific semantic palette, enclosure parts and panel normals",
+    "Suppress expanded hulls on dense housing and panel seams",
+    "Per-fitting runtime budgets; full-detail prepared geometry retained"
+  ],
+  "parts": {
+    "PAL inset panel": {
+      "material": "snespanel",
+      "triangles": 1059,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL left enclosure shoulder": {
+      "material": "snesgrey",
+      "triangles": 229,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL rear enclosure shoulder": {
+      "material": "snesgrey",
+      "triangles": 40,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL right enclosure shoulder": {
+      "material": "snesgrey",
+      "triangles": 229,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL front enclosure fascia": {
+      "material": "snespanel",
+      "triangles": 230,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL eject lever": {
+      "material": "buttonlight",
+      "triangles": 504,
+      "outline": true,
+      "runtime_budget": 320
+    },
+    "PAL rear socket": {
+      "material": "blackbody",
+      "triangles": 105,
+      "outline": true,
+      "runtime_budget": null
+    },
+    "PAL indicator surround": {
+      "material": "snesgrey",
+      "triangles": 170,
+      "outline": true,
+      "runtime_budget": null
+    },
+    "PAL rear socket contact": {
+      "material": "metal",
+      "triangles": 12,
+      "outline": true,
+      "runtime_budget": null
+    },
+    "PAL power slider": {
+      "material": "buttonlight",
+      "triangles": 679,
+      "outline": true,
+      "runtime_budget": 380
+    },
+    "PAL reset surround": {
+      "material": "darkgrey",
+      "triangles": 278,
+      "outline": true,
+      "runtime_budget": null
+    },
+    "PAL reset button": {
+      "material": "buttonlight",
+      "triangles": 678,
+      "outline": true,
+      "runtime_budget": 380
+    },
+    "PAL power surround": {
+      "material": "darkgrey",
+      "triangles": 278,
+      "outline": true,
+      "runtime_budget": null
+    },
+    "PAL upper enclosure": {
+      "material": "snesgrey",
+      "triangles": 525,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL lower enclosure": {
+      "material": "sneslower",
+      "triangles": 544,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL controller fascia": {
+      "material": "snesgrey",
+      "triangles": 342,
+      "outline": true,
+      "runtime_budget": 480
+    },
+    "PAL underside enclosure": {
+      "material": "sneslower",
+      "triangles": 399,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "PAL controller contacts A": {
+      "material": "portgrey",
+      "triangles": 522,
+      "outline": true,
+      "runtime_budget": 480
+    },
+    "PAL controller contacts B": {
+      "material": "portgrey",
+      "triangles": 681,
+      "outline": true,
+      "runtime_budget": 540
+    },
+    "PAL controller contacts C": {
+      "material": "portgrey",
+      "triangles": 522,
+      "outline": true,
+      "runtime_budget": 480
+    },
+    "PAL controller contacts D": {
+      "material": "portgrey",
+      "triangles": 681,
+      "outline": true,
+      "runtime_budget": 540
+    },
+    "PAL vent and port fittings": {
+      "material": "blackbody",
+      "triangles": 2156,
+      "outline": true,
+      "runtime_budget": null
+    }
+  }
+}

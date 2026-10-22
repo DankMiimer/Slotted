@@ -1,0 +1,8 @@
+{
+  "vertices": 20079,
+  "indices": 41109,
+  "triangles": 13703,
+  "door_first": 41109,
+  "licence": "MIT",
+  "source": "Original procedural geometry, tools/consolebuild/models.py"
+}

@@ -1,0 +1,39 @@
+{
+  "vertices": 13105,
+  "indices": 29568,
+  "triangles": 9856,
+  "door_first": 29568,
+  "vertex_decimals": null,
+  "normal_decimals": null,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.7640745043754578,
+    "albedo_sha256": "39bd04cd31e9e69579f419aee3dfb4e174f39d20dd581e4d324e5d89c2136656",
+    "painted_texels": 1655219,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-NC-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/verheyen_gb.py",
+  "creators": [
+    {
+      "author": "Bram Verheyen",
+      "licence": "CC-BY-NC-4.0",
+      "url": "https://sketchfab.com/3d-models/gameboy-classic-854c46e14ce24779ad64ae74cb9b9089"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 2104353,
+    "blank": [
+      {
+        "reason": "source LCD surfaces reserved for live metadata",
+        "texels": 58320
+      }
+    ],
+    "inset": {}
+  },
+  "mesh_sha256": "81d12d9e3e7560d3a8ec0b436dd97e94909ebc38c603555c51bfbcad4a3c146c"
+}

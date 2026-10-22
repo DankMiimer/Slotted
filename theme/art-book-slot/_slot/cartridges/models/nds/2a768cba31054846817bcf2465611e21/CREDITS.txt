@@ -1,0 +1,6 @@
+satchii_ — https://sketchfab.com/3d-models/nitendo-ds-cartridge-super-mario-64-2a768cba31054846817bcf2465611e21
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+One card isolated from source scene; uniform width registration; no decimation
+Fixed game label blanked; independent per-game label surface
+Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research
+

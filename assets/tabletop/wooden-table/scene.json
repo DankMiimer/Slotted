@@ -1,0 +1,44 @@
+{
+  "id": "wooden-table",
+  "source_sha256": "32dab7446c61369110da3e216e9fd69d033021d73ad68c81d0142c6a421ec559",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "hidden": false,
+      "object": "Material-material",
+      "material": "Material",
+      "triangles": 224,
+      "vertices": 617,
+      "sha256": "6b654154caa7382ac75b669fa22c5024ef884e43e354aafc35b4886ddd40f5e6"
+    }
+  ],
+  "source_triangles": 224,
+  "retained_triangles": 224,
+  "bounds": [
+    [
+      -750.0,
+      -595.46044921875,
+      -350.00006103515625
+    ],
+    [
+      750.0,
+      0.0,
+      350.00006103515625
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "Material-material",
+      "triangles": 224
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ]
+}

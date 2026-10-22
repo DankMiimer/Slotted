@@ -1,0 +1,17 @@
+{
+  "author": "lena-wachs",
+  "source": "https://sketchfab.com/3d-models/wooden-table-e4a9129ea0114d3e8d1989971eca53ef",
+  "license": "CC BY 4.0",
+  "downloaded": "2026-10-18",
+  "format": "Official full-resolution GLB plus original FBX archive",
+  "files": {
+    "wooden_table.glb": {
+      "bytes": 31042156,
+      "sha256": "1d15adc556ea7e588a84020388b820975f21a17a5e98059d02721e8451bf961a"
+    },
+    "original.zip": {
+      "bytes": 57090353,
+      "sha256": "6f5525342e53a3e5fdfecf099daf50400264b6927003c7dac263c91d7124e656"
+    }
+  }
+}

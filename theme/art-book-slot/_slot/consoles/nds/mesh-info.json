@@ -1,0 +1,63 @@
+{
+  "vertices": 3439,
+  "indices": 3510,
+  "triangles": 1170,
+  "door_first": 2814,
+  "vertex_decimals": null,
+  "normal_decimals": null,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.17719607055187225,
+    "albedo_sha256": "2e6a5e6cd2b9d7bb874a6fdd1d95c8a9e22795bd181074ec9195d1ad5a2e8b87",
+    "painted_texels": 1684896,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/cianon_ds.py",
+  "creators": [
+    {
+      "author": "Cianon",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/nintendo-ds-lite-ca529eb7208746e89b7a28fd2246659d"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 2222587,
+    "blank": [
+      {
+        "reason": "source LCD surfaces reserved for live metadata",
+        "texels": 189946
+      },
+      {
+        "box": [
+          1490,
+          708,
+          1645,
+          768
+        ],
+        "reason": "fixed game-card picture on the Slot-1 notch"
+      }
+    ],
+    "inset": {},
+    "constants": {
+      "Slot DS mouth": {
+        "box": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "linear": [
+          0.006,
+          0.006,
+          0.007
+        ]
+      }
+    }
+  },
+  "mesh_sha256": "a5093a34a471b9045b0939ab710d2d74d0dcb82c29463b268115fe39d7cc851a"
+}

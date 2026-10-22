@@ -1,0 +1,24 @@
+<!-- Original geometric moulding for Art Book Slot; copyright 2026, MIT. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 304 337">
+  <defs>
+    <pattern id="ribs" width="64" height="12.6" patternUnits="userSpaceOnUse">
+      <rect x="1" y="1.5" width="62" height="6.4" rx=".8" fill="#000" opacity=".38"/>
+      <path d="M1.5 8.3 H63" stroke="#fff" stroke-width=".8" opacity=".65"/>
+    </pattern>
+    <linearGradient id="groove" x1="0" x2="0" y1="0" y2="1">
+      <stop stop-color="#000" stop-opacity=".62"/>
+      <stop offset="1" stop-color="#000" stop-opacity=".14"/>
+    </linearGradient>
+  </defs>
+  <path d="M49 1 V335 H114 V1" fill="#000" opacity=".12"/>
+  <path d="M49 1 V334 M114 1 V335" stroke="#000" stroke-width="1.5" opacity=".65"/>
+  <path d="M50.5 1 V333 M115.5 1 V335" stroke="#fff" stroke-width="1" opacity=".58"/>
+  <path d="M52 1 H111 V40 Q111 44 108 44 H55 Q52 44 52 41 Z" fill="url(#groove)"/>
+  <rect x="51" y="2" width="62" height="297" fill="url(#ribs)"/>
+  <rect x="51" y="305" width="61" height="29" rx="3" fill="#000" opacity=".33"/>
+  <path d="M52 333 V310 Q52 306 56 306 H107 Q111 306 111 310" fill="none" stroke="#fff" opacity=".60"/>
+  <path d="M140 249 H168 L154 273 Z" fill="#000" opacity=".22"/>
+  <path d="M140 249 H168 L154 273" fill="none" stroke="#fff" stroke-width=".8" opacity=".62"/>
+  <path d="M18 278 V333 H286 M1 272 Q1 276 5 276 H17 M287 276 H299 Q302 276 302 272" fill="none" stroke="#000" opacity=".4"/>
+  <path d="M3 6 V271 M20 281 V330 M301 8 V269" fill="none" stroke="#fff" opacity=".55"/>
+</svg>

@@ -1,0 +1,243 @@
+{
+  "hardware": "n64",
+  "author": "Joseph Rohm",
+  "url": "https://sketchfab.com/3d-models/nintendo-64-0bec1e1ed1bf4a96af858008b72437a3",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "N64_with_controller.fbx",
+  "source_file_sha256": "fe7061e660f2e4f256e1d4956f5065c1310a6e3b4b655128290971321ac7f802",
+  "archive_file": "rohm/original.zip (Sketchfab \"nintendo-64.zip\", original format)",
+  "archive_sha256": "93ae3ae6e3014e3c9cc1679da3dd9ebe16a44af2e0d00c4f4082a19ac557abad",
+  "download_approved": "User selected this source and approved the original-format download on 15 October 2026",
+  "licence_evidence": "Sketchfab API model record and download dialog: CC BY 4.0; record kept in ignored research/n64/rohm/model.json",
+  "source_axes": "FBX group N64: x right, y up, z front (Maya), scene rotated by -16.37 degrees",
+  "prepared_axes": "glTF x right/y up/z front; metres",
+  "measured": {
+    "source_size": [
+      13.84608268737793,
+      3.8308024406433105,
+      9.875053405761719
+    ],
+    "source_ratio_d_h": [
+      0.7132019668468255,
+      0.27667048703496944
+    ],
+    "mm_per_unit": [
+      18.777873992919922,
+      19.056058883666992,
+      19.240402221679688
+    ],
+    "flap_halfwidth_mm": 48.909507831846895,
+    "flap_halfwidth_after_bay_mm": 60.24119186909846,
+    "flap_centre_z_mm": -61.73354438076785,
+    "flap_depth_mm": 27.63587580996682,
+    "flap_top_y_mm": 10.871584126743528
+  },
+  "envelope_whd_mm": [
+    260,
+    73,
+    190
+  ],
+  "bay": {
+    "inner": 3.3,
+    "outer": 5.6,
+    "factor": 1.2316868448250406,
+    "z_full": -1.3,
+    "z_none": -0.6,
+    "y_none": 2.45,
+    "y_full": 2.7
+  },
+  "offsets_mm": {
+    "N64 multi-out surround": [
+      0,
+      0,
+      -14
+    ],
+    "N64 multi-out socket": [
+      0,
+      0,
+      -14
+    ]
+  },
+  "flaps": {
+    "N64 front dust flap": {
+      "hinge_yz_mm": [
+        10.0267115,
+        -47.915611
+      ],
+      "profile_yz_mm": [
+        [
+          9.181847,
+          -61.336901
+        ],
+        [
+          9.181847,
+          -47.915611
+        ],
+        [
+          9.519757,
+          -61.678074
+        ],
+        [
+          10.533666,
+          -61.678074
+        ],
+        [
+          10.871576,
+          -61.336901
+        ],
+        [
+          10.871576,
+          -47.915611
+        ]
+      ],
+      "side": 1,
+      "reference": "Source section and outer edge; pivot placement is a running-fit inference"
+    },
+    "N64 rear dust flap": {
+      "hinge_yz_mm": [
+        10.0267185,
+        -75.551488
+      ],
+      "profile_yz_mm": [
+        [
+          9.181852,
+          -75.551488
+        ],
+        [
+          9.181852,
+          -62.130194
+        ],
+        [
+          9.519765,
+          -61.789021
+        ],
+        [
+          10.533676,
+          -61.789021
+        ],
+        [
+          10.871585,
+          -75.551488
+        ],
+        [
+          10.871585,
+          -62.130194
+        ]
+      ],
+      "side": -1,
+      "reference": "Source section and outer edge; pivot placement is a running-fit inference"
+    }
+  },
+  "slot": {
+    "centre_z_mm": -61.7,
+    "entry_y_mm": 10.87158,
+    "opening_wd_mm": [
+      118.5,
+      27.9
+    ],
+    "seat_depth_mm": 27
+  },
+  "modifications": [
+    "Bake the yawed Maya group into its own frame; drop the controller, cable, cartridge and rug",
+    "Physical envelope corrections per axis before one uniform native scale",
+    "Widen only the cartridge bay and slot (smooth local x warp) so a 116-mm Game Pak fits",
+    "Retain the two closed source dust flaps; register their outer-edge axes and cross sections; lateral running gaps",
+    "Raise entry to the actual source flap surface; clip the visible slot and concealed hinge relief without booleans",
+    "Move the multi-out 14 mm rearward so the widened slot lining clears it",
+    "Remove images, UVs and normal maps; source palette, panel normals and part names",
+    "Suppress expanded outline hulls on every part"
+  ],
+  "parts": {
+    "N64 cartridge bay grille": {
+      "material": "n64grille",
+      "triangles": 544,
+      "outline": false,
+      "runtime_budget": 400
+    },
+    "N64 controller port inserts": {
+      "material": "n64socket",
+      "triangles": 392,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 controller port surrounds": {
+      "material": "n64port",
+      "triangles": 1080,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 front dust flap": {
+      "material": "n64upper",
+      "triangles": 20,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 front feet": {
+      "material": "n64foot",
+      "triangles": 312,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 lower enclosure": {
+      "material": "n64lower",
+      "triangles": 208,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 memory expansion door": {
+      "material": "n64upper",
+      "triangles": 224,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 multi-out socket": {
+      "material": "black",
+      "triangles": 28,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 multi-out surround": {
+      "material": "n64socket",
+      "triangles": 28,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 power slider": {
+      "material": "n64button",
+      "triangles": 346,
+      "outline": false,
+      "runtime_budget": 240
+    },
+    "N64 rear connector bay": {
+      "material": "n64socket",
+      "triangles": 160,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 rear dust flap": {
+      "material": "n64upper",
+      "triangles": 20,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 rear feet": {
+      "material": "n64foot",
+      "triangles": 152,
+      "outline": false,
+      "runtime_budget": null
+    },
+    "N64 reset button": {
+      "material": "n64button",
+      "triangles": 252,
+      "outline": false,
+      "runtime_budget": 240
+    },
+    "N64 upper enclosure": {
+      "material": "n64upper",
+      "triangles": 3154,
+      "outline": false,
+      "runtime_budget": null
+    }
+  }
+}

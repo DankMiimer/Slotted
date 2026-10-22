@@ -1,0 +1,81 @@
+"""Package original cel-shaded 3D housings and seating geometry (MIT).
+
+Committed renders keep theme rebuilds Pillow-only. Rebuild the models with
+Blender --background --python tools/consolebuild/models.py.
+"""
+import json
+from PIL import Image
+from .geometry import ROOT
+from ..consolebuild.snes import apply_specs
+from ..consolebuild.n64 import apply_specs as apply_n64_specs
+from ..consolebuild.ps1 import apply_specs as apply_ps1_specs
+from ..consolebuild.textured import apply_specs as apply_textured_specs
+from ..consolebuild.dreamcast import apply_specs as apply_dreamcast_specs
+
+SPECS = {
+    'gb': dict(kind=1, rx=84, ry=138.13333333333333, depth=26.64666666666667, slot=84.93333333333334, mouth=109.76, cart=106.4,
+               sink=0, idle=552, origin=306, radius=14, colour=(190,190,172)),
+    'gbc': dict(kind=1, rx=84, ry=143.76923076923077, depth=29.50769230769231, slot=71.93846153846154, mouth=125.78461538461539, cart=122.76923076923077,
+                sink=0, idle=565, origin=320, radius=23, colour=(33,143,154)),
+    'gba': dict(kind=3, rx=112, ry=115.55121951219512, depth=21, slot=115.55121951219512, mouth=165.81463414634146, cart=163.90243902439025,
+                sink=0, idle=538, origin=260, radius=12, colour=(45,81,167)),
+    'nds': dict(kind=4, rx=202, ry=113, depth=24, slot=-114, mouth=108, cart=96,
+                sink=0, idle=570, origin=298, radius=12, colour=(195,198,203)),
+    'psp': dict(kind=5, rx=240, ry=101.15702479338843, depth=26.351829988193623, slot=-24.08500590318772, mouth=220, cart=181.34592680047226,
+                sink=0, idle=550, origin=303, radius=80, colour=(48,51,57)),
+    'pico8': dict(kind=0, rx=202, ry=130, depth=60, slot=-34, mouth=148, cart=132,
+                 sink=64, idle=530, origin=343, radius=24, colour=(202,25,57)),
+    'snes': dict(kind=0, rx=226, ry=187, depth=38, slot=-65, mouth=248, cart=232,
+                 sink=54, idle=517, origin=333, radius=30, colour=(161,163,158)),
+    'snes-us': dict(kind=0, rx=195, ry=236, depth=44, slot=-105, mouth=242, cart=226,
+                    sink=54, idle=522, origin=308, radius=9, colour=(160,159,167)),
+    'nes': dict(kind=2, rx=218, ry=172, depth=56, slot=172, mouth=278, cart=196,
+                sink=18, idle=511, origin=321, radius=5, colour=(155,155,148)),
+    'n64': dict(kind=0, rx=232, ry=157, depth=35, slot=-62, mouth=242, cart=222,
+                sink=51, idle=523, origin=337, radius=54, colour=(34,35,38)),
+    'md': dict(kind=0, rx=234, ry=177, depth=38, slot=-53, mouth=242, cart=224,
+               sink=48, idle=521, origin=334, radius=35, colour=(28,29,31)),
+    'md-jp': dict(kind=0, rx=234, ry=177, depth=38, slot=-53, mouth=242, cart=224,
+                  sink=48, idle=521, origin=334, radius=35, colour=(28,29,31)),
+}
+
+for _name,_spec in SPECS.items():
+    _spec['yscale']={'nes':2.1,'n64':2.3,'md':1.7,'md-jp':1.7}.get(_name,1)
+    _spec['entry']={'snes':10,'snes-us':30,'n64':6,'md':10,'md-jp':10,'pico8':12}.get(_name,0)*_spec['yscale']
+apply_specs(SPECS);apply_n64_specs(SPECS);apply_ps1_specs(SPECS);apply_dreamcast_specs(SPECS);apply_textured_specs(SPECS)
+
+
+def build(slot,only=None):
+    """Regenerate body.tga/bands (all, or only the named families) and the specs."""
+    folder=slot/'consoles'
+    for name,spec in SPECS.items():
+        target=folder/name;render=target/'body.png'
+        if only and name not in only:
+            # Keep the other families' sprite boxes/idle from their existing bodies.
+            body=Image.open(render).convert('RGBA');bounds=body.getchannel('A').getbbox()
+            spec['idle']=668-bounds[1];spec['sprite']=(bounds[0],bounds[1],bounds[2]-bounds[0],bounds[3]-bounds[1])
+            continue
+        if not render.exists():
+            raise FileNotFoundError(f'{render}: rebuild with tools/consolebuild/models.py')
+        body=Image.open(render).convert('RGBA')
+        bounds=body.getchannel('A').getbbox()
+        # Keep every model below the shelf edge before it rises. The original
+        # SNES housings have different depths and the SP has a tall open lid.
+        spec['idle']=668-bounds[1]
+        body.crop(bounds).save(target/'body.tga')
+        spec['sprite']=(bounds[0],bounds[1],bounds[2]-bounds[0],bounds[3]-bounds[1])
+        idle=Image.new('RGBA',(720,480),(0,0,0,255))
+        idle.alpha_composite(body,(0,spec['idle']-240))
+        band=idle.crop((0,422,720,480));destination=slot/f'band-console-{name}.png'
+        # Pillow versions can encode identical PNG pixels differently. Preserve
+        # untouched families byte for byte during a targeted model refresh.
+        if not destination.exists() or Image.open(destination).convert('RGBA').tobytes()!=band.tobytes():
+            band.save(destination)
+    (folder/'specs.json').write_text(json.dumps(SPECS,indent=2)+'\n',encoding='utf8')
+    fields=('kind','rx','ry','depth','slot','mouth','cart','sink','idle','origin','radius','yscale','entry')
+    lines=['/* Generated by tools.themebuild.consoles. Original geometry, MIT. */',
+           'static const ConsoleSpec console_specs[] = {']
+    for name,spec in SPECS.items():
+        lines.append('    {"'+name+'",'+','.join(str(spec[k]) for k in fields)+',{' + ','.join(map(str,spec['colour']))+',255},{'+','.join(map(str,spec['sprite']))+'}},')
+    lines.append('};\n')
+    (ROOT/'tools/slotlaunch/console-specs.h').write_text('\n'.join(lines),encoding='utf8')

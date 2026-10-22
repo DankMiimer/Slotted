@@ -1,0 +1,71 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "nds",
+  "creator": "satchii_",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/nitendo-ds-cartridge-super-mario-64-2a768cba31054846817bcf2465611e21",
+  "uid": "2a768cba31054846817bcf2465611e21",
+  "source_file": "research/selected-cartridges-20261019/nds/full.glb",
+  "source_sha256": "abca13592080d1163de1f8afa29e869a93d3bcbc1a2225ecf47e2abdd639c18c",
+  "source_nodes": [
+    "Cartouche_Ds.003"
+  ],
+  "q": 2.75,
+  "size_mm": [
+    33.000001040371984,
+    34.37536954879761,
+    1.7221559177745471
+  ],
+  "label_mm": [
+    -0.07891559600830078,
+    0.8066186904907227,
+    14.2688570022583,
+    15.138769149780273,
+    0.8960775136947632
+  ],
+  "label_triangles": 4,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": [
+    0.07,
+    0.525,
+    0.48,
+    0.96
+  ],
+  "excluded_materials": [],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [],
+  "source_quality_limitation": "",
+  "prepared": {
+    "vertices": 3908,
+    "triangles": 5004,
+    "mesh_sha256": "e2fe161e3eef190095e77a73eb99fd325450e63ca97854fb29e6f3dd0c547b8a"
+  },
+  "label_prepared": {
+    "vertices": 8,
+    "triangles": 4,
+    "mesh_sha256": "cdb4db5edc9433f85d28f06c523e3041bcd1858f5a2ced48d33382417dae9fae"
+  },
+  "atlas": {
+    "size": 1024,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "DefaultMaterial": "3eacd05d2b9183fd528116753b545c630ddd8836d879dd2b3ab7c00933873f54"
+    },
+    "blank_pixel_rectangles": {
+      "DefaultMaterial": [
+        68,
+        38,
+        485,
+        480
+      ]
+    }
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/nds/2a768cba31054846817bcf2465611e21"
+}

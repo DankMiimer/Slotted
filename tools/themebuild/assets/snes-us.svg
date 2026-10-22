@@ -1,0 +1,4 @@
+<!-- Art Book Slot, MIT. Own geometric North American Game Pak shell. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 245">
+  <path fill="#fff" d="M8 9 H65 V5 Q65 0 71 0 H289 Q295 0 295 5 V9 H352 Q358 9 358 15 V238 Q358 244 352 244 H8 Q2 244 2 238 V15 Q2 9 8 9 Z"/>
+</svg>

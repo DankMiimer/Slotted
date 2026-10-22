@@ -1,0 +1,51 @@
+{
+  "author": "Let's Do 3D",
+  "licence": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/gameboy-dmg-01-29849a15fe0a40a6a18e01c9d544a0ed",
+  "source_dimensions": [
+    1.1294949054718018,
+    2.8770647048950195,
+    4.774469375610352
+  ],
+  "uniform_height_mm_per_source_unit": 30.998209090215433,
+  "source_console_mm_at_uniform_height": [
+    89.18385328841478,
+    148,
+    35.012319246148024
+  ],
+  "console_mm": [
+    90,
+    148,
+    32
+  ],
+  "media_mm": [
+    57,
+    65.5,
+    7.8
+  ],
+  "source_file_sha256": "9658ca66dc7f87d893b7acad9b5d2a4070a14edf9ba7ff24969cda2ba75bcfef",
+  "cavity_wall_shift_mm": 1,
+  "cavity_vertices": 8,
+  "rear_lip_shift_mm": 4.198099999999997,
+  "modifications": [
+    "Complete envelope normalization",
+    "Three-degree planar reduction",
+    "D-pad separated from side fittings",
+    "Cavity wall widened 1 mm",
+    "Rear inner lip set to -13.45 mm",
+    "Rear mouth raised to 45.5 mm",
+    "Rebuild 30-degree sharp boundaries and face-area weighted housing normals",
+    "Dense housing seams skip hull expansion",
+    "No source images or UVs"
+  ],
+  "source_media_dimensions": [
+    0.227039635181427,
+    1.873258113861084,
+    2.1516482830047607
+  ],
+  "source_media_seated_centre_mm": [
+    -0.44378606652499436,
+    38.734901807568484,
+    -9.284359818425333
+  ]
+}

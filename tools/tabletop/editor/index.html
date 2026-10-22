@@ -1,0 +1,64 @@
+<!doctype html>
+<html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Slot scene studio</title><link rel="stylesheet" href="style.css">
+<script type="importmap">{"imports":{"three":"/vendor/three.module.js","three/addons/controls/":"/vendor/"}}</script></head>
+<body><aside>
+<div class="brand"><span class="mark">S</span><div><h1>Scene studio</h1><p>Arrange your tabletop</p></div></div>
+<p><a href="room.html" target="_blank" rel="noopener">Room positions, travel paths and home table ↗</a></p>
+<details open><summary>Camera views</summary>
+<label class="caption" for="view">EDIT / PREVIEW VIEW</label><select id="view"><option value="all">Everything · overview</option><option value="tv">Straight at the TV</option><option value="cartridge">Selected hovering cartridge</option><option value="console">Console close-up</option><option value="inspect">Free model movement · L3</option></select>
+<div class="row"><button id="viewGenerate">Frame this view</button><button id="viewOverview">Return to overview</button></div>
+<label class="caption" for="browseView">DEFAULT BROWSING CAMERA</label><select id="browseView"><option value="all">Everything</option><option value="tv">TV</option><option value="cartridge">Selected cartridge</option><option value="console">Console</option></select>
+<label class="slider">Pan time (s)<input id="panSeconds" aria-label="Camera pan time" type="number" min="0.1" max="5" step="0.1" value="0.8"></label>
+<div class="section"><label class="caption">CAMERA</label><button id="focus">Focus selected <kbd>F</kbd></button></div>
+<p id="cameraEditing" class="hint">Editing camera: overview</p><p class="hint">Set position, look-at and FOV below for this view. Orbit/pan also edits only this view.</p>
+<label class="caption">CAMERA POSITION</label><div id="eye" class="xyz"></div>
+<label class="caption">LOOK AT</label><div id="target" class="xyz"></div>
+<label class="slider">Field of view <input id="fov" type="range" min="5" max="110" step="0.1"><output id="fovValue"></output></label>
+<label class="slider">Exact FOV (°)<input id="fovNumber" aria-label="Exact camera field of view" type="number" min="5" max="110" step="0.1"></label>
+<button id="cameraApply" class="wide">Apply camera to this view</button><button id="cameraMouse" class="wide" aria-pressed="false">Adjust camera with mouse</button><p id="cameraState" class="hint" role="status"></p>
+<label class="caption" for="previewCart">PREVIEW CARTRIDGE</label><select id="previewCart"></select>
+<div id="inspectionTools" hidden><p class="hint">Drag the model to turn it freely. Camera XYZ and look-at remain editable. Arrow keys turn; B returns to overview.</p><div class="row"><button id="inspectReset">Reset model turn</button><label class="check"><input id="modelDrag" type="checkbox" checked> Drag model</label></div></div>
+</details>
+<details><summary>Table model &amp; size</summary><label class="caption" for="tableModel">FURNITURE</label><select id="tableModel"></select><p id="tableCredit" class="hint"></p><label class="caption">SCALE · WIDTH / HEIGHT / DEPTH</label><div id="tableScale" class="xyz"></div><label class="check"><input id="tableUniform" type="checkbox" checked> Keep proportions when scaling</label></details>
+<details><summary>Display metadata</summary><label class="caption" for="displayTarget">DISPLAY</label><select id="displayTarget"><option value="tv">TV</option><option value="handheld">Handheld LCDs</option></select><label class="check"><input id="displayEnabled" type="checkbox"> Show metadata on this display</label><label class="caption" for="displayLayout">LAYOUT</label><select id="displayLayout"><option value="split">Artwork + text</option><option value="text">Text across screen</option><option value="artwork">Artwork / video</option></select><label class="caption" for="metadataPage">PREVIEW PAGE</label><select id="metadataPage"><option value="overview">Overview</option><option value="facts">Game details</option><option value="artwork">Box art / gallery</option><option value="video">Video</option><option value="library">Your library</option></select><div id="metadataFields" class="fields"></div><label class="slider">Text size<input id="textScale" type="number" min="0.5" max="2" step="0.05"></label><label class="slider">Padding (px)<input id="displayPadding" type="number" min="0" max="40" step="1"></label><div class="colors"><label>Background<input id="background" type="color"></label><label>Text<input id="foreground" type="color"></label><label>Accent<input id="accent" type="color"></label></div><p class="hint">Preview uses sample metadata. The renderer uses the inserted game's real metadata. Handheld LCDs start blank; enable them here if wanted.</p></details>
+<label class="caption">SELECT OBJECTS</label><label class="check"><input id="multiSelect" type="checkbox"> Select multiple</label><p class="hint">Shift/Ctrl-click in the list or scene to add/remove objects.</p><div id="objects" class="objects"></div><p id="selectionCount" class="hint" role="status"></p><button id="swapSelected" class="wide" disabled>Swap selected pair</button><div class="row"><button id="selectAllObjects">Select all objects</button><button id="clearSelection">Clear selection</button></div>
+<div class="tabs"><button id="move" class="active">Move <kbd>W</kbd></button><button id="rotate">Rotate <kbd>E</kbd></button></div>
+<label class="caption" id="positionLabel">POSITION · MILLIMETRES</label><div id="position" class="xyz"></div>
+<label class="caption">ROTATION · DEGREES</label><div id="rotation" class="xyz"></div>
+<div class="row"><button id="ground">Rest on table</button><label class="check"><input id="snap" type="checkbox"> Snap</label></div>
+<p class="hint" id="objectHint"></p>
+<details><summary>Swap two objects</summary><label class="caption" for="swapFirst">FIRST OBJECT</label><select id="swapFirst"></select><label class="caption" for="swapSecond">SECOND OBJECT</label><select id="swapSecond"></select><div class="row"><label class="check"><input id="swapPosition" type="checkbox" checked> Position</label><label class="check"><input id="swapRotation" type="checkbox" checked> Rotation</label></div><button id="swapObjects" class="wide">Swap transforms</button><p class="hint">Selecting two objects fills these choices. Swaps use world position/rotation and preserve each model’s size.</p><p id="transformState" class="hint" role="status"></p></details>
+<hr><div class="row"><button id="undo">↶ Undo</button><button id="redo">↷ Redo</button></div>
+<div class="row"><button id="reset">Reset scene</button><button id="download">Export JSON</button></div>
+<button id="downloadImage">Export preview PNG</button>
+<button id="reloadSaved">Reload saved layout</button>
+<button id="save" class="primary">Save layout</button><p id="saveState" role="status">Loading source models…</p>
+<details><summary>Copy layout to other consoles</summary><p class="hint">Saves this layout with the same TV for every console in the group. Each console and its carts are lifted or lowered to rest on the table, and the console/cartridge cameras follow. Replaced layouts keep their previous version in history. Fine-tune each console afterwards and upload it.</p><label class="check"><input id="exportUpload" type="checkbox"> …and upload them to the device</label><button id="exportTv" class="wide">Save for all TV consoles</button><button id="exportHandheld" class="wide">Save for all handheld consoles</button><p id="exportState" class="hint" role="status"></p></details>
+<div class="device-upload"><p class="caption">DEVICE PREVIEW</p><p class="hint">Upload to device saves this layout and restarts the frontend into this console and TV. <b>Upload…</b> sends several saved layouts in one transaction. Connect the handheld to Wi-Fi and close any running game. Normal preferences and saves are preserved.</p><button id="importDevice" class="wide">Import layout from device</button><p class="hint">Reads the layout your device uses for this console and TV into the editor (nothing on the device changes). Save afterwards to keep it; Undo restores the editor.</p><button id="importAll" class="wide">Import all from device…</button><p id="importState" class="hint" role="status"></p></div>
+</aside><main>
+<header><div><span class="dot"></span> LIVE 3D SCENE <span id="selection"></span></div><div class="row"><select id="system" aria-label="Console"></select><select id="tvModel" aria-label="Television model"></select><select id="aspect" aria-label="Screen aspect ratio"><option value="3:2">3:2 · 720 × 480</option><option value="4:3">4:3 · 720 × 540</option></select><button id="clean">Hide handles</button><button id="upload" disabled>Upload to device</button><button id="uploadMany" disabled>Upload…</button></div><p id="uploadState" role="status" aria-live="polite"></p></header>
+<div id="stage"><div id="viewport"><canvas id="canvas"></canvas><div id="loading">Loading original geometry and textures…</div></div></div>
+<footer><span><b>Drag empty space</b> orbit &nbsp; <b>Right-drag</b> pan &nbsp; <b>Wheel</b> zoom</span><span><b>Click a model</b> select &nbsp; <b>W / E</b> move / rotate &nbsp; <b>Ctrl Z</b> undo</span></footer>
+</main>
+<dialog id="uploadDialog" aria-labelledby="uploadTitle"><form method="dialog">
+<h2 id="uploadTitle">Upload saved layouts</h2>
+<p class="hint">Every ticked layout goes to the device in <b>one</b> transaction: one snapshot, only the files whose hash differs, one frontend restart, every file verified and one audit. If anything fails, all of them roll back together.</p>
+<p id="uploadDevice" class="hint" role="status"></p>
+<p id="uploadDraft" class="note" hidden>This layout has unsaved edits, which upload does not include. <button type="button" id="uploadSaveFirst">Save layout first</button></p>
+<div class="row picks"><span class="caption">TICK</span><button type="button" data-pick="changed">Changed</button><button type="button" data-pick="differs">Changed + new</button><button type="button" data-pick="all">All</button><button type="button" data-pick="none">None</button></div>
+<div id="uploadRows" class="pick-list"></div>
+<label class="caption" for="uploadOpen">OPEN AFTERWARDS</label><select id="uploadOpen"></select>
+<div id="uploadFiles" class="file-list" hidden></div>
+<p id="uploadSummary" role="status" aria-live="polite"></p>
+<div class="row"><button type="button" id="uploadStart" class="primary" disabled>Upload</button><button value="close">Close</button></div>
+</form></dialog>
+<dialog id="importDialog" aria-labelledby="importTitle"><form method="dialog">
+<h2 id="importTitle">Import layouts from device</h2>
+<p class="hint">Device layouts that differ from your saved ones. Each imported layout becomes an unsaved draft for its console and TV: Undo returns to what the editor had, an existing draft is kept in local recovery, and Save layout keeps it. Nothing on the device changes.</p>
+<p id="importDeviceState" class="hint" role="status"></p>
+<div id="importRows" class="pick-list"></div>
+<p id="importSummary" role="status" aria-live="polite"></p>
+<div class="row"><button type="button" id="importStart" class="primary" disabled>Import</button><button value="close">Close</button></div>
+</form></dialog>
+<script type="module" src="editor.js"></script></body></html>

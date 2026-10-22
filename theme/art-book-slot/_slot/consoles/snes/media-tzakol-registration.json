@@ -1,0 +1,67 @@
+{
+  "adapter": "cartridges_blender.py",
+  "key": "tzakol",
+  "creator": "kutejnikov",
+  "licence": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/49251a57f2c9418faec314a5a5ab7ee9",
+  "source_file": "tzakol/game_cartridge_tzakol_in_exile.glb",
+  "source_sha256": "3be5f86bd4a3626b53015ba9e4f6430123ce786f0ed8ac9c8f51f313bfd1fd55",
+  "q": 1.6,
+  "size_mm": [
+    130.00000268220901,
+    88.55925872921944,
+    19.999999552965164
+  ],
+  "source_size_mm": [
+    130.0,
+    88.55926239902236,
+    24.996832146324376
+  ],
+  "depth_scale": 0.8001013841644279,
+  "label_mm": [
+    0.5952663421630859,
+    22.485441207885742,
+    35.33294677734375,
+    21.719369888305664,
+    10.013050079345703
+  ],
+  "label_triangles": 10,
+  "decimation": false,
+  "modifications": [
+    "Registered and centred source; independent shell only",
+    "Fixed front game art blanked; per-game label follows source surface",
+    "Simple albedo lighting; no source normal, metallic or roughness maps",
+    "Depth scaled by 0.800101384 to the existing slot; width/height unchanged"
+  ],
+  "atlas": {
+    "size": 1024,
+    "tiles": {
+      "default": [
+        0,
+        0,
+        1024,
+        1024
+      ]
+    },
+    "blank_uv": [
+      [
+        0.44,
+        0.059,
+        0.75,
+        0.297
+      ]
+    ],
+    "excluded_images": [],
+    "paint_luma": 0.37534117647058823
+  },
+  "prepared": {
+    "vertices": 268,
+    "triangles": 216,
+    "mesh_sha256": "e9647515baa95b5b0226e94cb04133d446cbea90a2d862be10cc2e6f7646c461"
+  },
+  "label_prepared": {
+    "vertices": 20,
+    "triangles": 10,
+    "mesh_sha256": "2f0a5501d3bcf24f2c518e6e1f433678df52affe33246804cc2349941a59dc26"
+  }
+}

@@ -1,0 +1,366 @@
+Slotters model asset attribution
+
+The complete source/licence ledger, including queued replacements and local-only
+exceptions, is CREDITS.md at the project root. Third-party asset licences apply
+to their derivatives; the project's MIT licence does not override them.
+
+17 October 2026 scene revision: home-console render images turned southeast (+22 degrees),
+TV images kept southwest (-22 degrees). Front base edges/relative sizes registered;
+Retro TV height approximated at 450 mm. Original asset licences below still apply.
+
+GameBoy DMG-01 by Let's Do 3D (@LetsDo3D)
+https://sketchfab.com/3d-models/gameboy-dmg-01-29849a15fe0a40a6a18e01c9d544a0ed
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: dimensions, cavity and rear lip corrected; coplanar
+tessellation reduced; source textures removed; native export and cel shading.
+Applies to the GB Game Pak (consoles/gb/media*) and derived Game Pak images. The
+former DMG housing is superseded by Bram Verheyen's Gameboy Classic (below).
+
+Playstation Potable(PSP 3001) by JSJetStream14
+https://blendswap.com/blend/14767
+Geometry: Creative Commons Attribution 3.0 Unported
+https://creativecommons.org/licenses/by/3.0/
+Preceding PSP housing, retained for reproduction only; no longer the runtime
+console (superseded by Ilya Ostrovsky's Sony PSP, below). The UMD is original
+Slotters geometry, MIT.
+
+Nintendo DS Lite by Cianon
+https://sketchfab.com/3d-models/nintendo-ds-lite-ca529eb7208746e89b7a28fd2246659d
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: uniform registration from Nintendo's 133 mm published width;
+the fully transparent glass overlay (28 triangles) dropped, all 1,158 other source
+triangles and UVs kept with the 2048 px base-colour atlas (not enlarged); both
+screens separated from their shells and blanked for live metadata; the fixed game
+card picture painted on the Slot-1 notch cleared; the lid registered about its own
+knuckle axis and opened from the source's 125 degrees to the 145-degree
+presentation pose; paint alpha added for console colours. The dark Slot-1 mouth is
+an original Slotters fitting, MIT. The source has no mechanism: the hinge is a
+fitted registration. Normal/roughness/metallic maps are not rendered. Applies to
+the DS console mesh, consoles/nds/model.albedo.png and all derived DS render
+images. Supersedes the earlier DSi choice and the procedural DS Lite housing.
+
+Sony PSP by Ilya Ostrovsky
+https://sketchfab.com/3d-models/sony-psp-dca89d10ec304d0cab76837750df7761
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: staging ground removed, source display tilt undone, uniform
+registration from the complete 169.4 mm width; all source triangles kept (the
+connected rear moulding is split at its straight seams into a separately hinged UMD
+cover and two wings, 58,676 triangles in all); source UVs kept with the 4096 px
+base-colour map reduced to a 2048 px atlas; the baked home screen blanked for live
+metadata; paint alpha added for console colours. Concealed drive floor, cover
+lining and holder rails are original Slotters fittings, MIT. The source has no
+mechanism: the cover hinge is a fitted approximation. Normal/roughness/metallic
+maps are not rendered. Applies to the PSP console mesh, consoles/psp/model.albedo.png
+and all derived PSP render images.
+
+Gameboy Classic by Bram Verheyen
+https://sketchfab.com/3d-models/gameboy-classic-854c46e14ce24779ad64ae74cb9b9089
+Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+NONCOMMERCIAL: applies to consoles/gb/model.* and consoles/gb/model.albedo.png and
+every derived GB render; this part of the theme may not be sold or used commercially.
+Adapted for Slotters: presentation tilt undone from the source LCD plane, uniform
+registration from the complete 90 mm width, all 9,856 triangles and source UVs kept
+(cosmetic wear and sticker included), 4096 px maps reduced to a 2048 px atlas, the
+planar LCD separated from its bevel and blanked for live metadata, Game Pak
+registered to the measured bay floor and rear lip, paint alpha added for console
+colours. Normal/roughness/metallic maps are not rendered.
+
+Game Boy Color Model by BPoole
+https://sketchfab.com/3d-models/game-boy-color-model-a3dad19c800f4c61a931865f14870768
+Geometry and texture map: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: uniform registration from the source's own 57 mm Game Pak
+width; fixed half Game Pak and hidden battery contacts/springs removed; displaced
+battery cover seated against the housing rim; source UVs kept with the base-colour
+map reduced to a 2048 px atlas; the baked game screenshot blanked and unused texels
+(including the fixed Game Pak label) cleared; scratched glass composited over a dark
+LCD; paint alpha added for console colours. Normal/ORM maps are not rendered.
+Applies to the CGB console mesh, consoles/gbc/model.albedo.png and all derived CGB
+render images. The CGB Game Pak remains original Slotters geometry, MIT.
+
+Game Boy Color by Wikiti (preceding CGB model, retained for reproduction only)
+https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Its prepared source under third_party/models/wikiti-cgb/ is no longer the runtime
+CGB housing. Its complete dedicated cartridge design is original Slotters geometry.
+
+Gameboy Advance SP and Pokemon Cartridge (Gameboy) by thegraphicsgeek
+https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f
+https://sketchfab.com/3d-models/pokemon-cartridge-gameboy-7d79300f91a441d0ba520fdbd268aa5f
+Geometry and base-colour maps: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+SP, adapted for Slotters (theme setting "Slot GBA SP model" = thegraphicsgeek): the two
+transparent lens overlays dropped, all 66,784 other source triangles and UVs kept; the three
+1024 px base-colour maps packed unreduced into a 2048 px atlas; footprint corrected from the
+artist's 84 x 82 mm to Nintendo's published 82 x 84.6 mm; registered into the existing Game
+Pak path with the cartridge-bay roof raised 1.7 mm so the registered Game Pak clears it; the
+source opening angle kept, with the lid registered about the hinge pin (a fitted registration,
+the source has no mechanism); paint alpha added for console colours. Normal/roughness/
+metallic/AO maps are not rendered. Applies to consoles/gba/model.* and consoles/gba/
+model.albedo.png and the derived GBA render images in stage/ and appearance/.
+Its earlier reduced vertex-colour derivative and the Pokemon Cartridge companion source are
+retained for historical reproduction only; the runtime cartridge derives from Vxcl's
+user-selected textured shell below. The local NeilVFX SP and its separate Editorial notice
+remain the other choice of the setting. Shrednector's Zelda SP stays on the waiting list.
+
+Gameboy Advance Cartridge (GBA cart) by Dave Parker
+https://www.printables.com/model/190861-gameboy-advance-cartridge-gba-cart
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: assemble the two fitted shell halves; normalize height
+34.4 to 34.5 mm; replace grip/label pockets, recess crown lettering and rear
+identifier panel, retain guides/mode slots/interlocks and screw opening.
+New board, contacts, blank paper and identifying text are original MIT geometry.
+Historical source/derivative retained for reproduction; superseded at runtime
+by Vxcl's selected shell on 16 October 2026.
+The source's BOSL dependency notice (BSD 2-Clause) is retained in
+third_party/models/dave-gba/BOSL-LICENSE.txt. Downloaded code is not executed.
+
+Super nintendo by quick_loop (@so_O)
+https://sketchfab.com/3d-models/super-nintendo-d42c35b117974ade8842f0964f5fd59e
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: PAL/SFC physical envelope and native palette; source images,
+UVs, flat decals and closed cartridge flap removed; open loading path under the
+source mouth, stable panel normals and individual fitting budgets.
+Applies to PAL/SFC console geometry, body/band images and appearance derivatives.
+
+Super Nintendo Console by Steven H. Tran (@ibbqcats)
+https://sketchfab.com/3d-models/super-nintendo-console-41c9dd1f5a53493cbe2e00a190150e93
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: SNS-001 physical envelope, semantic native palette and
+enclosure/control separation; source lettering replaced by blank planar regions;
+open loading path under the source mouth, panel normals and per-part budgets.
+Applies to US console geometry, body/band images and appearance derivatives.
+The US cartridge and original slot liners remain MIT. The PAL shell is now
+SomeKevin's credited source below; kutejnikov's optional style is separate.
+
+Nintendo 64 by Joseph Rohm
+https://sketchfab.com/3d-models/nintendo-64-0bec1e1ed1bf4a96af858008b72437a3
+Geometry: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: NUS-001 physical envelope; cartridge bay and slot widened
+for the 116-mm Game Pak; source dust flaps retained, fitted and articulated;
+entry aligned to their surface, with concealed hinge relief; controller, cable, cartridge,
+images, UVs and normal maps removed; native palette, panel normals and part names.
+Applies to N64 console geometry, body/band images and appearance derivatives.
+The slot liners and front badge lettering remain MIT. The selected N64 Game Pak
+is now Chris Sweetwood's separate CC BY-NC-SA 4.0 asset below.
+
+Sony PVM-1341 / Sony PlayStation by dark_igorek
+https://sketchfab.com/3d-models/5f80311f1a4646ef9673f20ee6dc6245
+https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245
+Geometry, retained textures and derived renders: Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+PSX: all seven console meshes (64,717 source triangles), UVs and print retained without
+decimation; original 4K albedos packed into two 1024px tiles. Accepted 270 x 60 x 188mm
+envelope, early SCPH-1001 optical pickup orientation, source spindle and moving lid kept.
+Native albedo/simple lighting only; normal/roughness/metallic/emission shading excluded.
+No fixed game disc or screen art exists in this console collection. Applies to consoles/psx/
+and its body/band/stage/appearance renders; original maps/master retained separately.
+PVM: additional Slot TV model option, complete cabinet/feet/controls/rear connections and
+source material detail, curved glass separated and blanked for live metadata. Loose external
+power cable/plug/contact islands excluded. Rendered at the standard three-quarter angle and
+registered to the shared floor. Applies to stage/tv/pvm.png and prepared darkigorek-pvm model.
+Controllers, other cables, lights and cameras are excluded. The older image-free console
+derivative remains separately available for reproduction. No endorsement is implied.
+
+These model assets retain the licences above and are excluded from the
+project's blanket MIT grant. No creator or hardware manufacturer endorsement
+is implied. The processing code, newly drawn minimal identifying wordmarks,
+holder/drive additions and original ECMA-based UMD geometry are MIT.
+Source game screenshots/labels are excluded from the adapted baseline. Retained
+TV housing maps and any subsequently retained model texture maps follow their
+named source licence; do not describe all texture assets as original MIT work.
+
+The physical US SNES, NES, Genesis/Mega Drive (Western, Japanese, EA) and DS
+card media are original Slotters
+geometry from the project's own drawings and published dimensions, MIT. No
+downloaded mesh, scan, photograph, logo or game art is included.
+The PAL SNES, optional SNES style, GBA, N64 and PICO-8 replacements are credited
+separately below; their models and derived images are not blanket MIT assets.
+
+The Cel shaded / Realistic and console-paint derivatives under appearance/
+retain each named parent console's licence and attribution above: DMG, CGB,
+AGS, DS Lite, PAL/US SNES, N64, PlayStation and PSP CC BY 4.0; GB CC BY-NC 4.0 (noncommercial). The appearance code and enclosure-mask metadata
+are original MIT processing. No endorsement or official colour edition is implied.
+
+Panasonic CRT TV (1990s) by DamianToons
+https://sketchfab.com/3d-models/panasonic-crt-tv-1990s-45f7728e4f534d9393ef1d681137b6d9
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: source scale normalized, broadcast screen material and
+image excluded, blank glass, a transparent studio render at the scene's standard
+three-quarter angle (35 degree elevation, turned 22 degrees) and live-screen inset.
+Applies to stage/tv/panasonic.png and the prepared model under
+third_party/models/damiantoons-panasonic/. No endorsement is implied.
+The experimental tabletop scene (_slot/tabletop/panasonic/) uses this model's
+source triangles, UVs and albedo maps as real 3D geometry with blank live glass.
+
+Wooden Table by lena-wachs
+https://sketchfab.com/3d-models/wooden-table-e4a9129ea0114d3e8d1989971eca53ef
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: the tabletop slab and trim (112 of the 536 source
+triangles) with their original UVs and 4K albedo map, uniformly scaled to a
+physical registration; legs and other parts outside the view omitted. Applies to
+_slot/tabletop/table/. No endorsement is implied.
+
+TV, Old TV, Retro TV by Denys Hroshko (@denyshroshko) — optional "Slot TV model"
+https://sketchfab.com/3d-models/tv-old-tv-retro-tv-f13b9a45c0d649dc90ebac5f7717cebf
+Creative Commons Attribution-NonCommercial 4.0 International
+https://creativecommons.org/licenses/by-nc/4.0/
+NONCOMMERCIAL: applies to stage/tv/retro.png and any derived TV render or model;
+this part of the theme may not be sold or used commercially.
+Adapted for Slotters: turned to face the camera, UV-identified screen faces
+separated as blank live glass, cabinet keeps its source base-colour/ORM/normal
+maps, transparent studio render at the standard three-quarter angle and live-screen
+inset. No broadcast image.
+
+Old TV by pibanezl (@hypermegadev)
+https://sketchfab.com/3d-models/old-tv-833d046f00394fb1a69514b3c96e86bd
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: uniformly scaled to a 14-inch set (13.2-inch viewable tube
+face, cabinet 442 x 302 x 261 mm), centred on its footprint; all 2,770 source
+triangles, UVs and 2k base-colour maps kept; the tube face is blank live glass.
+Applies to stage/tv/oldtv.png, the prepared model under third_party/models/
+pibanezl-old-tv/ and the tabletop scene (_slot/tabletop/oldtv/). No endorsement
+is implied.
+
+Sega Dreamcast by Zerescas
+https://sketchfab.com/3d-models/sega-dreamcast-f82d99e4739e42f4abfc37cb97918cfc
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Adapted for Slotters: all 13 console parts (36,270 triangles); separate source lid,
+registered hinge/spindle and original sloped optical seat; two 4K albedo maps
+reduced to 1024px tiles in a 2048px atlas, retained source print/UVs and enclosure
+paint mask. Source albedo with simple lighting, no PBR/normal/ORM maps.
+The fixed Sonic Adventure 2 disc and its complete image/material are excluded.
+Each game's independent disc print and original insert/eject mechanism remain.
+
+Additional selected sources (installed unless marked queued)
+
+Song Of Morus: pico-8 cartridge by sunnychow
+https://sketchfab.com/3d-models/song-of-morus-pico-8-cartridge-fc89d8b44a934400bdf282600f61d369
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Cartridge shell and derived shelf/hero images: all 438 triangles, 128px source
+albedo copied without enlargement, board/metal colours retained; depth fitted
+to the existing slot. Fixed Song of Morus artwork and credits cleared. Each
+library game's art/credits fill the registered sticker; original ROMs remain
+unchanged and retain their own notices. No source game data is distributed.
+
+Super Nintendo Cartridge by SomeKevin; UVs by cpt.brotzeit
+https://sketchfab.com/3d-models/super-nintendo-cartridge-b2076d8a65d648ff99bf51ca9d5fca2a
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+PAL cartridge media meshes, albedo and derived shelf/hero/backing images.
+All 33,839 triangles and source proportions retained; uniformly registered at
+130mm width, 4K albedo reduced to 2K. Fixed label cleared; per-game sticker
+follows the actual curved source surface. US regional shell remains available.
+
+Game Cartridge (Tzakol in Exile) by kutejnikov
+https://sketchfab.com/3d-models/game-cartridge-tzakol-in-exile-49251a57f2c9418faec314a5a5ab7ee9
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+Selectable SNES-inspired style, media-tzakol assets in both regional console
+folders and snes-tzakol shelf/hero/backing images. 216 triangles, 2K source
+albedo reduced to 1K; depth fitted to 20mm bay. Fixed title/art removed,
+independent per-game sticker surface. Regional style remains the default.
+
+Gameboy Advance Cartridge by Vxcl
+https://sketchfab.com/3d-models/gameboy-advance-cartridge-38c1e6702e5d4f21af1d0930689b1d10
+Creative Commons Attribution 4.0 International
+https://creativecommons.org/licenses/by/4.0/
+GBA media meshes, albedo and shelf/hero/backing images. Source shells, board,
+screw and sticker preserved (1,522 nondegenerate triangles; two zero-area source
+triangles omitted), uniformly registered at 60mm width. Mario Kart image
+excluded; each game supplies its own sticker. Source maps reduced into an atlas.
+
+Nintendo 64 Cart by Chris Sweetwood
+https://sketchfab.com/3d-models/nintendo-64-cart-7b93f9cb196743009c2211a5e47643d8
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+N64 media meshes/UV/albedo and cartridge-derived shelf/hero/backing images.
+One upright 1,050-triangle shell/sticker from three posed copies; uniform 116mm
+registration, source plastic map retained at 1024px, Diddy Kong Racing image
+excluded. Independent per-game sticker. No decimation. These model derivatives
+and images containing this cartridge retain CC BY-NC-SA 4.0: attribution,
+NONCOMMERCIAL USE and SHAREALIKE. Independent processing code remains MIT;
+the Joseph Rohm console remains its separately credited CC BY 4.0 asset.
+
+Local-only GBA SP override: NeilVFX / nvfx, Editorial License (no AI), not CC.
+https://www.cgtrader.com/free-3d-models/electronics/other/gameboy-advance-sp
+Its own CREDITS.txt accompanies ignored local-models/consoles/gba/ assets.
+The above CC BY GBA entry applies to the separate packaged fallback.
+
+kitnxi CRT TV is preview-only and is not included; no CC licence is claimed.
+https://sketchfab.com/3d-models/crt-tv-f5d3de5d04ca469aa192b9c4268dc81a
+
+
+TV stand by Qu3st10n
+https://sketchfab.com/3d-models/tv-stand-2bad9d5f36b840c5a15e612cf9b7d78c
+CC Attribution-NonCommercial-ShareAlike
+http://creativecommons.org/licenses/by-nc-sa/4.0/
+Author must be credited. No commercial use. Modified versions must have the same license.
+
+Official 4k GLB and original archive preserved in research/tv-stand-qu3st10n/.
+Runtime derivative: original geometry and UVs, source albedo, simple lighting; X right / Y up / Z forward, 1500 mm initial width, top surface at y=0. Editable table scales multiply these dimensions. No decimation. Full source PBR maps stay in the GLB/archive.
+The 196-triangle source collision proxy is retained with its original zero-alpha visibility (hidden). The 888-triangle visible cabinet stays intact.
+The model and its derivatives remain CC BY-NC-SA 4.0; this does not relicense the application.
+
+
+Wooden table (low poly) by AndreyUEDev
+https://sketchfab.com/3d-models/wooden-table-low-poly-ab96499ddb3b4bd7bc739e4f99dad409
+CC Attribution
+http://creativecommons.org/licenses/by/4.0/
+Author must be credited. Commercial use is allowed.
+
+Official 4k GLB and original archive preserved in research/table-andrey/.
+Runtime derivative: original geometry and UVs, source albedo, simple lighting; X right / Y up / Z forward, 1500 mm initial width, top surface at y=0. Editable table scales multiply these dimensions. No decimation. Full source PBR maps stay in the GLB/archive.
+
+Selected cartridge sources — 19 October 2026
+
+NDS cartridge — satchii_
+https://sketchfab.com/3d-models/nitendo-ds-cartridge-super-mario-64-2a768cba31054846817bcf2465611e21
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
+
+GBA cartridge — thegraphicsgeek
+https://sketchfab.com/3d-models/pokemon-cartridge-gameboy-7d79300f91a441d0ba520fdbd268aa5f
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
+
+NES cartridge — dark_igorek
+https://sketchfab.com/3d-models/nes-cartridge-battletoads-8aeab01fce084c3abaf3de792dda47a1
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
+
+GB cartridge — Bob
+https://sketchfab.com/3d-models/gameboy-cartridge-lowpoly-8b9728eab16c4056ac2636ae7f0f038f
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
+
+GBC cartridge — Wikiti
+https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+GBC hidden lower shell and connector are original additions; partial source label well extended through its filled lower strip; dimensions are presentation estimates
+
+MD cartridge — Nerd_Sp
+https://sketchfab.com/3d-models/couple-of-mega-drive-genesis-cartriges-c17dd351aa2743048430bf9a2b8af1dc
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+Registered full source geometry/UVs/normals; no decimation. Fixed game artwork blanked; independent per-game label.
+Whole source scene and full PBR maps preserved; runtime uses opaque albedo and simple lighting.
+

@@ -1,0 +1,11 @@
+{
+  "system": "gb",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "3d2f176b13b9c2cff9b26273b4c156febafdf0adc1c4e03d80193414e37c43bc",
+    "media-master.glb": "c480b17056116e4776dfa392192cf644fe7835ba0b397e43d32df32e7b6d60fc",
+    "media-physical.glb": "1c45c2ccb9387ceb0a402f711fc0e5f2ab483503305fecb82ba32e8efdc67d1a",
+    "media.glb": "c480b17056116e4776dfa392192cf644fe7835ba0b397e43d32df32e7b6d60fc",
+    "media.mesh": "76ba1e6e008d606731e44f50840cad90716733cf1cc229e47d07a2c7e50d1544"
+  }
+}

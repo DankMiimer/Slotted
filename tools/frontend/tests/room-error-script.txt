@@ -1,0 +1,7 @@
+10 shot home
+20 seek gba
+30 key ok
+180 shot failed-tv
+190 key back
+350 shot recovered-home
+360 quit end

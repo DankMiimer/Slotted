@@ -1,0 +1,17 @@
+{
+  "vertices": 13567,
+  "indices": 37605,
+  "triangles": 12535,
+  "door_first": 37605,
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Authored recreation adapted by tools/consolebuild/models.py",
+  "creators": [
+    {
+      "author": "quick_loop",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/super-nintendo-d42c35b117974ade8842f0964f5fd59e"
+    }
+  ],
+  "detail": "detailed",
+  "triangle_limit": 200000
+}

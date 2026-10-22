@@ -1,0 +1,49 @@
+{
+  "vertices": 51805,
+  "indices": 194151,
+  "triangles": 64717,
+  "door_first": 171063,
+  "vertex_decimals": null,
+  "normal_decimals": null,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.6403451561927795,
+    "albedo_sha256": "f19489235987bf7471fcf605ff43b02f205ac1883e46d82cff648065e660d40b",
+    "painted_texels": 1529973,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/darkigorek_psx.py",
+  "creators": [
+    {
+      "author": "dark_igorek",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 2204313,
+    "blank": [],
+    "inset": {},
+    "constants": {
+      "plugs": {
+        "box": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "linear": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+}

@@ -1,0 +1,18 @@
+{
+  "system": "gba",
+  "uid": "7d79300f91a441d0ba520fdbd268aa5f",
+  "files": {
+    "CREDITS.txt": "f2f4ad4630236e5f68350a10939b133b6843f61c9facb0d6683eb050f8697087",
+    "media-info.json": "a58074cf0890d2a428595f60d8d17837f0f028bf04a7d0928a454282898324f0",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "5cfd423a366dcc542d38c41450acca2478d3f33e3d23d61c2290f4d480ed4aae",
+    "media-label.texture": "80acd37a2166cb9fd201b2018d25ecedf85330404a6419b3135b30768d6027da",
+    "media-master.glb": "3052f8d07f046699be89fd008bf181fe9b6856ce3d5f3cc1bca5cb0062fa63fe",
+    "media-physical.glb": "52142526059523c9befbe5e0d158d4ad5a416a5129ad9b6b6742e164655e1491",
+    "media-registration.json": "c59c0bc31077992e5ffda21fdb2f5a5cff0a450e3e6da94e292b622b00c86e82",
+    "media.albedo.png": "fddf77576a4206aac8a2e6166935c2f05774aadab484b4c62fd55724a6aedf92",
+    "media.glb": "3052f8d07f046699be89fd008bf181fe9b6856ce3d5f3cc1bca5cb0062fa63fe",
+    "media.mesh": "0b8b5080b8507b21bbffc011ff592a9abf20a60eca7e08ddbd200e0c9aae5966",
+    "media.texture": "bddc8d15f343f21419c2980951908b1dce28834b4363d8124ac82f415b252d1c"
+  }
+}

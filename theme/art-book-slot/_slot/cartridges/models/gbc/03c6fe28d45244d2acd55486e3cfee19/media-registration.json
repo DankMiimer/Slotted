@@ -1,0 +1,140 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "gbc",
+  "creator": "Wikiti",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/game-boy-color-03c6fe28d45244d2acd55486e3cfee19",
+  "uid": "03c6fe28d45244d2acd55486e3cfee19",
+  "source_file": "research/selected-cartridges-20261019/gbc/full.glb",
+  "source_sha256": "3863826a853fdf7afc1e397a6025875c49ca38aa4cc3ee1c6eeb086a742d498f",
+  "source_nodes": [
+    "Wikiti authored exposed cartridge"
+  ],
+  "q": 2.1538462,
+  "size_mm": [
+    57.00000146929536,
+    65.50000382460733,
+    7.978081319353419
+  ],
+  "label_mm": [
+    -0.25,
+    -4.399999141693115,
+    20.950000762939453,
+    19.19999885559082,
+    3.504999876022339
+  ],
+  "label_triangles": 2,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": [
+    0.396,
+    0.123,
+    0.456,
+    0.492
+  ],
+  "excluded_materials": [],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [
+    "Original concealed CGB lower shell",
+    "Original CGB connector board",
+    "Original CGB contact 00",
+    "Original CGB contact 01",
+    "Original CGB contact 02",
+    "Original CGB contact 03",
+    "Original CGB contact 04",
+    "Original CGB contact 05",
+    "Original CGB contact 06",
+    "Original CGB contact 07",
+    "Original CGB contact 08",
+    "Original CGB contact 09",
+    "Original CGB contact 10",
+    "Original CGB contact 11",
+    "Original CGB contact 12",
+    "Original CGB contact 13",
+    "Original CGB contact 14",
+    "Original CGB contact 15",
+    "Original CGB contact 16",
+    "Original CGB contact 17",
+    "Original CGB contact 18",
+    "Original CGB contact 19",
+    "Original CGB contact 20",
+    "Original CGB contact 21",
+    "Original CGB contact 22",
+    "Original CGB contact 23",
+    "Original CGB contact 24",
+    "Original CGB contact 25",
+    "Original CGB contact 26",
+    "Original CGB contact 27",
+    "Original CGB contact 28",
+    "Original CGB contact 29",
+    "Original CGB contact 30",
+    "Original CGB contact 31"
+  ],
+  "source_quality_limitation": "GBC hidden lower shell and connector are original additions; partial source label well extended through its filled lower strip; dimensions are presentation estimates",
+  "prepared": {
+    "vertices": 2872,
+    "triangles": 1887,
+    "mesh_sha256": "31f9130774829c3fc884f2ecb56c3efb8a7b52820fb93dd1e34a98de2c26744b"
+  },
+  "label_prepared": {
+    "vertices": 4,
+    "triangles": 2,
+    "mesh_sha256": "4c5b10fa56e13ec290108cb58e6558c00414504c93fe59d609816f71e3b22986"
+  },
+  "atlas": {
+    "size": 1024,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "Original CGB connector board material": "swatch-(69, 120, 89)",
+      "Original CGB contact 00 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 01 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 02 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 03 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 04 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 05 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 06 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 07 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 08 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 09 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 10 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 11 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 12 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 13 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 14 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 15 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 16 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 17 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 18 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 19 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 20 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 21 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 22 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 23 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 24 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 25 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 26 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 27 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 28 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 29 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 30 material": "swatch-(195, 161, 74)",
+      "Original CGB contact 31 material": "swatch-(195, 161, 74)",
+      "Original concealed CGB lower shell material": "swatch-(45, 45, 47)",
+      "Plastic": "6cd24935cc7a4d1130af9eaf6dc108ac6b341ba6359f13344b69238f4fbf06b8"
+    },
+    "blank_pixel_rectangles": {
+      "Plastic": [
+        397,
+        510,
+        461,
+        886
+      ]
+    }
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/gbc/03c6fe28d45244d2acd55486e3cfee19"
+}

@@ -1,0 +1,30 @@
+{
+  "panasonic": {
+    "path": "third_party/models/damiantoons-panasonic/model.glb",
+    "sha256": "f8d0d17c3976692ce3a53a094a61de5e3e81f0310047b9143affa07cabe52fed"
+  },
+  "retro": {
+    "path": "third_party/models/denys-retro-tv/model.glb",
+    "sha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce"
+  },
+  "pvm": {
+    "path": "third_party/models/darkigorek-pvm/model.glb",
+    "sha256": "660d8769893a7af4317cccbc4b450749f277cbe30267f2ec2d60d923a3804046"
+  },
+  "oldtv": {
+    "path": "third_party/models/pibanezl-old-tv/model.glb",
+    "sha256": "18167fc5ad013314d17ae97bf699cd7cff87f6eeab06b00b9eed3897d395458d"
+  },
+  "table": {
+    "path": "research/table-lena-wachs/wooden_table.glb",
+    "sha256": "1d15adc556ea7e588a84020388b820975f21a17a5e98059d02721e8451bf961a"
+  },
+  "tv-stand": {
+    "path": "research/tv-stand-qu3st10n/tv_stand.glb",
+    "sha256": "84c3686a93169eb623910d6082e32f15c871ff72eddcb9640260cdeb998dfdf2"
+  },
+  "wooden-table": {
+    "path": "research/table-andrey/wooden_table_low_poly.glb",
+    "sha256": "32dab7446c61369110da3e216e9fd69d033021d73ad68c81d0142c6a421ec559"
+  }
+}

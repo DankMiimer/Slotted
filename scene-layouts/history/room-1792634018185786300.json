@@ -1,0 +1,102 @@
+{
+  "version": 1,
+  "kind": "room",
+  "floor": 0.0,
+  "bounds": {
+    "left": -8000.0,
+    "right": 8000.0,
+    "back": -6000.0,
+    "front": 6000.0,
+    "height": 3600.0
+  },
+  "tables": {
+    "table": {
+      "position": [
+        0.0,
+        805.077,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    },
+    "wooden-table": {
+      "position": [
+        4200.0,
+        416.822,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        90.0,
+        0.0
+      ]
+    },
+    "tv-stand": {
+      "position": [
+        -4200.0,
+        660.95,
+        0.0
+      ],
+      "rotation": [
+        0.0,
+        0.0,
+        0.0
+      ]
+    }
+  },
+  "paths": [
+    {
+      "from": "table",
+      "to": "wooden-table",
+      "seconds": 1.4,
+      "first": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "second": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    },
+    {
+      "from": "table",
+      "to": "tv-stand",
+      "seconds": 1.4,
+      "first": [
+        0.0,
+        180.0,
+        0.0
+      ],
+      "second": [
+        0.0,
+        180.0,
+        0.0
+      ]
+    }
+  ],
+  "surfaces": {
+    "floor": {
+      "color": [
+        0.502,
+        0.502,
+        0.502
+      ],
+      "tile": 2400.0,
+      "texture": "concrete"
+    },
+    "wall": {
+      "color": [
+        1.0,
+        1.0,
+        1.0
+      ],
+      "tile": 1600.0,
+      "texture": "walnut-planks"
+    }
+  }
+}

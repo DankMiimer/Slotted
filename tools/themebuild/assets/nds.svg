@@ -1,0 +1,4 @@
+<!-- Original Nintendo DS game-card outline, copyright 2026, MIT. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 341">
+  <path fill="#fff" d="M10 1 H301 Q311 1 311 11 V330 Q311 340 301 340 H27 Q1 340 1 314 V211 H8 Q12 211 12 206 V182 Q12 177 8 177 H1 V11 Q1 1 10 1 Z"/>
+</svg>

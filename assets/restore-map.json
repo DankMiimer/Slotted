@@ -1,0 +1,890 @@
+[
+  {
+    "source": "build/tabletop/assets/table/albedo-00.png",
+    "destination": "assets/tabletop/table/albedo-00.png",
+    "restore": "build/tabletop/assets/table/albedo-00.png",
+    "sha256": "1618bad3ddd66b42f558433893cde681638b41ff3fddc5d35193275a27f6c623",
+    "bytes": 14576086,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/table/part-000.mesh",
+    "destination": "assets/tabletop/table/part-000.mesh",
+    "restore": "build/tabletop/assets/table/part-000.mesh",
+    "sha256": "e8423bedab0c03c38c019e8d44493fcbac0f9f940eaadfe2c51c1be341a95159",
+    "bytes": 6984,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/table/scene.json",
+    "destination": "assets/tabletop/table/scene.json",
+    "restore": "build/tabletop/assets/table/scene.json",
+    "sha256": "4c9b387d85404e46271a5252ea1c36aedad94a0a84e1d443e7bd8aeabcd841b8",
+    "bytes": 1085,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/table/scene.txt",
+    "destination": "assets/tabletop/table/scene.txt",
+    "restore": "build/tabletop/assets/table/scene.txt",
+    "sha256": "74eca2bde3976a65d6592c920befdaca4b045e6373fffe74290e309531b7d70c",
+    "bytes": 128,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/albedo-00.png",
+    "destination": "assets/tabletop/panasonic/albedo-00.png",
+    "restore": "build/tabletop/assets/panasonic/albedo-00.png",
+    "sha256": "156d9defc6704a8e4d2adf7a2c886f26b3c474e6b0b1944873ecab2bc93fdd46",
+    "bytes": 32635,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/albedo-01.png",
+    "destination": "assets/tabletop/panasonic/albedo-01.png",
+    "restore": "build/tabletop/assets/panasonic/albedo-01.png",
+    "sha256": "57b6cf1ee5ca9eee43954537cb7df858a9ecace4b9dc683f148dfac6db7f1d62",
+    "bytes": 30718,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-000.mesh",
+    "destination": "assets/tabletop/panasonic/part-000.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-000.mesh",
+    "sha256": "4e0969407a3601eaedbd7bdd15b1f1b07b8de55f13027d329510c82c76bf9d70",
+    "bytes": 201844,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-001.mesh",
+    "destination": "assets/tabletop/panasonic/part-001.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-001.mesh",
+    "sha256": "e33c2b5ea81e98dbdaf3453ef8e47c88d27fe8c8090d8ca0cc20f3a57b2d12a8",
+    "bytes": 101756,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-002.mesh",
+    "destination": "assets/tabletop/panasonic/part-002.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-002.mesh",
+    "sha256": "dc413fb80e18df0498e50e7f4f3a27a364ace0ac6e026bb574a531a91891e0a9",
+    "bytes": 18640,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-003.mesh",
+    "destination": "assets/tabletop/panasonic/part-003.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-003.mesh",
+    "sha256": "5f6dfe4a966daf258c7f3b33c7488333772493dece1e2398d1e02f79f45e4f72",
+    "bytes": 6320,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-004.mesh",
+    "destination": "assets/tabletop/panasonic/part-004.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-004.mesh",
+    "sha256": "a7be69c40820a002caccaaa0070d6bf21b2480a311a88f11dcfdf6360cfee633",
+    "bytes": 16992,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-005.mesh",
+    "destination": "assets/tabletop/panasonic/part-005.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-005.mesh",
+    "sha256": "35d32f195882285e383048ee4a9e48af0a7efa95ea28492593925213da52d0d4",
+    "bytes": 39864,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-006.mesh",
+    "destination": "assets/tabletop/panasonic/part-006.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-006.mesh",
+    "sha256": "3d4a4f3215d75a24bb91d1aee554d96c5b825861022ae9f7a67efae995c0f234",
+    "bytes": 39864,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-007.mesh",
+    "destination": "assets/tabletop/panasonic/part-007.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-007.mesh",
+    "sha256": "517d993bd106b66f4e267690e1cf0e8f44bae734cb09b83caa5e4632ded81ead",
+    "bytes": 113916,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-008.mesh",
+    "destination": "assets/tabletop/panasonic/part-008.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-008.mesh",
+    "sha256": "d69668c4e59e1cdb84b4b15be10215226504cd518c0ea86aa86ce4132d91e9fe",
+    "bytes": 148318,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/scene.json",
+    "destination": "assets/tabletop/panasonic/scene.json",
+    "restore": "build/tabletop/assets/panasonic/scene.json",
+    "sha256": "0b817d6ec0ffb6a5cfed803fd735b439b279550ab79c2c5876fdc49ea7955bcd",
+    "bytes": 4061,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/scene.txt",
+    "destination": "assets/tabletop/panasonic/scene.txt",
+    "restore": "build/tabletop/assets/panasonic/scene.txt",
+    "sha256": "7cb502bb312a73d60cf97e9d81a4739f9e7032dca3776e270e9e978c7888d62b",
+    "bytes": 482,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/albedo-00.png",
+    "destination": "assets/tabletop/pvm/albedo-00.png",
+    "restore": "build/tabletop/assets/pvm/albedo-00.png",
+    "sha256": "8e654068784e9acf955ee6635cac8fe70d0f2931284128b452476efa7f6ec845",
+    "bytes": 718005,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/albedo-01.png",
+    "destination": "assets/tabletop/pvm/albedo-01.png",
+    "restore": "build/tabletop/assets/pvm/albedo-01.png",
+    "sha256": "6d53bf4b70f1e16f3c89bbf98c4172156fe7ea164958b36f079cf2a1f9fe7f45",
+    "bytes": 762236,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/albedo-02.png",
+    "destination": "assets/tabletop/pvm/albedo-02.png",
+    "restore": "build/tabletop/assets/pvm/albedo-02.png",
+    "sha256": "bcfc642c888bdd87349c93b87dab5aa54f5051e7009f1d3df03375668c852e14",
+    "bytes": 671892,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/albedo-03.png",
+    "destination": "assets/tabletop/pvm/albedo-03.png",
+    "restore": "build/tabletop/assets/pvm/albedo-03.png",
+    "sha256": "e78ebd66ab74f8ca15b8b7c2d01ee5272513bb98aadd0b3111e6ef0d49644067",
+    "bytes": 2043922,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-000.mesh",
+    "destination": "assets/tabletop/pvm/part-000.mesh",
+    "restore": "build/tabletop/assets/pvm/part-000.mesh",
+    "sha256": "e50429af843defa7896c55d061571ca68c513010b8de98ce10cb4883d97e174d",
+    "bytes": 2327368,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-001.mesh",
+    "destination": "assets/tabletop/pvm/part-001.mesh",
+    "restore": "build/tabletop/assets/pvm/part-001.mesh",
+    "sha256": "a45a514a21b3dde25d5a2c68ba68d92613b5b054d36b1f8978c5fc9d7f692eea",
+    "bytes": 404924,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-002.mesh",
+    "destination": "assets/tabletop/pvm/part-002.mesh",
+    "restore": "build/tabletop/assets/pvm/part-002.mesh",
+    "sha256": "5c030446d8bd64844795d16e07557043e475179faae28adfbbe0644b51b3afd5",
+    "bytes": 1251116,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-003.mesh",
+    "destination": "assets/tabletop/pvm/part-003.mesh",
+    "restore": "build/tabletop/assets/pvm/part-003.mesh",
+    "sha256": "36828279486763929c3761bdedc72a34c6f359e5e31cdbfea27b7d7abc19766a",
+    "bytes": 1241564,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-004.mesh",
+    "destination": "assets/tabletop/pvm/part-004.mesh",
+    "restore": "build/tabletop/assets/pvm/part-004.mesh",
+    "sha256": "28af5f642473ce2f552fff0f11943c7020259a4a321106015fe55c2050c8454b",
+    "bytes": 90548,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-005.mesh",
+    "destination": "assets/tabletop/pvm/part-005.mesh",
+    "restore": "build/tabletop/assets/pvm/part-005.mesh",
+    "sha256": "c92262aed31b1f9e632714dd39ecf05c304c6a6860c2e128b7da16cfcf15d353",
+    "bytes": 74728,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-006.mesh",
+    "destination": "assets/tabletop/pvm/part-006.mesh",
+    "restore": "build/tabletop/assets/pvm/part-006.mesh",
+    "sha256": "2c81516ae04ad10f1ab5002bad64ca551104ec5ba2af84ca70c467b2c397bb0c",
+    "bytes": 927508,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-007.mesh",
+    "destination": "assets/tabletop/pvm/part-007.mesh",
+    "restore": "build/tabletop/assets/pvm/part-007.mesh",
+    "sha256": "c8d4c603549937049307cfb1d2b32068575c2b1030feccebf00d8b3a0b08ecae",
+    "bytes": 410710,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-008.mesh",
+    "destination": "assets/tabletop/pvm/part-008.mesh",
+    "restore": "build/tabletop/assets/pvm/part-008.mesh",
+    "sha256": "8ddbdc9bc06e1dc3b951fe5f49525def3f94358b62cdd803b7048535790567e0",
+    "bytes": 14288,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-009.mesh",
+    "destination": "assets/tabletop/pvm/part-009.mesh",
+    "restore": "build/tabletop/assets/pvm/part-009.mesh",
+    "sha256": "d5538c06f6d3a723416b4a7899a3c41fff2954bd9df09f9040c4eb3984d8c8bd",
+    "bytes": 285796,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/part-010.mesh",
+    "destination": "assets/tabletop/pvm/part-010.mesh",
+    "restore": "build/tabletop/assets/pvm/part-010.mesh",
+    "sha256": "8c9b0915fdfe9141b80448a6d601d2702b77a79f3820c05bf9fed4429f5784ab",
+    "bytes": 600916,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/scene.json",
+    "destination": "assets/tabletop/pvm/scene.json",
+    "restore": "build/tabletop/assets/pvm/scene.json",
+    "sha256": "4d3e536b17c9671ed0482bd41dcfd7ac66d86c56cfc4a987df45b5897cf7e1ec",
+    "bytes": 4692,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/pvm/scene.txt",
+    "destination": "assets/tabletop/pvm/scene.txt",
+    "restore": "build/tabletop/assets/pvm/scene.txt",
+    "sha256": "092cbc31c43bf23f6b587c181fc3d91f1bcc7db6c84e8d2c7568fd41845695a6",
+    "bytes": 531,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/albedo-00.png",
+    "destination": "assets/tabletop/oldtv/albedo-00.png",
+    "restore": "build/tabletop/assets/oldtv/albedo-00.png",
+    "sha256": "b98b030bedd9cbeb1452fc23450a2f336f64139bf4f03b93c1e417764df36459",
+    "bytes": 644873,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/albedo-01.png",
+    "destination": "assets/tabletop/oldtv/albedo-01.png",
+    "restore": "build/tabletop/assets/oldtv/albedo-01.png",
+    "sha256": "e1b112da710ebee707dcde8bb58d2f456c0b6235ac5c0c1e3fd135883052b1ec",
+    "bytes": 824973,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/albedo-02.png",
+    "destination": "assets/tabletop/oldtv/albedo-02.png",
+    "restore": "build/tabletop/assets/oldtv/albedo-02.png",
+    "sha256": "822cf043953aed5eac95beb584b5142f8bde51987c5d1d9d4d11837b4e426abb",
+    "bytes": 1346991,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/albedo-03.png",
+    "destination": "assets/tabletop/oldtv/albedo-03.png",
+    "restore": "build/tabletop/assets/oldtv/albedo-03.png",
+    "sha256": "73db09ab326a99d220cd8e645a08eb4edc496cda6e67ad53c2b6dacd1035c831",
+    "bytes": 353347,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/part-000.mesh",
+    "destination": "assets/tabletop/oldtv/part-000.mesh",
+    "restore": "build/tabletop/assets/oldtv/part-000.mesh",
+    "sha256": "d5cacbcd59cbf15e4247d5b78d11a5718da16536332500fd6cbc93782b37678c",
+    "bytes": 58678,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/part-001.mesh",
+    "destination": "assets/tabletop/oldtv/part-001.mesh",
+    "restore": "build/tabletop/assets/oldtv/part-001.mesh",
+    "sha256": "efdb0fba93594f7d2bbf6d34e661adfc0905b06b95d1a67665a23ba21c2c7213",
+    "bytes": 9488,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/part-002.mesh",
+    "destination": "assets/tabletop/oldtv/part-002.mesh",
+    "restore": "build/tabletop/assets/oldtv/part-002.mesh",
+    "sha256": "27bca2153eb58472ea8c59f846d46483c40679c79dd3c6f8c531e41719689866",
+    "bytes": 17250,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/part-003.mesh",
+    "destination": "assets/tabletop/oldtv/part-003.mesh",
+    "restore": "build/tabletop/assets/oldtv/part-003.mesh",
+    "sha256": "7d2bc726ee5dc03de105128f40dbb1e1da23acacf0e15d9b73af79e346083f62",
+    "bytes": 57692,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/part-004.mesh",
+    "destination": "assets/tabletop/oldtv/part-004.mesh",
+    "restore": "build/tabletop/assets/oldtv/part-004.mesh",
+    "sha256": "64bcaa17868dd8b14be9849e10a388d04db0b4cbec9fe9ce8eaeb5b5d1497038",
+    "bytes": 4952,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/scene.json",
+    "destination": "assets/tabletop/oldtv/scene.json",
+    "restore": "build/tabletop/assets/oldtv/scene.json",
+    "sha256": "3aaa3fa61665ab8e0ac29f3cf8d2e456822813793db42d4cf2d4870b69c1bb85",
+    "bytes": 2704,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/oldtv/scene.txt",
+    "destination": "assets/tabletop/oldtv/scene.txt",
+    "restore": "build/tabletop/assets/oldtv/scene.txt",
+    "sha256": "af7cad2b77c372cb54fda980f86a25ab0531ee71b812c6e088fbda90708cb107",
+    "bytes": 363,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/retro/albedo-00.png",
+    "destination": "assets/tabletop/retro/albedo-00.png",
+    "restore": "build/tabletop/assets/retro/albedo-00.png",
+    "sha256": "d1bd99dc968deabfb877869ee9f3e6bb6df0c517a46b613f04cc31b803dbf9bc",
+    "bytes": 2505857,
+    "license": "CC-BY-NC-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/retro/part-000.mesh",
+    "destination": "assets/tabletop/retro/part-000.mesh",
+    "restore": "build/tabletop/assets/retro/part-000.mesh",
+    "sha256": "980e380bde9f9b3ce51f0b09bbd486373d1c39b615e19a3733e2c3999d4bfcfc",
+    "bytes": 855360,
+    "license": "CC-BY-NC-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/retro/part-001.mesh",
+    "destination": "assets/tabletop/retro/part-001.mesh",
+    "restore": "build/tabletop/assets/retro/part-001.mesh",
+    "sha256": "75242224cacb2fda2c26ad059a8f62dd60e9bee8725b4a9961486e83673f5806",
+    "bytes": 5618,
+    "license": "CC-BY-NC-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/retro/scene.json",
+    "destination": "assets/tabletop/retro/scene.json",
+    "restore": "build/tabletop/assets/retro/scene.json",
+    "sha256": "e7b43654f0a05cab1628fbe602d46bb254c39678b5bfd2b1fa6265a4487babcf",
+    "bytes": 1592,
+    "license": "CC-BY-NC-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/retro/scene.txt",
+    "destination": "assets/tabletop/retro/scene.txt",
+    "restore": "build/tabletop/assets/retro/scene.txt",
+    "sha256": "e63a35f59335e12956ba41cf1fc45c80d52f205f0def341a6cc5c45423b58385",
+    "bytes": 262,
+    "license": "CC-BY-NC-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/albedo-00.png",
+    "destination": "assets/tabletop/tv-stand/albedo-00.png",
+    "restore": "build/tabletop/assets/tv-stand/albedo-00.png",
+    "sha256": "9698c9b7eb3be9c68036945e8abc35f4c5d5c2d677c72138e27ccecebd8d2823",
+    "bytes": 18933515,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/CREDITS.txt",
+    "destination": "assets/tabletop/tv-stand/CREDITS.txt",
+    "restore": "build/tabletop/assets/tv-stand/CREDITS.txt",
+    "sha256": "798f01e982742aaaa3bc80d8d7f8d106ae503de7fad80dbfdb1d0ec7dabcb34c",
+    "bytes": 869,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/part-000.mesh",
+    "destination": "assets/tabletop/tv-stand/part-000.mesh",
+    "restore": "build/tabletop/assets/tv-stand/part-000.mesh",
+    "sha256": "210ee4a6f01196843619ea96f5de47e68e6c0e6b945fbfdc1210593a4147876b",
+    "bytes": 38612,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/part-001.mesh",
+    "destination": "assets/tabletop/tv-stand/part-001.mesh",
+    "restore": "build/tabletop/assets/tv-stand/part-001.mesh",
+    "sha256": "9804b5e2226107bd6dcb38e787ff168a9611bbea30d332a34afbea404ae18cb1",
+    "bytes": 18532,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/scene.json",
+    "destination": "assets/tabletop/tv-stand/scene.json",
+    "restore": "build/tabletop/assets/tv-stand/scene.json",
+    "sha256": "1c07404fff08b67b2f787bc6502cb5a0ff803a4897fc1c67f8e1e5ebc07a31cc",
+    "bytes": 1445,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/tv-stand/scene.txt",
+    "destination": "assets/tabletop/tv-stand/scene.txt",
+    "restore": "build/tabletop/assets/tv-stand/scene.txt",
+    "sha256": "72a60c154bc4999a8dd4ea82ff4ba74848cb4ab797bb105742c711e6f718d773",
+    "bytes": 169,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/wooden-table/albedo-00.png",
+    "destination": "assets/tabletop/wooden-table/albedo-00.png",
+    "restore": "build/tabletop/assets/wooden-table/albedo-00.png",
+    "sha256": "8be4461b7e22be74f34028eb8bdf75bd5fd56016c2a648078af554487f1f58e5",
+    "bytes": 1742470,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/wooden-table/CREDITS.txt",
+    "destination": "assets/tabletop/wooden-table/CREDITS.txt",
+    "restore": "build/tabletop/assets/wooden-table/CREDITS.txt",
+    "sha256": "e97c9c16b4497fedb43fb336d856c5ea8ef4b9121f2acbe6f2f788a79b215f95",
+    "bytes": 580,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/wooden-table/part-000.mesh",
+    "destination": "assets/tabletop/wooden-table/part-000.mesh",
+    "restore": "build/tabletop/assets/wooden-table/part-000.mesh",
+    "sha256": "6b654154caa7382ac75b669fa22c5024ef884e43e354aafc35b4886ddd40f5e6",
+    "bytes": 28512,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/wooden-table/scene.json",
+    "destination": "assets/tabletop/wooden-table/scene.json",
+    "restore": "build/tabletop/assets/wooden-table/scene.json",
+    "sha256": "133f9f15b0c5ffddf7eb126fa779a9a4f664c6e8b70f8815d99cd9b29c470291",
+    "bytes": 1032,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/wooden-table/scene.txt",
+    "destination": "assets/tabletop/wooden-table/scene.txt",
+    "restore": "build/tabletop/assets/wooden-table/scene.txt",
+    "sha256": "f780b15479bcf8e62ca9971bb88f3f5b4fc9f384c54970a34dff6d83b4edfa68",
+    "bytes": 129,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/snes/controls.json",
+    "destination": "assets/tabletop/snes/controls.json",
+    "restore": "build/tabletop/assets/snes/controls.json",
+    "sha256": "169f573e83125c6723943c361a1aa50659e3e3f466908e2156fe058f7f7dd840",
+    "bytes": 279,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/snes/power.control",
+    "destination": "assets/tabletop/snes/power.control",
+    "restore": "build/tabletop/assets/snes/power.control",
+    "sha256": "62063ed046e51d8c81ad96fdc5cb7ec83aa54bc9fd645557054c7b0a7c6821cf",
+    "bytes": 2736,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/snes-us/controls.json",
+    "destination": "assets/tabletop/snes-us/controls.json",
+    "restore": "build/tabletop/assets/snes-us/controls.json",
+    "sha256": "63bbfe5dc95ae44db3ac59e63cf8d992bb9d1120214326696b16a85f2a493b82",
+    "bytes": 278,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/snes-us/power.control",
+    "destination": "assets/tabletop/snes-us/power.control",
+    "restore": "build/tabletop/assets/snes-us/power.control",
+    "sha256": "2b8f743854b5bcfba36a223e33ac24233271d3d0458cef2d100d618813b75d57",
+    "bytes": 2420,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/n64/controls.json",
+    "destination": "assets/tabletop/n64/controls.json",
+    "restore": "build/tabletop/assets/n64/controls.json",
+    "sha256": "218bb6e5780b0ebf28db779504576df436cb14e12ab18c70274ea77345927f5d",
+    "bytes": 369,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/n64/flaps.control",
+    "destination": "assets/tabletop/n64/flaps.control",
+    "restore": "build/tabletop/assets/n64/flaps.control",
+    "sha256": "2c2fb2acee6d93ec777f03ea68ef4a3ff1ae8d91515535c09bb0699efe67df0c",
+    "bytes": 386,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/n64/power.control",
+    "destination": "assets/tabletop/n64/power.control",
+    "restore": "build/tabletop/assets/n64/power.control",
+    "sha256": "e01ab7f82c207fc72f9cd9ef62a00231bc3d29ecf2729234a9e91f16201f8117",
+    "bytes": 980,
+    "license": "MIT AND CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/nes/controls.json",
+    "destination": "assets/tabletop/nes/controls.json",
+    "restore": "build/tabletop/assets/nes/controls.json",
+    "sha256": "bbeaaa53afd6a7e5cd3c88cf973deaa2044d7e76e564d3b243792b5e8e8e7ce8",
+    "bytes": 359,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/nes/led.control",
+    "destination": "assets/tabletop/nes/led.control",
+    "restore": "build/tabletop/assets/nes/led.control",
+    "sha256": "29e2ed5cd646237ac59ecda90673ab653f9803870bdafb4c42f6c18e820cc094",
+    "bytes": 2052,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/nes/power.control",
+    "destination": "assets/tabletop/nes/power.control",
+    "restore": "build/tabletop/assets/nes/power.control",
+    "sha256": "66a2c2f1a52bf6a87d67fb3c04d00a17b8a4fef66da884c5e8a53aa61237ea35",
+    "bytes": 1364,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md/controls.json",
+    "destination": "assets/tabletop/md/controls.json",
+    "restore": "build/tabletop/assets/md/controls.json",
+    "sha256": "a2270eab349f324576c0e623914fa2ce49b3ef376788f4bccaac45b99fa9c8f5",
+    "bytes": 372,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md/led.control",
+    "destination": "assets/tabletop/md/led.control",
+    "restore": "build/tabletop/assets/md/led.control",
+    "sha256": "65cfe9ae894201da3761032642489a05f3ba85833d9cac9c49630d996beee270",
+    "bytes": 300,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md/power.control",
+    "destination": "assets/tabletop/md/power.control",
+    "restore": "build/tabletop/assets/md/power.control",
+    "sha256": "3fc807d4e7080795949afe8e540d79bfa6df85f52ec42adb9ed95816ec0c701c",
+    "bytes": 428,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md-jp/controls.json",
+    "destination": "assets/tabletop/md-jp/controls.json",
+    "restore": "build/tabletop/assets/md-jp/controls.json",
+    "sha256": "10fcfb1251e488206936dd7693c24e6074a2eeaded5d621e5514728a52c33bc5",
+    "bytes": 372,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md-jp/led.control",
+    "destination": "assets/tabletop/md-jp/led.control",
+    "restore": "build/tabletop/assets/md-jp/led.control",
+    "sha256": "9a7e23a0326b35c22720a7594ce2c178a64795f472e5b0ceebbfe26c76c14091",
+    "bytes": 300,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/md-jp/power.control",
+    "destination": "assets/tabletop/md-jp/power.control",
+    "restore": "build/tabletop/assets/md-jp/power.control",
+    "sha256": "8e016a2bc0cd9b36ba42cd0d09bc24ba905c811e869c8afb6d437a28079b5ddf",
+    "bytes": 428,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/gb-pvm.scene",
+    "destination": "assets/tabletop/layouts/gb-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/gb-pvm.scene",
+    "sha256": "b31826f416767214d75aa383f8a5271c8f1c966f4ba9013dc121a5119cbb745a",
+    "bytes": 1261,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/gba-pvm.scene",
+    "destination": "assets/tabletop/layouts/gba-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/gba-pvm.scene",
+    "sha256": "a5678f18cf0b944013491613dc8890379854e982330bd79d36e95dfc3fc79126",
+    "bytes": 1280,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/gbc-pvm.scene",
+    "destination": "assets/tabletop/layouts/gbc-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/gbc-pvm.scene",
+    "sha256": "668e15c557620c31fc90656261ef3d80e24932e17465c4c074d508899673ff1c",
+    "bytes": 1271,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/home-oldtv.scene",
+    "destination": "assets/tabletop/layouts/home-oldtv.scene",
+    "restore": "build/tabletop/assets/layouts/home-oldtv.scene",
+    "sha256": "52ba53ab1c8b2636cbc28c622f701c71c6807c32fd159e83cf090c669c3190df",
+    "bytes": 1079,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/n64-panasonic.scene",
+    "destination": "assets/tabletop/layouts/n64-panasonic.scene",
+    "restore": "build/tabletop/assets/layouts/n64-panasonic.scene",
+    "sha256": "96b4c0436f19e4eed9334377726152f6988ceef7374e16b7f4822f0cdc0f49e3",
+    "bytes": 1126,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/nds-pvm.scene",
+    "destination": "assets/tabletop/layouts/nds-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/nds-pvm.scene",
+    "sha256": "ec3a5ab299e236d6a8c1ed878be9a9c05ccd3041612ebeeb6f422655617c69fe",
+    "bytes": 1311,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/nes-panasonic.scene",
+    "destination": "assets/tabletop/layouts/nes-panasonic.scene",
+    "restore": "build/tabletop/assets/layouts/nes-panasonic.scene",
+    "sha256": "2bb1b690fedf25e7e256ffc0dd4729137058e17ec0f7255b5b80ab178d569e87",
+    "bytes": 1257,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/pico8-pvm.scene",
+    "destination": "assets/tabletop/layouts/pico8-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/pico8-pvm.scene",
+    "sha256": "f9f678a697b3846d4fd62933f2a49505dfbeb91ff867ee3646546afeb651b141",
+    "bytes": 1271,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/psp-pvm.scene",
+    "destination": "assets/tabletop/layouts/psp-pvm.scene",
+    "restore": "build/tabletop/assets/layouts/psp-pvm.scene",
+    "sha256": "b64f6c7703a29732f692ff83f3c351d469774de99d4b0f90827b1a7d47d9e304",
+    "bytes": 1314,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/psx-panasonic.scene",
+    "destination": "assets/tabletop/layouts/psx-panasonic.scene",
+    "restore": "build/tabletop/assets/layouts/psx-panasonic.scene",
+    "sha256": "1082ec0f8ce09428c23fc9878cfa7937b8289085b8cd5469e00fa828504fdf04",
+    "bytes": 1230,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/room.world",
+    "destination": "assets/tabletop/layouts/room.world",
+    "restore": "build/tabletop/assets/layouts/room.world",
+    "sha256": "3779f62c73b2233f998b44fa7c5e2f5f1bcc679f1c2397e1d778d198a074d60c",
+    "bytes": 388,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/layouts/snes-panasonic.scene",
+    "destination": "assets/tabletop/layouts/snes-panasonic.scene",
+    "restore": "build/tabletop/assets/layouts/snes-panasonic.scene",
+    "sha256": "0d0b97e5c5d7fde4d723fbb11f11245673337b872170ee87cee0e3bf9eb1930d",
+    "bytes": 888,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/blue-paint.png",
+    "destination": "assets/tabletop/surfaces/blue-paint.png",
+    "restore": "build/tabletop/assets/surfaces/blue-paint.png",
+    "sha256": "c495cb0b6e0a37b738abfc961474710e362b175839eb4a1414ac80eb6d74aee4",
+    "bytes": 512973,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/ceiling-tiles.png",
+    "destination": "assets/tabletop/surfaces/ceiling-tiles.png",
+    "restore": "build/tabletop/assets/surfaces/ceiling-tiles.png",
+    "sha256": "774e279d874e9cbbe8c61a9d5c5ab25bf2ada96cbb032f5711c8f13697ffeaf7",
+    "bytes": 573222,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/checker-tiles.png",
+    "destination": "assets/tabletop/surfaces/checker-tiles.png",
+    "restore": "build/tabletop/assets/surfaces/checker-tiles.png",
+    "sha256": "27f886e9676468ff23d558c3464047706745f92e6499145b708b223b1a4f6d49",
+    "bytes": 240679,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/concrete.png",
+    "destination": "assets/tabletop/surfaces/concrete.png",
+    "restore": "build/tabletop/assets/surfaces/concrete.png",
+    "sha256": "3a74b678283fec175aa529aab812eb3df6dc5b90a88ed533d42bb398f656c512",
+    "bytes": 358933,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/green-paint.png",
+    "destination": "assets/tabletop/surfaces/green-paint.png",
+    "restore": "build/tabletop/assets/surfaces/green-paint.png",
+    "sha256": "c4e2ff124f22895feb1ebd00c75923c1f53c4dc0098284bbcd91e4b9036474ed",
+    "bytes": 454371,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/grey-carpet.png",
+    "destination": "assets/tabletop/surfaces/grey-carpet.png",
+    "restore": "build/tabletop/assets/surfaces/grey-carpet.png",
+    "sha256": "2701588596559c7c7f25c639dff05545f71697adace513815d544a487575522f",
+    "bytes": 739141,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/library.json",
+    "destination": "assets/tabletop/surfaces/library.json",
+    "restore": "build/tabletop/assets/surfaces/library.json",
+    "sha256": "b40674c996d33ddf7c49a7ba25b31b889d37c194b16d3fe776260e828682f092",
+    "bytes": 2286,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/oak-planks.png",
+    "destination": "assets/tabletop/surfaces/oak-planks.png",
+    "restore": "build/tabletop/assets/surfaces/oak-planks.png",
+    "sha256": "5274a8a8b6360ff1d7499e9cddbbdc92e272bb128f9e796c4e8506c2a99c2e8c",
+    "bytes": 320896,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/red-brick.png",
+    "destination": "assets/tabletop/surfaces/red-brick.png",
+    "restore": "build/tabletop/assets/surfaces/red-brick.png",
+    "sha256": "150f02cbaf374659dffbc1713c3c3112545ece2182bd8778e3f63c3a5a175b08",
+    "bytes": 632683,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/stone-tiles.png",
+    "destination": "assets/tabletop/surfaces/stone-tiles.png",
+    "restore": "build/tabletop/assets/surfaces/stone-tiles.png",
+    "sha256": "a562218efc18234cf6bf1806858c3e9cd8400f79ac8ccea40124ae4a33facec1",
+    "bytes": 285173,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/striped-wallpaper.png",
+    "destination": "assets/tabletop/surfaces/striped-wallpaper.png",
+    "restore": "build/tabletop/assets/surfaces/striped-wallpaper.png",
+    "sha256": "e9f4fccd8d0dce147034ea330cb78b251b4cf2f03cc28eedb1682dc54f5ab4e3",
+    "bytes": 495472,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/terracotta-tiles.png",
+    "destination": "assets/tabletop/surfaces/terracotta-tiles.png",
+    "restore": "build/tabletop/assets/surfaces/terracotta-tiles.png",
+    "sha256": "dd99a2f4481151b5d4605b3a1657e5a0c5f8b90ba7b7e6a93ce5d3a51173f25b",
+    "bytes": 253879,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/walnut-planks.png",
+    "destination": "assets/tabletop/surfaces/walnut-planks.png",
+    "restore": "build/tabletop/assets/surfaces/walnut-planks.png",
+    "sha256": "4994867a6af3ec38c704a90bc3a4eae48306d582dc0c99f4330ac35505547e6c",
+    "bytes": 288526,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/warm-plaster.png",
+    "destination": "assets/tabletop/surfaces/warm-plaster.png",
+    "restore": "build/tabletop/assets/surfaces/warm-plaster.png",
+    "sha256": "d531590331324bd874001d3d10037be674a226b6bd54d36c12840abdecf1555b",
+    "bytes": 563846,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/white-plaster.png",
+    "destination": "assets/tabletop/surfaces/white-plaster.png",
+    "restore": "build/tabletop/assets/surfaces/white-plaster.png",
+    "sha256": "7d39a70cc19ffe266abc13270c855191568e72f8bce45180ea8d0f4d3c2b003c",
+    "bytes": 605505,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/surfaces/wood-panels.png",
+    "destination": "assets/tabletop/surfaces/wood-panels.png",
+    "restore": "build/tabletop/assets/surfaces/wood-panels.png",
+    "sha256": "5e6750eeb218458e6ac1ed9295939498e9ea59ba359015976c89168e133de3e6",
+    "bytes": 335654,
+    "license": "MIT"
+  },
+  {
+    "source": "build/tabletop/assets/sources.json",
+    "destination": "assets/tabletop/sources.json",
+    "restore": "build/tabletop/assets/sources.json",
+    "sha256": "353862777732ab820d7c20d48e419654b970f7a6b5c47e0f10c89c3cc63c38a5",
+    "bytes": 1128,
+    "license": "See CREDITS.md"
+  },
+  {
+    "source": "build/tabletop/editor-default.scene",
+    "destination": "assets/editor-default.scene",
+    "restore": "build/tabletop/editor-default.scene",
+    "sha256": "b0a04eee5789d991420dd70f4b786b2ac05cc612c23a47ba5e740c0a2996052a",
+    "bytes": 480,
+    "license": "MIT"
+  },
+  {
+    "source": "research/table-lena-wachs/wooden_table.glb",
+    "destination": "assets/source-furniture/wooden_table.glb",
+    "restore": "research/table-lena-wachs/wooden_table.glb",
+    "sha256": "1d15adc556ea7e588a84020388b820975f21a17a5e98059d02721e8451bf961a",
+    "bytes": 31042156,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "research/table-lena-wachs/source.json",
+    "destination": "assets/source-furniture/table-source.json",
+    "restore": "research/table-lena-wachs/source.json",
+    "sha256": "f530e0f396643d5686fd81d2ba3e65dfe41370c81fc322e90e4d68fabf06fd1c",
+    "bytes": 560,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "research/tv-stand-qu3st10n/tv_stand.glb",
+    "destination": "assets/source-furniture/tv_stand.glb",
+    "restore": "research/tv-stand-qu3st10n/tv_stand.glb",
+    "sha256": "84c3686a93169eb623910d6082e32f15c871ff72eddcb9640260cdeb998dfdf2",
+    "bytes": 36891340,
+    "license": "CC-BY-NC-SA-4.0"
+  },
+  {
+    "source": "research/table-andrey/wooden_table_low_poly.glb",
+    "destination": "assets/source-furniture/wooden_table_low_poly.glb",
+    "restore": "research/table-andrey/wooden_table_low_poly.glb",
+    "sha256": "32dab7446c61369110da3e216e9fd69d033021d73ad68c81d0142c6a421ec559",
+    "bytes": 60713952,
+    "license": "CC-BY-4.0"
+  }
+]

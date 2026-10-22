@@ -1,0 +1,111 @@
+{
+  "id": "oldtv",
+  "source_sha256": "18167fc5ad013314d17ae97bf699cd7cff87f6eeab06b00b9eed3897d395458d",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "object": "Old TV TV_LP_02",
+      "material": "02_-_Default",
+      "triangles": 1123,
+      "vertices": 1180,
+      "sha256": "d5cacbcd59cbf15e4247d5b78d11a5718da16536332500fd6cbc93782b37678c"
+    },
+    {
+      "file": "part-001.mesh",
+      "texture": "albedo-01.png",
+      "glass": false,
+      "object": "Old TV TV_LP_08",
+      "material": "08_-_Default",
+      "triangles": 126,
+      "vertices": 198,
+      "sha256": "efdb0fba93594f7d2bbf6d34e661adfc0905b06b95d1a67665a23ba21c2c7213"
+    },
+    {
+      "file": "part-002.mesh",
+      "texture": "albedo-02.png",
+      "glass": false,
+      "object": "Old TV TV_LP_07",
+      "material": "07_-_Default",
+      "triangles": 415,
+      "vertices": 335,
+      "sha256": "27bca2153eb58472ea8c59f846d46483c40679c79dd3c6f8c531e41719689866"
+    },
+    {
+      "file": "part-003.mesh",
+      "texture": "albedo-03.png",
+      "glass": false,
+      "object": "Old TV TV_LP_03",
+      "material": "03_-_Default",
+      "triangles": 966,
+      "vertices": 1179,
+      "sha256": "7d2bc726ee5dc03de105128f40dbb1e1da23acacf0e15d9b73af79e346083f62"
+    },
+    {
+      "file": "part-004.mesh",
+      "texture": "",
+      "glass": true,
+      "object": "Blank live CRT glass",
+      "material": "Blank live CRT glass",
+      "triangles": 140,
+      "vertices": 93,
+      "sha256": "64bcaa17868dd8b14be9849e10a388d04db0b4cbec9fe9ce8eaeb5b5d1497038"
+    }
+  ],
+  "source_triangles": 2770,
+  "retained_triangles": 2770,
+  "bounds": [
+    [
+      -220.82208251953125,
+      0.0,
+      -130.48345947265625
+    ],
+    [
+      220.82208251953125,
+      302.1151123046875,
+      130.48345947265625
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "Old TV TV_LP_02",
+      "triangles": 1123
+    },
+    {
+      "name": "Old TV TV_LP_08",
+      "triangles": 126
+    },
+    {
+      "name": "Old TV TV_LP_07",
+      "triangles": 415
+    },
+    {
+      "name": "Old TV TV_LP_03",
+      "triangles": 966
+    },
+    {
+      "name": "Blank live CRT glass",
+      "triangles": 140
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ],
+  "glass": [
+    [
+      -181.5253448486328,
+      56.230552673339844,
+      91.34234619140625
+    ],
+    [
+      81.62991333007812,
+      263.9851989746094,
+      115.58692169189453
+    ]
+  ]
+}

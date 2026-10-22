@@ -1,0 +1,49 @@
+{
+  "hardware": "PlayStation SCPH-1001 exterior and early optical-unit orientation",
+  "author": "dark_igorek",
+  "url": "https://sketchfab.com/3d-models/5f80311f1a4646ef9673f20ee6dc6245",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "Sony_Pack_final(blend 3_6).blend",
+  "source_file_sha256": "fe083c1125de93b3a62beb1497756acfbda26f36e2fc66e2559d24aa18cf05af",
+  "archive_sha256": "0dab2049dc14e93fffb97b4576017fe26f26df31323612457405a00326885845",
+  "licence_evidence": "Original Sketchfab API metadata and original-format download dialog, checked 16 October 2026",
+  "registration": {
+    "hinge_xyz_mm": [
+      -0.6180703639984131,
+      16.332119703292847,
+      -78.24864238500595
+    ],
+    "disc_label_xyz_mm": [
+      -5.9604644775390625e-05,
+      17.894666641950607,
+      -0.0
+    ],
+    "lid_top_y_mm": 30.000001192092896,
+    "source_lid_open_degrees": 50.00000708320107,
+    "closed_source_whd": [
+      0.25768613815307617,
+      0.05579359084367752,
+      0.1826460361480713
+    ],
+    "physical_axis_scale": [
+      1.0477862358093262,
+      1.029313325881958,
+      1.0753923654556274
+    ],
+    "reference": "Sony SCPH-1001 instruction manual page 18: 270 x 60 x 188 mm; RCA video/audio, RFU DC, SERIAL I/O and AV MULTI OUT",
+    "reference_url": "https://www.manualslib.com/manual/3466089/Sony-Playstation-Scph-1001.html?page=18",
+    "pickup_reference": "iFixit original SCPH-1001 drive replacement guide 1595, photographs in PDF pages 3-5; pickup behind spindle",
+    "pickup_reference_url": "https://documents.cdn.ifixit.com/pdf/ifixit/guide_1595_en.pdf",
+    "pickup_registration_degrees": 90,
+    "uncertainty": "Source hinge/spindle registration and individual moulding dimensions are inferred from authored geometry, not OEM metrology"
+  },
+  "modifications": [
+    "Keep only seven console meshes; exclude monitor, controllers, cables, lights, cameras",
+    "Close the explicitly 50-degree source lid; bake world transforms",
+    "Register closed envelope to 270 x 60 x 188 mm; retain actual lid hinge and spindle location",
+    "Retain early RCA/RFU/serial/multi-out rear; rotate source optical pickup and its complete cover 90 degrees behind spindle to match early layout",
+    "Remove all images, UVs and material graphs; semantic palette and stable panel normals",
+    "Retain full prepared geometry with separate runtime fitting budgets"
+  ]
+}

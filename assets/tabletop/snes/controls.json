@@ -1,0 +1,11 @@
+{
+  "source_mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616",
+  "source_glb_sha256": "2b86237faced619df2ec200fb93b2866ed079b261e0316957e392a44cb96f364",
+  "node": "PAL power slider",
+  "triangles": 679,
+  "travel_mm": [
+    0,
+    0,
+    -6
+  ]
+}

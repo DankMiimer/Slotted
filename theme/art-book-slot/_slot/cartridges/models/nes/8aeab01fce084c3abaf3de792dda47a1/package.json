@@ -1,0 +1,18 @@
+{
+  "system": "nes",
+  "uid": "8aeab01fce084c3abaf3de792dda47a1",
+  "files": {
+    "CREDITS.txt": "f8c467121145c516da283a8a85c42dd4ec159e8b6cb4f0fab4a268f5573d1be2",
+    "media-info.json": "1a2adbc05935baa947f2040d964d4889088c3afd5fa66686a596631f52dc164d",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "1888d0f42b3049cc5ae0d4856d7d2087f9ec84331a7c3dd89746b8c74752324c",
+    "media-label.texture": "2225938c5e7a1c7bec6b2f756d1dcf26114d5e465f7cd3cd6ecdc5d6ad4bc6e6",
+    "media-master.glb": "1a5574b6204f870b3629d76f979a0f36c4d6e24f2f15c268ab6e91dd153e24c3",
+    "media-physical.glb": "d7dae60ab68a9da1ed251fa7b2ad3e153dea36455d737d220dd450ec9aad061a",
+    "media-registration.json": "e56e88b74a4a69c27e4e8a6f14e791af0b78d610493d3256f4ffefac74aadd5c",
+    "media.albedo.png": "995e09007b979b564de3e2e3ab51e55d0292652892ac7432be771c7086f9106f",
+    "media.glb": "1a5574b6204f870b3629d76f979a0f36c4d6e24f2f15c268ab6e91dd153e24c3",
+    "media.mesh": "df9a0a8bc4e39334d030f2aa4da150f23bfc5d6249820cf53bdb67d32659e74a",
+    "media.texture": "549bfbb38bf4e1387f08248e4c52afe195bac75723f7218a0640bec613d53417"
+  }
+}

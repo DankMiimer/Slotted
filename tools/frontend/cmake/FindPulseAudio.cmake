@@ -1,0 +1,4 @@
+find_path(PULSEAUDIO_INCLUDE_DIR pulse/pulseaudio.h)
+find_library(PULSEAUDIO_LIBRARY NAMES pulse)
+include(FindPackageHandleStandardArgs)
+find_package_handle_standard_args(PulseAudio REQUIRED_VARS PULSEAUDIO_INCLUDE_DIR PULSEAUDIO_LIBRARY)

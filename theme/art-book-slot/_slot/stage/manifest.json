@@ -1,0 +1,4460 @@
+{
+  "version": 1,
+  "size": [
+    720,
+    240
+  ],
+  "top": 240,
+  "model_source": "cd6ca96",
+  "default_style": "realistic",
+  "renders": {
+    "cel/black/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "4de6ef24ab54911385121bf635c286623dd1e678571abfce1f8c22fe3db3b004",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/black/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "132b3cda47823b1bc7c1bbfb521807b2b531f7bdcdaef6c5f20040ead325f669"
+    },
+    "cel/black/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "7e03b34c87dd1105880c07e1ff831f1b189565c43fcf55de189117121dd0ac47"
+    },
+    "cel/black/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "d9214bf52133413e7abaf7b91309368509fca1d95fc970ff20d6a5fd7e79a3e1"
+    },
+    "cel/black/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/black/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/black/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "4c9827c3f7cf7a85e7a2fd16129459b3efb959359d402ecb69729c37f2d542d6",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/black/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/black/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/black/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/black/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "f03abd8fd30617cabdb57f415957aeb97b45faef3768635ee7b30cef86905b67"
+    },
+    "cel/black/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "0b0d786d06a99611d4f85431593f6d7390a5542f9b0176bfbd991c04050a8319",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/black/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "7cbdf553c0a844516762b2de8944633fd851527fe0ce7f652af35fcaff627a33",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/black/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "e4eab942b3a33a95193956df0b5eb56a2d2007869dd78979e92afff586e70aa6",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/blue/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "ef0aa9989df95aa9fa63468530e4166c0d40d7b31c730e6fca637bd54229397a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/blue/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "73da5326f5e3489074c984788ec97fcc95ee1f49a4fa9237c73736c96812e9c0"
+    },
+    "cel/blue/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "70fe6a69ca6fd1b4a4d04731f81fba95092316325026c4e03a33e4638355621c"
+    },
+    "cel/blue/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "142aad7c3b619fc21ba714fc1c95329dc42e16896dac17e288fe73a2430c73f2"
+    },
+    "cel/blue/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/blue/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/blue/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "3b4c2c3beaabc9722a02932f8c1d85d44dd91c3e2ad425c1795b933cd3125346",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/blue/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/blue/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/blue/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/blue/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "705bc10361312639f686b6be62971ea9f5e2e0c4bfae98f7b8f8608cd577de9e"
+    },
+    "cel/blue/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "d9fac63d42a879d39b53623cfd26034519425f7279ec1af7e91a8948c915c5d6",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/blue/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "51c810f1fb5d179899dd64f60ae62a6a259b91a4ba47f9cb86bd255e4f1cdc6d",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/blue/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "e027c8b60417298f035112ecbdde46486cefe80d225d60228b308bfde2bed0c1",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/green/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "73d19bdbf4bc516931c6c6148baea7ae375e3b44044df9567cd09bfed34bfc6a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/green/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "d5d758e9771de3b305edba27f6a523ea37b24f7a3f31d6f6803629054c9dfe86"
+    },
+    "cel/green/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "f419e2f04805f210d7c7df6a214becfa117ae28375b6f1c455160faaf03e82bd"
+    },
+    "cel/green/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "97149ab62593460feacb5d0d8daef2c746b244e9725b280db5cee6fc6b58ee35"
+    },
+    "cel/green/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/green/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/green/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "3acac68af5e279ab777f11710d8c928f846b54f39bc91cd0f80c5988894ee319",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/green/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/green/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/green/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/green/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "390111f0d8917d4eb16ff9786247b9ad4cf3d92a80e8000b615f502422624b64"
+    },
+    "cel/green/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "9fab1729ec092f6b9ca6bfc41600326e6cc6b466a4668020d78a90c212630a65",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/green/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "cb5bdbad33529c5a3313b9f62c33484601d06f4dfae77064699d35204c889a5a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/green/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "41f5cab82a58ec4fc15cbb6e72b510b4cf4cdaf0839312b79606e39e3129c1b6",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/original/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "5d5f3ef6d56584228b2a94115442968706512c48fbebfe06aef8fa51ba0b875c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/original/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "80a0378313feb546404a81a144fe9b9521aeb37980fe940ba86e76af94a45510"
+    },
+    "cel/original/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "2b84f7fec9a5b95711065cba8847da08c021f8fcdd91c7d98bc5563e7f77d894"
+    },
+    "cel/original/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "b6329b9b96c8f9b3e35b0542d5312ad04992841b5d589353b80d9daa8cbd5bca"
+    },
+    "cel/original/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/original/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/original/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "5ef848d545597f717388cc9a6481be57617e99fbdaf350110a9f055380614cd1",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/original/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/original/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/original/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/original/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "feadb436eee00f8d424807e5c4fe0924b3eab857068c6c5e423d1c3355254e74"
+    },
+    "cel/original/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "bc7d1da018c8911e6cd0ed5befbe3b4a571c7833b36b0deda3bd82f0bf6e2f0c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/original/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "f260351f71c2322644c991de91b3fefe6dd6ef7cca92c6d6a9176f1195d8e73b",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/original/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "9e1656ef2e0887cb0400b7e6d7eb66d72f3c57358bc4a49241bd172d061e1756",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/purple/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "f2e844df24af38c4b3723c22ef990e9617f6c9fc14af17b88dae2bba8e8c87d0",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/purple/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "353c3ec68bb18fd298bd8d2847dcfa32f1d8d0cd2fa8aab02be2728ebb9923cf"
+    },
+    "cel/purple/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "5f1b112323c7636533b4d59e5b1ed093ea9dfa82ca0dfa59684efe39d95ca3e4"
+    },
+    "cel/purple/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "420e9a88dfdfe8de8796e1afa436db4b3d80eaad0cecb92f8ed36128ca871327"
+    },
+    "cel/purple/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/purple/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/purple/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "9bbe2426b4e49cef3118603f3a5ee31cb80f9ac877ad3c6870c190b87a615975",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/purple/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/purple/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/purple/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/purple/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "166129b53ec2886c0b69bc1cd6151ca83500b6c13f3339a415ac94d92be91be2"
+    },
+    "cel/purple/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "e8fdc35a82cda2f77ac82832d4290e965cef440450f0f2310e2d0b3fd5e29697",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/purple/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "4c332304d7e5cae4815e83839c7a1efcaeb034ecca798f67f4a87c2d9a44b8dc",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/purple/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "c274ef0c1a78016218f82123fda32151391d78c64905a7fa982fc8b64e856452",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/red/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "f37995615517c230d71b21ccb92538ebe33f3acc8f44a1b2bf5d23c00700397b",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/red/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "8f9d3f28627aff34cd7783f4cfaed6400802f9e2dc978df4255455c96c32b397"
+    },
+    "cel/red/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "022fda9f0406f8067eaa5e0132b999fd5412046292602500efe36762c27affba"
+    },
+    "cel/red/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "7e76b827e617d94fb7c8b1004847449cc0b2a020a09022f0d614da7edf0c7466"
+    },
+    "cel/red/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/red/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/red/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "2827439da6767387bdb0b2bb71f50f735d5b335c25f29bae526af2bf8815cd57",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/red/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/red/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/red/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/red/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "8342d6f05d1340cb9b820bfb00a4ad7dd1ead11e04444525637d2aa8afb8883d"
+    },
+    "cel/red/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "c639c0be463d7766079bfde13e7ee3d6bc684c984cb5d3f79af57841e8e1666e",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/red/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "96871247db40a0d4bfdbe59df983b489d8ff48371c8207766d17712e25b777fb",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/red/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "e87304fb02cc1e9007700706eae427fdfe4b583834541f9b73c36e51ee022d9d",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/white/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "4534c2dbc142a2015f4029ed81d40851da7e7b9fab4cd4d99f87e62e76344e5c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/white/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "d2ef3c6708189bd2c696d8832d6ec3c04dc627b55c6aa30909a0e5097fa2e595"
+    },
+    "cel/white/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "315d11c93e6c4b8a62b9b0530045b8d957e0eb09a73a56483aa181ffef7f16ff"
+    },
+    "cel/white/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "68251b170c1711fbc43fe8d1352b00e18ee4bc587efdc0f3931a9bb40b594050"
+    },
+    "cel/white/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/white/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/white/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "c5f0cb2f8f96114cc1b91e3ba3c40665db464898be2d6c4a5b8e63d58af605f9",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/white/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/white/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/white/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/white/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "b93b05e35a8ceade8b8e0ef6bdc99c700418ae87c9f89e1118eb5a5875002415"
+    },
+    "cel/white/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "44cf5b3d81c06fa0af1b4c6f51e3f4c1b0ff33c273084d08c991e6d323c85747",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/white/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "d520e709e25deca50d25b0098818f3fc04c6af3e1b0ca81f7fa74ce4fbe117cf",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/white/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "e727e5d42b94d9ce7694f3c0de89ed5cb6d5b009fab290b499e46b0ce2bddcdd",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "cel/yellow/dreamcast": {
+      "source_bounds": [
+        406,
+        233,
+        1060,
+        736
+      ],
+      "scale": 0.4532803180914513,
+      "bounds": [
+        212,
+        8,
+        296,
+        228
+      ],
+      "source_sha256": "f72a843832b62fe0fa168c2936d269603eea5d17b0b88b1c373f2b79976d678f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "cel/yellow/gb": {
+      "source_bounds": [
+        2,
+        3,
+        175,
+        291
+      ],
+      "scale": 0.7916666666666666,
+      "bounds": [
+        291,
+        8,
+        137,
+        228
+      ],
+      "source_sha256": "b268963bfeab5c7acc7a736571ea4811face1fe656c01c81d734a43f8e3db03b"
+    },
+    "cel/yellow/gba": {
+      "source_bounds": [
+        2,
+        2,
+        248,
+        197
+      ],
+      "scale": 1.1692307692307693,
+      "bounds": [
+        216,
+        8,
+        288,
+        228
+      ],
+      "source_sha256": "6dccda8e35625bda9e35411e546710d02c3cc5636c0f8271fba2e9cd7301329b"
+    },
+    "cel/yellow/gbc": {
+      "source_bounds": [
+        3,
+        2,
+        173,
+        294
+      ],
+      "scale": 0.7808219178082192,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "53b18312b847007593489fa2f594bbc2e0841325c1b6dae5cb34ac8c1230e6f4"
+    },
+    "cel/yellow/md": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "0b65e43449f9b6c22397c2790e5fe81757a279df4efa1101470521717087614c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "cel/yellow/md-jp": {
+      "source_bounds": [
+        106,
+        259,
+        1213,
+        954
+      ],
+      "scale": 0.32805755395683456,
+      "bounds": [
+        178,
+        8,
+        363,
+        228
+      ],
+      "source_sha256": "e7d1ca87427dfb9a9aef2092815ec004637d77d6bf42bd4a8a668165ee11555f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "cel/yellow/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "21c1e7ffbda193715fbbb4f81f4c3bdfa6a837ec408cff2e6a967a839b3cc642",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "cel/yellow/nds": {
+      "source_bounds": [
+        2,
+        2,
+        425,
+        218
+      ],
+      "scale": 1.0555555555555556,
+      "bounds": [
+        137,
+        8,
+        446,
+        228
+      ],
+      "source_sha256": "377ee3e0252ca19093c9534780aa888d454699528a0f90968dca0cd3715753db"
+    },
+    "cel/yellow/nes": {
+      "source_bounds": [
+        213,
+        231,
+        1282,
+        960
+      ],
+      "scale": 0.31275720164609055,
+      "bounds": [
+        193,
+        8,
+        334,
+        228
+      ],
+      "source_sha256": "39610bd14512d23ce0c15a94ac077401908fdcb3db550409394cac3c8f546d9a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "cel/yellow/pico8": {
+      "source_bounds": [
+        269,
+        278,
+        1191,
+        827
+      ],
+      "scale": 0.41530054644808745,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "ed81c83a108cbaeaa39c7e8d18e5e689bb32ff6eb0ff5c3a4c210182ccab20ea",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "cel/yellow/psp": {
+      "source_bounds": [
+        2,
+        3,
+        479,
+        225
+      ],
+      "scale": 1.027027027027027,
+      "bounds": [
+        115,
+        8,
+        490,
+        228
+      ],
+      "source_sha256": "97238ea1f57f53c44ae1f01f1b2af0f90a8f2755e1d1ad29e58608ab4fad5fd0"
+    },
+    "cel/yellow/psx": {
+      "source_bounds": [
+        230,
+        207,
+        1244,
+        822
+      ],
+      "scale": 0.37073170731707317,
+      "bounds": [
+        172,
+        8,
+        376,
+        228
+      ],
+      "source_sha256": "2102f7116c9c11b3141d1a4d9188f13fa98785b1720c39dc3fda33b0fe205a80",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "cel/yellow/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "dd1d1138bb541897f81344a4bc04ce255bcd098d429324a2b70f91fb7edb021c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "cel/yellow/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "6ddfad3aff29bfb8cdb995fdeae01e5a6f1b45cf3f6fae2e2f98c1c023c9f09a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/black/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "66b84d5dc5ccc39f6bc8eb947b17d5c311f525c9acbd30cea3325c6463030e57",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/black/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "ab10ff72c77cecde73a42e841005a940036b02cfc760284bb4a82b41ca54a69d"
+    },
+    "realistic/black/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "ecc13976baf2ade8c744633ef7af837ed6d3a20f1b3d88725406c972dfdbf77d"
+    },
+    "realistic/black/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "f52719f83fa2c0ea7f0bce1de142d1deff829c57afede26270ddad8c498e1967"
+    },
+    "realistic/black/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/black/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/black/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "cf5eb769399c1a1b0698c30d14a17fae5900a03d8465acac96dd851f9334a168",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/black/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/black/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/black/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/black/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "75e0690867d5eeaa6a159dfa74b167f9d9e7340c30d491852b600aef5ebf1e99"
+    },
+    "realistic/black/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "3bc2333cc07a82f8c483af78c6933cb4984eff0336710d0752a5c754c5665976",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/black/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "031e387eeba6cd8384a68b45276014bf57db050bb19dabb8884b41dcffe6da24",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/black/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "62e6b15d650c799dd103bc3f8fad7ec5acfa68aefcffcb18d7eda71f1b17ba53",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/blue/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "6bb1617ffb00e0a8a9763f8b08c07ef6fdb51c791abf84ff7026d452b15a4d83",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/blue/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "03bd93ffba60129683ca7d3093356e43a63861f91fc5adb8a6ca5b6c0221d81f"
+    },
+    "realistic/blue/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "3b7efedb7d8da54fb4c5c9d2fccf43075d7c794455d2565ef9d24b95d1747b2e"
+    },
+    "realistic/blue/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "12da6bfdb13f7b150730f3d6288e0046d4fdd65c1e5dd7b3d9e00d834e8f571e"
+    },
+    "realistic/blue/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/blue/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/blue/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "80bc62bbe965187f3cbdddaceabf94fd9adee805d8ca49df721fca76dff4b2ad",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/blue/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/blue/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/blue/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/blue/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "659903be23a9b85865d60b6ea0f2f529229fb33c1746d6a22a0e52827abbfbb1"
+    },
+    "realistic/blue/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "d03f92ef2735eeda9147d1b674764948031f1b1a9ed3b21e99a4483adacfc5da",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/blue/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "a1b1cb751206aad775cfd3d1d7ceffd42682177d2a811d6c7e956d988110b39a",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/blue/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "4bdd2a1c7eff9b740390595c22130261318792ccd87d8c202b60f90dc02c8bc3",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/green/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "b343cd552fcc7914acdde862e694d75036bd57b3051b126714bc9a8e91f054f4",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/green/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "74a8c2179de18bd44b31ecaa5fc8b35f126cae6dfcebeb0b088cfef6ee383033"
+    },
+    "realistic/green/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "6e4449df71ba9b2376aa2adc310cf4d7510e6904cf6cf463b27621a67a2a3ee3"
+    },
+    "realistic/green/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "65b2926f4d1e2a986c06265c2f64f70ab678d83d3e60832137e035f710a63970"
+    },
+    "realistic/green/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/green/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/green/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "398db016267a7f9867a83440b79d13cf1f3ea2734c54f056ce94da22f30cb23c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/green/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/green/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/green/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/green/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "6190735e5fc80f869e3a09f00a0e1b2f7c30da62d601be534a3a82ca2918633b"
+    },
+    "realistic/green/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "9a75475cba39fd5b449fbed6fac0050873738b71dd86297fce49b01b4171bc3d",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/green/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "64a571228a1dc261c2cd1accc75fdd1de9d61dae267e6c6c5a95a11c929fdcbf",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/green/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "437ac9a2c329948ebb2744bdc5a326850b72e5595b87a2d06afd6c3f68f98e6b",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/original/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "3a0cf9d36f45def9923de92741115eeb8a635220280b17c577d5c1297bd3cce8",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/original/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "8c874ea25384a5ad022f86b46f7e9c08f15b666e3980391dcd93b23cefb3b662"
+    },
+    "realistic/original/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "8d8d7705ec9044beafec416d6720db538ef576f739d33b8ffbcb7b7d2baec1ce"
+    },
+    "realistic/original/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "d6e97fdab7077ed0816ff13fc579e0afded197bd0594a605c3fd0cd4e7f45a06"
+    },
+    "realistic/original/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/original/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/original/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "22964acc6aa1c596a1f34a8279ef1864648dc29af41763c1a7fb5c8daa0fde8d",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/original/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/original/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/original/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/original/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "bc937a99f8bd3215992fc0aea1f8366754894a997a1bbcd6f7e5852fda44475a"
+    },
+    "realistic/original/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "7576df70c5594a62e2549b5cc0754cabba2aff813919ac606df8335af172eb87",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/original/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "30b12d36f4c4be344c7b53663435073982a9ce5d6f517e2f33e69b6f05e9b187",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/original/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "6354eea2db696f325149640e20f808af9686132275eeb0e9229f554e7dfb47b1",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/purple/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "f6a19090c5ac5698c04ccd2d6c5be63b49bf2360071b430cfc03b128212835b7",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/purple/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "b97b2f76bc3d7d70afaae45d74717a9581d8abccce6d7de04b09076c105f66a2"
+    },
+    "realistic/purple/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "d603d25d596cc2e674f5438484d92f24cc2a96db69718574efa31ba2dd86b3e4"
+    },
+    "realistic/purple/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "20d1a64c9dc8e40a565b144fbd4c0547acc2b535fff050395245a34d1f29f648"
+    },
+    "realistic/purple/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/purple/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/purple/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "f7d5d60fd65558bb4fafdc865213f4b374be7e7ba696892d7ab0eececfcd563b",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/purple/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/purple/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/purple/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/purple/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "026ab151a176a30ccbf5eac91d3aee5c532ba07dc198f49ef89594908ea68f9b"
+    },
+    "realistic/purple/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "d40f65b90e76b521a10ab785b73c112d9f6561352ee4ec5e85ddd79acf8978f4",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/purple/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "0d02ab2d61bac8c84cf55ea64dd88d70aac43df69138f00dcc645e4ff1d2f12e",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/purple/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "290446eebe330e3544a0f5b2615a2577c12aa194e69910affd864c71f1230136",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/red/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "197fba6fa81724878c56fcc45009968db28157d3a310e57d7d3f35126e9920e2",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/red/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "ffa68c79ac9006ca57962f71182308524f17ad0a296c0cdc25f109cd2493e186"
+    },
+    "realistic/red/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "37476ae1ce25c67a32296d43165ea3dbde35a8bb7d84e74469077a2cb29e5142"
+    },
+    "realistic/red/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "d1ab4c6834f42ac5f4dd10a35da522e9abbb7cc578fedc478c1d68ac49f79008"
+    },
+    "realistic/red/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/red/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/red/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "c73b2437f0c3d876409137669c59858e4cd0785ca28fdd9f4130d22b70e36c13",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/red/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/red/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/red/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/red/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "700dae6ac6c2d62327d7ee1868fe874ed026323054049ebcaa20d04e70e38e42"
+    },
+    "realistic/red/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "08effba195c34802428edcfe7e210059d7288b9e2edce52ca45e531d11ea318f",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/red/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "ec0c6cceb741fccc06597387eabf105de9739274e638a502bd32fa57e5f021eb",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/red/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "7609a1d027f628b9e1a7c1feae2e4d5143a8d270116a56c7c23ede26734dfe89",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/white/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "df0fb1d08e048c3514ae83071570ac2c696bc3d3597cbe5b2894ebd6a0d32116",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/white/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "dae9061282d97493bd5a18b3f1b3976e4294eec680a5dafd12c9d7cfa87617bc"
+    },
+    "realistic/white/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "d0f87c5178c870cfea2e4853bb78a267a060f9a661502f06b8dc9d1509d48589"
+    },
+    "realistic/white/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "983b9e00d0039cf0216161e096ef4499cad46a08982b2b865868734565ad979a"
+    },
+    "realistic/white/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/white/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/white/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "1576accbf63e43370092f686e18566d508f87eddb3a35b44b38ca3a3165b19c9",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/white/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/white/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/white/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/white/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "69af2ee1d64f7676342a3b85bcd3de98547c4e4374c3b1e7f07e15c6dfb36134"
+    },
+    "realistic/white/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "014b5c394efa381bad479bedb0faba6d4526914108eca05adf09b71449ed2dac",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/white/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "44d3b6b6cfe5ee2c803e2da92331076854f2c7ad30cb7632db3969744cad34b9",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/white/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "70c00ecb453df3da021cbe46384adca664c2ca5b37feaec7e8a7649d263125a9",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    },
+    "realistic/yellow/dreamcast": {
+      "source_bounds": [
+        407,
+        234,
+        1059,
+        735
+      ],
+      "scale": 0.4550898203592814,
+      "bounds": [
+        211,
+        8,
+        297,
+        228
+      ],
+      "source_sha256": "da6d1718b017f2c865c1a633266491146d0189b113d63b8d886f3ea303f29fa8",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "855172bcbc591985ff331bdf3cf988574f0df4b463d51a073f0e25b621efdbb3"
+    },
+    "realistic/yellow/gb": {
+      "source_bounds": [
+        3,
+        3,
+        174,
+        290
+      ],
+      "scale": 0.794425087108014,
+      "bounds": [
+        292,
+        8,
+        136,
+        228
+      ],
+      "source_sha256": "d549e713a4846df6592867e659da66db8ced636ed3f7d6233dbc5641287ed7ef"
+    },
+    "realistic/yellow/gba": {
+      "source_bounds": [
+        3,
+        3,
+        248,
+        196
+      ],
+      "scale": 1.1813471502590673,
+      "bounds": [
+        215,
+        8,
+        289,
+        228
+      ],
+      "source_sha256": "c9f1cb7b83c5fba4bb24938b422cfddf04c9ebd35c97571c8acb29e3ee125daa"
+    },
+    "realistic/yellow/gbc": {
+      "source_bounds": [
+        3,
+        3,
+        172,
+        293
+      ],
+      "scale": 0.7862068965517242,
+      "bounds": [
+        293,
+        8,
+        133,
+        228
+      ],
+      "source_sha256": "e892536c15407ae4332124d1f3eef396666208d2e9df26df472622ff1f24b66e"
+    },
+    "realistic/yellow/md": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "4af7e8a19d26aafddd2f7c609600cfe60846171848241ea203cddbc8d4c729ee",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "77702ccbcb071d7fbf5b12bb197bfd11ba3fb291ba0895597e5d888ee4bae714"
+    },
+    "realistic/yellow/md-jp": {
+      "source_bounds": [
+        108,
+        261,
+        1210,
+        950
+      ],
+      "scale": 0.3309143686502177,
+      "bounds": [
+        177,
+        8,
+        365,
+        228
+      ],
+      "source_sha256": "7d6d40b043ffa3ca15b360b0e9236d8e491623d952b8e226d9e27eb2d820e008",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8"
+    },
+    "realistic/yellow/n64": {
+      "source_bounds": [
+        320,
+        263,
+        1178,
+        823
+      ],
+      "scale": 0.40714285714285714,
+      "bounds": [
+        185,
+        8,
+        349,
+        228
+      ],
+      "source_sha256": "0d1192d7538e634de47033df9ce06319953a568656bfc3b5dd00a17d089585e8",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8"
+    },
+    "realistic/yellow/nds": {
+      "source_bounds": [
+        3,
+        3,
+        423,
+        217
+      ],
+      "scale": 1.0654205607476634,
+      "bounds": [
+        136,
+        8,
+        447,
+        228
+      ],
+      "source_sha256": "d63df99bae71772a1a750276bcd66788a19e96a0258ca311ec62610a2221203a"
+    },
+    "realistic/yellow/nes": {
+      "source_bounds": [
+        216,
+        233,
+        1279,
+        960
+      ],
+      "scale": 0.31361760660247595,
+      "bounds": [
+        193,
+        8,
+        333,
+        228
+      ],
+      "source_sha256": "e39bf643121cfd65fd7260705f19c592521260e7d33be7d93e9885061a601d48",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38"
+    },
+    "realistic/yellow/pico8": {
+      "source_bounds": [
+        272,
+        280,
+        1188,
+        825
+      ],
+      "scale": 0.41834862385321103,
+      "bounds": [
+        168,
+        8,
+        383,
+        228
+      ],
+      "source_sha256": "10b814a7c53a1bf2b863419053ee1ea9c7bcfa3c1d80fa9abba11942c3d34bda",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "27695185672c56f0423b371b6bbf112bdd7e474de5344277a6a4d9af1f074c49"
+    },
+    "realistic/yellow/psp": {
+      "source_bounds": [
+        3,
+        3,
+        479,
+        224
+      ],
+      "scale": 1.0316742081447965,
+      "bounds": [
+        114,
+        8,
+        491,
+        228
+      ],
+      "source_sha256": "1d22d1b92d122a0f08a19255e4e3f3ffa4fb3d38e0f5f249f27b414e70ad1999"
+    },
+    "realistic/yellow/psx": {
+      "source_bounds": [
+        230,
+        208,
+        1243,
+        821
+      ],
+      "scale": 0.3719412724306688,
+      "bounds": [
+        171,
+        8,
+        377,
+        228
+      ],
+      "source_sha256": "a351d6ef4d3fd8c6dd4169d6fa60284898136fd5328dc9e0c548821f977ec432",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a"
+    },
+    "realistic/yellow/snes": {
+      "source_bounds": [
+        333,
+        180,
+        1187,
+        849
+      ],
+      "scale": 0.34080717488789236,
+      "bounds": [
+        214,
+        8,
+        291,
+        228
+      ],
+      "source_sha256": "d6a8e9969a7873d96efa4aa3b0e8cb563fa9b97c94900117fe8a4c6a342cd256",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "a20f0c5a0d9583b29e9f0d2dfeca9a692c497ec5c5a59a58949821744163b616"
+    },
+    "realistic/yellow/snes-us": {
+      "source_bounds": [
+        313,
+        190,
+        1195,
+        865
+      ],
+      "scale": 0.3377777777777778,
+      "bounds": [
+        211,
+        8,
+        298,
+        228
+      ],
+      "source_sha256": "950e2e39d1184c805908638f41b94b7df430b1f87cec9da70409f25ee829ee0c",
+      "raster": [
+        1440,
+        960
+      ],
+      "renderer": "SlotNative 2x",
+      "mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d"
+    }
+  }
+}

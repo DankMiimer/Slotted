@@ -1,0 +1,66 @@
+{
+  "adapter": "cartridges_blender.py",
+  "key": "snes",
+  "creator": "SomeKevin; UVs cpt.brotzeit",
+  "licence": "CC-BY-4.0",
+  "url": "https://sketchfab.com/3d-models/b2076d8a65d648ff99bf51ca9d5fca2a",
+  "source_file": "snescart/super_nintendo_cartridge.glb",
+  "source_sha256": "c910ba738c2ada892d797af4e687a6bc365bb8554245c88a24b832686302121e",
+  "q": 1.6,
+  "size_mm": [
+    129.99999523162842,
+    78.07376235723495,
+    20.068559795618057
+  ],
+  "source_size_mm": [
+    130.0,
+    78.07376224168937,
+    20.06856049933815
+  ],
+  "depth_scale": 1,
+  "label_mm": [
+    9.1552734375e-05,
+    18.329483032226562,
+    50.12804412841797,
+    17.92116928100586,
+    9.654627799987793
+  ],
+  "label_triangles": 64,
+  "decimation": false,
+  "modifications": [
+    "Registered and centred source; independent shell only",
+    "Fixed front game art blanked; per-game label follows source surface",
+    "Simple albedo lighting; no source normal, metallic or roughness maps"
+  ],
+  "atlas": {
+    "size": 2048,
+    "tiles": {
+      "my_super_nicE-carte": [
+        0,
+        0,
+        2048,
+        2048
+      ]
+    },
+    "blank_uv": [
+      [
+        0,
+        0.758,
+        0.495,
+        0.928
+      ]
+    ],
+    "excluded_images": [],
+    "paint_luma": 0.4189921568627451
+  },
+  "prepared": {
+    "vertices": 39978,
+    "triangles": 33839,
+    "mesh_sha256": "c0d1374dc7079c1e9b0e6afefc423f2fa775fd0244c7219d99e17cc347bf4c87"
+  },
+  "label_prepared": {
+    "vertices": 59,
+    "triangles": 64,
+    "mesh_sha256": "fc52171f92b39e68b608ad6810097dc3d33278092bc6c9b78559cca0b659ceb3"
+  }
+}

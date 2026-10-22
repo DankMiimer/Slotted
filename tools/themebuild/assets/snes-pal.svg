@@ -1,0 +1,4 @@
+<!-- Art Book Slot, MIT. Own geometric PAL/Japanese Game Pak shell. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 245">
+  <path fill="#fff" d="M9 2 Q180 -2 351 2 Q359 3 360 12 V236 Q359 244 351 245 H9 Q1 244 0 236 V12 Q1 3 9 2 Z"/>
+</svg>

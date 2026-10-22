@@ -1,0 +1,119 @@
+{
+  "model": "gbc",
+  "adapter": "bpoole_gbc.py",
+  "author": "BPoole",
+  "title": "Game Boy Color Model",
+  "url": "https://sketchfab.com/3d-models/game-boy-color-model-a3dad19c800f4c61a931865f14870768",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "gbc.glb",
+  "source_sha256": "e9c17cefcef99033f333018d65c1da575a3e92d8190d75b7c76169b34ec2f113",
+  "mm_per_source_unit": 7.987166829611439,
+  "native_units_per_mm": 2.1538461538461537,
+  "scale_basis": "Uniform; source Game Pak width = 57 mm (matches the independent CGB Game Pak)",
+  "housing_mm": [
+    78.0288535859699,
+    28.548176368528956,
+    131.32524815390877
+  ],
+  "battery_cover_seated_forward_source_units": 11.866472244262695,
+  "battery_cover_edge_samples": 26,
+  "removed_source_parts": [
+    "Back_Spring_01",
+    "Back_Spring_02",
+    "Battery_Metal_01",
+    "Battery_Metal_02",
+    "Battery_Protrution_01",
+    "Battery_Protrution_02",
+    "Cartridge_low"
+  ],
+  "spec": {
+    "ry": 141.42718315124512,
+    "depth": 30.744189023971558,
+    "slot": 88.33441804127378
+  },
+  "cart_label_native": -16.127651061667052,
+  "native_bounds": [
+    [
+      -84.03107523918152,
+      -141.42718315124512,
+      -30.744189023971558
+    ],
+    [
+      84.03106927871704,
+      141.42718315124512,
+      33.94730985164642
+    ]
+  ],
+  "lcd_glass_mm": [
+    44.45137817944799,
+    40.26202772344862
+  ],
+  "modifications": [
+    "Uniform registration to the native CGB frame",
+    "Remove the fixed half Game Pak",
+    "Remove battery contacts/springs hidden under the cover",
+    "Seat the displaced battery cover against the housing rim",
+    "Blank the baked game screenshot and exclude fixed Game Pak art from the atlas",
+    "Opaque glass composited over a dark LCD; source normal/ORM maps not rendered"
+  ],
+  "source_images": {
+    "Gameboy_Mat": {
+      "name": "Image_0",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "Image_0.png",
+      "sha256": "99fae293a4a68f369de6569e05b4a88f34fedec39c74a530262213a4fcd7a1e9"
+    },
+    "Gameboy_Glass": {
+      "name": "Image_4",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "Image_4.png",
+      "sha256": "b25e02d4f654fd456a98a78f90e57f1ff21d9a147d16ee9010b544bf81ed48a7"
+    }
+  },
+  "atlas": {
+    "cleared_texels": 1338178,
+    "blank": [
+      {
+        "box": [
+          478,
+          811,
+          838,
+          1137
+        ],
+        "reason": "baked game screenshot on the LCD panel"
+      }
+    ],
+    "inset": {
+      "Gameboy_Glass": {
+        "box": [
+          1204,
+          844,
+          1593,
+          1194
+        ],
+        "source_crop": [
+          0.03,
+          0.034,
+          0.22,
+          0.205
+        ]
+      }
+    }
+  },
+  "prepared": {
+    "mesh_sha256": "5101c28b799c1654943b7bfe0d58eb42d13c639dafdaad4b6b3eaa83ed93f5dd",
+    "albedo_sha256": "dbee3ea4a14eb84cb4fe34a553cf7aa91e8d6a2f8c2e8fdd784a6fd4d1d7f38a",
+    "vertices": 10343,
+    "triangles": 15606
+  },
+  "reproduction": "tools/consolebuild/textured.sh bpoole_gbc.py SOURCE gbc"
+}

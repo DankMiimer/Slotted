@@ -1,0 +1,57 @@
+{
+  "vertices": 10343,
+  "indices": 46818,
+  "triangles": 15606,
+  "door_first": 46818,
+  "texture": {
+    "format": "SCTEX003",
+    "size": [
+      2048,
+      2048
+    ],
+    "paint_luma": 0.7518196105957031,
+    "albedo_sha256": "dbee3ea4a14eb84cb4fe34a553cf7aa91e8d6a2f8c2e8fdd784a6fd4d1d7f38a",
+    "painted_texels": 2303856,
+    "lighting": "albedo + simple lighting; no PBR/normal maps"
+  },
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Registered textured source adapted by tools/consolebuild/bpoole_gbc.py",
+  "creators": [
+    {
+      "author": "BPoole",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/game-boy-color-model-a3dad19c800f4c61a931865f14870768"
+    }
+  ],
+  "atlas": {
+    "cleared_texels": 1338178,
+    "blank": [
+      {
+        "box": [
+          478,
+          811,
+          838,
+          1137
+        ],
+        "reason": "baked game screenshot on the LCD panel"
+      }
+    ],
+    "inset": {
+      "Gameboy_Glass": {
+        "box": [
+          1204,
+          844,
+          1593,
+          1194
+        ],
+        "source_crop": [
+          0.03,
+          0.034,
+          0.22,
+          0.205
+        ]
+      }
+    }
+  },
+  "mesh_sha256": "5101c28b799c1654943b7bfe0d58eb42d13c639dafdaad4b6b3eaa83ed93f5dd"
+}

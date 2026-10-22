@@ -1,0 +1,8 @@
+<!-- Original blank cartridge moulding, MIT; game art comes only from local ROMs. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="205" viewBox="0 0 160 205">
+ <path stroke="white" opacity=".34" fill="none" d="M5 1H155L159 5M1 5V199"/>
+ <path stroke="black" opacity=".65" fill="none" d="M159 6V198L153 204H6"/>
+ <path fill="black" opacity=".32" d="M16 166H144V196H16Z"/>
+ <path fill="white" opacity=".65" d="M17 7H29V9H17ZM17 13H29V15H17ZM17 9H19V13H17ZM27 9H29V13H27Z"/>
+ <path stroke="black" opacity=".24" d="M5 22V162M155 22V162"/>
+</svg>

@@ -1,0 +1,69 @@
+{
+  "id": "retro",
+  "source_sha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce",
+  "units": "mm",
+  "groups": [
+    {
+      "file": "part-000.mesh",
+      "texture": "albedo-00.png",
+      "glass": false,
+      "object": "Retro TV cabinet",
+      "material": "material",
+      "triangles": 10080,
+      "vertices": 18065,
+      "sha256": "980e380bde9f9b3ce51f0b09bbd486373d1c39b615e19a3733e2c3999d4bfcfc"
+    },
+    {
+      "file": "part-001.mesh",
+      "texture": "",
+      "glass": true,
+      "object": "Blank live CRT glass",
+      "material": "Blank live CRT glass",
+      "triangles": 163,
+      "vertices": 105,
+      "sha256": "75242224cacb2fda2c26ad059a8f62dd60e9bee8725b4a9961486e83673f5806"
+    }
+  ],
+  "source_triangles": 10243,
+  "retained_triangles": 10243,
+  "bounds": [
+    [
+      -206.03973388671875,
+      0.0,
+      -228.3143310546875
+    ],
+    [
+      206.03973388671875,
+      450.0,
+      228.3143310546875
+    ]
+  ],
+  "source_objects": [
+    {
+      "name": "Retro TV cabinet",
+      "triangles": 10080
+    },
+    {
+      "name": "Blank live CRT glass",
+      "triangles": 163
+    }
+  ],
+  "changes": [
+    "World transforms applied",
+    "X right / Y up / Z forward millimetres",
+    "Original geometry, UVs and base-color textures retained; no decimation",
+    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+  ],
+  "glass": [
+    [
+      -186.43064880371094,
+      106.12130737304688,
+      156.40306091308594
+    ],
+    [
+      202.59629821777344,
+      446.7185363769531,
+      224.02178955078125
+    ]
+  ]
+}

@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<theme>
+   <formatVersion>7</formatVersion>
+   <view name="gamecarousel">
+      <image name="slot-browse-console" extra="true">
+         <pos>0 0.5</pos>
+         <size>1 0.5</size>
+         <path />
+         <visible>{system:theme} == "gb" || {system:theme} == "gbh" || {system:theme} == "gbc" || {system:theme} == "gbch" || {system:theme} == "gba" || {system:theme} == "gbah" || {system:theme} == "psp" || {system:theme} == "snes" || {system:theme} == "snes-us" || {system:theme} == "n64" || {system:theme} == "n64h" || {system:theme} == "nds" || {system:theme} == "nes" || {system:theme} == "pico8" || {system:theme} == "psx" || {system:theme} == "dreamcast" || {system:theme} == "megadrive" || {system:theme} == "genesis" || {system:theme} == "md" || {system:theme} == "md-jp"</visible>
+         <zIndex>10</zIndex>
+      </image>
+   </view>
+</theme>

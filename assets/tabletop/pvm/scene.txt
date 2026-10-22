@@ -1,0 +1,14 @@
+SCTABLETOP1 11
+-174.17945861816406 0.0 -222.03773498535156 174.17945861816406 334.4530944824219 222.03773498535156
+-137.1213836669922 89.01446533203125 191.9371795654297 137.2781982421875 299.29559326171875 205.1905059814453
+part-000.mesh albedo-00.png 0
+part-001.mesh albedo-00.png 0
+part-002.mesh albedo-01.png 0
+part-003.mesh albedo-02.png 0
+part-004.mesh - 1
+part-005.mesh albedo-03.png 0
+part-006.mesh albedo-01.png 0
+part-007.mesh albedo-01.png 0
+part-008.mesh - 0
+part-009.mesh albedo-02.png 0
+part-010.mesh albedo-01.png 0

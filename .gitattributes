@@ -1,0 +1,20 @@
+# Files that end up on the handheld must keep LF line endings.
+* text=auto eol=lf
+*.ps1 text eol=crlf
+
+*.png binary
+*.wav binary
+*.pcm binary
+*.ttf binary
+*.glb binary
+*.mesh binary
+*.texture binary
+*.mask binary
+*.tga binary
+*.ico binary
+
+# Preserve licensed assets, package hashes and authored JSON byte for byte.
+assets/** -text
+theme/** -text
+third_party/** -text
+scene-layouts/** -text

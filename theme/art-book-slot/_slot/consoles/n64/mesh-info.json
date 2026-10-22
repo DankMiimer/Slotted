@@ -1,0 +1,25 @@
+{
+  "vertices": 7880,
+  "indices": 21246,
+  "triangles": 7082,
+  "door_first": 21126,
+  "licence": "CC-BY-4.0 + MIT",
+  "source": "Authored recreation adapted by tools/consolebuild/models.py",
+  "creators": [
+    {
+      "author": "Joseph Rohm",
+      "licence": "CC-BY-4.0",
+      "url": "https://sketchfab.com/3d-models/nintendo-64-0bec1e1ed1bf4a96af858008b72437a3"
+    }
+  ],
+  "moving_parts": {
+    "N64 rear dust flap": {
+      "first": 21126,
+      "count": 60
+    },
+    "N64 front dust flap": {
+      "first": 21186,
+      "count": 60
+    }
+  }
+}

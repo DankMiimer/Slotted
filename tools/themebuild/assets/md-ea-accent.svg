@@ -1,0 +1,6 @@
+<!-- Art Book Slot, MIT. Fixed yellow moulded grip, without a manufacturer logo. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 270">
+  <defs><linearGradient id="yellow"><stop stop-color="#b98614"/><stop offset=".24" stop-color="#e4ba35"/><stop offset=".9" stop-color="#cfa125"/><stop offset="1" stop-color="#98721a"/></linearGradient></defs>
+  <path d="M40 25 L82 28 Q86 28 86 33 V93 Q86 98 82 99 L40 105 Z" fill="url(#yellow)"/>
+  <path d="M42 28 L81 31 M81 32 V94" stroke="#f5d767" stroke-opacity=".65" fill="none"/>
+</svg>

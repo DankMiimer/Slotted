@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+  Everything a cart shelf has besides the carts: black backdrop, the slot band, the shelf name
+  shown inside the slot. Battery and clock come from status.xml at the top. Panel is 720x480; the band is the bottom
+  58 px (y 422-480). The carousel itself comes from the generated shelf-<system>.xml.
+-->
+<theme defaultView="gamecarousel">
+   <formatVersion>7</formatVersion>
+   <view name="gamecarousel">
+
+      <!-- The detailed container's own elements are not part of a shelf. -->
+      <image name="md_image,md_thumbnail,md_marquee,md_fanart,md_titleshot,md_boxart,md_wheel,md_cartridge,md_boxback,md_mix,logo,background">
+         <visible>false</visible>
+      </image>
+      <text name="md_name,md_description,logoText,md_lbl_rating,md_lbl_releasedate,md_lbl_developer,md_lbl_publisher,md_lbl_genre,md_lbl_players,md_lbl_lastplayed,md_lbl_playcount,md_lbl_gametime,md_developer,md_publisher,md_genre,md_players,md_playcount,md_gametime">
+         <visible>false</visible>
+      </text>
+      <rating name="md_rating"><visible>false</visible></rating>
+      <datetime name="md_releasedate,md_lastplayed"><visible>false</visible></datetime>
+      <video name="md_video"><visible>false</visible></video>
+      <helpsystem name="help"><pos>2 2</pos></helpsystem>
+
+      <rectangle name="slot-backdrop" extra="true">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>000000FF</color>
+         <zIndex>1</zIndex>
+      </rectangle>
+
+      <image name="slot-wallpaper" extra="true" ifSubset="slot-wallpaper:on">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <path>firstfile("/userdata/theme-customizations/art-book-slot/" + {system:theme} + ".png", "/userdata/theme-customizations/art-book-slot/wallpaper.png")</path>
+         <zIndex>2</zIndex>
+      </image>
+      <rectangle name="slot-scrim" extra="true" ifSubset="slot-wallpaper:on">
+         <pos>0 0</pos>
+         <size>1 1</size>
+         <color>0000009E</color>
+         <zIndex>3</zIndex>
+      </rectangle>
+      <image name="slot-state" extra="true" ifSubset="slot-state:on">
+         <pos>0.75 0.104167</pos>
+         <size>0.222222 0.308333</size>
+         <path>directory({game:path}) + "/media/slotstates/" + stem({game:path}) + ".png"</path>
+         <visible>exists(directory({game:path}) + "/media/slotstates/" + stem({game:path}) + ".png")</visible>
+         <zIndex>21</zIndex>
+      </image>
+
+      <image name="slot-band" extra="true">
+         <pos>0 0.879167</pos>
+         <size>1 0.120833</size>
+         <path>./band.png</path>
+         <zIndex>30</zIndex>
+      </image>
+
+      <!-- A quiet, steady label: ES resets storyboards after games as well as shelf entry. -->
+      <text name="slot-name" extra="true">
+         <origin>0.5 0.5</origin>
+         <pos>0.5 0.932292</pos>
+         <size>0.34 0.05</size>
+         <text>{system:fullName}</text>
+         <forceUppercase>true</forceUppercase>
+         <fontPath>./fonts/OpenSans-SemiBold.ttf</fontPath>
+         <fontSize>0.020834</fontSize>
+         <fontSize if="${screen.height} &gt;= 720">0.0271</fontSize>
+         <color>F6F4EF</color>
+         <opacity>0.4</opacity>
+         <alignment>center</alignment>
+         <zIndex>31</zIndex>
+      </text>
+
+   </view>
+   <!-- Apply status again after this enabled shelf has introduced gamecarousel. -->
+   <include>./status.xml</include>
+   <include>./appearance/shelf.xml</include>
+   <include ifSubset="slot-interaction:on">./slot-interaction.xml</include>
+   <view name="gamecarousel">
+      <batteryIcon name="slot-battery-icon"><color>F6F4EF</color></batteryIcon>
+      <batteryText name="slot-battery-text"><color>F6F4EF</color></batteryText>
+      <clock name="slot-clock"><color>F6F4EF</color></clock>
+      <networkIcon name="slot-network"><color>F6F4EF</color></networkIcon>
+   </view>
+</theme>

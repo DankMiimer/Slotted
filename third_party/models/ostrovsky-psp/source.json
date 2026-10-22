@@ -1,0 +1,119 @@
+{
+  "model": "psp",
+  "adapter": "ostrovsky_psp.py",
+  "author": "Ilya Ostrovsky",
+  "title": "Sony PSP",
+  "url": "https://sketchfab.com/3d-models/sony-psp-dca89d10ec304d0cab76837750df7761",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "sony_psp.glb",
+  "source_sha256": "aca80b66c4c637acf62ff22cb4585a559b2349e4d85946f63e92aa71435a5470",
+  "mm_per_source_unit": 10.106260952365346,
+  "native_units_per_mm": 2.833530106257379,
+  "scale_basis": "Uniform, 169.4 mm complete source width; preserve artist height/depth",
+  "source_size_mm": [
+    169.39999389648438,
+    26.063556671142578,
+    74.82499694824219
+  ],
+  "source_triangles": 58250,
+  "removed_source_parts": [
+    "ground (50 triangles)"
+  ],
+  "decimation": false,
+  "door_split_x_mm": [
+    -38.0,
+    38.0
+  ],
+  "hinge_native": [
+    0.0,
+    -103.42384887839434,
+    -30.035419126328215
+  ],
+  "umd_label_native": [
+    0.0,
+    1.1334120425029517,
+    -23.234946871310505
+  ],
+  "umd_size_mm": [
+    64,
+    65,
+    4.2
+  ],
+  "hinge_uncertainty": "Source has no mechanism; lower cover hinge and hidden holder are fitted approximations",
+  "spec": {
+    "ry": 106.00944077673037,
+    "depth": 36.925936251913924,
+    "slot": -30.035419126328215
+  },
+  "modifications": [
+    "Remove staging ground; undo source 45-degree display tilt",
+    "Retain full console detail without decimation; split connected rear cover at straight seams",
+    "Add original concealed drive floor, inner cover and independently moving UMD holder",
+    "Clear baked home screen for live LCD metadata",
+    "Reduce 4096px albedo to 2048px; original maps/master preserved",
+    "Source albedo with simple lighting; normal/roughness/metallic maps not rendered"
+  ],
+  "source_images": {
+    "sony_psp": {
+      "name": "Image_0",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "Image_0.jpg",
+      "sha256": "d2e68ad6ba7834fbd01696d52c37a912b662dd981f3b2ed317cc0849315ade39"
+    }
+  },
+  "atlas": {
+    "cleared_texels": 776671,
+    "blank": [
+      {
+        "box": [
+          12,
+          754,
+          821,
+          1213
+        ],
+        "reason": "baked PSP home screen"
+      }
+    ],
+    "inset": {},
+    "constants": {
+      "Slot UMD interior": {
+        "box": [
+          1016,
+          0,
+          1032,
+          16
+        ],
+        "linear": [
+          0.008,
+          0.009,
+          0.012
+        ]
+      },
+      "Slot UMD holder": {
+        "box": [
+          1032,
+          0,
+          1048,
+          16
+        ],
+        "linear": [
+          0.35,
+          0.38,
+          0.4
+        ]
+      }
+    }
+  },
+  "prepared": {
+    "mesh_sha256": "1b9f93ae9f9bcd12642fa3fcb7991afc959f4865595431237d84623280ee07e0",
+    "albedo_sha256": "e10a0348733ab7248851134aaf5e0ebfc81b6aef9a7bcd11dcd05379af7bc017",
+    "vertices": 52760,
+    "triangles": 58676
+  },
+  "reproduction": "tools/consolebuild/textured.sh ostrovsky_psp.py SOURCE psp"
+}

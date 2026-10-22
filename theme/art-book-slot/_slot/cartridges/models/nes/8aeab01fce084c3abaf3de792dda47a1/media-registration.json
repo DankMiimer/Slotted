@@ -1,0 +1,65 @@
+{
+  "adapter": "selected_cartridges_blender.py",
+  "key": "nes",
+  "creator": "dark_igorek",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "url": "https://sketchfab.com/3d-models/nes-cartridge-battletoads-8aeab01fce084c3abaf3de792dda47a1",
+  "uid": "8aeab01fce084c3abaf3de792dda47a1",
+  "source_file": "research/selected-cartridges-20261019/nes/full.glb",
+  "source_sha256": "f16af9da3b2aa290b683027c83c4b2099dfc20ea26f415c7f4c219dc96c59bf6",
+  "source_nodes": [
+    "main_0",
+    "contact_1",
+    "clips_2",
+    "sticker_3"
+  ],
+  "q": 1.6333333333333333,
+  "size_mm": [
+    119.99999868626497,
+    134.90928192527926,
+    18.1702372370934
+  ],
+  "label_mm": [
+    15.805074691772461,
+    21.64191436767578,
+    28.70599937438965,
+    45.54558563232422,
+    8.752436637878418
+  ],
+  "label_triangles": 14,
+  "decimation": false,
+  "depth_scale": 1,
+  "blank_uv": null,
+  "excluded_materials": [
+    "sticker"
+  ],
+  "modifications": [
+    "One card isolated from source scene; uniform width registration; no decimation",
+    "Fixed game label blanked; independent per-game label surface",
+    "Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research"
+  ],
+  "original_additions": [],
+  "source_quality_limitation": "",
+  "prepared": {
+    "vertices": 2846,
+    "triangles": 1266,
+    "mesh_sha256": "df9a0a8bc4e39334d030f2aa4da150f23bfc5d6249820cf53bdb67d32659e74a"
+  },
+  "label_prepared": {
+    "vertices": 16,
+    "triangles": 14,
+    "mesh_sha256": "1888d0f42b3049cc5ae0d4856d7d2087f9ec84331a7c3dd89746b8c74752324c"
+  },
+  "atlas": {
+    "size": 1024,
+    "source_tile_limit": 1008,
+    "material_tiles": {
+      "catridge": "06fd08eeeb71dcfc2b5cc6b5f7d2d3012d3e72390fb2f50a6daa2412782b583b",
+      "sticker": "swatch-(155, 155, 151)"
+    },
+    "blank_pixel_rectangles": {}
+  },
+  "runtime_material_limit": "Opaque albedo + source normals; normal/metallic/roughness/transmission maps retained only in full source",
+  "selected_package": "cartridges/models/nes/8aeab01fce084c3abaf3de792dda47a1"
+}

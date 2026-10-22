@@ -1,0 +1,4 @@
+<!-- Original fantasy cartridge outline, MIT. Standard 160:205 aspect. -->
+<svg xmlns="http://www.w3.org/2000/svg" width="160" height="205" viewBox="0 0 160 205">
+ <path fill="white" d="M4 0H156L160 4V199L154 205H5L0 200V4Z"/>
+</svg>

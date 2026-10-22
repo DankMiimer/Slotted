@@ -1,0 +1,11 @@
+{
+  "system": "md",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "b9bb8c881233c307c1b42c97f8d4ce04d859689057e3c2ef6315f5d77535aeb1",
+    "media-master.glb": "f97d99d42daa3d7528522ec64a3ea267be69d512f6e647474532f6ec1a1b086c",
+    "media-physical.glb": "d1cf1a24effeb2f2f0126b9bd6f6366fbc2c2c39ddfe26c2622a5e72a74d85c5",
+    "media.glb": "f97d99d42daa3d7528522ec64a3ea267be69d512f6e647474532f6ec1a1b086c",
+    "media.mesh": "f08a65121bebaea7dc9d7edcbb823292a112b17a460339f2dc12d36b96210e17"
+  }
+}

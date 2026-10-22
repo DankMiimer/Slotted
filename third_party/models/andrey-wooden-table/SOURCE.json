@@ -1,0 +1,28 @@
+{
+  "name": "Wooden table (low poly)",
+  "author": "AndreyUEDev",
+  "url": "https://sketchfab.com/3d-models/wooden-table-low-poly-ab96499ddb3b4bd7bc739e4f99dad409",
+  "uid": "ab96499ddb3b4bd7bc739e4f99dad409",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/322a749bcfa841b29dff1e8a1bb74b0b",
+    "label": "CC Attribution",
+    "fullName": "Creative Commons Attribution",
+    "requirements": "Author must be credited. Commercial use is allowed.",
+    "url": "http://creativecommons.org/licenses/by/4.0/",
+    "slug": "by"
+  },
+  "acquired": "2026-10-18",
+  "method": "Official signed-in Sketchfab Download UI; highest-resolution 4k GLB and original archive",
+  "files": [
+    {
+      "file": "wooden_table_low_poly.glb",
+      "bytes": 60713952,
+      "sha256": "32dab7446c61369110da3e216e9fd69d033021d73ad68c81d0142c6a421ec559"
+    },
+    {
+      "file": "wooden-table-low-poly.zip",
+      "bytes": 98001444,
+      "sha256": "cb12424e08179153729f8634405d7d93ef5bcfce585150c6ec843e3e95fa6e84"
+    }
+  ]
+}

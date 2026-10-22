@@ -1,0 +1,4 @@
+# Host editor/theme tools; Blender supplies bpy separately. Native builds use Linux/WSL.
+Pillow>=10
+numpy>=1.26
+resvg-py>=0.2

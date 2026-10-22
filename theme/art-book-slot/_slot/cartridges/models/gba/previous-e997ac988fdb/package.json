@@ -1,0 +1,18 @@
+{
+  "system": "gba",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "45841ca19b5ba0d53a06f55a4f10e6d15027579cc34cd4b9efe78e8f0eaa71d7",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "3e1900fd29fbdc7eb2a2a63f668f8ab188ad3ded60c6875e5190752400b3ff16",
+    "media-label.texture": "bb7453a4058834c90256bfa24d638818119ebfd9a48bd4d2546df30f05b21303",
+    "media-master.glb": "a796a4c9f037da2770a5fc5d540d77f4e44caef2804747a32ffe7fb6ef8db2fa",
+    "media-physical.glb": "929557967e52185b9bab97fd3085064871b3526c7837b0325a179eee7ae18071",
+    "media-registration.json": "41b06b03c0a08d529a51d9dcaf322654f45f0d0f9df4ffd3528297c7ad87ac5a",
+    "media.albedo.png": "0038db1cfc4a31647b37f1e2b1f701f23b1381b3e0b3938f4c8d47df4677bb3f",
+    "media.glb": "a796a4c9f037da2770a5fc5d540d77f4e44caef2804747a32ffe7fb6ef8db2fa",
+    "media.mesh": "6a9b9f690a6af4e334704d4da501c745eb705e0b99efb369c4903d62c0c54336",
+    "media.paint.mask": "57a3311f1134fb66078db53e729526e798c62b655d9d7ec828225752e0443592",
+    "media.texture": "e6f85ec96b36aa228657b3141f8ccba2bb2f65b9d5b8dc14473cb6ae15b043fd"
+  }
+}

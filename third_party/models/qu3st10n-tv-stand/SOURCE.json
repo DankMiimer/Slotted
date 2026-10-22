@@ -1,0 +1,28 @@
+{
+  "name": "TV stand",
+  "author": "Qu3st10n",
+  "url": "https://sketchfab.com/3d-models/tv-stand-2bad9d5f36b840c5a15e612cf9b7d78c",
+  "uid": "2bad9d5f36b840c5a15e612cf9b7d78c",
+  "license": {
+    "uri": "https://api.sketchfab.com/v3/licenses/2628dbe5140a4e9592126c8df566c0b7",
+    "label": "CC Attribution-NonCommercial-ShareAlike",
+    "fullName": "CC Attribution-NonCommercial-ShareAlike",
+    "requirements": "Author must be credited. No commercial use. Modified versions must have the same license.",
+    "url": "http://creativecommons.org/licenses/by-nc-sa/4.0/",
+    "slug": "by-nc-sa"
+  },
+  "acquired": "2026-10-18",
+  "method": "Official signed-in Sketchfab Download UI; highest-resolution 4k GLB and original archive",
+  "files": [
+    {
+      "file": "tv_stand.glb",
+      "bytes": 36891340,
+      "sha256": "84c3686a93169eb623910d6082e32f15c871ff72eddcb9640260cdeb998dfdf2"
+    },
+    {
+      "file": "tv-stand.zip",
+      "bytes": 39292573,
+      "sha256": "91dc72411bb8a2c4d4b0794dfd284b02948eca3f835f5865da7086da7ea7dd1d"
+    }
+  ]
+}

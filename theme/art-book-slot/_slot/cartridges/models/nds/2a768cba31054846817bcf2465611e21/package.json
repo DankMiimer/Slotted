@@ -1,0 +1,18 @@
+{
+  "system": "nds",
+  "uid": "2a768cba31054846817bcf2465611e21",
+  "files": {
+    "CREDITS.txt": "5c985ca57953bf5f3c487f2c4f05becd34863809f609f343480209ece4c56b61",
+    "media-info.json": "cb520991cb78cfa0c644d8e578aa22b7c54c1378e337ca40d700a36d835eabff",
+    "media-label.albedo.png": "6fbcc4b9129eac79a7a59e6b35290fbbcb946913f5dcbf99123699186f4c1cc9",
+    "media-label.mesh": "cdb4db5edc9433f85d28f06c523e3041bcd1858f5a2ced48d33382417dae9fae",
+    "media-label.texture": "c47843b9fd0039bbd2fd88b79704a3c980ef7942914d7355d4cde3898bf332f8",
+    "media-master.glb": "6f0ed60a5d3985cba44ace4fa33d38f3be046f093d4b10bd5b9f3a873054419f",
+    "media-physical.glb": "9cae92f07f545b559d58a5b2e7fb8b44b917cac192abe627fd6619b116f322ab",
+    "media-registration.json": "e39bc3cfecdd319c89305b1d90a0c242aeadae3d315a77716de9cd6d15d55812",
+    "media.albedo.png": "85392c62a6adc0510bd7bb96719c43bf20e1ae6aadfcb08fdaf1dc1b012bde3b",
+    "media.glb": "6f0ed60a5d3985cba44ace4fa33d38f3be046f093d4b10bd5b9f3a873054419f",
+    "media.mesh": "e2fe161e3eef190095e77a73eb99fd325450e63ca97854fb29e6f3dd0c547b8a",
+    "media.texture": "55ce86bbf595cbacb8b521c296d4c38389764a263d5459bf98a00325933e2b9a"
+  }
+}

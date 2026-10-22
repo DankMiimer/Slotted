@@ -1,0 +1,8 @@
+<!-- Original DS moulding; black shadows, white highlights. MIT. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 312 341">
+  <path fill="#000" opacity=".45" d="M10 7 H301 V11 H10 Z M295 21 H302 V311 H295 Z M12 318 H300 V323 H12 Z"/>
+  <path fill="#fff" opacity=".25" d="M11 12 H300 V14 H11 Z M10 21 H14 V308 H10 Z"/>
+  <path fill="#000" opacity=".65" d="M143 316 H169 L156 329 Z"/>
+  <path fill="#fff" opacity=".24" d="M17 332 H294 V334 H17 Z"/>
+  <path fill="none" stroke="#fff" stroke-opacity=".25" d="M2 176 H8 Q13 176 13 182 V206 Q13 212 8 212 H2"/>
+</svg>

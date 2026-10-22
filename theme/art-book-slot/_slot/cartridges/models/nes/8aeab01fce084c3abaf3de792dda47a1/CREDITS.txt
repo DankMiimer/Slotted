@@ -1,0 +1,6 @@
+dark_igorek — https://sketchfab.com/3d-models/nes-cartridge-battletoads-8aeab01fce084c3abaf3de792dda47a1
+CC BY 4.0 — https://creativecommons.org/licenses/by/4.0/
+One card isolated from source scene; uniform width registration; no decimation
+Fixed game label blanked; independent per-game label surface
+Source UVs/normals retained; native renderer uses albedo only, full PBR originals retained in research
+

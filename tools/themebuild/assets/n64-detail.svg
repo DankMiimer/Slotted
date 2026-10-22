@@ -1,0 +1,23 @@
+<!-- Art Book Slot, MIT. Own N64 front moulding; photographs used only for proportions. -->
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 241">
+  <defs>
+    <linearGradient id="side" x1="0" y1="0" x2="1" y2="0">
+      <stop stop-color="#000" stop-opacity=".55"/><stop offset=".7" stop-color="#000" stop-opacity=".05"/><stop offset="1" stop-color="#fff" stop-opacity=".15"/>
+    </linearGradient>
+    <linearGradient id="grip" x1="0" y1="0" x2="1" y2="1">
+      <stop stop-color="#fff" stop-opacity=".6"/><stop offset=".3" stop-color="#000" stop-opacity=".25"/><stop offset="1" stop-color="#000" stop-opacity=".08"/>
+    </linearGradient>
+  </defs>
+  <path id="edge" fill="url(#side)" d="M0 38 L6 35 V231 Q6 235 10 236 L8 241 Q0 241 0 233 Z"/>
+  <use href="#edge" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M6 37 Q81 5 180 5 Q279 5 354 37" fill="none" stroke="#fff" stroke-width="1.5" stroke-opacity=".65"/>
+  <!-- The broad side shoulders run the full height alongside the portrait label. -->
+  <path d="M70 14 V238 M290 14 V238" fill="none" stroke="#000" stroke-width="2.5" stroke-opacity=".5"/>
+  <path d="M72 14 V238 M288 14 V238" fill="none" stroke="#fff" stroke-width="1" stroke-opacity=".5"/>
+  <!-- Short finger recesses at the lower outside corners, not ribs on the upper face. -->
+  <path id="grip-left" d="M0 173 H16 Q25 173 25 183 V239 H0 Z" fill="url(#grip)"/>
+  <use href="#grip-left" transform="translate(360 0) scale(-1 1)"/>
+  <path d="M1 175 H15 Q23 175 23 183 V237 M359 175 H345 Q337 175 337 183 V237" fill="none" stroke="#fff" stroke-opacity=".35"/>
+  <path d="M8 237 H352" fill="none" stroke="#000" stroke-width="3" stroke-opacity=".5"/>
+  <path d="M10 235 H350" fill="none" stroke="#fff" stroke-opacity=".45"/>
+</svg>

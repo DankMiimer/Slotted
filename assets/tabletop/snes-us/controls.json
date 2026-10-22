@@ -1,0 +1,11 @@
+{
+  "source_mesh_sha256": "3334198c108772ca180cd343a4c398ca6bc10ddfdf47c0f6ff676ae57de1808d",
+  "source_glb_sha256": "17ad9ee3b0de8b17757c0a09ccffd83ccac0031871947fc45d36e5c8af75a22c",
+  "node": "US power slider",
+  "triangles": 600,
+  "travel_mm": [
+    0,
+    0,
+    -6
+  ]
+}

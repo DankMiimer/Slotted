@@ -1,0 +1,29 @@
+# Local reference material: not ours to publish, or personal to one device.
+/slot-v1.4.0/
+/research/
+/spikes/shots/
+/spikes/testcarts/
+/spikes/preview-static.png
+
+# Per-machine dev settings (ssh target of the handheld).
+/tools/dev/device.txt
+
+# Baker downloads and outputs: game art is never committed.
+/tools/slotcart/cache/
+/build/
+# User-supplied editorial models and their local runtime derivatives.
+/theme/art-book-slot/_slot/local-models/
+/theme/art-book-slot/_slot/launch/slot-launch
+
+__pycache__/
+*.pyc
+
+# Local environments and credentials.
+/.venv/
+/.env
+/.env.*
+!/.env.example
+*.pem
+*.key
+/.DS_Store
+/Thumbs.db

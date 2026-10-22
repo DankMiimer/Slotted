@@ -1,0 +1,106 @@
+{
+  "model": "psx",
+  "adapter": "darkigorek_psx.py",
+  "author": "dark_igorek",
+  "title": "Sony PVM-1341 || Sony Playstation",
+  "url": "https://sketchfab.com/3d-models/sony-pvm-1341-sony-playstation-5f80311f1a4646ef9673f20ee6dc6245",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "source.blend",
+  "source_sha256": "fe083c1125de93b3a62beb1497756acfbda26f36e2fc66e2559d24aa18cf05af",
+  "archive_sha256": "0dab2049dc14e93fffb97b4576017fe26f26df31323612457405a00326885845",
+  "source_console_triangles": 64717,
+  "source_parts": {
+    "PS1 controls and fittings": 19541,
+    "PS1 disc lid": 7696,
+    "PS1 spindle": 1729,
+    "PS1 optical pickup": 2039,
+    "PS1 disc well": 3323,
+    "PS1 socket interiors": 20,
+    "PS1 enclosure": 30369
+  },
+  "decimation": false,
+  "native_units_per_mm": 1.6,
+  "closed_size_mm": [
+    270,
+    60,
+    188
+  ],
+  "physical_axis_scale": [
+    1.0477862358093262,
+    1.029313325881958,
+    1.0753923654556274
+  ],
+  "hinge_native": [
+    -0.9889125823974609,
+    26.131391525268555,
+    -125.19782781600952
+  ],
+  "disc_centre_native": [
+    -9.5367431640625e-05,
+    28.63146662712097,
+    -0.0
+  ],
+  "disc_radius_mm": 60,
+  "disc_thickness_mm": 1.2,
+  "pickup_registration_degrees": 90,
+  "uncertainty": "Keep the accepted authored hinge/spindle and envelope registration; no OEM pivot metrology",
+  "modifications": [
+    "Keep all seven console meshes, source UVs, print and base colour; no decimation",
+    "Close original 50-degree lid; accepted 270 x 60 x 188 mm envelope correction",
+    "Retain early SCPH-1001 pickup registration, 90 degrees behind the spindle",
+    "Exclude monitor, cables and controllers from console asset",
+    "Two 4K albedos reduced to 1024px tiles in a 2048px atlas; full masters/maps preserved",
+    "Native albedo/simple lighting; no normal/roughness/metallic/emission shading"
+  ],
+  "source_game_art": "None in the seven console meshes; no disc or screen is supplied in this collection",
+  "source_images": {
+    "ps1_details_mat": {
+      "name": "ps1_details_mat_BaseColor.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "ps1_details_mat_BaseColor.jpg",
+      "sha256": "44074c3fd54575bf34d8c2c0b7a01feb50956f205719db78acca1b2f8cc5554f"
+    },
+    "ps1_body_mat": {
+      "name": "ps1_body_mat_BaseColor.jpg",
+      "size": [
+        4096,
+        4096
+      ],
+      "colourspace": "sRGB",
+      "file": "ps1_body_mat_BaseColor.jpg",
+      "sha256": "6b53e5551b64ae15bd7992a7831e1ce4b0cf611fb8a9d5e7bcf03efe8fc42e68"
+    }
+  },
+  "atlas": {
+    "cleared_texels": 2204313,
+    "blank": [],
+    "inset": {},
+    "constants": {
+      "plugs": {
+        "box": [
+          0,
+          0,
+          16,
+          16
+        ],
+        "linear": [
+          0,
+          0,
+          0
+        ]
+      }
+    }
+  },
+  "prepared": {
+    "mesh_sha256": "61e2f7144284eb7fa334ef71578a11f8198bfb1a25b5b19e3162423cf06d348a",
+    "albedo_sha256": "f19489235987bf7471fcf605ff43b02f205ac1883e46d82cff648065e660d40b",
+    "vertices": 51805,
+    "triangles": 64717
+  },
+  "reproduction": "tools/consolebuild/textured.sh darkigorek_psx.py SOURCE psx"
+}

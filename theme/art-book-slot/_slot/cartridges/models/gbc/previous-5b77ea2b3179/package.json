@@ -1,0 +1,11 @@
+{
+  "system": "gbc",
+  "description": "Preserved current cartridge before selected-source activation",
+  "files": {
+    "media-info.json": "8cfc02dbf5006cdcdb1e63acb86a16363b3f6ece4898b8e9c02b60512249e172",
+    "media-master.glb": "a7c3fbcc0603332c9216a1294b03911a670cbd010e30f1b09cfe97db5dcdae0c",
+    "media-physical.glb": "7c4cb5a6e57de88bfe59de7dbb397d66d16fcca489731f41099a88c825e14a83",
+    "media.glb": "a7c3fbcc0603332c9216a1294b03911a670cbd010e30f1b09cfe97db5dcdae0c",
+    "media.mesh": "e3e850d9b0da9609fb349c7dec9ee5647029cd7d09771951a7041ead58fa45b0"
+  }
+}

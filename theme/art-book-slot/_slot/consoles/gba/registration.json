@@ -1,0 +1,60 @@
+{
+  "model": "gba",
+  "adapter": "graphicsgeek_gba.py",
+  "author": "thegraphicsgeek",
+  "title": "Gameboy Advance SP",
+  "url": "https://sketchfab.com/3d-models/gameboy-advance-sp-18c9688eaa8f4903a940c105242df15f",
+  "licence": "CC-BY-4.0",
+  "licence_url": "https://creativecommons.org/licenses/by/4.0/",
+  "source_file": "gameboy_advance_sp.glb",
+  "source_sha256": "a2f814280e185f8596c98281b6272eaf32df745a4bbd76029c3aa38c86922836",
+  "native_units_per_mm": 2.731707317073171,
+  "scale_basis": "Footprint corrected from the artist's 84.0 x 82.0 mm to Nintendo's published 82 x 84.6 mm (x 0.9762, y 1.0317); thickness uniform at 2.7317 native/mm",
+  "source_size_mm": [
+    84.3021240234375,
+    100.78269958496094,
+    95.12708732485771
+  ],
+  "source_triangles": 66826,
+  "excluded_source_materials": [
+    "ScreenGlass_MAT (alpha-blended lens overlay with GAME BOY ADVANCE SP lettering)"
+  ],
+  "removed_source_parts": [
+    "ScreenGlass (2 triangles) and ScreenCover (40): alpha-blended lens overlays"
+  ],
+  "decimation": false,
+  "hinge_native": [
+    0.0,
+    -33.620734012111804,
+    -109.79106020341604
+  ],
+  "open_degrees": 105.45316279035616,
+  "source_open_degrees": 104.99999284189752,
+  "open_radians": 1.8405048973332858,
+  "hinge_basis": "Circular sections of the hinge pin inside both fixed hinge corners (r 2.5 mm); the source has no mechanism",
+  "bay": {
+    "floor_mm": 1.0665531158447266,
+    "roof_mm": 7.196544647216797,
+    "roof_raised_mm": 1.718455352783204,
+    "end_wall_native": 18.0,
+    "cart_centre_native": -71.1,
+    "vertices_raised": 635
+  },
+  "lcd_size_mm": [
+    61.26819582922118,
+    42.56480899396943
+  ],
+  "spec": {
+    "ry": 115.55121951219512,
+    "depth": 21,
+    "slot": 109.50111308526748
+  },
+  "modifications": [
+    "Drop the two transparent lens overlays (42 triangles); keep all 66,784 others, their UVs and the three 1024 px base-colour maps",
+    "Fold each material tile's UV offset to 0..1 and pack the maps into one 2048 px atlas at native resolution",
+    "Correct the footprint to 82 x 84.6 mm and register into the packaged SP's frame so the Game Pak path is unchanged",
+    "Raise the cartridge bay roof 1.72 mm (635 vertices) so the registered Game Pak shell clears it",
+    "Keep the source opening angle (105.0 degrees, 105.45 after the footprint correction) and register the lid about the hinge pin axis",
+    "Source albedo with simple lighting; normal/roughness/metallic/AO maps are not rendered"
+  ]
+}

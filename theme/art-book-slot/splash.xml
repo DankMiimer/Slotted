@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- The boot splash is Art Book Next's. -->
+<theme>
+   <formatVersion>7</formatVersion>
+   <include>/usr/share/emulationstation/themes/es-theme-art-book-next/splash.xml</include>
+</theme>

@@ -1,0 +1,15 @@
+{
+  "source_mesh_sha256": "e3e165e9471745b77caee77ca516c0f12c2f8d87788e0a1ced2bf6de69e3fed8",
+  "source_glb_sha256": "e51a25b845a94b9a259f586c5404d3df0b8d7f2b770c336d38bcbceb37b33a1e",
+  "node": "Power slider",
+  "triangles": 102,
+  "travel_mm": [
+    -5.8392857142857135,
+    0,
+    0
+  ],
+  "indicator": {
+    "node": "Power indicator window",
+    "triangles": 70
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "source_mesh_sha256": "997e76aa1d0afd95bc21137212cda4ae78a19baa9222cd055a50e2dcd481cb38",
+  "source_glb_sha256": "5f54683cd8697c9d186446533a04bc148a15521537f8a251012f661d16e203a8",
+  "node": "Front control button + POWER",
+  "triangles": 336,
+  "travel_mm": [
+    0,
+    0,
+    -2
+  ],
+  "indicator": {
+    "node": "Power LED",
+    "triangles": 508
+  }
+}

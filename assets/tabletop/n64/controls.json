@@ -1,0 +1,12 @@
+{
+  "source_mesh_sha256": "b20729c091834591d5b1e954e063d5cbca4d77df377834474c886aecd1284ff8",
+  "source_glb_sha256": "fc059db38504cfecc113c0d8111007abf99e553192eb0c2b3b2155c95564614b",
+  "node": "N64 power slider",
+  "triangles": 240,
+  "travel_mm": [
+    0,
+    0,
+    7
+  ],
+  "flaps": "tools/slotlaunch/n64-data.h front/rear dust flap ranges, hinges and profiles"
+}
