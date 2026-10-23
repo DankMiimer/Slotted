@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "createdUTC": "2026-10-23T03:24:04.007081+00:00",
+  "createdUTC": "2026-10-23T03:39:36.547412+00:00",
   "edition": "MIT original code; separately licensed assets including NonCommercial/ShareAlike",
   "status": "Development source snapshot; no binary; no device installation performed",
   "files": {
@@ -835,8 +835,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/SLOTTED_THEME_PLAN.md": {
-      "bytes": 46857,
-      "sha256": "d5d4448d274d72351932944a1ef87eee8ce0ed1d11c83732a3fd45a77ee28c43",
+      "bytes": 47080,
+      "sha256": "27305e4566f35de89efde0ad44b711c5ace8e353819fbbfc239163b823c2270e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/SOCKET_0_8_0_MODEL_RESEARCH.md": {
@@ -11665,8 +11665,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotTabletop.cpp": {
-      "bytes": 131833,
-      "sha256": "41d96f243f6286a95a9d4408a8a467e47b3a61b7b42e24fc12999dacb66ba3e4",
+      "bytes": 132076,
+      "sha256": "2fc9b5f6d3218e49386f5b3d52855315cf8a80af172bb588bc32520009d7dc55",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotTabletop.h": {
@@ -11685,8 +11685,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotTabletopStream.inc": {
-      "bytes": 47925,
-      "sha256": "8fac132c6d157fdfd9913c1ef70641daeae70430829f4ba3d0ec4c99d27f9479",
+      "bytes": 47957,
+      "sha256": "f2904d3fea659fccab0035f46e71324e9979793ed52e9bea373ee52d59b0bc3e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotTelevision.h": {

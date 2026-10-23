@@ -10,7 +10,7 @@ void copyCore(SlotTabletop&to,const SlotTabletop&from){
     to.table=from.table;to.television=from.television;for(int i=0;i<2;i++)to.consoles[i]=from.consoles[i];to.consoleCount=from.consoleCount;
     to.media=from.media;to.layout=from.layout;to.authored=from.authored;to.layoutBottom=from.layoutBottom;to.layoutMediaLow=from.layoutMediaLow;to.layoutMediaKnown=from.layoutMediaKnown;
     to.triangles=from.triangles;to.textures=from.textures;to.imageLeases=from.imageLeases;
-    to.home=from.home;to.bootstrapHome=from.bootstrapHome;to.homeLayout=from.homeLayout;to.homeItems=from.homeItems;
+    to.home=from.home;to.bootstrapHome=from.bootstrapHome;to.homeOtherTv=from.homeOtherTv;to.homeLayout=from.homeLayout;to.homeItems=from.homeItems;
     if(world){to.cel=cel;to.paint=paint;}
 }
 double millis(Uint64 from,Uint64 to){return 1000.0*(to-from)/SDL_GetPerformanceFrequency();}

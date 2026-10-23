@@ -648,8 +648,11 @@ device state are recorded in TABLETOP_HANDOFF.md.
 
 The native TV UI view now computes a default that frames the complete cabinet
 and the widest supported top status cluster, rather than filling the display
-with glass. An authored home screen camera still takes precedence; existing
-console cameras are untouched. Native host probes checked home and console TV
+with glass. An authored home screen camera still takes precedence for the TV
+it was saved with; when another TV model stands in for that TV, the home table
+keeps its placements but its screen view uses this computed fit (23 October:
+the Old TV camera cropped the larger Panasonic cabinet). Existing console
+cameras are untouched. Native host probes checked home and console TV
 front/status bounds for Panasonic at 720×480 and PVM at 720×540. This is native
 framing evidence with a test pattern, not TV-hosted frontend menus or device
 acceptance. Room floor/walls, fixed world ownership, actual frontend TV hosting and separate

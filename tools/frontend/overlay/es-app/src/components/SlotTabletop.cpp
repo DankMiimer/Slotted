@@ -188,7 +188,8 @@ struct SlotTabletop {
     Vec paintColor={1,1,1};
     Vec display[4]={{0,0,0},{0,0,0},{0,0,0},{0,0,0}};
     // Slotted's home table (system "home"); see loadHome and homeFrame.
-    bool home=false,bootstrapHome=false;HomeProfile homeLayout;std::vector<HomeItem> homeItems;
+    // homeOtherTv: the saved home layout was authored with another TV model.
+    bool home=false,bootstrapHome=false,homeOtherTv=false;HomeProfile homeLayout;std::vector<HomeItem> homeItems;
 };
 namespace {
 // Diagnostic: main-thread open steps to "<SLOT_SCENE_STREAMLOG>.open.tsv" (evidence only).
@@ -827,9 +828,10 @@ int homeEntry(const SlotTabletop*s,size_t i){
     return -1;
 }
 // Dedicated UI view: the whole TV cabinet and its top status UI stay visible.
-// An authored home screen camera wins; no existing saved camera is reframed.
+// An authored home screen camera wins for the TV it was saved with; no saved
+// camera is reframed. It framed that cabinet, so another TV gets this fit.
 ProfileCamera screenCamera(const SlotTabletop*s){
-    if(s->home&&s->homeLayout.screen.authored)return s->homeLayout.screen;
+    if(s->home&&s->homeLayout.screen.authored&&!s->homeOtherTv)return s->homeLayout.screen;
     const auto tv=s->layout.nodes[1].matrix();
     const float statusScale=std::min(1.f,(s->television.high.x-s->television.low.x)/468.f);
     const auto status=product(tv,s->layout.nodes[3].matrix(statusScale));
@@ -998,7 +1000,7 @@ void trimLabels(SlotTabletop*s){std::set<std::string>keep;for(auto&i:s->items)ke
 // Slotted's home table: the home layout saved for this TV (or with another TV), else a default
 // arrangement. Every placed console loads; frames show those whose room has games.
 void loadHome(SlotTabletop*s){
-    s->home=true;s->consoleCount=0;
+    s->home=true;s->homeOtherTv=false;s->consoleCount=0;
     const std::string path=s->ignoreLayout?std::string():homeProfileFor(s->prepared+"/layouts",s->tv,[](const std::string&p){return exists(p);});
     {HomeProfile early;prefetchPrepared(s,s->tv);prefetchPrepared(s,!path.empty()&&readHomeProfile(path,early)?early.tableAsset:std::string("table"));}
     s->television=prepared(s,s->tv);openStep("home","scene-tv");
@@ -1008,6 +1010,7 @@ void loadHome(SlotTabletop*s){
         const size_t at=path.rfind("home-")+5;const std::string savedTv=path.substr(at,path.size()-at-6);
         std::fprintf(stderr,"Tabletop: home layout=%s tv=%s requested_tv=%s\n",path.c_str(),savedTv.c_str(),s->tv.c_str());
         if(savedTv!=s->tv){
+            s->homeOtherTv=true;
             // As a console room: same footprint turn, front edge where the authored TV's was.
             Vec low,high;if(!sceneBounds(s->prepared+"/"+savedTv,low,high))throw std::runtime_error("Missing authored TV bounds");
             const Mat m=p.tv.matrix();p.tv.position=add(p.tv.position,sub(transform(m,{0,0,high.z-s->television.high.z}),transform(m,{0,0,0})));
