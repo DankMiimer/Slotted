@@ -1,6 +1,6 @@
 {
   "id": "retro",
-  "source_sha256": "0a23df681cadbac960ceabd6b196fb2b9126c8722126ad600364a46b444e5dc0",
+  "source_sha256": "c1f31bc2b0106f83354dd497b8f543a4c9562b67f911376d5f2e4c3602e75aae",
   "units": "mm",
   "groups": [
     {
@@ -53,7 +53,8 @@
     "X right / Y up / Z forward millimetres",
     "Original geometry, UVs and base-color textures retained; no decimation",
     "Source PBR maps retained in original GLB; runtime uses simple lighting",
-    "Public-only derivative: decorative stickers removed from base-color and ORM maps; all geometry, UVs and normal map retained."
+    "Public-only derivative: decorative stickers removed from base-color and ORM maps; all geometry, UVs and normal map retained.",
+    "RETROvision branding (2026-10-24): \"Panasonic\" print on the front strip replaced by RETROvision in albedo-00"
   ],
   "glass": [
     [

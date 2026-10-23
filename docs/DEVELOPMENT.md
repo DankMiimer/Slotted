@@ -32,6 +32,11 @@ The editor listens on loopback port 8765 and downloads Three.js 0.170.0 on first
 use, with its MIT license. Neutral game surfaces remain blank until you supply
 your own artwork. Never add scraped/cached artwork to publication inputs.
 
+The prepared Panasonic, PVM and Retro TVs carry RETROvision instead of their
+makers' marks. After re-preparing them with `tools/tabletop/prepare_assets.py`, run
+`python -m tools.tabletop.tv_branding apply build/tabletop/assets` (it refuses an
+already branded or unexpected model); `... check PATH` verifies a TV folder set.
+
 `python -m tools.slotted.build` regenerates Slotted XML and original TV graphics.
 `python -m tools.slotted.install --package-only` packages those files without
 device access. Neither command compiles a frontend or bootstraps a new device.

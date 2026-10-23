@@ -1,29 +1,29 @@
 {
   "schema": 1,
-  "date": "2026-10-23",
+  "date": "2026-10-24",
   "scope": "Public-only derivatives; preserve development originals",
   "files": [
     {
       "destination": "assets/tabletop/retro/albedo-00.png",
       "source": "assets/publication-derivatives/assets/tabletop/retro/albedo-00.png",
-      "originalSha256": "d1bd99dc968deabfb877869ee9f3e6bb6df0c517a46b613f04cc31b803dbf9bc",
-      "sha256": "5ca9082d9909b7804ecf78b19193619f7aee039e70e839784170b8f7ff4f9d42",
-      "bytes": 1726703,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained",
+      "originalSha256": "12ad1e823d195c3a718902d4e114fd220ee5517526262ae1b85dd2d210ac711d",
+      "sha256": "b0c598296b9a60352ff4670539e088fe6b3aeff5e47bc889eb25fa79ad3ec39d",
+      "bytes": 1771468,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged",
       "pixelBox": [
         704,
         948,
-        980,
+        1708,
         1392
       ]
     },
     {
       "destination": "assets/tabletop/retro/scene.json",
       "source": "assets/publication-derivatives/assets/tabletop/retro/scene.json",
-      "originalSha256": "e7b43654f0a05cab1628fbe602d46bb254c39678b5bfd2b1fa6265a4487babcf",
-      "sha256": "2aff8b882fa5c3076edc1bdddfea24a1299ab48cf35282a0f1e1d4f2b774811a",
-      "bytes": 1724,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+      "originalSha256": "2f7416da2d6f32c0cc631aea67a89b7ac6391f77619090232ff6fe3c9bb0a840",
+      "sha256": "1831a75d8d3d83683192448bb5cc9756194452c1a6ce62b5d854d4045b57b758",
+      "bytes": 1842,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged"
     },
     {
       "destination": "docs/MODEL_PSP_GB.md",
@@ -36,9 +36,9 @@
     {
       "destination": "theme/art-book-slot/_slot/MODEL_CREDITS.txt",
       "source": "assets/publication-derivatives/theme/art-book-slot/_slot/MODEL_CREDITS.txt",
-      "originalSha256": "103b9236ed3aa3c3c5f46871990d8d3b9adf23e98fa6afb588c9f816d2659a00",
-      "sha256": "e82c450ea5f162bef3076f36f79aed94e83a5a50eb99e2ad88126b9bddf267d3",
-      "bytes": 23693,
+      "originalSha256": "d3f5917dc38ae36a139e5e3d58b01d1d285520f67d6a2185be32ff5ac5ab60c2",
+      "sha256": "b9b86d448e4c15751ca5d54fd5289eb6651e7099979b867b75df49d3bc65a605",
+      "bytes": 24022,
       "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
     },
     {
@@ -650,34 +650,34 @@
     {
       "destination": "theme/art-book-slot/_slot/stage/tv/retro.json",
       "source": "assets/publication-derivatives/theme/art-book-slot/_slot/stage/tv/retro.json",
-      "originalSha256": "6abf0eda84e279627c60fac352eac2e7d121a35b9c4e9cf70d5aca0875ec5b62",
-      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
-      "bytes": 2104,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+      "originalSha256": "7714ebcb856a9175b880cd3b9cd65f13b4ddead72c95e7dcfe91ef60a776a475",
+      "sha256": "e6577e1b07bcc3bbca0cda576db917cb59d37ee2e6a2c47bfe5a2e490d9e40ef",
+      "bytes": 2014,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged"
     },
     {
       "destination": "theme/art-book-slot/_slot/stage/tv/retro.png",
       "source": "assets/publication-derivatives/theme/art-book-slot/_slot/stage/tv/retro.png",
-      "originalSha256": "3996813bb591115c9e96404589e1c6678b4fedf21a2b76e2cbb5cfa55a959502",
-      "sha256": "e03e7cce45fe3aba55083df27d1af5253fd4e75cd13dd86a2785030183a34b24",
-      "bytes": 367195,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+      "originalSha256": "c2312cfa0e81f44362f8a9f4e7b608f55c32eff4eb1aa12c11e13008868898e4",
+      "sha256": "c8fb05824f91666217270f8500ff5058fafc8a5edc56091629d1128b4e54e26d",
+      "bytes": 366884,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged"
     },
     {
       "destination": "third_party/models/denys-retro-tv/model.glb",
       "source": "assets/publication-derivatives/third_party/models/denys-retro-tv/model.glb",
       "originalSha256": "078f02623f47699c8ce413c9f5f803dda339374565bd68cd3b8739ef8136c0ce",
-      "sha256": "0a23df681cadbac960ceabd6b196fb2b9126c8722126ad600364a46b444e5dc0",
-      "bytes": 9289264,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+      "sha256": "c1f31bc2b0106f83354dd497b8f543a4c9562b67f911376d5f2e4c3602e75aae",
+      "bytes": 9319308,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged"
     },
     {
       "destination": "third_party/models/denys-retro-tv/source.json",
       "source": "assets/publication-derivatives/third_party/models/denys-retro-tv/source.json",
-      "originalSha256": "6abf0eda84e279627c60fac352eac2e7d121a35b9c4e9cf70d5aca0875ec5b62",
-      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
-      "bytes": 2104,
-      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+      "originalSha256": "7714ebcb856a9175b880cd3b9cd65f13b4ddead72c95e7dcfe91ef60a776a475",
+      "sha256": "e6577e1b07bcc3bbca0cda576db917cb59d37ee2e6a2c47bfe5a2e490d9e40ef",
+      "bytes": 2014,
+      "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained; RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged"
     },
     {
       "destination": "third_party/models/verheyen-dmg/source.json",
@@ -686,6 +686,22 @@
       "sha256": "0e010a69afa440c490a1e3f4be3732e12737dbdfe3ab7d09f833348eb8bcb1b7",
       "bytes": 2941,
       "reason": "Public-only artwork removal and consistent derived data/provenance; original licenses retained"
+    },
+    {
+      "destination": "third_party/models/damiantoons-panasonic/model.glb",
+      "source": "assets/publication-derivatives/third_party/models/damiantoons-panasonic/model.glb",
+      "reason": "RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged",
+      "originalSha256": "f8d0d17c3976692ce3a53a094a61de5e3e81f0310047b9143affa07cabe52fed",
+      "sha256": "67729b4bbceeaeede5d43438ee7c246ad99140792e518e047e6c5226b7169296",
+      "bytes": 1444196
+    },
+    {
+      "destination": "third_party/models/darkigorek-pvm/model.glb",
+      "source": "assets/publication-derivatives/third_party/models/darkigorek-pvm/model.glb",
+      "reason": "RETROvision in place of the Panasonic/Sony marks (user, 24 Oct 2026); development originals retained; model licences unchanged",
+      "originalSha256": "660d8769893a7af4317cccbc4b450749f277cbe30267f2ec2d60d923a3804046",
+      "sha256": "41fb1e4453fd4492094d6be0c183353c1e0bb9b923fd5e034fedc7b91293fba0",
+      "bytes": 61650024
     }
   ]
 }

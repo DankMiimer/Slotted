@@ -172,6 +172,7 @@ tests/test_standard_view.py
 tests/test_states.py
 tests/test_surface_variants.py
 tests/test_textured_models.py
+tests/test_tv_branding.py
 tests/test_video_surfaces.py
 tests/view_depth.mjs
 theme/art-book-slot/LICENSE
@@ -2381,6 +2382,7 @@ tools/tabletop/transition_timing.cpp
 tools/tabletop/transition_timing_report.py
 tools/tabletop/transition_timing_study.py
 tools/tabletop/transition_ui_checks.py
+tools/tabletop/tv_branding.py
 tools/tabletop/world_probe.cpp
 tools/themebuild/__main__.py
 tools/themebuild/appearance.py

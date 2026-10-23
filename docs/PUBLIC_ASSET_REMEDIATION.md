@@ -34,6 +34,27 @@ rectangle. A changed UV layout or unrelated texels requires a new asset review.
 Routine theme builds use the prepared corrected assets. Prepared Retro sources
 already contain the corrected maps.
 
+## TV brand marks (24 October 2026)
+
+At the user's request the Panasonic and Sony marks are gone from the TV models, and
+the Old TV's own RETROvision print takes their place. `tools/tabletop/tv_branding.py`
+applies this to the prepared runtime TVs (local and public alike):
+
+- Panasonic CRT (DamianToons, CC BY 4.0): the separate raised "Logo.001" part is
+  omitted; a thin plate where it stood carries an 18 mm gold RETROvision.
+- Sony PVM-1341 (dark_igorek, CC BY 4.0): the raised SONY letters are flattened onto
+  their backing and painted bezel grey; a white RETROvision is painted in; the
+  TRINITRON badge and the SONY/TRINITRON/SONY CORPORATION words on the rear label are
+  removed (colour, roughness and normal maps).
+- Retro TV (Denys Hroshko, CC BY-NC 4.0): the small "Panasonic" print on the front
+  strip, including its engraving in the normal map, is replaced by RETROvision.
+
+The RETROvision artwork is taken from the Old TV texture by pibanezl (CC BY 4.0). The
+published source GLBs of these three TVs and their `stage/tv` renders are matching
+public derivatives (`release/asset-derivatives.json`); the development originals are
+kept. Other hardware marks, model numbers and format labels (DVD, VHS) remain. No
+brand endorsement is claimed, and the models keep their own licences.
+
 Private historical originals are retained outside the current public file set.
 Earlier Git commits may still contain the previously uploaded artwork: this is
 a forward update and does not erase repository history. No creator contact or

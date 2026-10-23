@@ -112,26 +112,18 @@
     "license": "CC-BY-4.0"
   },
   {
-    "source": "build/tabletop/assets/panasonic/part-008.mesh",
-    "destination": "assets/tabletop/panasonic/part-008.mesh",
-    "restore": "build/tabletop/assets/panasonic/part-008.mesh",
-    "sha256": "d69668c4e59e1cdb84b4b15be10215226504cd518c0ea86aa86ce4132d91e9fe",
-    "bytes": 148318,
-    "license": "CC-BY-4.0"
-  },
-  {
     "source": "build/tabletop/assets/panasonic/scene.json",
     "destination": "assets/tabletop/panasonic/scene.json",
     "restore": "build/tabletop/assets/panasonic/scene.json",
-    "sha256": "0b817d6ec0ffb6a5cfed803fd735b439b279550ab79c2c5876fdc49ea7955bcd",
-    "bytes": 4061,
+    "sha256": "d40b38e7336d043c2199a58b84acf3260ea4b9f215befd79004fee308ffbce7b",
+    "bytes": 4196,
     "license": "CC-BY-4.0"
   },
   {
     "source": "build/tabletop/assets/panasonic/scene.txt",
     "destination": "assets/tabletop/panasonic/scene.txt",
     "restore": "build/tabletop/assets/panasonic/scene.txt",
-    "sha256": "7cb502bb312a73d60cf97e9d81a4739f9e7032dca3776e270e9e978c7888d62b",
+    "sha256": "e43bb961080c01b7a8452855c7b2e58aa4967d916811a97d85bfe6e27725a6fd",
     "bytes": 482,
     "license": "CC-BY-4.0"
   },
@@ -155,8 +147,8 @@
     "source": "build/tabletop/assets/pvm/albedo-02.png",
     "destination": "assets/tabletop/pvm/albedo-02.png",
     "restore": "build/tabletop/assets/pvm/albedo-02.png",
-    "sha256": "bcfc642c888bdd87349c93b87dab5aa54f5051e7009f1d3df03375668c852e14",
-    "bytes": 671892,
+    "sha256": "36b5c4cf45bb611b453c2e08e51a1281811196cf6d6b6e6a3ec1d5dbab68e08b",
+    "bytes": 1933712,
     "license": "CC-BY-4.0"
   },
   {
@@ -243,7 +235,7 @@
     "source": "build/tabletop/assets/pvm/part-009.mesh",
     "destination": "assets/tabletop/pvm/part-009.mesh",
     "restore": "build/tabletop/assets/pvm/part-009.mesh",
-    "sha256": "d5538c06f6d3a723416b4a7899a3c41fff2954bd9df09f9040c4eb3984d8c8bd",
+    "sha256": "c8982881fb377d1eb742cb72d04581a94034d19488c85f2eefa0e71850861fd0",
     "bytes": 285796,
     "license": "CC-BY-4.0"
   },
@@ -259,8 +251,8 @@
     "source": "build/tabletop/assets/pvm/scene.json",
     "destination": "assets/tabletop/pvm/scene.json",
     "restore": "build/tabletop/assets/pvm/scene.json",
-    "sha256": "4d3e536b17c9671ed0482bd41dcfd7ac66d86c56cfc4a987df45b5897cf7e1ec",
-    "bytes": 4692,
+    "sha256": "ac43b0620b7ad46e11b0f5fc1fa80765f8e27e6597eb80f8ddbe0e7b65f31c9f",
+    "bytes": 4845,
     "license": "CC-BY-4.0"
   },
   {
@@ -363,8 +355,8 @@
     "source": "build/tabletop/assets/retro/albedo-00.png",
     "destination": "assets/tabletop/retro/albedo-00.png",
     "restore": "build/tabletop/assets/retro/albedo-00.png",
-    "sha256": "5ca9082d9909b7804ecf78b19193619f7aee039e70e839784170b8f7ff4f9d42",
-    "bytes": 1726703,
+    "sha256": "b0c598296b9a60352ff4670539e088fe6b3aeff5e47bc889eb25fa79ad3ec39d",
+    "bytes": 1771468,
     "license": "CC-BY-NC-4.0"
   },
   {
@@ -387,8 +379,8 @@
     "source": "build/tabletop/assets/retro/scene.json",
     "destination": "assets/tabletop/retro/scene.json",
     "restore": "build/tabletop/assets/retro/scene.json",
-    "sha256": "2aff8b882fa5c3076edc1bdddfea24a1299ab48cf35282a0f1e1d4f2b774811a",
-    "bytes": 1724,
+    "sha256": "1831a75d8d3d83683192448bb5cc9756194452c1a6ce62b5d854d4045b57b758",
+    "bytes": 1842,
     "license": "CC-BY-NC-4.0"
   },
   {
@@ -885,6 +877,22 @@
     "restore": "research/table-andrey/wooden_table_low_poly.glb",
     "sha256": "32dab7446c61369110da3e216e9fd69d033021d73ad68c81d0142c6a421ec559",
     "bytes": 60713952,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/part-009.mesh",
+    "destination": "assets/tabletop/panasonic/part-009.mesh",
+    "restore": "build/tabletop/assets/panasonic/part-009.mesh",
+    "sha256": "8b0e2e3007ee707f172923fcb020468001e74cccebca5aabd95f79b03dce1f1d",
+    "bytes": 208,
+    "license": "CC-BY-4.0"
+  },
+  {
+    "source": "build/tabletop/assets/panasonic/albedo-02.png",
+    "destination": "assets/tabletop/panasonic/albedo-02.png",
+    "restore": "build/tabletop/assets/panasonic/albedo-02.png",
+    "sha256": "365cf31d8e4e7ecedff6ba4f3b381aeea6a6599269a686eb7379c83e24b63599",
+    "bytes": 21897,
     "license": "CC-BY-4.0"
   }
 ]

@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "createdUTC": "2026-10-23T03:39:36.547412+00:00",
+  "createdUTC": "2026-10-23T23:49:08.296026+00:00",
   "edition": "MIT original code; separately licensed assets including NonCommercial/ShareAlike",
   "status": "Development source snapshot; no binary; no device installation performed",
   "files": {
@@ -10,8 +10,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     ".github/workflows/publication.yml": {
-      "bytes": 854,
-      "sha256": "6fc9664b72f8ffa7af2f376ddcfb7c17e21c97a40b674a16b0c3eae590d92a96",
+      "bytes": 927,
+      "sha256": "db32a8812dfd396a7a428189fa2f9a9020389d6b1f813997b6727a86f5cf2bd5",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     ".gitignore": {
@@ -25,8 +25,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "CREDITS.md": {
-      "bytes": 19987,
-      "sha256": "e0aa47d0c3a739e45b0aceb52336ce763860fff1ff086d67b2371613e22409f8",
+      "bytes": 20505,
+      "sha256": "6d71a5f387ebf1b280166a2878a6b2cff0e1fa12a15dec097d31998524ee378e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "LICENSE": {
@@ -299,6 +299,11 @@
       "sha256": "57b6cf1ee5ca9eee43954537cb7df858a9ecace4b9dc683f148dfac6db7f1d62",
       "licenseContext": "CC-BY-4.0"
     },
+    "assets/tabletop/panasonic/albedo-02.png": {
+      "bytes": 21897,
+      "sha256": "365cf31d8e4e7ecedff6ba4f3b381aeea6a6599269a686eb7379c83e24b63599",
+      "licenseContext": "CC-BY-4.0"
+    },
     "assets/tabletop/panasonic/part-000.mesh": {
       "bytes": 201844,
       "sha256": "4e0969407a3601eaedbd7bdd15b1f1b07b8de55f13027d329510c82c76bf9d70",
@@ -339,19 +344,19 @@
       "sha256": "517d993bd106b66f4e267690e1cf0e8f44bae734cb09b83caa5e4632ded81ead",
       "licenseContext": "CC-BY-4.0"
     },
-    "assets/tabletop/panasonic/part-008.mesh": {
-      "bytes": 148318,
-      "sha256": "d69668c4e59e1cdb84b4b15be10215226504cd518c0ea86aa86ce4132d91e9fe",
+    "assets/tabletop/panasonic/part-009.mesh": {
+      "bytes": 208,
+      "sha256": "8b0e2e3007ee707f172923fcb020468001e74cccebca5aabd95f79b03dce1f1d",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/panasonic/scene.json": {
-      "bytes": 4061,
-      "sha256": "0b817d6ec0ffb6a5cfed803fd735b439b279550ab79c2c5876fdc49ea7955bcd",
+      "bytes": 4196,
+      "sha256": "d40b38e7336d043c2199a58b84acf3260ea4b9f215befd79004fee308ffbce7b",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/panasonic/scene.txt": {
       "bytes": 482,
-      "sha256": "7cb502bb312a73d60cf97e9d81a4739f9e7032dca3776e270e9e978c7888d62b",
+      "sha256": "e43bb961080c01b7a8452855c7b2e58aa4967d916811a97d85bfe6e27725a6fd",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/albedo-00.png": {
@@ -365,8 +370,8 @@
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/albedo-02.png": {
-      "bytes": 671892,
-      "sha256": "bcfc642c888bdd87349c93b87dab5aa54f5051e7009f1d3df03375668c852e14",
+      "bytes": 1933712,
+      "sha256": "36b5c4cf45bb611b453c2e08e51a1281811196cf6d6b6e6a3ec1d5dbab68e08b",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/albedo-03.png": {
@@ -421,7 +426,7 @@
     },
     "assets/tabletop/pvm/part-009.mesh": {
       "bytes": 285796,
-      "sha256": "d5538c06f6d3a723416b4a7899a3c41fff2954bd9df09f9040c4eb3984d8c8bd",
+      "sha256": "c8982881fb377d1eb742cb72d04581a94034d19488c85f2eefa0e71850861fd0",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/part-010.mesh": {
@@ -430,8 +435,8 @@
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/scene.json": {
-      "bytes": 4692,
-      "sha256": "4d3e536b17c9671ed0482bd41dcfd7ac66d86c56cfc4a987df45b5897cf7e1ec",
+      "bytes": 4845,
+      "sha256": "ac43b0620b7ad46e11b0f5fc1fa80765f8e27e6597eb80f8ddbe0e7b65f31c9f",
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/pvm/scene.txt": {
@@ -440,8 +445,8 @@
       "licenseContext": "CC-BY-4.0"
     },
     "assets/tabletop/retro/albedo-00.png": {
-      "bytes": 1726703,
-      "sha256": "5ca9082d9909b7804ecf78b19193619f7aee039e70e839784170b8f7ff4f9d42",
+      "bytes": 1771468,
+      "sha256": "b0c598296b9a60352ff4670539e088fe6b3aeff5e47bc889eb25fa79ad3ec39d",
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/part-000.mesh": {
@@ -455,8 +460,8 @@
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/scene.json": {
-      "bytes": 1724,
-      "sha256": "2aff8b882fa5c3076edc1bdddfea24a1299ab48cf35282a0f1e1d4f2b774811a",
+      "bytes": 1842,
+      "sha256": "1831a75d8d3d83683192448bb5cc9756194452c1a6ce62b5d854d4045b57b758",
       "licenseContext": "CC-BY-NC-4.0"
     },
     "assets/tabletop/retro/scene.txt": {
@@ -665,8 +670,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/DEVELOPMENT.md": {
-      "bytes": 7334,
-      "sha256": "7b423226586ab1671b292adcbcf029566cec4e7cca1b9059581369b0b820d671",
+      "bytes": 7659,
+      "sha256": "f7fe27414d738b34284d3e2b86cec48a8af50bb7d89a905c2f44c73b8331d1dc",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/FRONTEND_RESEARCH.md": {
@@ -815,8 +820,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/PUBLIC_ASSET_REMEDIATION.md": {
-      "bytes": 2561,
-      "sha256": "0cf747ff476ced5da36744439a54822fb9bd11ed09bb7e5684fd4297e920b23a",
+      "bytes": 3859,
+      "sha256": "f34e8776c72a7e72a9b49a0d8f7a309ea60b14563b9c147adb95609bd2325a2a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/SLOTTED_PHASE0_RESULTS.md": {
@@ -870,8 +875,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/asset-derivatives.json": {
-      "bytes": 43749,
-      "sha256": "0ea558a7660d7fe42db0cadb195d2222671f8d8c31b266ea7d6298546956f83b",
+      "bytes": 45573,
+      "sha256": "4a13bfbcea2ae42dc3d7b2e67365aa4cdc11d2b8e29dce4cac564625c42d60a5",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/frontend-headers.json": {
@@ -885,13 +890,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/public-files.txt": {
-      "bytes": 138387,
-      "sha256": "fb08d1106054d78c759d8098da4e8341c6d5f51801708a6a5a1ae22fc6b98527",
+      "bytes": 138443,
+      "sha256": "f2bf17014f443241d891365d904a481ae59fdcb14bc644f47993440423882c7e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/publication.json": {
-      "bytes": 37102,
-      "sha256": "5337d1a38cbe982f61719157f6b4d667364103e2c988f9724c67404e7488f5be",
+      "bytes": 37443,
+      "sha256": "572d311eee1ace11e06162191da70ffcbca5f6fd9e0a57adde20c472601b3ee1",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "requirements-dev.txt": {
@@ -1424,6 +1429,11 @@
       "sha256": "587afe5a9169d4b2dc1bfec6e7aa6e666d0ea46aa915c76c584d4340b9ebc236",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
+    "tests/test_tv_branding.py": {
+      "bytes": 2020,
+      "sha256": "a69f3274d3f05f25ddb9abb1b2f97bd18e1dec527fbbc1b7f95906c257e9e262",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
     "tests/test_video_surfaces.py": {
       "bytes": 6438,
       "sha256": "6b8f2384bf5d4edfab350923b4191d3f7fffcc5f8f1b7889780773966b67530c",
@@ -1455,8 +1465,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/MODEL_CREDITS.txt": {
-      "bytes": 23693,
-      "sha256": "e82c450ea5f162bef3076f36f79aed94e83a5a50eb99e2ad88126b9bddf267d3",
+      "bytes": 24022,
+      "sha256": "b9b86d448e4c15751ca5d54fd5289eb6651e7099979b867b75df49d3bc65a605",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/appearance/cel/black/band-console-dreamcast.png": {
@@ -10200,38 +10210,38 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/panasonic.png": {
-      "bytes": 334479,
-      "sha256": "a33ff555e71303bc78a57aa989cf00ca29ed48a55a60324cd13c03d0bf10f370",
+      "bytes": 337751,
+      "sha256": "a04e4db055ebd17662eb8cdf069084e5b87a51942530444dec680206aafa2e8a",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/profile.json": {
       "bytes": 1921,
-      "sha256": "1af4b7da3d3c9a0603cbf3a02596304e6391cc5cb509690bae3c51dbbfaa152c",
+      "sha256": "efe220a35bc5319a2f7ca57d6e26a5a40b4647c4d2131a2da1b93418643878b6",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/profiles.json": {
       "bytes": 4090,
-      "sha256": "fc3aa29ed5396072d97e9ea12e6526eac8536dc020af66e6564cf708d4870682",
+      "sha256": "028f01c790621cd96be2a186a951b68dc5730bcad3c429e6711d6bc897a8b248",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/pvm.json": {
-      "bytes": 4058,
-      "sha256": "608cecf9c319a96a96a0a009b4d4e303c5ce51f681d8db3b329401bff8cd7779",
+      "bytes": 4056,
+      "sha256": "7ddcfe57a18624ab9bc7bde650bcb393862ac247187fabb62638e78bdd3247b8",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/pvm.png": {
-      "bytes": 346543,
-      "sha256": "bd7e08438bd44678b8552f6fd2e9914ecba9157ead1747093f73163797735f2d",
+      "bytes": 338934,
+      "sha256": "0534c308f34746a4f0106a04fcf9e9e8bb798bea67cd23b4aa4118fab4a4d1d7",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/retro.json": {
-      "bytes": 2104,
-      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
+      "bytes": 2014,
+      "sha256": "e6577e1b07bcc3bbca0cda576db917cb59d37ee2e6a2c47bfe5a2e490d9e40ef",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/stage/tv/retro.png": {
-      "bytes": 367195,
-      "sha256": "e03e7cce45fe3aba55083df27d1af5253fd4e75cd13dd86a2785030183a34b24",
+      "bytes": 366884,
+      "sha256": "c8fb05824f91666217270f8500ff5058fafc8a5edc56091629d1128b4e54e26d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "theme/art-book-slot/_slot/status-plate.svg": {
@@ -10695,13 +10705,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/damiantoons-panasonic/model.glb": {
-      "bytes": 1524096,
-      "sha256": "f8d0d17c3976692ce3a53a094a61de5e3e81f0310047b9143affa07cabe52fed",
+      "bytes": 1444196,
+      "sha256": "67729b4bbceeaeede5d43438ee7c246ad99140792e518e047e6c5226b7169296",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/damiantoons-panasonic/source.json": {
       "bytes": 1921,
-      "sha256": "1af4b7da3d3c9a0603cbf3a02596304e6391cc5cb509690bae3c51dbbfaa152c",
+      "sha256": "efe220a35bc5319a2f7ca57d6e26a5a40b4647c4d2131a2da1b93418643878b6",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/darkigorek-ps1/model.glb": {
@@ -10720,13 +10730,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/darkigorek-pvm/model.glb": {
-      "bytes": 63334072,
-      "sha256": "660d8769893a7af4317cccbc4b450749f277cbe30267f2ec2d60d923a3804046",
+      "bytes": 61650024,
+      "sha256": "41fb1e4453fd4492094d6be0c183353c1e0bb9b923fd5e034fedc7b91293fba0",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/darkigorek-pvm/source.json": {
-      "bytes": 4058,
-      "sha256": "608cecf9c319a96a96a0a009b4d4e303c5ce51f681d8db3b329401bff8cd7779",
+      "bytes": 4056,
+      "sha256": "7ddcfe57a18624ab9bc7bde650bcb393862ac247187fabb62638e78bdd3247b8",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/dave-gba/BOSL-LICENSE.txt": {
@@ -10745,13 +10755,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/denys-retro-tv/model.glb": {
-      "bytes": 9289264,
-      "sha256": "0a23df681cadbac960ceabd6b196fb2b9126c8722126ad600364a46b444e5dc0",
+      "bytes": 9319308,
+      "sha256": "c1f31bc2b0106f83354dd497b8f543a4c9562b67f911376d5f2e4c3602e75aae",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/denys-retro-tv/source.json": {
-      "bytes": 2104,
-      "sha256": "8c3cf972d052caa4cbe0109ca89b968f6109c11fc741a4fe6f706515f72f3b7a",
+      "bytes": 2014,
+      "sha256": "e6577e1b07bcc3bbca0cda576db917cb59d37ee2e6a2c47bfe5a2e490d9e40ef",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "third_party/models/graphicsgeek-ags-textured/source.json": {
@@ -11691,7 +11701,7 @@
     },
     "tools/frontend/overlay/es-app/src/components/SlotTelevision.h": {
       "bytes": 1537,
-      "sha256": "361ba20bb8589493c2c5d0a4618c672ab1728fc84da8aaf00d160d94b5be3f6c",
+      "sha256": "8a27b67642a5f3287624c81ed96681fd2aa9c96284eb0f8e03bec0554326e71d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotThemeRoot.h": {
@@ -12469,6 +12479,11 @@
       "sha256": "2409eefa1c4377e6321979ae60a7716034b64ab04c0e8da4818cacad43940399",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
+    "tools/tabletop/tv_branding.py": {
+      "bytes": 18030,
+      "sha256": "613dd6d787b29687c518d7df679f422f7003d72f9508c250daa549a85b9c9ff0",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
     "tools/tabletop/world_probe.cpp": {
       "bytes": 10452,
       "sha256": "add2538a2f3a5f5054d2234cbf83151b4fb148d5d335a872cfc2bf81b3274756",
@@ -12830,12 +12845,12 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "assets/restore-map.json": {
-      "bytes": 35226,
-      "sha256": "cfd6ff6ab1428d4b1b159049269c20459bc19b6ba1efce775c546d8048af521e"
+      "bytes": 35551,
+      "sha256": "f4ec5df0234e9f661ae4f685f566a0cdfc07524774aa3c8fc3fd60f53cd17be0"
     },
     "UPLOAD_PATHS.txt": {
-      "bytes": 142505,
-      "sha256": "16acdd603efc0d024b1927c4198f95cb252bcd9af05c872f4819a9375b654d3a"
+      "bytes": 142601,
+      "sha256": "a5d4ed007352920acc6d1f2149e37f05f340058635fc2886037bc7c0b77a11c7"
     }
   }
 }

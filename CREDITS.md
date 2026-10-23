@@ -164,3 +164,5 @@ Whole source scene and full PBR maps preserved; runtime uses opaque albedo and s
 
 
 Public asset derivatives (23 October 2026): The public exporter removes the Game Boy character sticker and the Retro TV decorative decals while retaining the creators, source geometry and CC BY-NC 4.0 conditions. Historical/private originals are preserved. See [public asset derivatives](docs/PUBLIC_ASSET_REMEDIATION.md) and `release/asset-derivatives.json` for exact scope and hashes.
+
+TV brand marks (24 October 2026): the Panasonic and Sony marks on the Panasonic CRT, Sony PVM-1341 and Retro TV are replaced, in the working models and the public copy alike, by the RETROvision print from the Old TV texture by pibanezl (CC BY 4.0). `tools/tabletop/tv_branding.py` applies it to the prepared TVs; the public source GLBs and `stage/tv` renders are matching derivatives. The models keep their own licences and no endorsement is implied. See [public asset derivatives](docs/PUBLIC_ASSET_REMEDIATION.md).

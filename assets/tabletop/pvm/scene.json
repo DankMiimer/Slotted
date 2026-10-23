@@ -101,7 +101,7 @@
       "material": "pvm_front_and_back_mat",
       "triangles": 6240,
       "vertices": 5644,
-      "sha256": "d5538c06f6d3a723416b4a7899a3c41fff2954bd9df09f9040c4eb3984d8c8bd"
+      "sha256": "c8982881fb377d1eb742cb72d04581a94034d19488c85f2eefa0e71850861fd0"
     },
     {
       "file": "part-010.mesh",
@@ -158,7 +158,8 @@
     "World transforms applied",
     "X right / Y up / Z forward millimetres",
     "Original geometry, UVs and base-color textures retained; no decimation",
-    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+    "Source PBR maps retained in original GLB; runtime uses simple lighting",
+    "RETROvision branding (2026-10-24): SONY letters flattened onto their backing; SONY/TRINITRON marks removed from albedo-02; RETROvision painted in"
   ],
   "glass": [
     [

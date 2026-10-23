@@ -84,18 +84,18 @@
       "sha256": "517d993bd106b66f4e267690e1cf0e8f44bae734cb09b83caa5e4632ded81ead"
     },
     {
-      "file": "part-008.mesh",
-      "texture": "albedo-01.png",
+      "file": "part-009.mesh",
+      "texture": "albedo-02.png",
       "glass": false,
-      "object": "Logo.001",
+      "object": "RETROvision plate",
       "material": "TVfront",
-      "triangles": 1939,
-      "vertices": 3106,
-      "sha256": "d69668c4e59e1cdb84b4b15be10215226504cd518c0ea86aa86ce4132d91e9fe"
+      "triangles": 2,
+      "vertices": 4,
+      "sha256": "8b0e2e3007ee707f172923fcb020468001e74cccebca5aabd95f79b03dce1f1d"
     }
   ],
   "source_triangles": 15937,
-  "retained_triangles": 15937,
+  "retained_triangles": 14000,
   "bounds": [
     [
       -234.0000457763672,
@@ -150,7 +150,8 @@
     "World transforms applied",
     "X right / Y up / Z forward millimetres",
     "Original geometry, UVs and base-color textures retained; no decimation",
-    "Source PBR maps retained in original GLB; runtime uses simple lighting"
+    "Source PBR maps retained in original GLB; runtime uses simple lighting",
+    "RETROvision branding (2026-10-24): Panasonic \"Logo.001\" part omitted; RETROvision plate (part-009, albedo-02) in its place"
   ],
   "glass": [
     [

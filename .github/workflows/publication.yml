@@ -16,5 +16,6 @@ jobs:
       - run: python -m unittest discover -s tests -p test_slotted_standalone.py
       - run: python -m unittest discover -s tests -p test_slotted_install.py
       - run: python -m unittest discover -s tests -p test_native_room.py
+      - run: python -m unittest discover -s tests -p test_tv_branding.py
       - run: python -m tools.publication.export --output build/ci-publication
       - run: python -m tools.publication.export --verify build/ci-publication

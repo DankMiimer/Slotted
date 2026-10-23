@@ -60,6 +60,7 @@ assets/tabletop/oldtv/scene.json
 assets/tabletop/oldtv/scene.txt
 assets/tabletop/panasonic/albedo-00.png
 assets/tabletop/panasonic/albedo-01.png
+assets/tabletop/panasonic/albedo-02.png
 assets/tabletop/panasonic/part-000.mesh
 assets/tabletop/panasonic/part-001.mesh
 assets/tabletop/panasonic/part-002.mesh
@@ -68,7 +69,7 @@ assets/tabletop/panasonic/part-004.mesh
 assets/tabletop/panasonic/part-005.mesh
 assets/tabletop/panasonic/part-006.mesh
 assets/tabletop/panasonic/part-007.mesh
-assets/tabletop/panasonic/part-008.mesh
+assets/tabletop/panasonic/part-009.mesh
 assets/tabletop/panasonic/scene.json
 assets/tabletop/panasonic/scene.txt
 assets/tabletop/pvm/albedo-00.png
@@ -285,6 +286,7 @@ tests/test_standard_view.py
 tests/test_states.py
 tests/test_surface_variants.py
 tests/test_textured_models.py
+tests/test_tv_branding.py
 tests/test_video_surfaces.py
 tests/view_depth.mjs
 theme/art-book-slot/LICENSE
@@ -2494,6 +2496,7 @@ tools/tabletop/transition_timing.cpp
 tools/tabletop/transition_timing_report.py
 tools/tabletop/transition_timing_study.py
 tools/tabletop/transition_ui_checks.py
+tools/tabletop/tv_branding.py
 tools/tabletop/world_probe.cpp
 tools/themebuild/__main__.py
 tools/themebuild/appearance.py
