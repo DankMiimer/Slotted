@@ -2,10 +2,13 @@
 
     python -m tools.slotted.install --package-only        (build the package and manifest only)
     python -m tools.slotted.install [--activate] [--resync-slot]
+    python -m tools.slotted.install --standalone BUNDLE --activate
 
 --activate selects Slotted as the theme. Without it, the theme is installed but not selected.
 --resync-slot copies _slot/ from art-book-slot again instead of keeping Slotted's own copy.
-The frontend binary is not changed here. Evidence is kept in build/slotted/installs/SESSION.
+Theme-only updates preserve the frontend. --standalone is a fresh install of the
+complete runtime and matching frontend; it refuses an existing Slotted theme.
+Evidence is kept in build/slotted/installs/SESSION.
 """
 import argparse
 import hashlib
@@ -46,12 +49,23 @@ def package(directory, source=SLOTTED_SOURCE):
     return manifest
 
 
-def install(activate, resync):
+def install(activate, resync, standalone=None):
     from tools.tabletop.device_probe import Remote
     session = 'slotted-' + time.strftime('%Y%m%d-%H%M%S') + '-' + uuid.uuid4().hex[:6]
     directory = BUILD / session
-    manifest = package(directory)
+    if standalone:
+        if resync:raise ValueError('A standalone bundle cannot resync assets from another theme')
+        from tools.slotted.standalone import inspect
+        import shutil
+        release=inspect(standalone)
+        directory.mkdir(parents=True)
+        for source,name in [('payload.tar','payload.tar'),('manifest.json','manifest.json'),('frontend-candidate','frontend')]:
+            shutil.copy2(Path(standalone)/source,directory/name)
+        manifest=json.loads((directory/'manifest.json').read_text())
+    else:manifest = package(directory)
     request = dict(session=session, activate=activate, resyncSlot=resync)
+    if standalone:request.update(completeRuntime=True,frontendSha256=release['frontendSha256'],
+                                 sourcePin=release['sourcePin'],runtimeLibraryHashes=release['runtimeLibraryHashes'])
     (directory / 'request.json').write_text(json.dumps(request, indent=2), encoding='utf-8')
     remote = Remote()
     job = REMOTE + session
@@ -60,6 +74,10 @@ def install(activate, resync):
     copies += [(ROOT / 'tools/slotted/device_install.py', 'device_install.py'),
                (ROOT / 'tools/slot_theme.py', 'slot_theme.py'),
                (ROOT / 'tools/dev/session_data.py', 'session_data.py'), (ROOT / 'tools/dev/esdev.py', 'esdev.py')]
+    if standalone:
+        copies += [(directory/'frontend','frontend'),(ROOT/'tools/frontend/persistence.py','frontend_persistence.py'),
+                   (ROOT/'tools/slotted/runtime.py','standalone_runtime.py'),
+                   (ROOT/'tools/tabletop/editor/device_upload.py','device_upload.py')]
     for path, name in copies:
         remote.copy(path, job + '/' + name)
     remote.python("""import subprocess,sys
@@ -92,12 +110,14 @@ def main():
     parser.add_argument('--package-only', action='store_true')
     parser.add_argument('--activate', action='store_true')
     parser.add_argument('--resync-slot', action='store_true')
+    parser.add_argument('--standalone',type=Path,help='Fresh complete bundle; refuses an existing Slotted installation')
     args = parser.parse_args()
+    if args.package_only and args.standalone:parser.error('Use tools.slotted.standalone to create/inspect complete bundles')
     if args.package_only:
         manifest = package(ROOT / 'build/slotted/package')
         print('packaged', len(manifest), 'files in build/slotted/package')
         return
-    result = install(args.activate, args.resync_slot)
+    result = install(args.activate, args.resync_slot,args.standalone)
     print(json.dumps({k: result.get(k) for k in ('state', 'message', 'settings', 'themeSet', 'recovery')}, indent=2))
     if result.get('state') != 'complete':
         raise SystemExit(1)

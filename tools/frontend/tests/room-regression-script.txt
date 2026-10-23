@@ -1,0 +1,17 @@
+10 shot home
+20 key ok
+150 shot console
+160 key start
+230 shot menu
+240 key ok
+310 shot submenu
+320 key back
+340 key back
+400 key back
+530 shot home-return
+540 seek tv
+550 key ok
+650 shot channels
+660 key back
+720 shot tv-exit
+730 quit end

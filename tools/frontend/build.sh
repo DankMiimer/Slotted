@@ -4,14 +4,20 @@ set -eu
 project=$(CDPATH= cd -- "$(dirname -- "$0")/../.." && pwd)
 work=${SLOT_ES_BUILD_ROOT:-$HOME/slot-es-presentation}
 source="$work/frontend"
-headers="$work/headers/usr/include"
-libs="$project/build/slotted-presentation/lib"
+headers=${SLOT_ES_HEADERS:-$work/headers/usr/include}
+libs=${SLOT_ES_LIBRARIES:-$project/build/slotted-presentation/lib}
+sdl=${SLOT_ES_SDL_HEADERS:-$project/build/native/SDL-release-2.32.8/include}
+if [ -f "$work/build-inputs.json" ]; then
+    libs=${SLOT_ES_LIBRARIES:-$work/lib}
+    sdl=${SLOT_ES_SDL_HEADERS:-$work/SDL-release-2.32.8/include}
+    PYTHONPATH="$project${PYTHONPATH:+:$PYTHONPATH}" python3 -m tools.frontend.prepare_build --verify "$work"
+fi
 pin=4041b56a714265de81de8165b34fbd10f313a891
 [ "$(git -C "$source" rev-parse HEAD)" = "$pin" ] || { echo 'Unexpected frontend revision' >&2; exit 1; }
 [ -f "$headers/vlc/vlc.h" ] || { echo 'Prepare development headers first' >&2; exit 1; }
-cmp -s "$project/build/native/SDL-release-2.32.8/include/SDL_config_minimal.h" "$headers/SDL2/SDL_config.h" || cp "$project/build/native/SDL-release-2.32.8/include/SDL_config_minimal.h" "$headers/SDL2/SDL_config.h"
+cmp -s "$sdl/SDL_config_minimal.h" "$headers/SDL2/SDL_config.h" || cp "$sdl/SDL_config_minimal.h" "$headers/SDL2/SDL_config.h"
 mkdir -p "$headers/KHR"
-cmp -s "$project/build/native/SDL-release-2.32.8/include/SDL_opengles2_khrplatform.h" "$headers/KHR/khrplatform.h" || cp "$project/build/native/SDL-release-2.32.8/include/SDL_opengles2_khrplatform.h" "$headers/KHR/khrplatform.h"
+cmp -s "$sdl/SDL_opengles2_khrplatform.h" "$headers/KHR/khrplatform.h" || cp "$sdl/SDL_opengles2_khrplatform.h" "$headers/KHR/khrplatform.h"
 mkdir -p "$work/pkgconfig"
 cat > "$work/pkgconfig/libvlc.pc" <<EOF
 prefix=$work/headers/usr
@@ -54,7 +60,7 @@ cmake -S "$source" -B "$work/arm64" \
     -DFREETYPE_INCLUDE_DIR_freetype2="$headers/freetype2" -DFREETYPE_INCLUDE_DIR_ft2build="$headers/freetype2" \
     -DFREETYPE_LIBRARY_RELEASE="$libs/libfreetype.so.6" \
     -DFreeImage_INCLUDE_DIR="$headers" -DFreeImage_LIBRARY="$libs/libfreeimage.so.3" \
-    -DSDL2_INCLUDE_DIR="$project/build/native/SDL-release-2.32.8/include" \
+    -DSDL2_INCLUDE_DIR="$sdl" \
     -DSDL2_LIBRARY_TEMP="$libs/libSDL2-2.0.so.0" -DSDL2_LIBRARY="$libs/libSDL2-2.0.so.0" \
     -DSDLMIXER_INCLUDE_DIR="$headers/SDL2" -DSDLMIXER_LIBRARY="$libs/libSDL2_mixer-2.0.so.0" \
     -DCURL_INCLUDE_DIR="$headers/x86_64-linux-gnu" -DCURL_LIBRARY_RELEASE="$libs/libcurl.so.4" \
@@ -66,3 +72,6 @@ cmake -S "$source" -B "$work/arm64" \
     -DLIBESPEAK_LIBRARIES="$libs/libespeak.so.1" \
     -DALSA_INCLUDE_DIR="$headers" -DALSA_LIBRARY="$libs/libasound.so.2"
 cmake --build "$work/arm64" -j "${SLOT_ES_JOBS:-4}"
+if [ -f "$work/build-inputs.json" ]; then
+    PYTHONPATH="$project${PYTHONPATH:+:$PYTHONPATH}" python3 -m tools.frontend.prepare_build --record-build "$work"
+fi

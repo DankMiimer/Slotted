@@ -1221,6 +1221,9 @@ bool slot_tabletop_resident(SlotTabletop*s,const SlotTabletopItem*item,int homeI
     }catch(const std::exception&e){s->error=e.what();trimLabels(s);SDL_GL_MakeCurrent(s->window,s->owner);return false;}
 }
 bool slot_tabletop_status(SlotTabletop*s,int battery,bool charging,bool connected,const char*clock){
+#ifdef SLOT_ROOM_TEST_FIXED_STATUS
+    battery=75;charging=false;connected=true;clock="12:34";
+#endif
     if(!s)return false;std::string time=clock?clock:"--:--";
     if(time.size()!=5||time[2]!=':')return false;for(size_t i=0;i<time.size();i++)if(i!=2&&(time[i]<'0'||time[i]>'9')&&time[i]!='-')return false;
     std::string key=std::to_string(battery)+(charging?"c":"-")+(connected?"w":"-")+time;if(key==s->statusKey)return true;

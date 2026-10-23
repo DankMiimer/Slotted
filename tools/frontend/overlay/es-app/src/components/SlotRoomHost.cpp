@@ -231,6 +231,9 @@ bool roomRenderWindow(Window*window){
     if(!host.scene)return true;
     const Uint32 now=SDL_GetTicks();const float dt=host.last?std::min(.1f,(now-host.last)/1000.f):.016f;host.last=now;host.clock+=dt;
     auto frame=host.frame;frame.seconds=host.clock;frame.delta=dt;
+#ifdef SLOT_ROOM_TEST_FIXED_STATUS
+    frame.delta=1.f/60.f;
+#endif
     if(host.picture){frame.screen=host.texture;frame.screenU=frame.screenV=1;frame.screenTopDown=false;frame.screenLeft=0;}
     if(window->getGuiStackSize()>1||!host.queued||host.ui){
         frame.screen=host.texture;frame.screenU=frame.screenV=1;frame.screenTopDown=false;frame.screenLeft=0;

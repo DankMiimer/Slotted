@@ -1,0 +1,165 @@
+{
+  "schema": 1,
+  "scope": "API headers only; AArch64 compiler and user-supplied firmware libraries determine the target. No host libraries are linked.",
+  "host": "Ubuntu 24.04 x86_64",
+  "sdl": {
+    "version": "2.32.8",
+    "url": "https://github.com/libsdl-org/SDL/archive/refs/tags/release-2.32.8.tar.gz",
+    "sha256": "dd35e05644ae527848d02433bec24dd0ea65db59faecf1a0e5d1880c533dac2c"
+  },
+  "packages": [
+    {
+      "package": "libasound2-dev",
+      "version": "1.2.11-1ubuntu0.3",
+      "architecture": "amd64",
+      "filename": "libasound2-dev_1.2.11-1ubuntu0.3_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/a/alsa-lib/libasound2-dev_1.2.11-1ubuntu0.3_amd64.deb",
+      "sha256": "b83795b1ba0e40cfa8363359fd17a06260838d8ae0f315531771a62f7c7e215a",
+      "bytes": 115386
+    },
+    {
+      "package": "libcurl4-openssl-dev",
+      "version": "8.5.0-2ubuntu10.16",
+      "architecture": "amd64",
+      "filename": "libcurl4-openssl-dev_8.5.0-2ubuntu10.16_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/c/curl/libcurl4-openssl-dev_8.5.0-2ubuntu10.16_amd64.deb",
+      "sha256": "371ce08af1c08bf5757467b306a040ea1d40de4e9c4acf20cabc3dde3c18a9b6",
+      "bytes": 446636
+    },
+    {
+      "package": "libegl-dev",
+      "version": "1.7.0-1build1",
+      "architecture": "amd64",
+      "filename": "libegl-dev_1.7.0-1build1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libegl-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "3a0315216bb0d6fc4bbe7f689cf0168c2ffa3e62ac69bff06bbbe49679259990",
+      "bytes": 18204
+    },
+    {
+      "package": "libespeak-dev",
+      "version": "1.48.15+dfsg-3build1",
+      "architecture": "amd64",
+      "filename": "libespeak-dev_1.48.15+dfsg-3build1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/e/espeak/libespeak-dev_1.48.15+dfsg-3build1_amd64.deb",
+      "sha256": "78536122c525c178262f0ba52806f8a4fdd735613a31146f95efe91fa9b80437",
+      "bytes": 195440
+    },
+    {
+      "package": "libfreeimage-dev",
+      "version": "3.18.0+ds2-10build4",
+      "architecture": "amd64",
+      "filename": "libfreeimage-dev_3.18.0+ds2-10build4_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/f/freeimage/libfreeimage-dev_3.18.0+ds2-10build4_amd64.deb",
+      "sha256": "15c458d0c20e20012adbef514e7e39ba48da81353be6f5ed9c8917e8e72f8bb0",
+      "bytes": 378222
+    },
+    {
+      "package": "libfreetype-dev",
+      "version": "2.13.2+dfsg-1ubuntu0.2",
+      "architecture": "amd64",
+      "filename": "libfreetype-dev_2.13.2+dfsg-1ubuntu0.2_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/f/freetype/libfreetype-dev_2.13.2+dfsg-1ubuntu0.2_amd64.deb",
+      "sha256": "dd512109d33b182387be40cfe2b68b912b14f0753ba2a0769ca1950de0713a28",
+      "bytes": 574070
+    },
+    {
+      "package": "libgles-dev",
+      "version": "1.7.0-1build1",
+      "architecture": "amd64",
+      "filename": "libgles-dev_1.7.0-1build1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libgles-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "ee2ea529c20e28031230c5910281e5bbd7f2c2ca06a2e306ca15e985d4875eb2",
+      "bytes": 50456
+    },
+    {
+      "package": "libglvnd-dev",
+      "version": "1.7.0-1build1",
+      "architecture": "amd64",
+      "filename": "libglvnd-dev_1.7.0-1build1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libg/libglvnd/libglvnd-dev_1.7.0-1build1_amd64.deb",
+      "sha256": "1aae88a70bca7a31b0ac70c2cbeaca349a640541ee713546b2a8661aa790e73e",
+      "bytes": 3198
+    },
+    {
+      "package": "libpng-dev",
+      "version": "1.6.43-5ubuntu0.7",
+      "architecture": "amd64",
+      "filename": "libpng-dev_1.6.43-5ubuntu0.7_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/libp/libpng1.6/libpng-dev_1.6.43-5ubuntu0.7_amd64.deb",
+      "sha256": "db0d4bc0054ae0061524d009f75bd4409b10f596274f3a9aa07d5e3212812263",
+      "bytes": 264970
+    },
+    {
+      "package": "libpulse-dev",
+      "version": "1:16.1+dfsg1-2ubuntu10.1",
+      "architecture": "amd64",
+      "filename": "libpulse-dev_1%3a16.1+dfsg1-2ubuntu10.1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/p/pulseaudio/libpulse-dev_16.1+dfsg1-2ubuntu10.1_amd64.deb",
+      "sha256": "8a42a80e8ff4d99995998df809809a8d7f51a1d432abe15f739f4f64b950e57b",
+      "bytes": 75576
+    },
+    {
+      "package": "libsdl2-dev",
+      "version": "2.30.0+dfsg-1ubuntu3.1",
+      "architecture": "amd64",
+      "filename": "libsdl2-dev_2.30.0+dfsg-1ubuntu3.1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/libs/libsdl2/libsdl2-dev_2.30.0+dfsg-1ubuntu3.1_amd64.deb",
+      "sha256": "8d78c93699aafdb33205ef7712baeefc8d8aa806862fac4c2554f3f8db234da1",
+      "bytes": 1140554
+    },
+    {
+      "package": "libsdl2-mixer-dev",
+      "version": "2.8.0+dfsg-1build3",
+      "architecture": "amd64",
+      "filename": "libsdl2-mixer-dev_2.8.0+dfsg-1build3_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/libs/libsdl2-mixer/libsdl2-mixer-dev_2.8.0+dfsg-1build3_amd64.deb",
+      "sha256": "2a559c13ce69b5fd4762eecd9586e736fb56bcfd8db0f6438fdf1bdb71c3316b",
+      "bytes": 116430
+    },
+    {
+      "package": "libsdl2-ttf-dev",
+      "version": "2.22.0+dfsg-1",
+      "architecture": "amd64",
+      "filename": "libsdl2-ttf-dev_2.22.0+dfsg-1_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/libs/libsdl2-ttf/libsdl2-ttf-dev_2.22.0+dfsg-1_amd64.deb",
+      "sha256": "d655bfb951d26a83f9d0752f9b59391279ccad9101e2d7bf57772167280dc641",
+      "bytes": 45848
+    },
+    {
+      "package": "libudev-dev",
+      "version": "255.4-1ubuntu8.18",
+      "architecture": "amd64",
+      "filename": "libudev-dev_255.4-1ubuntu8.18_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/s/systemd/libudev-dev_255.4-1ubuntu8.18_amd64.deb",
+      "sha256": "28d640688470ff4dd7d8868fdfec689860465d9168a6cda2ea5a9944a94b910d",
+      "bytes": 22032
+    },
+    {
+      "package": "libvlc-dev",
+      "version": "3.0.20-3build6",
+      "architecture": "amd64",
+      "filename": "libvlc-dev_3.0.20-3build6_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/v/vlc/libvlc-dev_3.0.20-3build6_amd64.deb",
+      "sha256": "56a828d31e7d53d3195acc8f441844296b5d0d4cc05a1d237ce2d360b6cb18d5",
+      "bytes": 58590
+    },
+    {
+      "package": "rapidjson-dev",
+      "version": "1.1.0+dfsg2-7.2",
+      "architecture": "all",
+      "filename": "rapidjson-dev_1.1.0+dfsg2-7.2_all.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/universe/r/rapidjson/rapidjson-dev_1.1.0+dfsg2-7.2_all.deb",
+      "sha256": "5384b30b878b085e847fb50ca0af5a1fa740bb845c3e17b68e311098e87b366e",
+      "bytes": 96722
+    },
+    {
+      "package": "zlib1g-dev",
+      "version": "1:1.3.dfsg-3.1ubuntu2.2",
+      "architecture": "amd64",
+      "filename": "zlib1g-dev_1%3a1.3.dfsg-3.1ubuntu2.2_amd64.deb",
+      "url": "https://archive.ubuntu.com/ubuntu/pool/main/z/zlib/zlib1g-dev_1.3.dfsg-3.1ubuntu2.2_amd64.deb",
+      "sha256": "e9152a08af21ab22bc99e8bfa98f1eb83955b2cc3653bcefecab394ecf9d1b63",
+      "bytes": 894116
+    }
+  ]
+}

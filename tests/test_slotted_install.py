@@ -139,6 +139,63 @@ class SlottedInstall(unittest.TestCase):
         transaction.assert_not_called()
         self.assertEqual(json.loads((self.job / 'status.json').read_text())['state'], 'failed')
 
+    def test_fresh_complete_runtime_does_not_need_legacy_theme(self):
+        from test_slotted_standalone import runtime_files
+        root=self.root/'fresh-userdata';layout=device_install.Layout(root)
+        tar,manifest=payload(self.job,runtime_files())
+        for entry in manifest.values():entry['mode']=0o644
+        manifest['_slot/launch/slot-launch']['mode']=0o755
+        staging,source=device_install.stage(layout,tar,manifest,'fresh',complete_runtime=True)
+        self.assertIsNone(source)
+        self.assertTrue((staging/'_slot/consoles/specs.json').is_file())
+        self.assertFalse(layout.legacy.exists())
+        device_install.swap(layout,staging,self.job/'old-fresh')
+        authored=layout.target/'_slot/authored.json';authored.write_bytes(b'valuable layout')
+        with self.assertRaisesRegex(ValueError,'refuses an existing'):
+            device_install.stage(layout,tar,manifest,'update',complete_runtime=True)
+        self.assertEqual(authored.read_bytes(),b'valuable layout')
+
+    def test_bad_payload_is_rejected_before_staging_or_copying_user_assets(self):
+        tar,manifest=payload(self.job,{'theme.xml':b'<theme/>'})
+        manifest['theme.xml']['sha256']='0'*64
+        with self.assertRaises(RuntimeError):device_install.stage(self.layout,tar,manifest,'bad-preflight')
+        self.assertFalse((self.layout.themes/'.Slotted-bad-preflight').exists())
+
+    def test_incomplete_dependency_record_is_refused_before_device_work(self):
+        from tools.frontend.apply import PIN
+        from tools.slotted.standalone import MARKERS
+        data=bytearray(20);data[:6]=b'\x7fELF\x02\x01';data[18:20]=b'\xb7\x00'
+        binary=self.job/'frontend';binary.write_bytes(bytes(data)+b''.join(MARKERS))
+        config=dict(sourcePin=PIN,frontendSha256=device_install.digest(binary),runtimeLibraryHashes={})
+        with self.assertRaisesRegex(ValueError,'dependency record is incomplete'):
+            device_install.check_standalone(config,binary,self.job)
+
+    def test_failed_swap_restores_previous_theme_before_returning_error(self):
+        self.layout.target.mkdir(parents=True)
+        (self.layout.target/'authored.scene').write_bytes(b'latest authored layout')
+        staging=self.layout.themes/'.Slotted-swap-test';staging.mkdir()
+        previous=self.job/'previous-swap'
+        rename=Path.rename
+        def fail_one(path,target):
+            if path==staging:raise OSError('simulated rename failure')
+            return rename(path,target)
+        with patch.object(Path,'rename',fail_one),self.assertRaisesRegex(OSError,'simulated'):
+            device_install.swap(self.layout,staging,previous)
+        self.assertEqual((self.layout.target/'authored.scene').read_bytes(),b'latest authored layout')
+        self.assertTrue(staging.exists())
+
+    def test_mid_stage_failure_retains_owned_partial_path_for_rollback(self):
+        tar,manifest=payload(self.job,{'theme.xml':b'<theme/>'})
+        paths=[]
+        with patch.object(device_install.shutil,'copytree',side_effect=OSError('simulated interrupted copy')):
+            with self.assertRaisesRegex(OSError,'interrupted'):
+                device_install.stage(self.layout,tar,manifest,'interrupted',on_created=paths.append)
+        self.assertEqual(len(paths),1)
+        self.assertTrue(paths[0].exists())
+        retained=device_install.retain_failed(self.layout,paths[0],self.job/'retained-stage')
+        self.assertTrue(retained.exists())
+        self.assertTrue((self.layout.legacy/'_slot/launch/frontend-owned.sh').exists())
+
 
 if __name__ == '__main__':
     unittest.main()

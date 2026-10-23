@@ -50,23 +50,55 @@ git -C frontend checkout 4041b56a714265de81de8165b34fbd10f313a891
 python -m tools.frontend.apply frontend
 ```
 
-`tools/frontend/build.sh` documents the existing ARM64 H700 build. It requires
-Linux/WSL, CMake, an AArch64 GCC/G++ cross compiler, development headers and target
-libraries matching the firmware. Set `SLOT_ES_BUILD_ROOT` to the directory holding
-the dedicated `frontend/`, `headers/` and `arm64/` folders. Inspect the script's
-explicit SDL2, GLES/Mali, FreeImage, VLC, FreeType, curl, ALSA, PulseAudio, udev and
-espeak paths before building. SDL headers are expected at
-`build/native/SDL-release-2.32.8/include/`; target libraries at
-`build/slotted-presentation/lib/`. These proprietary/system binaries and the
-author's prepared sysroot are not bundled. Preparing a clean target sysroot is
-still a manual prerequisite; an end-to-end fresh ARM64 build is not verified
-by this publication work. Do not use host libraries in place of target libraries.
+The [build/install guide](BUILD_AND_INSTALL.md) provides the fresh ARM64 H700
+recipe. `tools/frontend/prepare_build.py` fetches the pinned frontend/submodule,
+verifies 17 locked API-header packages and SDL headers, and records user-supplied
+target firmware libraries. `tools/frontend/build.sh` verifies that workspace and
+records the compiled frontend. A fresh end-to-end Ubuntu 24.04/WSL build has
+passed; different firmware/hardware and bit-identical builds remain unverified.
+Do not use host libraries in place of target libraries.
 
-The native launch helper has separate `tools/slotlaunch/build.sh` / `build.ps1`
-scripts and expects target SDL libraries. No executable is included in the
+`tools/frontend/build_helper.py` builds the native launch helper using the same
+verified workspace. Historical `tools/slotlaunch/build.sh` / `build.ps1` scripts
+remain available for older setups. No executable is included in the
 public source export. Before distributing a compiled frontend, audit its exact
 dependencies and include all required notices and corresponding source where
 applicable. The pinned frontend's own MIT notice is retained in `LICENSES/`.
+
+## Native screenshot and input regression (host)
+
+`tools/frontend/tests/build_room_host.py` makes a separate x86-64 test frontend
+from a prepared workspace. It uses test-only FreeImage/VLC/mixer stand-ins, a
+fixed 16 ms frame step and fixed status values (75%, Wi-Fi, 12:34); it is never
+installed. `tools/frontend/tests/native_room.py` runs it in a private user/mount
+namespace with a synthetic five-system library (empty launch targets, generated
+art, long titles/descriptions, missing images), replays a scripted input file and
+saves room and TV-UI captures plus a per-frame state log (`frames.tsv`).
+
+```sh
+python3 -m tools.frontend.tests.build_room_host \
+  --output "$HOME/slotted-room-test" --sdk "$HOME/slotted-sdk"
+python3 -m tools.frontend.tests.native_room --build "$HOME/slotted-room-test" \
+  --source build/public-candidate --output build/captures/oldtv-720 --tv oldtv --width 720
+python3 -m tools.frontend.tests.native_room --compare build/captures/oldtv-720-new \
+  --baseline build/captures/oldtv-720 --output build/captures/oldtv-720-diff
+```
+
+It needs Linux with unprivileged user namespaces, Mesa EGL (surfaceless) and host
+SDL2, SDL2_image, GLESv2, EGL, FreeType, curl, PulseAudio, udev and ALSA
+libraries; pass `--libraries` for a directory that supplies any missing ones.
+`--tv` takes `panasonic`, `pvm`, `oldtv` or `retro` (which documents the current
+Panasonic-cabinet fallback) and `--width` 720 or 640. The default script is
+`room-regression-script.txt`; `--script` replays `room-script.txt` (insert, R3,
+menus, R2/L2 with remembered media, eject, TV channels), `room-travel-script.txt`,
+`room-collections-script.txt` and the other room scripts.
+
+Comparison is exact RGB with no masks or tolerance, and refuses captures made
+under different TV/size/script conditions; difference images are kept for every
+changed capture. Repeated runs of the same binary have been pixel-identical. Make
+baselines locally from a known-good commit; they are not committed. These are
+llvmpipe host captures without audio/video playback: useful layout/input
+evidence, not Mali hardware or device acceptance.
 
 ## Device configuration and install boundaries
 
@@ -74,10 +106,12 @@ Configure SSH key access, then set `SLOT_DEVICE` to your target, or put it in th
 ignored `tools/dev/device.txt`. Never commit passwords, keys, settings snapshots
 or saves. No publication command connects to a device.
 
-Existing Slotted installers/trials copy shared `_slot` files from an installed
-Art Book Slot theme. They were developed for that migration path. A fresh device
-needs the shared runtime, compatible frontend, launch helper and registered
-layouts deployed as a reviewed set; a theme-only package is insufficient. Keep
+`tools.slotted.standalone` packages a complete runtime, compatible frontend,
+launch helper and saved layouts from a verified public export. Its fresh-install
+transaction checks exact target library hashes and refuses an existing Slotted
+theme. Theme-only updates preserve the installed runtime and frontend; the
+historical migration path can still copy shared files from Art Book Slot. See
+the build/install guide for the separate commands and current test limits. Keep
 Art Book Slot and recovery data until you have accepted Slotted on your device.
 
 Use the existing snapshot/apply/verify/restart/restore/audit transaction tools.
