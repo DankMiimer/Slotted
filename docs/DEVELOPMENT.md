@@ -93,10 +93,15 @@ It needs Linux with unprivileged user namespaces, Mesa EGL (surfaceless) and hos
 SDL2, SDL2_image, GLESv2, EGL, FreeType, curl, PulseAudio, udev and ALSA
 libraries; pass `--libraries` for a directory that supplies any missing ones.
 `--tv` takes `panasonic`, `pvm`, `oldtv` or `retro` (which documents the current
-Panasonic-cabinet fallback) and `--width` 720 or 640. The default script is
+Panasonic-cabinet fallback) and `--width` 720 or 640; `--motion full` and `--crt`
+select the other theme settings. The default script is
 `room-regression-script.txt`; `--script` replays `room-script.txt` (insert, R3,
 menus, R2/L2 with remembered media, eject, TV channels), `room-travel-script.txt`,
-`room-collections-script.txt` and the other room scripts.
+`room-collections-script.txt`, `room-launch-script.txt` (insert, A again with rapid
+repeats, return) and the other room scripts. Fixture systems record each launch
+instead of running anything; `capture.json` lists them, so a double launch fails a
+comparison. `--fault corrupt-layout` serves an unreadable GBA layout through a
+symlinked asset overlay (use it with `room-error-script.txt`).
 
 Comparison is exact RGB with no masks or tolerance, and refuses captures made
 under different TV/size/script conditions; difference images are kept for every

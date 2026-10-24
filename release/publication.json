@@ -622,8 +622,8 @@
       "source": "build/tabletop/assets/layouts/gba-pvm.scene",
       "destination": "assets/tabletop/layouts/gba-pvm.scene",
       "restore": "build/tabletop/assets/layouts/gba-pvm.scene",
-      "sha256": "a5678f18cf0b944013491613dc8890379854e982330bd79d36e95dfc3fc79126",
-      "bytes": 1280,
+      "sha256": "0a9b40fd9380b9a4d9863bbcb9497a281543a571b6577384f29ccabe5519cdd4",
+      "bytes": 1250,
       "license": "MIT"
     },
     {

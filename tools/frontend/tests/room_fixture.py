@@ -8,10 +8,14 @@ from PIL import Image,ImageDraw
 SYSTEMS=[('snes','Super Nintendo','.sfc'),('nes','Nintendo Entertainment System','.nes'),('gba','Game Boy Advance','.gba'),
          ('ports','Ports','.sh'),('mpv','MPV','.mkv')]
 
-def make(box,source,frontend,tv='panasonic'):
+# Every launch appends its ROM here (inside the fixture), so tests can count launches.
+LAUNCHES='/userdata/system/launches.txt'
+
+def make(box,source,frontend,tv='panasonic',motion='reduced',crt=False):
     box=Path(box).absolute();source=Path(source).resolve();frontend=Path(frontend).resolve()
     if box.exists():raise FileExistsError('Use a fresh fixture folder')
     if tv not in ('panasonic','pvm','oldtv','retro'):raise ValueError('Unsupported test TV')
+    if motion not in ('full','reduced'):raise ValueError('Unsupported motion setting')
     user=box/'userdata';config=user/'system/configs/emulationstation';config.mkdir(parents=True)
     (user/'system/logs').mkdir();(user/'system/knulli.conf').write_text('')
     share=box/'es-share';share.mkdir();os.symlink(frontend/'resources',share/'resources',target_is_directory=True)
@@ -19,7 +23,7 @@ def make(box,source,frontend,tv='panasonic'):
     values={'ThemeSet':'Slotted','GamelistViewStyle':'automatic','CollectionSystemsAuto':'all,recent,favorites',
         'SlottedHomeConsole':'nes','ShowHelpPrompts':True,'DrawClock':False,'ScreenSaverTime':0,
         'PowerSaverMode':'disabled','InvertButtons':False,'UIMode':'Full','Language':'en_US',
-        'subset.slot-tv-model':tv,'subset.slotted-motion':'reduced','subset.slotted-crt':'off','TransitionStyle':'instant'}
+        'subset.slot-tv-model':tv,'subset.slotted-motion':motion,'subset.slotted-crt':'on' if crt else 'off','TransitionStyle':'instant'}
     for name,value in values.items():
         tag='bool' if type(value) is bool else 'int' if type(value) is int else 'string'
         ET.SubElement(settings,tag,name=name,value=str(value).lower() if type(value) is bool else str(value))
@@ -32,7 +36,7 @@ def make(box,source,frontend,tv='panasonic'):
     systems=ET.Element('systemList')
     for name,title,ext in SYSTEMS:
         entry=ET.SubElement(systems,'system')
-        for key,value in [('name',name),('fullname',title),('path','/userdata/roms/'+name),('extension',ext),('command','true'),('platform',name),('theme',name)]:ET.SubElement(entry,key).text=value
+        for key,value in [('name',name),('fullname',title),('path','/userdata/roms/'+name),('extension',ext),('command','echo %ROM% >> '+LAUNCHES),('platform',name),('theme',name)]:ET.SubElement(entry,key).text=value
         folder=user/'roms'/name;(folder/'images').mkdir(parents=True);games=ET.Element('gameList')
         for i in range(42 if name in ('snes','gba') else 12 if name=='nes' else 3):
             title=f'Comet Meadow {i+1:02}' if i else 'A very long synthetic title for the native TV layout clipping check'
@@ -46,4 +50,4 @@ def make(box,source,frontend,tv='panasonic'):
     theme=user/'themes/Slotted';theme.mkdir(parents=True)
     for item in (source/'theme/slotted').iterdir():os.symlink(item,theme/item.name,target_is_directory=item.is_dir())
     os.symlink(source/'theme/art-book-slot/_slot',theme/'_slot',target_is_directory=True)
-    return dict(synthetic=True,source=str(source),tv=tv,systems=[s[0] for s in SYSTEMS],motion='reduced',crt=False)
+    return dict(synthetic=True,source=str(source),tv=tv,systems=[s[0] for s in SYSTEMS],motion=motion,crt=bool(crt))

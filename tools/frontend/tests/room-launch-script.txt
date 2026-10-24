@@ -1,0 +1,12 @@
+10 shot home
+20 key ok
+180 shot console
+190 key ok
+320 shot inserted
+330 key ok
+334 key ok
+338 key ok
+520 shot returned
+530 key back
+680 shot ejected
+690 quit end

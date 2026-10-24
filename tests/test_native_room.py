@@ -9,14 +9,14 @@ from PIL import Image
 from tools.frontend.tests import native_room
 from tools.frontend.tests.room_fixture import make
 
-def capture(folder,colour=(10,20,30),tv='panasonic',width=720,changed=None):
+def capture(folder,colour=(10,20,30),tv='panasonic',width=720,changed=None,**extra):
     folder.mkdir(parents=True)
     for kind,size in [('room',(width,480)),('ui',(640,480))]:
         image=Image.new('RGB',size,colour)
         if changed and kind=='room':image.putpixel(changed,(255,0,255))
         image.save(folder/('home-'+kind+'.png'))
     (folder/'capture.json').write_text(json.dumps(dict(tv=tv,width=width,height=480,scriptSha256='0'*64,
-        nativeAudioVideo=False,shots=[dict(name='home',frame=10)])))
+        nativeAudioVideo=False,shots=[dict(name='home',frame=10)],**extra)))
     return folder
 
 class NativeRoomComparisonTests(unittest.TestCase):
@@ -41,6 +41,16 @@ class NativeRoomComparisonTests(unittest.TestCase):
                 native_room.compare(capture(self.root/(name+'-a'),**options),capture(self.root/(name+'-b')),self.root/(name+'-diff'))
             self.assertFalse((self.root/(name+'-diff')).exists())
 
+    def test_a_different_launch_record_fails_even_with_identical_images(self):
+        once,twice=['/userdata/roms/nes/Test 01.nes'],['/userdata/roms/nes/Test 01.nes']*2
+        result=native_room.compare(capture(self.root/'a',launches=twice),capture(self.root/'b',launches=once),self.root/'diff')
+        self.assertFalse(result['passed']);self.assertEqual(result['launches'],dict(actual=twice,baseline=once))
+
+    def test_motion_crt_and_fault_conditions_must_match(self):
+        for name,options in [('motion',dict(motion='full')),('crt',dict(crt=True)),('fault',dict(fault='corrupt-layout'))]:
+            with self.subTest(name),self.assertRaisesRegex(ValueError,'conditions differ'):
+                native_room.compare(capture(self.root/(name+'-a'),**options),capture(self.root/(name+'-b')),self.root/(name+'-diff'))
+
     def test_existing_comparison_folder_is_never_reused(self):
         (self.root/'diff').mkdir()
         with self.assertRaises(FileExistsError):native_room.compare(capture(self.root/'a'),capture(self.root/'b'),self.root/'diff')
@@ -50,6 +60,7 @@ class NativeRoomComparisonTests(unittest.TestCase):
         (build/'host-build.json').write_text(json.dumps(dict(binarySha256='0'*64)))
         with self.assertRaisesRegex(ValueError,'640x480 or 720x480'):native_room.run(build,self.root,self.root/'out',width=800)
         with self.assertRaisesRegex(ValueError,'receipt differs'):native_room.run(build,self.root,self.root/'out')
+        with self.assertRaisesRegex(ValueError,'Unknown fault'):native_room.run(build,self.root,self.root/'out',fault='missing-tv')
         self.assertFalse((self.root/'out').exists())
 
 class RoomFixtureTests(unittest.TestCase):
@@ -67,11 +78,14 @@ class RoomFixtureTests(unittest.TestCase):
         self.assertFalse((self.root/'box').exists())
 
     def test_fixture_is_synthetic_and_isolated(self):
-        result=make(self.root/'box',self.source,self.frontend,'oldtv')
-        self.assertEqual((result['synthetic'],result['tv'],result['motion']),(True,'oldtv','reduced'))
+        result=make(self.root/'box',self.source,self.frontend,'oldtv','full',True)
+        self.assertEqual((result['synthetic'],result['tv'],result['motion'],result['crt']),(True,'oldtv','full',True))
         user=self.root/'box/userdata'
         settings={item.get('name'):item.get('value') for item in ET.parse(user/'system/configs/emulationstation/es_settings.cfg').getroot()}
         self.assertEqual((settings['ThemeSet'],settings['subset.slot-tv-model']),('Slotted','oldtv'))
+        self.assertEqual((settings['subset.slotted-motion'],settings['subset.slotted-crt']),('full','on'))
+        commands={s.findtext('command') for s in ET.parse(user/'system/configs/emulationstation/es_systems.cfg').getroot()}
+        self.assertEqual(commands,{'echo %ROM% >> /userdata/system/launches.txt'})  # launches are recorded, never run
         roms=[p for p in (user/'roms').rglob('*') if p.is_file() and p.parent.name!='images' and p.name!='gamelist.xml']
         self.assertTrue(roms);self.assertTrue(all(p.stat().st_size==0 for p in roms))
         self.assertEqual((user/'themes/Slotted/theme.xml').resolve(),(self.source/'theme/slotted/theme.xml').resolve())

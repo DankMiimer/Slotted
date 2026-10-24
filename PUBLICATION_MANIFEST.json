@@ -1,6 +1,6 @@
 {
   "schema": 1,
-  "createdUTC": "2026-10-23T23:49:08.296026+00:00",
+  "createdUTC": "2026-10-24T00:41:00.948862+00:00",
   "edition": "MIT original code; separately licensed assets including NonCommercial/ShareAlike",
   "status": "Development source snapshot; no binary; no device installation performed",
   "files": {
@@ -120,8 +120,8 @@
       "licenseContext": "MIT"
     },
     "assets/tabletop/layouts/gba-pvm.scene": {
-      "bytes": 1280,
-      "sha256": "a5678f18cf0b944013491613dc8890379854e982330bd79d36e95dfc3fc79126",
+      "bytes": 1250,
+      "sha256": "0a9b40fd9380b9a4d9863bbcb9497a281543a571b6577384f29ccabe5519cdd4",
       "licenseContext": "MIT"
     },
     "assets/tabletop/layouts/gbc-pvm.scene": {
@@ -670,8 +670,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/DEVELOPMENT.md": {
-      "bytes": 7659,
-      "sha256": "f7fe27414d738b34284d3e2b86cec48a8af50bb7d89a905c2f44c73b8331d1dc",
+      "bytes": 8051,
+      "sha256": "aa5cd320a7154297e1be015d43eda31f3a5f83aec971d30ed20a49a66d093f84",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "docs/FRONTEND_RESEARCH.md": {
@@ -890,13 +890,13 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/public-files.txt": {
-      "bytes": 138443,
-      "sha256": "f2bf17014f443241d891365d904a481ae59fdcb14bc644f47993440423882c7e",
+      "bytes": 138542,
+      "sha256": "4b7440f5f9722dd69ffee48bf1bb321e3b7717c9af9fceaf7702dda2d56e0513",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "release/publication.json": {
       "bytes": 37443,
-      "sha256": "572d311eee1ace11e06162191da70ffcbca5f6fd9e0a57adde20c472601b3ee1",
+      "sha256": "3a9872808d308f819fa6eb8116229faa787ce53c0f62f928b6c8c05ce06d6c0e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "requirements-dev.txt": {
@@ -951,7 +951,7 @@
     },
     "scene-layouts/gba-pvm.json": {
       "bytes": 5871,
-      "sha256": "b2e401a1ddb31ee1489b5bca5b702d1c2a95617a782db1f9df625aa91e2f0a67",
+      "sha256": "5663fca3bcb3638f9af16eeb7d8986571d9ae0758ea20c1679606e5222afbc7d",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "scene-layouts/gbc-pvm.json": {
@@ -1037,6 +1037,11 @@
     "scene-layouts/history/gba-pvm-1792370738578563300.json": {
       "bytes": 5847,
       "sha256": "9522fbb9eb4d5adfd45703db6356714e1d246745a972308e975e24778e9f498f",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
+    "scene-layouts/history/gba-pvm-1792802170188249500.json": {
+      "bytes": 5871,
+      "sha256": "b2e401a1ddb31ee1489b5bca5b702d1c2a95617a782db1f9df625aa91e2f0a67",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "scene-layouts/history/gba-pvm-browser-roundtrip-1792351008079584900.json": {
@@ -1290,8 +1295,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_native_room.py": {
-      "bytes": 5191,
-      "sha256": "d60fcab8d2df82ee2d1ffb206bdb25230d265e749250092e3ba2fea8ade0ae23",
+      "bytes": 6543,
+      "sha256": "c332a2d12707656f63845031c75637826964e8e51cf03e3ecb69f3ed9ce4a331",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tests/test_nds.py": {
@@ -11600,8 +11605,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotRoomHost.cpp": {
-      "bytes": 16188,
-      "sha256": "b000f4111bd2719dd3f2129dd8e12b7511993110bd7dd4415a0db01c3e4be1aa",
+      "bytes": 16373,
+      "sha256": "d9eba2d279ddb543afa04e341c408562cc2a9e9407254d9e5f5ce51d5d738577",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/overlay/es-app/src/components/SlotRoomHost.h": {
@@ -11855,8 +11860,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/tests/native_room.py": {
-      "bytes": 5399,
-      "sha256": "d169d9a42aa608f50d19536a0c4a0d0c5c77bdec0191dbfd3a9b82469d11b17d",
+      "bytes": 7413,
+      "sha256": "12fd9b16a7c93ce2f616a90b8a870adf7d0f2adbb5e2c06e6a6233f0b90bc65c",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/tests/optical_depth.c": {
@@ -11882,6 +11887,11 @@
     "tools/frontend/tests/room-error-script.txt": {
       "bytes": 104,
       "sha256": "130e88b28a6e6222e5db37bec8abbdc358f1d0c2c31b3b41b1a2b084a019c4c0",
+      "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
+    },
+    "tools/frontend/tests/room-launch-script.txt": {
+      "bytes": 163,
+      "sha256": "f02bafee8044cf10d19f800ca8762230a9a3bd8eb5d49fb18de5d5755c3cd484",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/tests/room-regression-script.txt": {
@@ -11910,8 +11920,8 @@
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/tests/room_fixture.py": {
-      "bytes": 4245,
-      "sha256": "bfdb97fa23f9c7be9c85db01186d30d443f9415e431e5e163755ef6adfbbf252",
+      "bytes": 4522,
+      "sha256": "aae90c5c68f6b894e8981ced1bde71d714b6f5f43b4f07ec4ebda2fc907cb69e",
       "licenseContext": "LICENSE_SCOPE.md; CREDITS.md"
     },
     "tools/frontend/tests/room_profiles.cpp": {
@@ -12846,11 +12856,11 @@
     },
     "assets/restore-map.json": {
       "bytes": 35551,
-      "sha256": "f4ec5df0234e9f661ae4f685f566a0cdfc07524774aa3c8fc3fd60f53cd17be0"
+      "sha256": "9309396b948ac6e19dc113ad6060a6e308d93b2a0f9dc90094345597739745fc"
     },
     "UPLOAD_PATHS.txt": {
-      "bytes": 142601,
-      "sha256": "a5d4ed007352920acc6d1f2149e37f05f340058635fc2886037bc7c0b77a11c7"
+      "bytes": 142700,
+      "sha256": "672eea1a05ee5b3a13889be8934b64036843acc239e0ba9ee582bef4d6f09076"
     }
   }
 }

@@ -94,6 +94,7 @@ scene-layouts/history/gba-pvm-1792353549625283400.json
 scene-layouts/history/gba-pvm-1792354067773197500.json
 scene-layouts/history/gba-pvm-1792370588058141200.json
 scene-layouts/history/gba-pvm-1792370738578563300.json
+scene-layouts/history/gba-pvm-1792802170188249500.json
 scene-layouts/history/gba-pvm-browser-roundtrip-1792351008079584900.json
 scene-layouts/history/gba-pvm-browser-roundtrip-1792351122292080400.json
 scene-layouts/history/gbc-pvm-1792369582639250600.json
@@ -2263,6 +2264,7 @@ tools/frontend/tests/parallel_decode_check.cpp
 tools/frontend/tests/png_decode_check.cpp
 tools/frontend/tests/room-collections-script.txt
 tools/frontend/tests/room-error-script.txt
+tools/frontend/tests/room-launch-script.txt
 tools/frontend/tests/room-regression-script.txt
 tools/frontend/tests/room-screensaver-script.txt
 tools/frontend/tests/room-script.txt

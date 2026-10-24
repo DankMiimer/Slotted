@@ -149,7 +149,11 @@ bool roomSplash(Window*,bool swap){
     if(!host.scene){host.scene=SlotPresentation::homeTable({});SlotPresentation::preloadType();}
     if(!host.scene)return true;
     auto frame=host.frame;const Uint32 now=SDL_GetTicks();
-    frame.delta=host.last?std::min(.1f,(now-host.last)/1000.f):.016f;host.last=now;host.clock+=frame.delta;frame.seconds=host.clock;
+    frame.delta=host.last?std::min(.1f,(now-host.last)/1000.f):.016f;host.last=now;
+#ifdef SLOT_ROOM_TEST_FIXED_STATUS
+    frame.delta=1.f/60.f;  // host screenshot fixture: a deterministic animation clock
+#endif
+    host.clock+=frame.delta;frame.seconds=host.clock;
     frame.selected=-1;frame.automatic=false;
     slot_tabletop_reduced_motion(host.scene,Settings::getInstance()->getString("subset.slotted-motion")=="reduced");
     slot_tabletop_crt(host.scene,Settings::getInstance()->getString("subset.slotted-crt")!="off");
@@ -229,11 +233,12 @@ bool roomRenderWindow(Window*window){
         host.scene=SlotPresentation::homeTable(items);host.frame=SlotTabletopFrame();host.ui=true;
     }
     if(!host.scene)return true;
-    const Uint32 now=SDL_GetTicks();const float dt=host.last?std::min(.1f,(now-host.last)/1000.f):.016f;host.last=now;host.clock+=dt;
-    auto frame=host.frame;frame.seconds=host.clock;frame.delta=dt;
+    const Uint32 now=SDL_GetTicks();float dt=host.last?std::min(.1f,(now-host.last)/1000.f):.016f;host.last=now;
 #ifdef SLOT_ROOM_TEST_FIXED_STATUS
-    frame.delta=1.f/60.f;
+    dt=1.f/60.f;  // host screenshot fixture: a deterministic animation clock
 #endif
+    host.clock+=dt;
+    auto frame=host.frame;frame.seconds=host.clock;frame.delta=dt;
     if(host.picture){frame.screen=host.texture;frame.screenU=frame.screenV=1;frame.screenTopDown=false;frame.screenLeft=0;}
     if(window->getGuiStackSize()>1||!host.queued||host.ui){
         frame.screen=host.texture;frame.screenU=frame.screenV=1;frame.screenTopDown=false;frame.screenLeft=0;
